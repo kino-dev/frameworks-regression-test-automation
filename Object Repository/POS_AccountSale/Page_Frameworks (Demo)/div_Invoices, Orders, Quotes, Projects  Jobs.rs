@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Invoices, Orders, Quotes, Projects  Jobs</name>
+   <tag></tag>
+   <elementGuidId>a49ba807-6b6e-4c93-8599-b37dd2841b02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Invoices, Orders, Quotes, Projects &amp; Jobs']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_XA</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Invoices, Orders, Quotes, Projects &amp; Jobs&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a8ddb0b-dfa7-46de-81c8-803dde4cca3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_XA</value>
+      <webElementGuid>f53897a2-21a4-4fa6-b4d6-de58b06be906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>8441c9c2-8646-4f13-b813-da83ae22fdd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invoices, Orders, Quotes, Projects &amp; Jobs</value>
+      <webElementGuid>c58a81ae-2249-4f57-b3a1-b7aeda24ca14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_XA&quot;)</value>
+      <webElementGuid>4ca4a204-afb9-478f-bb40-36956de711e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_XA']</value>
+      <webElementGuid>281337b1-b7ef-4179-a223-fd52f2ba391f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_XB']/table/tbody/tr/td/div</value>
+      <webElementGuid>82e9e957-a041-4222-a8d7-43e850858332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Details'])[1]/following::div[2]</value>
+      <webElementGuid>8d1b91ce-4f3e-4f26-92da-73649eb66069</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Details'])[1]/following::div[4]</value>
+      <webElementGuid>2e31f56b-a86a-4464-978f-285117246b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Transactions'])[1]/preceding::div[1]</value>
+      <webElementGuid>92086f6a-d76f-47da-bcf7-b80e64ed754c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shares/Rewards/Deferred Sales/Vouchers'])[1]/preceding::div[3]</value>
+      <webElementGuid>213bdf87-80f0-4747-99f7-4d5b95170e76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invoices, Orders, Quotes, Projects &amp; Jobs']/parent::*</value>
+      <webElementGuid>bcc1c403-b549-47fc-bde3-3982d2661771</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/table/tbody/tr/td/div</value>
+      <webElementGuid>055a41a1-bd32-4610-b796-a41022b398be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_XA' and (text() = 'Invoices, Orders, Quotes, Projects &amp; Jobs' or . = 'Invoices, Orders, Quotes, Projects &amp; Jobs')]</value>
+      <webElementGuid>2cee5e8f-8854-4b41-a987-cf8341f5d451</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

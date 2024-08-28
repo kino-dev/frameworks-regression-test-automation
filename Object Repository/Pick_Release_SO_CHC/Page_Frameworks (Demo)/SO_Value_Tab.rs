@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SO_Value_Tab</name>
+   <tag></tag>
+   <elementGuidId>497b6c59-b685-4ad7-a212-02904a167e95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/div/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.tabButtonTopSelectedFocusedOver > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;SO 22021961/0&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>54d5026e-4bc2-4633-b61c-e7a3664b92a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SO 22021961/0</value>
+      <webElementGuid>11e217f9-ebd0-4c5b-8095-adc3283745cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_HA&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedFocusedOver&quot;]/span[1]</value>
+      <webElementGuid>57b4e6ac-4c57-4157-8618-13fedcfa3e6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_HA']/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      <webElementGuid>acbd68d0-3b6f-4e9f-b181-e7d55853fc9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Orders'])[1]/following::span[1]</value>
+      <webElementGuid>7909ef47-e7e7-4899-8678-8abbcbf76743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
+      <webElementGuid>68b04c54-357d-43f2-b627-fc05a9a38f3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::span[1]</value>
+      <webElementGuid>b58f8c12-3ca2-451d-8a99-48b32608c384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SO 22021961/0']/parent::*</value>
+      <webElementGuid>50af0c0c-e9fd-41bd-9282-c45403b3b0b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      <webElementGuid>caff9197-0adb-4fb8-8f2c-712349abdc18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'SO 22021961/0' or . = 'SO 22021961/0')]</value>
+      <webElementGuid>bac05123-e73f-4ed9-be25-a99c8abba05b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

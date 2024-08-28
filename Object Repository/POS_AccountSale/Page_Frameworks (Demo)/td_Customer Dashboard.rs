@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Customer Dashboard</name>
+   <tag></tag>
+   <elementGuidId>3bc0d5cb-b919-4589-99c4-87d4ec2e99c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_Y4']/table/tbody/tr/td/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.buttonBreadCrumbDisabled > table > tbody > tr > td.buttonBreadCrumbDisabled</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_RS >> internal:label=&quot;Customer Dashboard&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>51f2dccd-946a-4b3c-b243-a6dd019d044c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonBreadCrumbDisabled</value>
+      <webElementGuid>74ab43a8-8607-4436-9cb0-f91d2c5940f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>82e27a34-187b-49a2-948d-576bbb925b29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nowrap</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6736e1db-eb7a-4bd3-b275-2653a905c556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Dashboard</value>
+      <webElementGuid>53e2c6d7-98c3-4b69-89b9-054bb798a18f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_Y4&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonBreadCrumbDisabled&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonBreadCrumbDisabled&quot;]</value>
+      <webElementGuid>2334afc3-6875-4744-8b1e-7c130cc4dc1e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_Y4']/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>6e8d674b-913c-48ac-b272-248d6946b2d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::td[3]</value>
+      <webElementGuid>3b0f269a-5bd0-49e2-afab-c73ad84d0bd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::td[22]</value>
+      <webElementGuid>c13ef537-f0e7-4126-95c9-39a66a0c1845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer No'])[1]/preceding::td[13]</value>
+      <webElementGuid>1d2bfff5-f3f9-4c7d-b5a2-fdcc5b831ba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/preceding::td[15]</value>
+      <webElementGuid>0d15c61e-32e4-4174-97c7-91c92edf1bdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customer Dashboard']/parent::*</value>
+      <webElementGuid>64b56014-40f3-465a-b72d-acac7dec7da0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>ea39244c-fb99-42f2-9fca-830165546c6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Customer Dashboard' or . = 'Customer Dashboard')]</value>
+      <webElementGuid>ad7faa07-e387-4ba6-a29e-59720f3becba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

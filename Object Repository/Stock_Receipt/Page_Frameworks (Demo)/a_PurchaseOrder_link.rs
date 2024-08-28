@@ -6,16 +6,12 @@
    <elementGuidId>6c956994-721d-4b43-9e3b-722728f3e81a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table/tbody/tr[1]/td[1]/div/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'javascript:void' and @target = 'javascript' and @onclick = 'if(window.purchaseReceiptView_ttResults_ListGrid1) return purchaseReceiptView_ttResults_ListGrid1.$30i(event,0,0);']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr[1]/td[1]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3b62eca1-6b44-4b6e-b186-a8b2e1353cb5</webElementGuid>
+      <webElementGuid>6525ed6c-8cfc-4b91-aba4-2394014bfd76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void</value>
-      <webElementGuid>96f103eb-437a-4194-a602-0263df200ac9</webElementGuid>
+      <webElementGuid>672395b2-121b-47da-9efb-0fca4f015435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +45,7 @@
       <name>target</name>
       <type>Main</type>
       <value>javascript</value>
-      <webElementGuid>3dad64f8-99b5-4838-9e92-e5bf5e36a3c1</webElementGuid>
+      <webElementGuid>a77889c4-bd52-40fb-8480-66963ecf22f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>if(window.purchaseReceiptView_ttResults_ListGrid1) return purchaseReceiptView_ttResults_ListGrid1.$30i(event,0,0);</value>
-      <webElementGuid>91b500d1-3b89-42ba-9397-61cb76607325</webElementGuid>
+      <webElementGuid>4dcbd553-b151-4bf8-8fc4-c1232e3142db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>53422791</value>
-      <webElementGuid>69f759e6-7cba-4bf6-8b64-ebc1708f6703</webElementGuid>
+      <webElementGuid>84a9e9fb-a6d2-47d3-95e7-ac6b183e7320</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_I7table&quot;)/tbody[1]/tr[1]/td[@class=&quot;cellSelectedOver&quot;]/div[1]/a[1]</value>
-      <webElementGuid>f9f04b9b-3718-46b3-b48b-a3296cf81273</webElementGuid>
+      <webElementGuid>7be9c4fd-322a-4fd7-9b49-e7ca8c1492eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick='if(window.purchaseReceiptView_ttResults_ListGrid1) return purchaseReceiptView_ttResults_ListGrid1.$30i(event,0,0);']</value>
-      <webElementGuid>34b13865-40db-4abe-93f4-fe6c1d488f92</webElementGuid>
+      <webElementGuid>b5c777a1-d27d-4a93-a23c-1d59cc0ac9f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_I7table']/tbody/tr/td/div/a</value>
-      <webElementGuid>080d9b22-68af-4dc3-8258-379f2c4dc49e</webElementGuid>
+      <webElementGuid>064eddde-99f9-4e0a-9682-028081610b2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'53422791')]</value>
-      <webElementGuid>2ac10e02-0e75-4de3-94df-2aaf43c1d8a6</webElementGuid>
+      <webElementGuid>bebd4bf6-55dd-4ddb-9417-dc8eece85b2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[1]/following::a[1]</value>
-      <webElementGuid>62d57f03-4da5-4fc9-9439-4d185ae34c4f</webElementGuid>
+      <webElementGuid>4100f8f4-6240-4a33-b778-810183e43840</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SupplierInvoice'])[1]/following::a[1]</value>
-      <webElementGuid>811a10e1-1152-42dc-91de-47c9c05aa41f</webElementGuid>
+      <webElementGuid>624128d8-1f76-4ad1-856c-6533158dd42e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase Order'])[1]/preceding::a[1]</value>
-      <webElementGuid>80e4dea2-6b1d-480f-88a6-a7d01b448f72</webElementGuid>
+      <webElementGuid>a4fbc71c-9d54-4100-8be6-085d41ad7488</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DAHLSENS TRANSFERS ALBURY'])[1]/preceding::a[1]</value>
-      <webElementGuid>5ff8e383-0ebf-4e1b-8acf-a6f0646d418e</webElementGuid>
+      <webElementGuid>4ee663f4-6e4d-448e-8139-05d4306935a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='53422791']/parent::*</value>
-      <webElementGuid>cf88063f-f4bc-47a8-ab19-a6754b390219</webElementGuid>
+      <webElementGuid>91c628da-b96e-4ac7-8803-b57849024dfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:void')]</value>
-      <webElementGuid>0f2e285b-99f4-4648-9614-88a9dee460ac</webElementGuid>
+      <webElementGuid>3a5f5559-9ea3-45f3-b0aa-0f6673690ba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>1f68e3d7-8df9-470b-9ff8-bc92834df676</webElementGuid>
+      <webElementGuid>77e1f8bb-d4e9-4660-8d7c-83f7ea107d1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void' and (text() = '53422791' or . = '53422791')]</value>
-      <webElementGuid>f4d9f65c-3192-4ddc-8c78-117c4cddd0d9</webElementGuid>
+      <webElementGuid>5b132c0f-bfe9-4565-865d-67b1aec2573e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
