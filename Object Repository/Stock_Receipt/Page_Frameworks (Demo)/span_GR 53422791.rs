@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_GR 53422791</name>
+   <tag></tag>
+   <elementGuidId>0742d67a-c5fb-4873-a47f-4b942954107b</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.tabButtonTopSelectedOver > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/div/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;GR 53422791&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ed0c4aba-612c-4219-b0fd-0ec0167b8429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GR 53422791</value>
+      <webElementGuid>9fe60fe2-5c33-4a27-9669-ead211f536fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_IT&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedOver&quot;]/span[1]</value>
+      <webElementGuid>c58e1590-f10a-4ba4-8b41-a2757d7819a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_IT']/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      <webElementGuid>3f849a9c-69a0-4a8a-b9d2-24293e2a0e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Receipting'])[1]/following::span[1]</value>
+      <webElementGuid>428ca793-9d78-40b5-a57d-4bd8ce4c8dde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
+      <webElementGuid>bc27c3c5-93a6-40f0-8ae5-f054e853e675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::span[1]</value>
+      <webElementGuid>d992ad15-5f97-4e93-9253-76fc3c694af9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dahlsens Frameworks'])[1]/preceding::span[1]</value>
+      <webElementGuid>240b6d7e-d82f-4678-a297-4b66cd808bf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GR 53422791']/parent::*</value>
+      <webElementGuid>0c4c0d70-ff6b-4128-9fd2-1953c678b48e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      <webElementGuid>6a3d2931-60f0-43a1-93c7-f6480921afbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'GR 53422791' or . = 'GR 53422791')]</value>
+      <webElementGuid>1d98ac37-d874-4bb6-b6eb-17cd0a9ac79a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

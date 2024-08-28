@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Transaction_Processing_level2</name>
+   <tag></tag>
+   <elementGuidId>77d42c82-8484-4d76-ad0e-d0abe6f01afc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='isc_MenuPopout_2_0_valueCell14']/b</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_MenuPopout_2_0_valueCell14 > b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_MenuPopout_2_0_valueCell14 >> internal:text=&quot;Transaction Processing&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>6783e7cd-eaa7-46d2-840d-b15930dba3e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction Processing</value>
+      <webElementGuid>d7868749-3982-4335-ba03-16c585398755</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_MenuPopout_2_0_valueCell14&quot;)/b[1]</value>
+      <webElementGuid>62dbc3ea-4bab-45b8-95b1-674be65879dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='isc_MenuPopout_2_0_valueCell14']/b</value>
+      <webElementGuid>0ecd3341-447e-4d2e-8425-dfdefc9008d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchasing &amp; Receipting'])[1]/following::b[1]</value>
+      <webElementGuid>16865936-c2a3-4c1c-8c07-55a48a587b45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WorkOrders'])[1]/following::b[3]</value>
+      <webElementGuid>5861fbbc-88cc-4b09-a93d-9514c0848065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Pricing'])[1]/preceding::b[2]</value>
+      <webElementGuid>88e5816c-72cc-431d-acfc-6ce9d2cdc5b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Ledger'])[1]/preceding::b[4]</value>
+      <webElementGuid>10a819dd-a4e8-4574-ba93-201b80f719da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[15]/td/div/table/tbody/tr/td[3]/b</value>
+      <webElementGuid>2cb4bce4-305c-4b3a-9bda-6723f7fe33f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'Transaction Processing' or . = 'Transaction Processing')]</value>
+      <webElementGuid>41ce7d41-364f-4bd9-aaee-3a2933159fa8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

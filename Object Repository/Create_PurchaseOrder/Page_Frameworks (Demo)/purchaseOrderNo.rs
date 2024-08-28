@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>purchaseOrderNo</name>
+   <tag></tag>
+   <elementGuidId>8b27e809-b8da-4d93-9d49-ea762c50ce9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_RD']/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.tabButtonTopSelectedOver > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;PO 53422791&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8db9f84d-37d8-4669-9a9e-d11e4a9ba935</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PO </value>
+      <webElementGuid>a008f7b3-c401-43f2-ab5a-3b48f9d4334e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_RD&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedOver&quot;]/span[1]</value>
+      <webElementGuid>06efc392-9a29-46bb-af1e-5a6b19d1fec2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_RD']/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      <webElementGuid>fd015357-2c37-476e-a194-9e9c896c2010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase Orders'])[1]/following::span[1]</value>
+      <webElementGuid>24c1e5c3-4dda-42f0-9673-e44e6c6e08d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
+      <webElementGuid>cd4d6d67-3d3f-4965-a6ff-27734e52ab73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::span[1]</value>
+      <webElementGuid>0dab7a5f-490e-4aa6-9e0a-21a94200e69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dahlsens Frameworks'])[1]/preceding::span[1]</value>
+      <webElementGuid>468e2853-ec11-4605-b08b-b47fb34b4cb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PO 53422791']/parent::*</value>
+      <webElementGuid>57f4d829-b3c9-45cb-9cf8-efc851fb736a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/table/tbody/tr/td/table/tbody/tr/td/span</value>
+      <webElementGuid>1556c5c7-6c32-4f3b-9765-b59df417d34b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'PO 53422791' or . = 'PO 53422791')]</value>
+      <webElementGuid>fad8375d-64d9-499d-b4e3-50c6f5ec7aeb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
