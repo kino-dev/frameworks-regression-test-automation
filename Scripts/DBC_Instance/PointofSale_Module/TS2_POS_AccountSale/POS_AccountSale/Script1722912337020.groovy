@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//additional imports
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
 
 WebUI.openBrowser('')
 
@@ -109,6 +115,36 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (D
 WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot()
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(0)
+
+Cell cell = row.getCell(1)
+
+row = sheet.createRow(1)
+
+cell = row.createCell(0)
+
+cell.setCellValue('InvoiceNumber')
+
+cell = row.createCell(1)
+
+cell.setCellValue(invoiceNum)
+
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
 
 WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
 

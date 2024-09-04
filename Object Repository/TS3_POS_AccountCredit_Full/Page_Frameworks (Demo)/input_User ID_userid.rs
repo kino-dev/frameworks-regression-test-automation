@@ -3,7 +3,7 @@
    <description></description>
    <name>input_User ID_userid</name>
    <tag></tag>
-   <elementGuidId>b49724ed-faba-44f9-bcb8-1ef2da4839a9</elementGuidId>
+   <elementGuidId>362785ec-7c4e-4ce6-9767-dddb5905a3eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -12,10 +12,6 @@
       <entry>
          <key>CSS</key>
          <value>#isc_1F</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'userid']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>div_New</name>
    <tag></tag>
-   <elementGuidId>d09ec936-a0f3-426b-aee1-ce534121c0a8</elementGuidId>
+   <elementGuidId>42bf34d6-ce17-4ba5-9089-c6bf0e313a20</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_1S</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='New']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
+         <key>CSS</key>
+         <value>#isc_8O</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:role=button[name=&quot;New&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2356b1d1-d0af-4389-b403-207fe63daee4</webElementGuid>
+      <webElementGuid>a3f5b3b4-eef8-4829-9ccb-811f0723e25d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_1S</value>
-      <webElementGuid>100550e6-25da-47f5-9f87-241574a6988a</webElementGuid>
+      <value>isc_8O</value>
+      <webElementGuid>6faeaafa-bc10-44c9-a914-a75bb8f4e11b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,94 +45,94 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>17989266-2510-44b9-9713-66cf1070450a</webElementGuid>
+      <webElementGuid>4bed2ffa-29e4-4bdb-b14a-8ea2f58e02a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>2ee31020-0949-4425-bd21-521a0caad567</webElementGuid>
+      <value>New</value>
+      <webElementGuid>cb8ac87d-c857-466b-ba3c-ecda90c20691</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>663fd127-a861-4f02-96d1-0c29cb8f18d7</webElementGuid>
+      <value>id(&quot;isc_8O&quot;)</value>
+      <webElementGuid>a914d367-5cdc-42cb-b89f-26a422da04aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='isc_1S']</value>
-      <webElementGuid>c7898a1e-7218-4a8c-8bd5-01e3a15c27fb</webElementGuid>
+      <value>//div[@id='isc_8O']</value>
+      <webElementGuid>ac1e4b4e-9955-48a7-b77a-2f135fd1f4b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>6334f7a2-6117-41d8-b3da-64964e7d014b</webElementGuid>
+      <value>//div[@id='isc_8P']/table/tbody/tr/td/div</value>
+      <webElementGuid>18ded6f1-5056-446a-b91f-1cd55ee8049a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>836b8915-d689-449c-8a13-20a91ed42fda</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advanced'])[1]/following::div[2]</value>
+      <webElementGuid>a7d87852-f0dc-4096-b1da-9522ed2592de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>824675d3-7f43-4e89-a7c9-aa8f1b014095</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find'])[1]/following::div[4]</value>
+      <webElementGuid>2ae7ca50-976a-41b8-b4c7-83968c561520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>20053059-4b07-4d1b-bf7f-aed9ca1a086e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::div[1]</value>
+      <webElementGuid>d3650ab8-5aac-42a1-bdf1-fc01cc9b2a55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>c558d468-273a-4567-a5ce-29c19317f7b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='B/O'])[1]/preceding::div[5]</value>
+      <webElementGuid>285d9d77-0dec-4a1e-816a-ab714831546f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>91c7d6f5-008b-489f-afdd-1d384d9bcab7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='New']/parent::*</value>
+      <webElementGuid>499c20e3-3f0d-429a-b909-6588de52ad2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>e75fd5c3-cd3f-486f-ac13-f6f715f9976a</webElementGuid>
+      <value>//div[2]/div/div/div/div/div[3]/table/tbody/tr/td/div</value>
+      <webElementGuid>55d3b43e-dff6-4c73-9550-d982b9a63736</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>242aa28b-9352-46bd-a73f-3b5b03d31945</webElementGuid>
+      <value>//div[@id = 'isc_8O' and (text() = 'New' or . = 'New')]</value>
+      <webElementGuid>1a7ad0ef-3405-4488-bea4-abe2dc922996</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Login</name>
    <tag></tag>
-   <elementGuidId>d09ec936-a0f3-426b-aee1-ce534121c0a8</elementGuidId>
+   <elementGuidId>a40e79c1-4286-4600-a9a9-a39ead769dd7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#isc_1S</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_1S</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

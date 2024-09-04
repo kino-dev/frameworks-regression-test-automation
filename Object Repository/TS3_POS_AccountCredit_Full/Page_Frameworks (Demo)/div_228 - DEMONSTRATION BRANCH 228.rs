@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_228 - DEMONSTRATION BRANCH 228</name>
+   <tag></tag>
+   <elementGuidId>8aff6319-7087-4614-abb5-bac63fe71b9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(24) > td.pickListCellSelectedDark > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '228 - DEMONSTRATION BRANCH 228' or . = '228 - DEMONSTRATION BRANCH 228')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[16]/div/div/div/table/tbody/tr[24]/td/div[(text() = '228 - DEMONSTRATION BRANCH 228' or . = '228 - DEMONSTRATION BRANCH 228')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_NCtable >> internal:text=&quot;228 - DEMONSTRATION BRANCH 228&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>87fa1aa9-4627-43ee-b39c-9cecdb217215</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>19b5c1ba-d247-4fb8-b512-dd67f4601c06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6ff383b7-3567-4806-90c5-3666e7c810fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>228 - DEMONSTRATION BRANCH 228</value>
+      <webElementGuid>07c00d36-5d93-42c0-b1c7-4a501203f1c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_NCtable&quot;)/tbody[1]/tr[24]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>ebec3aca-3ac2-4454-81df-806900aeb32a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_NCtable']/tbody/tr[24]/td/div</value>
+      <webElementGuid>8ddd9490-1175-4ac4-af17-8a55c8c8b0b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Q - Gift Card Purchase'])[1]/following::div[32]</value>
+      <webElementGuid>09bbd54e-e62f-4653-81a6-7ad405827f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E - Inv to wrong Custome'])[2]/following::div[33]</value>
+      <webElementGuid>4e518fdc-6bd9-4521-b132-7cd114ceb1e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div/table/tbody/tr[24]/td/div</value>
+      <webElementGuid>48647e85-ada8-42a2-bf54-589f2e428977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '228 - DEMONSTRATION BRANCH 228' or . = '228 - DEMONSTRATION BRANCH 228')]</value>
+      <webElementGuid>62cb4a2b-6207-4fcb-85e0-b99e5edb93fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
