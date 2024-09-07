@@ -43,54 +43,57 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/input_User ID_userid'), 
+WebUI.setText(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/burger_Menu'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/burger_Menu'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/b_Transaction Processing'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/b_Transaction Processing'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/td_Credit Notes'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/td_Credit Notes'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_New'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_New'))
 
-transaction_Number = WebUI.getText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/transaction_Number'))
+transaction_Number = WebUI.getText(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/transaction_Number'))
 
 println(transaction_Number)
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/input_Customer_idCustX'), 
+WebUI.setText(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/input_Customer_idCustX'), 
     'JOE CHILA (3379)')
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_JOE CHILA (3379)'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_JOE CHILA (3379)'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/table_Select a Value'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/table_Select a Value'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_Stock Return'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_Stock Return'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/table_Reason_isc_YX'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/table_Reason_isc_YX'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_E - Inv to wrong Custome'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_E - Inv to wrong Custome'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), 
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), 
+WebUI.sendKeys(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), 
     docketNumber)
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_BranchDropdown'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_BranchDropdown'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_Load Details'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_Load Details'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_Refund All'))
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_CreditQty_Row1'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/div_Finish (S)'))
+WebUI.sendKeys(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/input_CreditQty_row1'), 
+    '1')
+
+WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial/Page_Frameworks (Demo)/div_Finish (S)'))
 
 WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full/Page_Frameworks (Demo)/td_OK'))
 
