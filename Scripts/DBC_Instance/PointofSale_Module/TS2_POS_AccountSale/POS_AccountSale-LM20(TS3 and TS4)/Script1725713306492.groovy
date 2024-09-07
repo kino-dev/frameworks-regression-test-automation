@@ -29,12 +29,12 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/Page_Frameworks (Demo)/div_Login'))
 
 //FileInputStream sourceFile = new FileInputStream(ExcelFile)
 //
