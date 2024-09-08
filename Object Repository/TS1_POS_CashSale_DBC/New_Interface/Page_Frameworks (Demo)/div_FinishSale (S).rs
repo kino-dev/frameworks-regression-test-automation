@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>b_Transaction Processing</name>
+   <name>div_FinishSale (S)</name>
    <tag></tag>
-   <elementGuidId>d905b586-880f-475b-9339-8a91f18ce8b4</elementGuidId>
+   <elementGuidId>49e98f4f-fc8a-4545-97ce-8dedb250fcb1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Transaction Processing']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#isc_TreeGrid_0_valueCell1 > b</value>
+         <value>#isc_BR</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Transaction Processing&quot;i</value>
+         <value>internal:label=&quot;Finish\nSale (S)&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>b</value>
-      <webElementGuid>aa341284-10b9-4bac-9a22-e2591cc59631</webElementGuid>
+      <value>div</value>
+      <webElementGuid>af006313-2e38-4ff2-8607-97bd6074b796</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_BR</value>
+      <webElementGuid>6c21ba47-0d75-4acc-b32d-8e5c53555ffa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>3c5ea350-3bd0-47fb-acfa-8524bbcce553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Transaction Processing</value>
-      <webElementGuid>f6f51d81-3d83-4510-9b02-3eb5fb88c123</webElementGuid>
+      <value>FinishSale (S)</value>
+      <webElementGuid>c525af3a-81c6-49a0-8543-108fd95da54b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_TreeGrid_0_valueCell1&quot;)/b[1]</value>
-      <webElementGuid>3a3d99ca-e16a-4538-b884-b858e31fce3c</webElementGuid>
+      <value>id(&quot;isc_BR&quot;)</value>
+      <webElementGuid>585477c1-8a9b-44dd-a0f8-1155bd513663</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_BR']</value>
+      <webElementGuid>303d5f5f-9d8b-4bdb-9dd1-1f417f8a50b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='isc_TreeGrid_0_valueCell1']/b</value>
-      <webElementGuid>92ea7ec5-1a76-40b1-b470-d6ada99351c1</webElementGuid>
+      <value>//div[@id='isc_BS']/table/tbody/tr/td/div</value>
+      <webElementGuid>a05f2e62-4079-4701-8c18-7b0ffef3d069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::b[1]</value>
-      <webElementGuid>9d0bd30e-718c-47fe-b450-32147e227d04</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::div[10]</value>
+      <webElementGuid>7cc931e1-5e36-478d-b2a8-c1083ed1cbfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/following::b[3]</value>
-      <webElementGuid>bdb6d1fd-61aa-49ce-a801-d03fd6f01822</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SuspendSale'])[1]/preceding::div[1]</value>
+      <webElementGuid>ed0a6f90-8255-478b-805b-f34c9b6a7d53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Till Reconciliation &amp; Banking'])[1]/preceding::b[2]</value>
-      <webElementGuid>6d3d0890-077e-40bc-88d1-520620b04b56</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance'])[1]/preceding::b[3]</value>
-      <webElementGuid>f279710e-8ca7-447d-91f7-b883d5c85029</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Transaction Processing']/parent::*</value>
-      <webElementGuid>0046c69c-3eee-47b6-8502-de50f59a4ee4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
+      <webElementGuid>3f44550b-605d-41e7-96a9-942bd80954aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td/div/table/tbody/tr/td[3]/b</value>
-      <webElementGuid>2ef11608-28fd-408c-b0f6-18cf95eaa9ca</webElementGuid>
+      <value>//div[2]/div[2]/div/div[2]/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>faf03f89-f790-4511-867b-1ac09f53747d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//b[(text() = 'Transaction Processing' or . = 'Transaction Processing')]</value>
-      <webElementGuid>68402455-aebe-4547-9d6d-9be1473dd3f9</webElementGuid>
+      <value>//div[@id = 'isc_BR' and (text() = 'FinishSale (S)' or . = 'FinishSale (S)')]</value>
+      <webElementGuid>42210c85-fe23-492d-96db-b4c0d76c4f26</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

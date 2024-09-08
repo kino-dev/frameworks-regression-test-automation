@@ -46,51 +46,51 @@ WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/Page_Frame
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_P_prodId'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_P_prodId'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_P_prodId'), '594')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_P_prodId'), '594')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/img_add'))
-
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_P_prodId'))
-
-WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_P_prodId'), 'pfr7035')
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/img_add'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_Tally MaintenanceTally Maintenance'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_P_prodId'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_Quantity_Col'))
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_P_prodId'), 'pfr7035')
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_LM_tallyQuantity'), '1')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_Length_Col'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_LM_tallyLength'), '3')
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Tally MaintenanceTally Maintenance'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/td_Add'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Quantity_Col'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'), '1')
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyQuantity'), '1')
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/div_Length_Col_Row2'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Length_Col'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'), '2')
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyLength'), '3')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_Add'))
+
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'), '1')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Length_Col_Row2'))
+
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'), '2')
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/td_SaveClose'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_SaveClose'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/img_add'))
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
 

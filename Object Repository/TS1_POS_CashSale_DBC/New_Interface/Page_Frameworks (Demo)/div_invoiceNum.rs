@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Tally Maintenance</name>
+   <name>div_invoiceNum</name>
    <tag></tag>
-   <elementGuidId>aa36c989-c2c4-4d31-a1ad-6ebba799ea3c</elementGuidId>
+   <elementGuidId>9a863b34-ffc6-462a-bd42-3220b850be63</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally Maintenance'])[2]/preceding::td[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[1]/following::div[7]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>td.windowHeaderText</value>
+         <value>#isc_8K</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Tally Maintenance&quot;i]</value>
+         <value>internal:text=&quot;20217525&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,119 +28,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>7698fad1-e16a-4b79-891a-dfeaff8dcd08</webElementGuid>
+      <value>div</value>
+      <webElementGuid>fb1519b9-1e16-4441-959f-a0a39a8e6a98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_8K</value>
+      <webElementGuid>d0b2d551-68f8-4df9-9213-df96304426d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>nowrap</name>
+      <name>$89</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>28950177-d577-4a19-a7d2-5f9feef85743</webElementGuid>
+      <value>isc_HeaderItem_0</value>
+      <webElementGuid>ccb299f4-7e6d-4e9f-a53b-bc56fe5a1ad8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>$9a</name>
+      <type>Main</type>
+      <value>$9d</value>
+      <webElementGuid>3006a0a4-cefa-4f92-a535-0bebce74208e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>windowHeaderText</value>
-      <webElementGuid>af87f724-f16f-4117-990a-3b05e20aa0ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>align</name>
-      <type>Main</type>
-      <value>left</value>
-      <webElementGuid>79a1b2dc-0ebe-49a1-b5df-bbccaef02f79</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>valign</name>
-      <type>Main</type>
-      <value>middle</value>
-      <webElementGuid>1ac709d0-58a9-4fdf-9c50-c01e0dcbd275</webElementGuid>
+      <value>headerItem</value>
+      <webElementGuid>bca6aa40-9dbb-485d-8c1a-c09d36da847d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tally Maintenance</value>
-      <webElementGuid>4a335e18-5f5a-459a-8183-ee9fb6021f64</webElementGuid>
+      <value>20217525</value>
+      <webElementGuid>aa0ea5e6-c751-4ec8-bfba-b025178c3783</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_X7&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;windowHeaderText&quot;]</value>
-      <webElementGuid>69cde8df-fd44-4df1-ac07-d7412e9d8597</webElementGuid>
+      <value>id(&quot;isc_8K&quot;)</value>
+      <webElementGuid>8e455f5e-3b0d-4651-8f72-b7dca11bb88c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_8K']</value>
+      <webElementGuid>572f0625-9505-4910-9af0-19acb51104b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_X7']/table/tbody/tr/td</value>
-      <webElementGuid>8ce22c6c-af95-41fc-8dba-c319cab3b97a</webElementGuid>
+      <value>//td[@id='isc_8J']/div</value>
+      <webElementGuid>1b6fabdc-f026-4051-93eb-053c69d55016</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LM'])[1]/following::td[9]</value>
-      <webElementGuid>514d9483-f710-439d-8e0a-aee3d37df640</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[1]/following::div[7]</value>
+      <webElementGuid>9923bebc-c0da-4545-943f-7720ba90d7ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Length'])[1]/following::td[10]</value>
-      <webElementGuid>971494f1-e092-42cc-9680-ef2c544fa7de</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='m'])[1]/preceding::div[6]</value>
+      <webElementGuid>ab9c91fe-0506-49fe-8688-1ce623528b61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally Maintenance'])[2]/preceding::td[1]</value>
-      <webElementGuid>c970c961-ea93-4301-9576-263651432ac0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/preceding::td[8]</value>
-      <webElementGuid>76099305-92ad-4456-8638-04a928af36f6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tally Maintenance']/parent::*</value>
-      <webElementGuid>d47c2a8e-3872-4f4c-8d63-12f6f15bc490</webElementGuid>
+      <value>//*/text()[normalize-space(.)='20217525']/parent::*</value>
+      <webElementGuid>b97d7549-4bf7-4985-a8cf-ca25cf6ec907</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/div/table/tbody/tr/td</value>
-      <webElementGuid>6a3b81ca-3a44-480e-bf39-546366c8a04d</webElementGuid>
+      <value>//div[2]/div/div/div/div/form/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>347cd22e-15b6-4d35-8df8-bc4fb5e0d372</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'Tally Maintenance' or . = 'Tally Maintenance')]</value>
-      <webElementGuid>64d92a80-29c5-4f42-842c-8c4a47df664c</webElementGuid>
+      <value>//div[@id = 'isc_8K' and (text() = '20217525' or . = '20217525')]</value>
+      <webElementGuid>3c750a24-27c6-46a3-87b4-93365b2cc46b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

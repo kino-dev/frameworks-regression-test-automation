@@ -3,7 +3,7 @@
    <description></description>
    <name>b_Transaction Processing</name>
    <tag></tag>
-   <elementGuidId>d905b586-880f-475b-9339-8a91f18ce8b4</elementGuidId>
+   <elementGuidId>a1bf9111-4da9-4d1c-b374-7c562ac569ba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Tally Maintenance</name>
+   <name>td_Point Of Sale</name>
    <tag></tag>
-   <elementGuidId>aa36c989-c2c4-4d31-a1ad-6ebba799ea3c</elementGuidId>
+   <elementGuidId>a17beb10-54e1-4ced-b572-d3d66f0dd8a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally Maintenance'])[2]/preceding::td[1]</value>
+         <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>td.windowHeaderText</value>
+         <value>#isc_TreeGrid_0_valueCell2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Tally Maintenance&quot;i]</value>
+         <value>internal:text=&quot;Point Of Sale&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,118 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>7698fad1-e16a-4b79-891a-dfeaff8dcd08</webElementGuid>
+      <webElementGuid>452b665f-80fc-435e-85c7-e88b63988296</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>nowrap</name>
+      <name>id</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>28950177-d577-4a19-a7d2-5f9feef85743</webElementGuid>
+      <value>isc_TreeGrid_0_valueCell2</value>
+      <webElementGuid>e26d3a77-e18e-41eb-afa3-5d30123c4d63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>windowHeaderText</value>
-      <webElementGuid>af87f724-f16f-4117-990a-3b05e20aa0ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>align</name>
-      <type>Main</type>
-      <value>left</value>
-      <webElementGuid>79a1b2dc-0ebe-49a1-b5df-bbccaef02f79</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>valign</name>
-      <type>Main</type>
-      <value>middle</value>
-      <webElementGuid>1ac709d0-58a9-4fdf-9c50-c01e0dcbd275</webElementGuid>
+      <value>treeTallCellSelected</value>
+      <webElementGuid>78ca4f16-1fd1-4b7f-9442-9e665449a291</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tally Maintenance</value>
-      <webElementGuid>4a335e18-5f5a-459a-8183-ee9fb6021f64</webElementGuid>
+      <value>Point Of Sale</value>
+      <webElementGuid>ab068df1-e44b-42e5-8c7e-0d08a0e9dbfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_X7&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;windowHeaderText&quot;]</value>
-      <webElementGuid>69cde8df-fd44-4df1-ac07-d7412e9d8597</webElementGuid>
+      <value>id(&quot;isc_TreeGrid_0_valueCell2&quot;)</value>
+      <webElementGuid>cbb9805d-872f-43e3-a6dc-19e6cab7b5e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='isc_TreeGrid_0_valueCell2']</value>
+      <webElementGuid>1cb415a9-e7f0-4168-be42-0872a7ce1d1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_X7']/table/tbody/tr/td</value>
-      <webElementGuid>8ce22c6c-af95-41fc-8dba-c319cab3b97a</webElementGuid>
+      <value>//table[@id='isc_7Ftable']/tbody/tr[3]/td/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>856b957a-1436-4e74-ba47-a2638ef77fa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LM'])[1]/following::td[9]</value>
-      <webElementGuid>514d9483-f710-439d-8e0a-aee3d37df640</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Processing'])[1]/following::td[4]</value>
+      <webElementGuid>dcb4a8bb-d020-4e7f-8db2-023760edfe5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Length'])[1]/following::td[10]</value>
-      <webElementGuid>971494f1-e092-42cc-9680-ef2c544fa7de</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::td[8]</value>
+      <webElementGuid>90f14dba-7527-476e-ad9c-6c8d8ff38853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally Maintenance'])[2]/preceding::td[1]</value>
-      <webElementGuid>c970c961-ea93-4301-9576-263651432ac0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/preceding::td[3]</value>
+      <webElementGuid>30ff9e1f-3f4f-4271-bcd7-43a1fe372956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/preceding::td[8]</value>
-      <webElementGuid>76099305-92ad-4456-8638-04a928af36f6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Orders'])[1]/preceding::td[7]</value>
+      <webElementGuid>d76fa0fb-3d16-4a3a-9337-ba26ff35ca17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tally Maintenance']/parent::*</value>
-      <webElementGuid>d47c2a8e-3872-4f4c-8d63-12f6f15bc490</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
+      <webElementGuid>63084e95-498d-48b2-a896-89f8f9fdee76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/div/table/tbody/tr/td</value>
-      <webElementGuid>6a3b81ca-3a44-480e-bf39-546366c8a04d</webElementGuid>
+      <value>//tr[3]/td/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>848ca8fa-7749-4142-aded-987584690086</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'Tally Maintenance' or . = 'Tally Maintenance')]</value>
-      <webElementGuid>64d92a80-29c5-4f42-842c-8c4a47df664c</webElementGuid>
+      <value>//td[@id = 'isc_TreeGrid_0_valueCell2' and (text() = 'Point Of Sale' or . = 'Point Of Sale')]</value>
+      <webElementGuid>bba675d8-747e-4c9d-bfd8-2cae4d3f03fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,106 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Logout</name>
+   <name>td_SaveClose (S)</name>
    <tag></tag>
-   <elementGuidId>43e46ad1-8e4b-4cb6-8f13-c0f40be4b3f2</elementGuidId>
+   <elementGuidId>9cb5cb49-2661-4263-b864-4b2d57fcfda8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
+         <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(8) > td.menuTitleField > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_262table >> internal:text=&quot;Logout&quot;i</value>
+         <value>internal:label=&quot;Save/Close (S)&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>fee753ee-64ce-4d9d-9fe6-dc1699ef83a1</webElementGuid>
+      <value>td</value>
+      <webElementGuid>360ebeaa-5488-4293-96ba-a87e035aa45b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>class</name>
       <type>Main</type>
-      <value>presentation</value>
-      <webElementGuid>25ca4f58-8060-4aae-a111-7d7348a676e0</webElementGuid>
+      <value>buttonPositiveActionFocusedOver</value>
+      <webElementGuid>429af2b9-c706-44f7-8fa1-0ab0cf3d902e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>cellclipdiv</name>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>3ffaa6df-2345-4666-b904-6929cf9a7757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5575844c-fcfc-4893-b1ae-4f6f9434d346</webElementGuid>
+      <webElementGuid>e5cc722e-cdaf-46bf-ba93-c94633111518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>ff244ede-692b-48ae-929b-43157a9979e9</webElementGuid>
+      <value>Save/Close (S)</value>
+      <webElementGuid>798e3845-3efb-48e9-8a6e-995a19ef2e1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_262table&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>59f56437-2303-4601-a632-8b9c2e5dbe8e</webElementGuid>
+      <value>id(&quot;isc_XS&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]</value>
+      <webElementGuid>be8584a3-8b0e-4b61-a8ac-18af9db7d753</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_262table']/tbody/tr[8]/td/div</value>
-      <webElementGuid>dd44cdf7-bb42-4b34-a5ff-50aa6b2e0b8d</webElementGuid>
+      <value>//div[@id='isc_XS']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>9aabbe01-98b8-4e47-b0c0-c67a59094235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>70ef1139-aec6-4f00-9ed2-128b18722355</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[3]</value>
+      <webElementGuid>4a1b6c60-30f5-428e-b4ce-50d7ab56632f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>c042999b-72d5-46d3-9ddc-784658c7db32</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
+      <webElementGuid>9727ac5c-2c33-414f-901a-a32744a3592d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>69c059b8-ce18-4184-a64a-3619451a7a6a</webElementGuid>
+      <value>//div[3]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>95df474a-d878-4f83-b112-cd86e120ccfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>b03f3cc7-214b-4f9c-8485-e818446414a8</webElementGuid>
+      <value>//td[(text() = 'Save/Close (S)' or . = 'Save/Close (S)')]</value>
+      <webElementGuid>402631bd-9504-4281-b2a9-cf65273eb747</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
