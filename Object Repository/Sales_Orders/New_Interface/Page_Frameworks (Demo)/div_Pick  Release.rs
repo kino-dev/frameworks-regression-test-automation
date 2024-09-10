@@ -1,142 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>div_Pick  Release</name>
    <tag></tag>
-   <elementGuidId>e7e020be-efa3-4535-b90a-316a9ef5638e</elementGuidId>
+   <elementGuidId>dbac840f-ff2e-46cf-b14b-2a37764fb8b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='isc_1S']</value>
+         <value>//*/text()[normalize-space(.)='Pick &amp; Release']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#isc_1S</value>
+         <value>tr:nth-of-type(10) > td.menuTitleField > div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:text=&quot;Pick &amp; Release&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bdb63a7b-7c45-4be0-bce5-3571bc5ee526</webElementGuid>
+      <webElementGuid>b983073f-4ce5-4ffc-aad9-f978ed2b9aea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>role</name>
       <type>Main</type>
-      <value>isc_1S</value>
-      <webElementGuid>32f635eb-6e28-4722-af67-f91ccf7164bf</webElementGuid>
+      <value>presentation</value>
+      <webElementGuid>fab0edeb-148a-4b6b-a4a1-01ddcd7b528a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
+      <name>cellclipdiv</name>
       <type>Main</type>
-      <value>on</value>
-      <webElementGuid>45366f65-125d-4cee-98f5-65357f2e3174</webElementGuid>
+      <value>true</value>
+      <webElementGuid>18a62d13-014a-45de-aa78-5ae259128e90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>640f0930-c949-43e9-afcb-551a48e6f0dc</webElementGuid>
+      <value>Pick &amp; Release</value>
+      <webElementGuid>50545ad9-2ff1-4b33-b36a-86046603455a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>8c9f2328-71d9-4cbc-9b5d-2e50acc18d11</webElementGuid>
+      <value>id(&quot;isc_1FQtable&quot;)/tbody[1]/tr[10]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>d52f1760-0a11-405f-984d-470694cfb1f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='isc_1S']</value>
-      <webElementGuid>674e2180-665c-4bb5-8690-fd2e10631964</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>bd3338ee-ff7e-4034-800e-65c4aff37be7</webElementGuid>
+      <value>//table[@id='isc_1FQtable']/tbody/tr[10]/td/div</value>
+      <webElementGuid>79be7baf-b549-4bb9-bc6c-d99c36bfeaea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>9a1472b8-13fb-4360-b17e-c7785a99c3cd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Split Transaction'])[1]/following::div[3]</value>
+      <webElementGuid>dc981292-59d1-45e8-9032-2212b0d8ed0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>d9288cb8-7b02-40b0-a215-831b9da39229</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Buy-In'])[1]/following::div[6]</value>
+      <webElementGuid>f00087be-eb5d-4551-bbd6-32b5fe982370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>00fd257b-ce24-4720-8477-097920d1b776</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revert To Quote'])[1]/preceding::div[3]</value>
+      <webElementGuid>5d7e8874-94bf-4125-bae0-00f90f147189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>4fe9e8c4-37e5-4c13-96ef-93c885f70a1d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Contract'])[1]/preceding::div[6]</value>
+      <webElementGuid>6efd3c7b-13dd-4b66-bfc6-b19542283c9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>ed0b3210-9f9f-4576-82cb-7bde610c35cf</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Pick &amp; Release']/parent::*</value>
+      <webElementGuid>102e54cd-1446-4efe-8170-6abf88bb0c8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>4f485593-aa0d-4195-8683-052eb57a0817</webElementGuid>
+      <value>//div[11]/div/div/div/div/table/tbody/tr[10]/td/div</value>
+      <webElementGuid>a1d6579f-dedd-4a43-b8f1-500d07f1a495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>58c7a386-61ef-4ff9-b3f4-6c34c31d4d5e</webElementGuid>
+      <value>//div[(text() = 'Pick &amp; Release' or . = 'Pick &amp; Release')]</value>
+      <webElementGuid>6e106033-3596-4eaf-aedf-2edc453e1f06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

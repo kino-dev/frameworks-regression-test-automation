@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//additional imports
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
 
 WebUI.openBrowser('')
 
@@ -47,4 +53,102 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Desp. Method_isc_IE'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Deliv - Delivery Ex Store'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Date Required_isc_IN'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_setDate'))
+
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Address'), '10 chila road')
+
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_SuburbCity'), 'chilaville')
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_State'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_VIC - Victoria'))
+
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Post Code'), '3875')
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/a_DLV0'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)'))
+
+salesorder_Number = WebUI.getText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/span_SO 265305590'))
+
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_P_idProd'), 'PH2B9035')
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Quantity_qtyTran'))
+
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Tally_tallyText'), 
+    '1/3.0')
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_add'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Actions'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick  Release'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Picker_isc_1HW'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_228 Celestine Z'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick All'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Complete Picking'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Check Picking'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Release Order'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1YT'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Release (S)'))
+
+WebUI.takeFullPageScreenshot()
+
+println(salesorder_Number)
+
+salesorder_Number = salesorder_Number.replace('SO ', '')
+
+salesorder_Number = salesorder_Number.replace('/0', '')
+
+println(salesorder_Number)
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(0)
+
+Cell cell = row.getCell(1)
+
+row = sheet.createRow(1)
+
+cell = row.createCell(0)
+
+cell.setCellValue('SalesOrderNumber')
+
+cell = row.createCell(1)
+
+cell.setCellValue(salesorder_Number)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
 

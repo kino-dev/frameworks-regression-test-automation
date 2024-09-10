@@ -17,36 +17,60 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//additional imports
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(1)
+
+Cell cell = row.getCell(1)
+
+salesorder_Number = cell.getStringCellValue()
+
+println(salesorder_Number)
+
+sourceFile.close()
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'), 
+    userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/Stock_Receipt/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/img_CustomerDashboard'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard'))
 
-WebUI.setText(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/input_Customer No_CustId'), '3379')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'), 
+    '3379')
 
-WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/td_Find'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Find'))
 
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Sales_Orders/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
+WebUI.verifyTextPresent(salesorder_Number, false)
 
-WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
 

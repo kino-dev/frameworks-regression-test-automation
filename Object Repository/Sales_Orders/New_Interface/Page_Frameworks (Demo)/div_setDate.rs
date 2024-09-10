@@ -1,142 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>div_setDate</name>
    <tag></tag>
-   <elementGuidId>e7e020be-efa3-4535-b90a-316a9ef5638e</elementGuidId>
+   <elementGuidId>1d7b0db5-c518-41d9-8982-d0ae87ffce8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='isc_1S']</value>
+         <value>//tr/td[6]/div[(text() = '13' or . = '13')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#isc_1S</value>
+         <value>td.dateChooserWeekdaySelected > div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:text=&quot;13&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bdb63a7b-7c45-4be0-bce5-3571bc5ee526</webElementGuid>
+      <webElementGuid>6bc34d5c-3655-4646-a823-7d0b295fa055</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>role</name>
       <type>Main</type>
-      <value>isc_1S</value>
-      <webElementGuid>32f635eb-6e28-4722-af67-f91ccf7164bf</webElementGuid>
+      <value>presentation</value>
+      <webElementGuid>76e3b7f4-7a0c-4826-af81-ab736b34a75b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>unselectable</name>
+      <name>cellclipdiv</name>
       <type>Main</type>
-      <value>on</value>
-      <webElementGuid>45366f65-125d-4cee-98f5-65357f2e3174</webElementGuid>
+      <value>true</value>
+      <webElementGuid>97f78399-0664-4e71-9728-e7bb6d3db8ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>640f0930-c949-43e9-afcb-551a48e6f0dc</webElementGuid>
+      <value>13</value>
+      <webElementGuid>2efb6d7f-baca-4bf4-aa80-cc29afc6f45d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>8c9f2328-71d9-4cbc-9b5d-2e50acc18d11</webElementGuid>
+      <value>id(&quot;isc_SDtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;dateChooserWeekdaySelected&quot;]/div[1]</value>
+      <webElementGuid>9023d317-da23-4286-9aa8-dd42ab97b1c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='isc_1S']</value>
-      <webElementGuid>674e2180-665c-4bb5-8690-fd2e10631964</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>bd3338ee-ff7e-4034-800e-65c4aff37be7</webElementGuid>
+      <value>//table[@id='isc_SDtable']/tbody/tr[2]/td[6]/div</value>
+      <webElementGuid>4bc72830-f9c5-4399-b964-83a5dfb4b136</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>9a1472b8-13fb-4360-b17e-c7785a99c3cd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[17]</value>
+      <webElementGuid>7fe57d8f-5918-4e8d-898d-78d76d6f56e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>d9288cb8-7b02-40b0-a215-831b9da39229</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[19]</value>
+      <webElementGuid>9718785b-2d28-4b53-9fbb-c5ee2975fb4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>00fd257b-ce24-4720-8477-097920d1b776</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[33]</value>
+      <webElementGuid>91e2d03c-c629-484e-b20a-52f7d212d5ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>4fe9e8c4-37e5-4c13-96ef-93c885f70a1d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[37]</value>
+      <webElementGuid>6ce54384-92ad-4b6f-8a4a-2fdab4b5de42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>ed0b3210-9f9f-4576-82cb-7bde610c35cf</webElementGuid>
+      <value>//*/text()[normalize-space(.)='13']/parent::*</value>
+      <webElementGuid>e5b59068-cc68-4f0e-bdeb-89900b0ab99b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>4f485593-aa0d-4195-8683-052eb57a0817</webElementGuid>
+      <value>//div/table/tbody/tr[2]/td[6]/div</value>
+      <webElementGuid>6563bdc0-ea45-4832-bde0-6d14719bac18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>58c7a386-61ef-4ff9-b3f4-6c34c31d4d5e</webElementGuid>
+      <value>//div[(text() = '13' or . = '13')]</value>
+      <webElementGuid>adfd1dbf-251d-4163-b72a-b865212874fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

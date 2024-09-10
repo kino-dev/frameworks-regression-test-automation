@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Login</name>
+   <name>div_Invoices, Orders, Quotes, Projects  Jobs</name>
    <tag></tag>
-   <elementGuidId>e7e020be-efa3-4535-b90a-316a9ef5638e</elementGuidId>
+   <elementGuidId>aaf6ddbe-b61a-4e98-b976-cc1121169d62</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='isc_1S']</value>
+         <value>//*/text()[normalize-space(.)='Invoices, Orders, Quotes, Projects &amp; Jobs']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#isc_1S</value>
+         <value>#isc_1FM</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:text=&quot;Invoices, Orders, Quotes, Projects &amp; Jobs&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bdb63a7b-7c45-4be0-bce5-3571bc5ee526</webElementGuid>
+      <webElementGuid>133e38cb-cf45-4ff4-be3d-c50722bccb50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_1S</value>
-      <webElementGuid>32f635eb-6e28-4722-af67-f91ccf7164bf</webElementGuid>
+      <value>isc_1FM</value>
+      <webElementGuid>45cb3a57-dc51-49dd-ad87-8b5fa60d7973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,94 +45,94 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>45366f65-125d-4cee-98f5-65357f2e3174</webElementGuid>
+      <webElementGuid>bf30ab5c-1054-40ef-9172-b3aff858ac82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>640f0930-c949-43e9-afcb-551a48e6f0dc</webElementGuid>
+      <value>Invoices, Orders, Quotes, Projects &amp; Jobs</value>
+      <webElementGuid>02450d69-9bd0-49af-a477-bec1d3be1be5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>8c9f2328-71d9-4cbc-9b5d-2e50acc18d11</webElementGuid>
+      <value>id(&quot;isc_1FM&quot;)</value>
+      <webElementGuid>46a8ed09-038c-4654-b50b-847c227449b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='isc_1S']</value>
-      <webElementGuid>674e2180-665c-4bb5-8690-fd2e10631964</webElementGuid>
+      <value>//div[@id='isc_1FM']</value>
+      <webElementGuid>f0a19941-8dd6-4af7-8e87-457391302f7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>bd3338ee-ff7e-4034-800e-65c4aff37be7</webElementGuid>
+      <value>//div[@id='isc_1FN']/table/tbody/tr/td/div</value>
+      <webElementGuid>af3f2b84-6a8c-4b11-8743-6a833a78e26b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>9a1472b8-13fb-4360-b17e-c7785a99c3cd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Details'])[1]/following::div[2]</value>
+      <webElementGuid>49c64f96-113e-4849-9e14-9ed7f31111af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>d9288cb8-7b02-40b0-a215-831b9da39229</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Details'])[1]/following::div[4]</value>
+      <webElementGuid>068cfedf-d1d3-442c-acad-14d8dbbc7c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>00fd257b-ce24-4720-8477-097920d1b776</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Transactions'])[1]/preceding::div[1]</value>
+      <webElementGuid>7e7c4bb5-4732-44b8-b6a3-df4b8aa78673</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>4fe9e8c4-37e5-4c13-96ef-93c885f70a1d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shares/Rewards/Deferred Sales/Vouchers'])[1]/preceding::div[3]</value>
+      <webElementGuid>62a131dd-fac7-4a5d-9225-82ade62a90c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>ed0b3210-9f9f-4576-82cb-7bde610c35cf</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Invoices, Orders, Quotes, Projects &amp; Jobs']/parent::*</value>
+      <webElementGuid>1a6e461f-19bf-4428-931c-27be662595e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>4f485593-aa0d-4195-8683-052eb57a0817</webElementGuid>
+      <value>//div[2]/div/div/div[3]/table/tbody/tr/td/div</value>
+      <webElementGuid>96d10a11-cc3e-4b6e-87b1-d3db9cdb22b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>58c7a386-61ef-4ff9-b3f4-6c34c31d4d5e</webElementGuid>
+      <value>//div[@id = 'isc_1FM' and (text() = 'Invoices, Orders, Quotes, Projects &amp; Jobs' or . = 'Invoices, Orders, Quotes, Projects &amp; Jobs')]</value>
+      <webElementGuid>3f45236a-067a-4dc7-9ed0-ed922f953d94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
