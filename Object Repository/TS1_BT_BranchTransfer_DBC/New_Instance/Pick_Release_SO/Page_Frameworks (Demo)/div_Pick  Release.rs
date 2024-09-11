@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pick  Release</name>
+   <tag></tag>
+   <elementGuidId>6c0e51fe-e095-479b-bdc7-a573c6277db5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Pick &amp; Release']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td.menuTitleField > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Pick &amp; Release&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c5e9c709-a43f-4e2f-a853-b5e543440d72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>c1f95075-0963-4b3a-a207-df0339ad65d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>91a04667-596d-46c6-abb4-ceea29e1d437</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pick &amp; Release</value>
+      <webElementGuid>69d615d7-233e-4258-b558-ad07773989f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_SYtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>e6b85e5f-edf7-4f93-a780-727549937622</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_SYtable']/tbody/tr[2]/td/div</value>
+      <webElementGuid>fb6fd0bf-e400-4b96-8785-433fd66b125f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Costs'])[1]/following::div[3]</value>
+      <webElementGuid>13a389a0-8ea2-460c-a84c-5ec4ad463165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[16]</value>
+      <webElementGuid>435ff771-1951-45a4-b665-0fc1ba17129a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revert To Quote'])[1]/preceding::div[3]</value>
+      <webElementGuid>1fca67dc-9b02-47dc-95bc-2de34fb48685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Contract'])[1]/preceding::div[6]</value>
+      <webElementGuid>7dbf6b01-c05c-4a81-8443-a64227016e61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pick &amp; Release']/parent::*</value>
+      <webElementGuid>d6777856-43dc-4a82-810d-4a1b12efe205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>dcb93d62-5262-4606-8f28-a861f04892ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pick &amp; Release' or . = 'Pick &amp; Release')]</value>
+      <webElementGuid>a2e9cff8-c30d-4cba-81a7-2bc453104f17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_and_TS2" time="55.482" tests="2" failures="1" errors="0">
+   <testsuite name="TS1_and_TS2" tests="2" failures="1" errors="0" time="55.482" skipped="0" timestamp="10-09-2024T13:26:08" hostname="User - ROG" id="Test Suites/DBC_Instance/PointofSale_Module/New_Instance/TS1_and_TS2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938786377.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938795972.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938800121.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938805561.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938823230.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.1"/>
+         <property name="sessionId" value="de48753f80bfc889c59129b4001877d3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New" time="40.194" classname="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New" status="PASSED">
+         <system-out><![CDATA[10-09-2024T13:26:08 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New: Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New
+
+10-09-2024T13:26:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-09-2024T13:26:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-09-2024T13:26:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-09-2024T13:26:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-09-2024T13:26:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-09-2024T13:26:10 - [MESSAGE][PASSED] - Current window maximized
+
+10-09-2024T13:26:10 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+10-09-2024T13:26:12 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+10-09-2024T13:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+10-09-2024T13:26:14 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+10-09-2024T13:26:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+10-09-2024T13:26:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+10-09-2024T13:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+10-09-2024T13:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+10-09-2024T13:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+10-09-2024T13:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+10-09-2024T13:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+10-09-2024T13:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+10-09-2024T13:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+10-09-2024T13:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+10-09-2024T13:26:19 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217537'
+
+10-09-2024T13:26:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217537'
+
+10-09-2024T13:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "594"): Text '594' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+10-09-2024T13:26:22 - [MESSAGE][PASSED] - Text '594' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+10-09-2024T13:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+10-09-2024T13:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+10-09-2024T13:26:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+10-09-2024T13:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+10-09-2024T13:26:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2024T13:26:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2024T13:26:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+10-09-2024T13:26:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-09-2024T13:26:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938786377.png]]
+
+10-09-2024T13:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "pfr7035"): Text 'pfr7035' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+10-09-2024T13:26:27 - [MESSAGE][PASSED] - Text 'pfr7035' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+10-09-2024T13:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+10-09-2024T13:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+10-09-2024T13:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+10-09-2024T13:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+10-09-2024T13:26:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+10-09-2024T13:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+10-09-2024T13:26:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity"), "1"): Keys '1' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+10-09-2024T13:26:30 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+10-09-2024T13:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+10-09-2024T13:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+10-09-2024T13:26:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength"), "3"): Keys '3' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+10-09-2024T13:26:31 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+10-09-2024T13:26:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add' is clicked on
+
+10-09-2024T13:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add' is clicked on
+
+10-09-2024T13:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2"), "1"): Keys '1' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'
+
+10-09-2024T13:26:33 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'
+
+10-09-2024T13:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+10-09-2024T13:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+10-09-2024T13:26:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2"), "2"): Keys '2' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'
+
+10-09-2024T13:26:33 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'
+
+10-09-2024T13:26:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2024T13:26:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2024T13:26:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+10-09-2024T13:26:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-09-2024T13:26:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938795972.png]]
+
+10-09-2024T13:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+10-09-2024T13:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+10-09-2024T13:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+10-09-2024T13:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+10-09-2024T13:26:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2024T13:26:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2024T13:26:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+10-09-2024T13:26:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-09-2024T13:26:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938800121.png]]
+
+10-09-2024T13:26:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+10-09-2024T13:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+10-09-2024T13:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash' is clicked on
+
+10-09-2024T13:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash' is clicked on
+
+10-09-2024T13:26:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+10-09-2024T13:26:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+10-09-2024T13:26:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+10-09-2024T13:26:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-09-2024T13:26:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938805561.png]]
+
+10-09-2024T13:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+10-09-2024T13:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+10-09-2024T13:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+10-09-2024T13:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+10-09-2024T13:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+10-09-2024T13:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New" time="15.111" classname="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at POS_AccountSale - New.run(POS_AccountSale - New:53)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=128.0.6613.120)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: de48753f80bfc889c59129b4001877d3&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[10-09-2024T13:26:48 - [TEST_CASE][FAILED] - Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at POS_AccountSale - New.run(POS_AccountSale - New:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de48753f80bfc889c59129b4001877d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+10-09-2024T13:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-09-2024T13:26:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-09-2024T13:26:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-09-2024T13:26:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-09-2024T13:26:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-09-2024T13:26:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-09-2024T13:26:49 - [MESSAGE][PASSED] - Current window maximized
+
+10-09-2024T13:26:49 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+10-09-2024T13:26:51 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+10-09-2024T13:26:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+10-09-2024T13:26:53 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+10-09-2024T13:26:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+10-09-2024T13:26:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+10-09-2024T13:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+10-09-2024T13:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+10-09-2024T13:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+10-09-2024T13:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+10-09-2024T13:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+10-09-2024T13:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+10-09-2024T13:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+10-09-2024T13:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+10-09-2024T13:26:57 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217539'
+
+10-09-2024T13:26:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217539'
+
+10-09-2024T13:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX"), "Joe Chila (3379)"): Text 'Joe Chila (3379)' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX'
+
+10-09-2024T13:27:01 - [MESSAGE][PASSED] - Text 'Joe Chila (3379)' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX'
+
+10-09-2024T13:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+10-09-2024T13:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+10-09-2024T13:27:02 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "594"): Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at POS_AccountSale - New.run(POS_AccountSale - New:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de48753f80bfc889c59129b4001877d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1725713735208.run(Script1725713735208.groovy:53)
+	... 15 more
+)
+
+10-09-2024T13:27:03 - [MESSAGE][FAILED] - Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at POS_AccountSale - New.run(POS_AccountSale - New:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de48753f80bfc889c59129b4001877d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1725713735208.run(Script1725713735208.groovy:53)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240910_132604\\DBC_Instance\\PointofSale_Module\\New_Instance\\TS1_and_TS2\\20240910_132604\\1725938823230.png]]]]></system-out>
+         <system-err><![CDATA[10-09-2024T13:26:48 - [TEST_CASE][FAILED] - Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at POS_AccountSale - New.run(POS_AccountSale - New:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de48753f80bfc889c59129b4001877d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-09-2024T13:26:08 - [TEST_SUITE][FAILED] - TS1_and_TS2: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at POS_AccountSale - New.run(POS_AccountSale - New:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de48753f80bfc889c59129b4001877d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[10-09-2024T13:26:08 - [TEST_SUITE][FAILED] - TS1_and_TS2: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '594' of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at POS_AccountSale - New.run(POS_AccountSale - New:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725938764043.run(TempTestSuite1725938764043.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'ROG', ip: '10.192.251.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de48753f80bfc889c59129b4001877d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

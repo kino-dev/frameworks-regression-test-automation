@@ -43,12 +43,14 @@ WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interf
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale'))
 
-invoiceNum = WebUI.getText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
-
 WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX'), 
     'Joe Chila (3379)')
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
+
+invoiceNum = WebUI.getText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
 
 WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 
     '594')
@@ -107,7 +109,7 @@ WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interf
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.takeFullPageScreenshot()
 

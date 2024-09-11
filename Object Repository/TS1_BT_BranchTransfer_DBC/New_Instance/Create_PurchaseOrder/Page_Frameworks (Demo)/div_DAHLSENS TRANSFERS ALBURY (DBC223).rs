@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DAHLSENS TRANSFERS ALBURY (DBC223)</name>
+   <tag></tag>
+   <elementGuidId>eab59544-7e14-454c-aae6-97c285b7b84f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='isc_MCtable']/tbody/tr/td/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;DAHLSENS TRANSFERS ALBURY (DBC223)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6ce39c56-cda9-482b-b58e-aaa4a9abe26a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>3dd2d625-6f6c-472c-be96-c93183aeeb54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9c1cbdcc-e8c3-4d7b-8f84-786e48f357de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DAHLSENS TRANSFERS ALBURY (DBC223)</value>
+      <webElementGuid>73de1824-d9fa-46df-9894-823813e69f21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_MCtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>c168a133-a1fd-4807-b98e-9aef9e389415</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_MCtable']/tbody/tr/td/div</value>
+      <webElementGuid>2c4c0f41-868c-43d6-8de2-e4d860b2539c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[12]</value>
+      <webElementGuid>7b7951db-d6fe-4793-b86d-e8e2cb9fb37c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Administration'])[1]/following::div[13]</value>
+      <webElementGuid>621390f9-4b4a-495a-b970-1f290765e970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DAHLSENS TRANSFERS ALBURY (DBC223)']/parent::*</value>
+      <webElementGuid>065fd440-1d6d-4a44-a161-1a760d44113b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>f7575385-38a6-4cc7-ab64-75897cae0539</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DAHLSENS TRANSFERS ALBURY (DBC223)' or . = 'DAHLSENS TRANSFERS ALBURY (DBC223)')]</value>
+      <webElementGuid>8d948db0-17a4-4a28-a726-0a5fcf86a7f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

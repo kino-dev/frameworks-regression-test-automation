@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Release Order</name>
+   <tag></tag>
+   <elementGuidId>fef1705c-be33-41a1-97ce-972446efba5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Release Order']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_1CV</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Release Order&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7c619a28-89ce-4e54-9904-6b273c2502c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_1CV</value>
+      <webElementGuid>61ea1efc-c6e7-451d-a8f2-4cbf38d371bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>cef1acfe-d60a-4d4e-998a-9d8dcd6ca46c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Release Order</value>
+      <webElementGuid>a3d8556e-71ff-4d48-bfa4-ae1ab8def382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1CV&quot;)</value>
+      <webElementGuid>744687e7-3693-4e59-ba7f-3ab5bc833c0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1CV']</value>
+      <webElementGuid>49954a8b-9105-4332-aae2-5a7b8bad0fe0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1CW']/table/tbody/tr/td/div</value>
+      <webElementGuid>85b4fb4d-22cd-48f5-b702-04e2bd0de76e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Picking'])[1]/following::div[2]</value>
+      <webElementGuid>5a6fed7f-130f-4558-af3c-7a5eaa8b89b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick All'])[1]/following::div[4]</value>
+      <webElementGuid>fb55ec34-2224-45bb-b0c6-a456879fac77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Complete Picking'])[1]/preceding::div[1]</value>
+      <webElementGuid>b0b62620-b203-4b28-bbfd-04ded147ff0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/preceding::div[3]</value>
+      <webElementGuid>4f4a82d6-5e5e-44a6-9fce-f097fb1af0e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Release Order']/parent::*</value>
+      <webElementGuid>37e083ea-3342-4f0b-8f54-1ca1a03b6c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[3]/table/tbody/tr/td/div</value>
+      <webElementGuid>0c9933df-abdd-472b-86ad-f4cda682fffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_1CV' and (text() = 'Release Order' or . = 'Release Order')]</value>
+      <webElementGuid>695fee5d-fc79-456a-b44d-8dba35fce01f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

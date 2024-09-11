@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Fr
     userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'), 
-    '6hUhntXdJknVTuE5fOO5WA==')
+    'BvRmjN+0xFM=')
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login'))
 

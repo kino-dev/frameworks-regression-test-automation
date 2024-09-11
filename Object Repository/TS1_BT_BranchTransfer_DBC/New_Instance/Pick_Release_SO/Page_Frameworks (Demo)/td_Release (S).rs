@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Release (S)</name>
+   <tag></tag>
+   <elementGuidId>98922958-2c7c-41f3-9c00-37a8e943d748</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Release (']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Release (S)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>33055a99-fd39-4231-b26b-1e24ccf3bbcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonPositiveActionDisabled</value>
+      <webElementGuid>685ad643-1ce2-4916-8e06-91f119a3e695</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>ba730bac-86c4-4d87-ad1c-16b2ce7a322d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nowrap</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ca0b953a-748d-47fc-bbef-2042497470b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Release (S)</value>
+      <webElementGuid>649c53d8-3080-4371-8604-e1c59166c49a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1OI&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]</value>
+      <webElementGuid>206ccc66-f778-4bb4-bb9f-175bb41ab5c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1OI']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>9a01606b-97d6-41f4-b825-8e2b476b380c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[3]/following::td[3]</value>
+      <webElementGuid>9a70355a-f7d6-4a42-84c6-36ba3683b2ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Release (']/parent::*</value>
+      <webElementGuid>497f1d59-8e22-4d8c-a69c-77b5820e3b5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>f4736c78-08b8-486f-ad36-8f7bd41df1ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Release (S)' or . = 'Release (S)')]</value>
+      <webElementGuid>1a88c10b-2bf4-41c7-8d9e-055b726a153b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

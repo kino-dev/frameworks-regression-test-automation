@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)</name>
+   <tag></tag>
+   <elementGuidId>7d46d311-87a4-464d-9ddb-9b2b683ea2a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='DAHLSENS TRANSFERS BAIRNSDALE (DBC202)']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;DAHLSENS TRANSFERS BAIRNSDALE (DBC202)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>60b033d9-3306-4370-ade5-af29499c090b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>9d07a67c-9ba7-46e2-a10e-b1f312b09d47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d42eb3cc-2c99-4f97-87c5-c3759e8b6bd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DAHLSENS TRANSFERS BAIRNSDALE (DBC202)</value>
+      <webElementGuid>2c5092d5-fce8-4895-891d-eea74f9e939b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_MCtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>d5a04ee6-24cf-45df-8173-e575032f67b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_MCtable']/tbody/tr/td/div</value>
+      <webElementGuid>6e5ca800-dbc5-4705-aae4-dd657b4fb073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAHLSENS TRANSFERS ALBURY (DBC223)'])[1]/following::div[6]</value>
+      <webElementGuid>9f9407ed-2608-4102-91b9-87c0bd83d6c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[14]</value>
+      <webElementGuid>b16aef2d-a5b2-4c30-9178-3c4cb9e4d76b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DAHLSENS TRANSFERS BAIRNSDALE (DBC202)']/parent::*</value>
+      <webElementGuid>7fc1f425-b742-46cb-bf58-3ea74057a86c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>0a007946-f49e-47a6-80f5-bdde90840857</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DAHLSENS TRANSFERS BAIRNSDALE (DBC202)' or . = 'DAHLSENS TRANSFERS BAIRNSDALE (DBC202)')]</value>
+      <webElementGuid>09b90407-1e3c-407d-bf97-6823020cfb72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

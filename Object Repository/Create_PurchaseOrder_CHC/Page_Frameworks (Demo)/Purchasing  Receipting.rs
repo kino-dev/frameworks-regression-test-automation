@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[@id='isc_TreeGrid_0_valueCell9']/b</value>
+         <value>//*/text()[normalize-space(.)='Purchasing &amp; Receipting']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>00c2d12b-3f95-4a72-aab4-44cd8c0eb488</webElementGuid>
+      <webElementGuid>d35e9065-1827-4f79-ad13-4a3db9a29408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Purchasing &amp; Receipting</value>
-      <webElementGuid>a624f48e-f36a-48ec-9ad6-a2d3dc74ddbd</webElementGuid>
+      <webElementGuid>5ed1d4e4-1cab-4ff2-b74a-654e0cca55b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_TreeGrid_0_valueCell9&quot;)/b[1]</value>
-      <webElementGuid>cd3491d4-6759-45ab-8a40-e0dcf3de0430</webElementGuid>
+      <webElementGuid>889a2c79-5e68-47da-a8a3-f2cef853f5c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_TreeGrid_0_valueCell9']/b</value>
-      <webElementGuid>f89038e9-e6e5-458e-b82f-2fd7f189e449</webElementGuid>
+      <webElementGuid>80396eb8-21b3-471c-a401-2a7bac6b7558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory'])[1]/following::b[1]</value>
-      <webElementGuid>436512f0-fd5b-448c-a5c4-6f39e39da04b</webElementGuid>
+      <webElementGuid>efe0f8df-95bc-4b79-b70a-b4117ddef7ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payables'])[1]/following::b[3]</value>
-      <webElementGuid>261cf7c0-29d8-47b7-a62d-0dc8bc29408a</webElementGuid>
+      <webElementGuid>0835d30a-23bb-4db8-b685-1c2a9b8a2fb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Timber Packs'])[1]/preceding::b[2]</value>
-      <webElementGuid>2c3013ea-d005-4a9b-8b99-c0e063d8984e</webElementGuid>
+      <webElementGuid>51ab5e24-27f7-4cf5-87af-8ea7ad4e8c42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Pricing'])[1]/preceding::b[4]</value>
-      <webElementGuid>1ed0d4d7-4b43-40b0-ae75-73ba90d96b82</webElementGuid>
+      <webElementGuid>62588393-beaf-4c68-bdd2-64f1bacbc807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Purchasing &amp; Receipting']/parent::*</value>
-      <webElementGuid>1501256d-2171-4f23-9734-3e9329e553e4</webElementGuid>
+      <webElementGuid>6f05bf58-3df5-4305-a580-60d383cf6421</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[10]/td/div/table/tbody/tr/td[3]/b</value>
-      <webElementGuid>873ba1e0-b114-4e0e-864d-ab72751fe9b9</webElementGuid>
+      <webElementGuid>c2b7d59d-d6be-41a0-8cd4-49fa133b0a2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'Purchasing &amp; Receipting' or . = 'Purchasing &amp; Receipting')]</value>
-      <webElementGuid>190d4b0a-084a-40aa-b1c7-d7e6a1448013</webElementGuid>
+      <webElementGuid>074c963a-40f9-4a33-830e-1e954f5cc82d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DLV - Supplier Delivery</name>
+   <tag></tag>
+   <elementGuidId>7edd859e-1cbb-4134-9c77-5dd269c40f2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='DLV - Supplier Delivery']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelectedDark > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;DLV - Supplier Delivery&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d212385-4e0b-4045-b2c2-d519fce79a41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>472c7ea7-d77b-41c8-b80f-dc3f5b39919f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b3fa9431-0c4e-402d-bc9f-b132f2e2614a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DLV - Supplier Delivery</value>
+      <webElementGuid>179f8f46-9051-47db-9305-d3cf68384fad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_P8table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>88aca38c-47cc-474e-afab-fed31c2b2ddb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_P8table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>be797c6d-11fe-42b2-ad05-96d30d68f54f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deliv - Supplier Delivery'])[1]/following::div[1]</value>
+      <webElementGuid>b26a8414-8bda-4a33-9179-22d74aa9d1e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::div[8]</value>
+      <webElementGuid>1fab0cac-0ad4-47fa-a0c7-00253926cc33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DPT - Deliver to Depot'])[1]/preceding::div[1]</value>
+      <webElementGuid>b24dd8fd-cc9a-4402-a076-5bed701b88ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PickU - Pickup from Supplier'])[1]/preceding::div[2]</value>
+      <webElementGuid>dafbc74b-4d62-4268-9d22-01fd985d4073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>8421eebf-a80a-4693-90ab-dc85bd90de07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DLV - Supplier Delivery' or . = 'DLV - Supplier Delivery')]</value>
+      <webElementGuid>3f59ebea-9795-4820-ae31-e8633eebb71a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

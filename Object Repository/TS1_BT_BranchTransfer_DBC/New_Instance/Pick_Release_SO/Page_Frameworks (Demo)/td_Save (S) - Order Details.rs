@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Save (S) - Order Details</name>
+   <tag></tag>
+   <elementGuidId>386e3fe5-860a-46f8-b87a-b9749fb191f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save (S)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>2cff9b59-76ba-4376-8ad4-8cc66a1d2e66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonPositiveActionDisabled</value>
+      <webElementGuid>dbce49b1-46f6-48fb-8df1-2e5b4f213c27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>c4029fce-8cb8-4bd3-a080-c206fff79a0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nowrap</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>56a51a17-f96c-47ca-aa39-df1bce367288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save (S)</value>
+      <webElementGuid>18f34ed6-d3a1-4142-9f66-bf6eb720a039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_18P&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]</value>
+      <webElementGuid>75dc9b83-4d00-4c0f-b684-af6001d29087</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_18P']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>f70e8686-6f0b-4e10-a87d-07728e4090c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[3]</value>
+      <webElementGuid>dda69a08-0ffd-406a-b4e0-a5824d151d27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>774610ec-c7ed-4af7-bef6-99b86f88c43e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Save (S)' or . = 'Save (S)')]</value>
+      <webElementGuid>aee7cef6-f458-451d-9b5d-8efa30331eae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

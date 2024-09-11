@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Finalise Transfer</name>
+   <tag></tag>
+   <elementGuidId>afbc35b9-69d5-4fc0-be47-942c2ebe3f02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Finalise Transfer']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.menuTitleField > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Finalise Transfer&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>96293ded-bba6-467b-b2b6-3d00725e9bad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>a343a4ca-1ae8-471e-a8b6-102ee1af03c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6f12036b-5b94-4c6b-8b3a-d6203d1a906b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finalise Transfer</value>
+      <webElementGuid>cf424018-f81e-4081-a2f5-16e3f5370f9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1A8table&quot;)/tbody[1]/tr[1]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>4d5be25e-29bf-4bc7-892c-06212fad45c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_1A8table']/tbody/tr/td/div</value>
+      <webElementGuid>1f7fc4a4-6f51-4166-8492-48eed30874ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::div[10]</value>
+      <webElementGuid>a57d87db-af99-4d7b-a2b7-cf0ac67db900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::div[14]</value>
+      <webElementGuid>8a48b0dd-c56d-427e-93ed-ebd3b23f1755</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Header'])[1]/preceding::div[3]</value>
+      <webElementGuid>26861880-800d-4c51-ad84-7bb09e23d3c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Order'])[1]/preceding::div[6]</value>
+      <webElementGuid>e8413f26-7b75-48eb-be49-8a3a9c69459f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finalise Transfer']/parent::*</value>
+      <webElementGuid>17001292-35cc-4c5b-a5cf-ed08a86f9d46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>d5c7bd8d-ac8c-45f1-ad35-b77a8cd1b174</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Finalise Transfer' or . = 'Finalise Transfer')]</value>
+      <webElementGuid>88f3305e-00fe-4363-8792-ec3d2ce8e3aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

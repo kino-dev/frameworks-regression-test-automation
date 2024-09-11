@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Complete Picking</name>
+   <tag></tag>
+   <elementGuidId>d9c24764-f99c-4787-979f-2bc250092763</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Complete Picking']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_1CR</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Complete Picking&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f9446a08-82a7-4ab8-906b-4b52b2522013</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_1CR</value>
+      <webElementGuid>39a41e31-126c-488d-b031-f1eea4678229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>ca13a19b-f50f-4367-8ce7-41a411381f08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Complete Picking</value>
+      <webElementGuid>ef0c7396-28a8-4fd8-8e45-896c89b95194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1CR&quot;)</value>
+      <webElementGuid>2217783d-f5b7-4aef-bd48-57c14e8d9cd7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1CR']</value>
+      <webElementGuid>6f25320b-2461-4f52-9d66-fe7bed0f7ed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1CS']/table/tbody/tr/td/div</value>
+      <webElementGuid>4bfb99fd-f3d7-4520-b9f1-9062d4787a2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick All'])[1]/following::div[2]</value>
+      <webElementGuid>c01138e6-2ed7-4e79-8cbe-e37dd8ffb26b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Bundle'])[1]/following::div[7]</value>
+      <webElementGuid>47223f54-f277-4fd5-b224-97f799188729</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Picking'])[1]/preceding::div[1]</value>
+      <webElementGuid>357a0d28-6809-4aa3-9a31-0ad4e1886a7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Release Order'])[1]/preceding::div[3]</value>
+      <webElementGuid>746ba769-ecb6-4204-acce-58545480d3e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Complete Picking']/parent::*</value>
+      <webElementGuid>c4a5ca94-c36a-4fa8-abcc-e3cc0d996fb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/table/tbody/tr/td/div</value>
+      <webElementGuid>62d10c9c-efa0-44df-8645-ee1576eaaba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_1CR' and (text() = 'Complete Picking' or . = 'Complete Picking')]</value>
+      <webElementGuid>bb96067d-790e-4892-9a56-c69747b78aa0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
