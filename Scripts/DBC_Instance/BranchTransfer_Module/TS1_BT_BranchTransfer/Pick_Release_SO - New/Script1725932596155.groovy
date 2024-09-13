@@ -47,74 +47,79 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/input_User ID_userid'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/Fws_Menu'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/Fws_Menu'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/b_Transaction Processing'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/b_Transaction Processing'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/td_Sales Orders'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Sales Orders'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo'), 
     '26530562')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Find'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Find'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/SalesOrderLink'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SalesOrderLink'))
 
 WebUI.delay(3)
 
-SalesOrderValidate = WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/SO_Value_Tab'))
+SalesOrderValidate = WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SO_Value_Tab'))
 
 SalesOrderValidate = SalesOrderValidate.replace('SO ', '')
 
 SalesOrderValidate = SalesOrderValidate.replace('/0', '')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/td_OK'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_OK'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/img_Delivery Area_isc_XX'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Delivery Area_isc_XX'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/a_DLV0'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/a_DLV0'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/img_Picker_dropdown'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Picker_dropdown'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_202 Bairnsdale Trade'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_202 Bairnsdale Trade'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_cm20'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_cm20'))
 
-WebUI.sendKeys(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'), 
+WebUI.sendKeys(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_lm20'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_lm20'))
 
-WebUI.sendKeys(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'), 
+WebUI.sendKeys(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'), 
     '2')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/td_Save (S) - Order Details'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Save (S) - Order Details'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Complete Picking'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Complete Picking'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Check Picking'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Check Picking'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/td_SaveClose (S) - Check Picking'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_SaveClose (S) - Check Picking'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Release Order'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Release Order'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1R0'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1R0'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Pick_Release_SO/Page_Frameworks (Demo)/td_Release (S)'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Release (S)'))
+
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
 

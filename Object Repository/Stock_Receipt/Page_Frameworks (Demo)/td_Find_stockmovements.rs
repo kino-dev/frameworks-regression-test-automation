@@ -6,12 +6,11 @@
    <elementGuidId>6792ead7-72ce-4b31-a2fb-bc30fce80aa3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[2]/div/div/div/div/div[2]/div/div/div/table/tbody/tr/td/table/tbody/tr/td[(text() = 'Find' or . = 'Find')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ed077890-8ac4-4b89-84b7-5af8b078af6e</webElementGuid>
+      <webElementGuid>b851cd89-5752-41b8-b10f-c020debeb50f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonRoundedOver</value>
-      <webElementGuid>b4ed1dcb-f7c1-4934-9f57-d1bdd0996f56</webElementGuid>
+      <webElementGuid>7403540f-ad53-40c2-9866-066897c2a6d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>align</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>1a1b90a0-e80b-4500-8233-88cc760882e0</webElementGuid>
+      <webElementGuid>6b3d1739-0948-4c0b-a54b-6a17d2c11323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5cc998a8-3123-462b-b60c-97f67f31229b</webElementGuid>
+      <webElementGuid>9f475ab2-3eed-498c-9273-71309f265078</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Find</value>
-      <webElementGuid>2e0893c6-ba59-4c2e-9ac8-5352d4b8c9c8</webElementGuid>
+      <webElementGuid>7962e886-5bc4-4f02-9173-753dbcb3bb27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1P3&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedOver&quot;]</value>
-      <webElementGuid>ab732399-68ec-44b6-bb9a-816bf37e4742</webElementGuid>
+      <webElementGuid>ac8cf4ef-e2b0-4045-8ac3-3284e5b7b02b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_1P3']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>6c88f35b-d58d-445e-b1dc-729f03db419d</webElementGuid>
+      <webElementGuid>bf20d9ea-458d-42b5-92b9-92cb9ad3f9c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exclude Zero'])[1]/following::td[5]</value>
-      <webElementGuid>77087759-b4fc-4a84-82b9-daf4dadd74c2</webElementGuid>
+      <webElementGuid>e9367aa5-2848-46a8-9362-fec7466292f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[3]/following::td[10]</value>
-      <webElementGuid>01429919-4eaf-4961-b062-68dd49789431</webElementGuid>
+      <webElementGuid>c3e7d97c-25ec-48e1-b038-fb35859ac8ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/preceding::td[1]</value>
-      <webElementGuid>1b5a47c2-bbca-422b-86e8-02d1231efdfd</webElementGuid>
+      <webElementGuid>dc809b88-ada5-468e-a2a7-484067c6ee6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/preceding::td[2]</value>
-      <webElementGuid>2aef8a66-dc2a-4cee-8f3e-7eb2656e3feb</webElementGuid>
+      <webElementGuid>808f8fb3-ccb9-41a7-98bb-80d1e0ea9959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>a8b6a538-6578-4ccc-a0a3-81f7f9c91d4a</webElementGuid>
+      <webElementGuid>35120e78-b286-4573-a315-7f4bdee0bb2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Find' or . = 'Find')]</value>
-      <webElementGuid>72995c83-3b52-48a3-a1a5-0a323993263a</webElementGuid>
+      <webElementGuid>26747da7-15e3-41a2-a7c8-0e7f6c0c7f8d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Stock Receipting</name>
+   <tag></tag>
+   <elementGuidId>26364022-416a-4bc3-b046-5fd0096acdc4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Stock Receipting']/parent::*	</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_TreeGrid_0_valueCell17</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Stock Receipting&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>90f97e95-a430-45b4-a741-66c1cb0059f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_TreeGrid_0_valueCell17</value>
+      <webElementGuid>e86a48da-bc0b-46ab-991b-2f41b65d9646</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>treeTallCellSelected</value>
+      <webElementGuid>a5c68cf6-2b54-4756-88d6-3aaf13c638fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stock Receipting</value>
+      <webElementGuid>3d2daaa2-5f9d-42a3-a223-3dcb10422266</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_TreeGrid_0_valueCell17&quot;)</value>
+      <webElementGuid>ee5b1eb7-6d3f-45ea-a5e2-7aafb91f238a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='isc_TreeGrid_0_valueCell17']</value>
+      <webElementGuid>bacab785-c96d-4315-a7e9-59e0b83d416d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_7Btable']/tbody/tr[18]/td/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>a0b2e298-5cc1-4587-9367-293b50b49d5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase Orders'])[1]/following::td[4]</value>
+      <webElementGuid>fc88af70-cc51-4cc6-b5ac-089b48bb4520</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase Requisitions'])[1]/following::td[8]</value>
+      <webElementGuid>3ec5ebdc-a74b-4485-8558-3934896f998a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Transfers'])[1]/preceding::td[3]</value>
+      <webElementGuid>09d6ef95-01c4-45d0-899f-6d27ee8b259b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Pricing'])[1]/preceding::td[7]</value>
+      <webElementGuid>05a09b36-3196-4270-b354-5ea74246e628</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Stock Receipting']/parent::*</value>
+      <webElementGuid>4bb5cb8d-c5de-4f32-b352-4edc40821262</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[18]/td/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>46a35344-b271-47cd-a028-c60328d9b94e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'isc_TreeGrid_0_valueCell17' and (text() = 'Stock Receipting' or . = 'Stock Receipting')]</value>
+      <webElementGuid>797d275a-0e59-4e34-8c87-80cc80614a4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

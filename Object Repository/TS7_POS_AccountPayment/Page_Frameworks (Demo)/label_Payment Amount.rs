@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Payment Amount</name>
+   <tag></tag>
+   <elementGuidId>2bb625de-0ba4-4dd5-a88f-c6328a04e7d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Payment Amount']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_QZ</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'isc_QZ' and (text() = 'Payment Amount' or . = 'Payment Amount')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Payment Amount&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d01e19f2-3ce5-4055-9a81-f37c465b1b3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_QZ</value>
+      <webElementGuid>9e223d82-b11a-48d4-8375-bf09372dbd17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>isc_QY</value>
+      <webElementGuid>bcdddfab-2fc2-4f67-b37c-1d7f1a4b21da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Payment Amount</value>
+      <webElementGuid>08ec859d-c7e3-4472-a667-d7b7ad0d36d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_QZ&quot;)</value>
+      <webElementGuid>0012264c-2c3d-4ac0-9cc9-fafba0ab46df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='isc_QZ']</value>
+      <webElementGuid>8ed67bd7-94d4-44f4-a69b-f94241409df1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='isc_QX']/nobr/label</value>
+      <webElementGuid>ac835b76-2faa-4940-bc07-ca015989b040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::label[1]</value>
+      <webElementGuid>316debb2-beef-4e47-87bf-3a95b3d691fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Status'])[1]/following::label[1]</value>
+      <webElementGuid>89895956-daf0-4e0d-ac05-49c297f429e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tendering'])[1]/preceding::label[1]</value>
+      <webElementGuid>d7721833-e9c2-4b13-91b4-239bde5f10c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Payments at POS'])[1]/preceding::label[1]</value>
+      <webElementGuid>b8374370-c943-462d-bd59-a00533937ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Payment Amount']/parent::*</value>
+      <webElementGuid>1e5006b3-b5a8-4a8f-b19b-9a2b5936b302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/form/table/tbody/tr[6]/td/nobr/label</value>
+      <webElementGuid>862502b4-2a8e-47f0-8a2c-987c2ef2b4ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'isc_QZ' and (text() = 'Payment Amount' or . = 'Payment Amount')]</value>
+      <webElementGuid>ef0477b6-10fb-4714-870f-89be1c40af79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='isc_Y2']</value>
+      <webElementGuid>71901092-39f2-43ce-aca4-d5bdb2482ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='isc_Y0']/nobr/label</value>
+      <webElementGuid>763023da-faee-46ba-9446-0653b5ba5696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Type'])[1]/following::label[2]</value>
+      <webElementGuid>b949a02d-4062-4856-a143-e42d6cc96548</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'isc_Y2' and (text() = 'Payment Amount' or . = 'Payment Amount')]</value>
+      <webElementGuid>5d5d67d2-f92d-4d6e-ad9c-4583c3ffcc6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

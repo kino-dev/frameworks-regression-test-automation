@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_202 - DEMONSTRATION BRANCH 202</name>
+   <tag></tag>
+   <elementGuidId>53ef73eb-231e-4046-b058-4587a6a241e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='202 - DEMONSTRATION BRANCH 202'])</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_201table >> internal:text=&quot;202 - DEMONSTRATION BRANCH 202&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a9bd2f84-4ff8-450f-8d75-820c5ab74628</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>4c1dc347-89f6-45ca-8e3f-58744918c36e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8c6a89e7-4f3c-444f-9386-c33ea2e10dea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>202 - DEMONSTRATION BRANCH 202</value>
+      <webElementGuid>9aa43076-24ee-4f6f-937c-dc1e027509a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_201table&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>6141ee2a-40a2-456f-8b44-0451d7919cae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_201table']/tbody/tr/td/div</value>
+      <webElementGuid>0b41d9a3-976f-4ec7-acc5-41ab4a8c8997</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select movements for this branch'])[1]/following::div[8]</value>
+      <webElementGuid>3404d484-8a22-49ef-b3c7-de381d7c6f51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[16]</value>
+      <webElementGuid>04cedd06-35ee-429b-a09b-2fa1c3e70dfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>308c6f74-abbc-4fdd-9931-bd7034a9048d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '202 - DEMONSTRATION BRANCH 202' or . = '202 - DEMONSTRATION BRANCH 202')]</value>
+      <webElementGuid>da666838-a54e-4737-be06-7617590b8b4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

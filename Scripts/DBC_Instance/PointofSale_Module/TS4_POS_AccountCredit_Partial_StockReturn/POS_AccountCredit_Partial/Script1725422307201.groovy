@@ -33,6 +33,12 @@ Row row = sheet.getRow(1)
 
 Cell cell = row.getCell(1)
 
+docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+
+println(docketNumber)
+
+sourceFile.close()
+
 invoiceNumber = String.valueOf(((cell.getNumericCellValue()) as int))
 
 println(invoiceNumber)

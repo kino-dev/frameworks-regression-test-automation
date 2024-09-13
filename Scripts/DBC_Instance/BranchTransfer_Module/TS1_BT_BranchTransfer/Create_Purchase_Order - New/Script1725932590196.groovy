@@ -30,70 +30,70 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/input_User ID_userid'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/Fws_Menu'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Fws_Menu'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/Purchasing  Receipting'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Purchasing  Receipting'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/Transaction Processing'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Transaction Processing'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Purchase_Orders_level3'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Purchase_Orders_level3'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_New'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_New'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Supplier No_idSupp'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Supplier No_idSupp'), 
     'dbc202')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_date'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_date'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Shipping Basis_isc_GH'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Shipping Basis_isc_GH'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DLV - Supplier Delivery'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DLV - Supplier Delivery'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Order From_isc_LB'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Order From_isc_LB'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/a_1'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_1'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)'))
 
-WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/purchaseOrderNo'))
+WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/purchaseOrderNo'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'), 
     'cm20')
 
 WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Quantity_qtyTran'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'), 
     'lm20')
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran_1'), 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran_1'), 
     '2')
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Actions'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Actions'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Finalise Transfer'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Finalise Transfer'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Print Picking Slip'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Print Picking Slip'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)'))
+WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)'))
 
-SalesOrder = WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Instance/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO'))
+SalesOrder = WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO'))
 
 println(SalesOrder)
 
@@ -137,4 +137,8 @@ workbook.write(fos)
 fos.close()
 
 sourceFile.close()
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
 

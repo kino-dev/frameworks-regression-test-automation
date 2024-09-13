@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Stock Movements</name>
+   <tag></tag>
+   <elementGuidId>35865eaa-c2fb-4b33-8a29-e0473360da29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[11]/div/div/div[2]/div/div/table/tbody/tr/td/div[(text() = 'Stock Movements' or . = 'Stock Movements')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_1ED</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Stock Movements&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3299ed3f-7fa0-4a8a-8114-b1faddb2b8b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_1ED</value>
+      <webElementGuid>943852c2-4d5d-4d00-b873-1a0b01fd08de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>b8766676-0806-48e5-b626-3ff9ae4f3d3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stock Movements</value>
+      <webElementGuid>19b199d4-3d26-48b1-970f-5de17a6dba34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1ED&quot;)</value>
+      <webElementGuid>516984a9-09e9-445f-aaaf-39b1ba414e8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1ED']</value>
+      <webElementGuid>51f32f81-3e85-481a-a5df-08e1a876e7dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1EE']/table/tbody/tr/td/div</value>
+      <webElementGuid>dea9d71c-923b-439f-b4b3-24171aca3699</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Load Price'])[1]/following::div[11]</value>
+      <webElementGuid>2484b9f7-0cf1-439e-b527-18c831878774</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Core Status'])[1]/following::div[13]</value>
+      <webElementGuid>f2d7c416-57d9-4e1d-bbbd-1ccf41cda135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Enquiry'])[2]/preceding::div[1]</value>
+      <webElementGuid>3f492b2b-838f-4f12-859c-cde55d176cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pack Enquiry'])[1]/preceding::div[3]</value>
+      <webElementGuid>e2d51663-11ff-4ec3-a85f-9543e2e8eef8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/div[2]/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>56a1ed85-1151-44e4-b0f5-b7ceac41fae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_1ED' and (text() = 'Stock Movements' or . = 'Stock Movements')]</value>
+      <webElementGuid>d09cdf51-4f39-4377-a6b7-5845fe46bb58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
