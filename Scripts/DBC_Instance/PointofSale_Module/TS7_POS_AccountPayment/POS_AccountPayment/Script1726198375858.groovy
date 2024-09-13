@@ -42,21 +42,63 @@ WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Framew
 
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Point Of Sale'))
 
+transactionNum = WebUI.getText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
+
+println(transactionNum)
+
+transactionNum = transactionNum.toInteger() + 1
+
+println(transactionNum)
+
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Actions'))
 
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_PayAccount'))
-
-transactionNum = WebUI.getText(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Payment Number_isc_QH'))
-
-println(transactionNum)
 
 WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX'), 
     'Joe Chila (3379)')
 
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_JOE CHILA (3379)'))
 
+WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Payment Number_isc_QH'))
+
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'))
 
-WebUI.sendKeys(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment_1'), 
+WebUI.sendKeys(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'), 
     '5')
 
+WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Tendering'))
+
+WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_5 Cash'))
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(0)
+
+Cell cell = row.getCell(1)
+
+row = sheet.createRow(1)
+
+cell = row.createCell(0)
+
+cell.setCellValue('TransactionNumber')
+
+cell = row.createCell(1)
+
+cell.setCellValue(transaction_Number)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
