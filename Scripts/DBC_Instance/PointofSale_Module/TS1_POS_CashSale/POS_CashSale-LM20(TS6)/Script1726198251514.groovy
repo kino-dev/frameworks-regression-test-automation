@@ -48,8 +48,8 @@ invoiceNum = WebUI.getText(findTestObject('Object Repository/TS1_POS_CashSale_DB
 WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 
     'LM20')
 
-WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'),
-	'2')
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'), 
+    '2')
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
@@ -68,7 +68,6 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)'))
-
 
 FileInputStream sourceFile = new FileInputStream(ExcelFile)
 
