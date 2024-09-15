@@ -52,19 +52,32 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2cb13161-a7e2-4a05-a4fa-e79e60241c95</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>97dade8f-5f01-4949-8085-03b2c0fedd92</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>57414960-1d9b-4961-aaf5-aca215da2c92</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b728a65-c695-4aee-bec3-b6bfdf893559</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa7f9967-6381-475e-a722-dc100f2125a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aceaf58a-e4b4-4272-9519-d2dc17564c37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>216c6589-4db9-4228-980f-b1c5031f22b6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

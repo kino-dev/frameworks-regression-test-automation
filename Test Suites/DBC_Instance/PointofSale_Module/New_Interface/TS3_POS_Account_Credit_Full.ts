@@ -5,14 +5,14 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c31a3bf3-8d92-492f-845b-3b191d4fcf36</testSuiteGuid>
    <testCaseLink>
-      <guid>3cd99e49-43f3-4344-9ae0-94be3a0533a3</guid>
+      <guid>e5511558-bbb6-4f30-a8e1-32ebf3946d18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale-LM20(TS3)</testCaseId>
@@ -46,6 +46,37 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>b6960290-311a-4159-a7e7-6ed0fe338450</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8fad7067-c5b0-4ffb-8081-b0b33e6bc3f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f04863b-7d6a-4af6-a10b-c12e6f03cbc6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25403404-a3e3-4d48-9adb-52fb4ee8386c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e003faf-12f7-4a76-9f50-a2aac77a1c1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ea81f6d-4f17-45a4-9472-6461578acb80</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

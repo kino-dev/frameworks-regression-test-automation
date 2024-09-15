@@ -33,7 +33,9 @@ Row row = sheet.getRow(1)
 
 Cell cell = row.getCell(1)
 
-docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+
+docketNumber = cell.getStringCellValue()
 
 println(docketNumber)
 
@@ -111,34 +113,34 @@ WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Pag
 
 WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Refund'))
 
-FileInputStream sourceFile = new FileInputStream(ExcelFile)
+FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
 
-XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
 
-XSSFSheet sheet = workbook.getSheet('Sheet1')
+XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
 
 // cell B1
-Row row = sheet.getRow(0)
+Row updateRow = updateSheet.getRow(0)
 
-Cell cell = row.getCell(1)
+Cell updateCell = updateRow.getCell(1)
 
-row = sheet.createRow(2)
+updateRow = updateSheet.createRow(2)
 
-cell = row.createCell(0)
+updateCell = updateRow.createCell(0)
 
-cell.setCellValue('TransactionNumber')
+updateCell.setCellValue('TransactionNumber')
 
-cell = row.createCell(1)
+updateCell = updateRow.createCell(1)
 
-cell.setCellValue(transaction_Number)
+updateCell.setCellValue(transaction_Number)
 
 FileOutputStream fos = new FileOutputStream(ExcelFile)
 
-workbook.write(fos)
+updateWorkbook.write(fos)
 
 fos.close()
 
-sourceFile.close()
+updatesourceFile.close()
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 

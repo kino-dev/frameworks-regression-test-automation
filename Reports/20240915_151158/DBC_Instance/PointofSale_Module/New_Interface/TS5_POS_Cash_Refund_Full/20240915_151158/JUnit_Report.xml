@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS5_POS_Cash_Refund_Full" time="97.725" tests="4" failures="0" errors="2">
+   <testsuite name="TS5_POS_Cash_Refund_Full" tests="4" failures="0" errors="2" time="97.725" skipped="0" timestamp="15-09-2024T15:12:11" hostname="User - ROG" id="Test Suites/DBC_Instance/PointofSale_Module/New_Interface/TS5_POS_Cash_Refund_Full">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240915_151158\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240915_151158"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240915_151158\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240915_151158\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240915_151158\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240915_151158\\1726377168123.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240915_151158\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240915_151158\\1726377176700.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.1"/>
+         <property name="sessionId" value="95d6e56e1d90c1c2a2839da27158049e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5)" time="50.152" classname="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5)" status="PASSED">
+         <system-out><![CDATA[15-09-2024T15:12:11 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5): Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5)
+
+15-09-2024T15:12:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T15:12:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T15:12:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T15:12:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T15:12:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2024T15:12:17 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2024T15:12:17 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+15-09-2024T15:12:24 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+15-09-2024T15:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+15-09-2024T15:12:27 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+15-09-2024T15:12:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+15-09-2024T15:12:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+15-09-2024T15:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+15-09-2024T15:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+15-09-2024T15:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+15-09-2024T15:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+15-09-2024T15:12:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+15-09-2024T15:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+15-09-2024T15:12:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+15-09-2024T15:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+15-09-2024T15:12:36 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217600'
+
+15-09-2024T15:12:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217600'
+
+15-09-2024T15:12:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "LM20"): Text 'LM20' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+15-09-2024T15:12:43 - [MESSAGE][PASSED] - Text 'LM20' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+15-09-2024T15:12:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered"), "2"): Text '2' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'
+
+15-09-2024T15:12:44 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'
+
+15-09-2024T15:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+15-09-2024T15:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+15-09-2024T15:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+15-09-2024T15:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+15-09-2024T15:12:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2024T15:12:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2024T15:12:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+15-09-2024T15:12:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+15-09-2024T15:12:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240915_151158\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240915_151158\\1726377168123.png]]
+
+15-09-2024T15:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+15-09-2024T15:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+15-09-2024T15:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash' is clicked on
+
+15-09-2024T15:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash' is clicked on
+
+15-09-2024T15:12:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2024T15:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2024T15:12:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+15-09-2024T15:12:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+15-09-2024T15:12:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240915_151158\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240915_151158\\1726377176700.png]]
+
+15-09-2024T15:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+15-09-2024T15:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+15-09-2024T15:12:58 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+15-09-2024T15:12:58 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+15-09-2024T15:12:59 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+15-09-2024T15:13:00 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+15-09-2024T15:13:00 - [TEST_STEP][PASSED] - fos.close(): null
+
+15-09-2024T15:13:00 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+15-09-2024T15:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+15-09-2024T15:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+15-09-2024T15:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+15-09-2024T15:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full" time="45.499" classname="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full" status="PASSED">
+         <system-out><![CDATA[15-09-2024T15:13:01 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - docketNumber = cell.getStringCellValue(): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - println(docketNumber): null
+
+15-09-2024T15:13:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T15:13:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-09-2024T15:13:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T15:13:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T15:13:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T15:13:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2024T15:13:04 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2024T15:13:04 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+15-09-2024T15:13:08 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+15-09-2024T15:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+15-09-2024T15:13:12 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+15-09-2024T15:13:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+15-09-2024T15:13:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+15-09-2024T15:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+15-09-2024T15:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+15-09-2024T15:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/burger_Menu")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/burger_Menu' is clicked on
+
+15-09-2024T15:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/burger_Menu' is clicked on
+
+15-09-2024T15:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+15-09-2024T15:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+15-09-2024T15:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+15-09-2024T15:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+15-09-2024T15:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New' is clicked on
+
+15-09-2024T15:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New' is clicked on
+
+15-09-2024T15:13:24 - [TEST_STEP][PASSED] - transaction_Number = getText(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number")): Text of object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number' is: '20217602'
+
+15-09-2024T15:13:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number' is: '20217602'
+
+15-09-2024T15:13:26 - [TEST_STEP][PASSED] - println(transaction_Number): null
+
+15-09-2024T15:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Select a Value")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Select a Value' is clicked on
+
+15-09-2024T15:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Select a Value' is clicked on
+
+15-09-2024T15:13:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Stock Return")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Stock Return' is clicked on
+
+15-09-2024T15:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Stock Return' is clicked on
+
+15-09-2024T15:13:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Reason")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Reason' is clicked on
+
+15-09-2024T15:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Reason' is clicked on
+
+15-09-2024T15:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_C - Not ReqdOver Order")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_C - Not ReqdOver Order' is clicked on
+
+15-09-2024T15:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_C - Not ReqdOver Order' is clicked on
+
+15-09-2024T15:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), STOP_ON_FAILURE): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+15-09-2024T15:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+15-09-2024T15:13:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), docketNumber): Keys '20217600' sent to object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+15-09-2024T15:13:31 - [MESSAGE][PASSED] - Keys '20217600' sent to object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+15-09-2024T15:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_BranchDropdown")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_BranchDropdown' is clicked on
+
+15-09-2024T15:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_BranchDropdown' is clicked on
+
+15-09-2024T15:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228' is clicked on
+
+15-09-2024T15:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228' is clicked on
+
+15-09-2024T15:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+15-09-2024T15:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+15-09-2024T15:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Refund All")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Refund All' is clicked on
+
+15-09-2024T15:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Refund All' is clicked on
+
+15-09-2024T15:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+15-09-2024T15:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+15-09-2024T15:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+15-09-2024T15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+15-09-2024T15:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact' is clicked on
+
+15-09-2024T15:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact' is clicked on
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updatesourceFile = new java.io.FileInputStream(ExcelFile): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateWorkbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(updatesourceFile): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateSheet = updateWorkbook.getSheet("Sheet1"): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateRow = updateSheet.getRow(0): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateCell = updateRow.getCell(1): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateRow = updateSheet.createRow(2): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateCell = updateRow.createCell(0): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateCell.setCellValue("TransactionNumber"): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateCell = updateRow.createCell(1): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateCell.setCellValue(transaction_Number): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updateWorkbook.write(fos): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - fos.close(): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - updatesourceFile.close(): null
+
+15-09-2024T15:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+15-09-2024T15:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+15-09-2024T15:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+15-09-2024T15:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund" time="0.078" classname="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund" status="ERROR">
+         <error type="ERROR" message="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.&#xa;Reason:&#xa;java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)&#xa;	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-09-2024T15:13:48 - [TEST_CASE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - row = sheet.getRow(2): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+15-09-2024T15:13:48 - [TEST_STEP][ERROR] - transactionNumber = String.valueOf(cell.getNumericCellValue()): Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-09-2024T15:13:48 - [MESSAGE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-09-2024T15:13:48 - [TEST_CASE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock" time="0.057" classname="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock" status="ERROR">
+         <error type="ERROR" message="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock FAILED.&#xa;Reason:&#xa;java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)&#xa;	at POS_CashRefund_Full_ValidateStock.run(POS_CashRefund_Full_ValidateStock:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-09-2024T15:13:48 - [TEST_CASE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateStock.run(POS_CashRefund_Full_ValidateStock:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - row = sheet.getRow(2): null
+
+15-09-2024T15:13:48 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+15-09-2024T15:13:48 - [TEST_STEP][ERROR] - transactionNumber = String.valueOf(cell.getNumericCellValue()): Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateStock.run(POS_CashRefund_Full_ValidateStock:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-09-2024T15:13:48 - [MESSAGE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateStock.run(POS_CashRefund_Full_ValidateStock:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-09-2024T15:13:48 - [TEST_CASE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateStock.run(POS_CashRefund_Full_ValidateStock:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2024T15:12:11 - [TEST_SUITE][ERROR] - TS5_POS_Cash_Refund_Full: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[15-09-2024T15:12:11 - [TEST_SUITE][ERROR] - TS5_POS_Cash_Refund_Full: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_CashRefund_Full_ValidateRefund.run(POS_CashRefund_Full_ValidateRefund:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726377118725.run(TempTestSuite1726377118725.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

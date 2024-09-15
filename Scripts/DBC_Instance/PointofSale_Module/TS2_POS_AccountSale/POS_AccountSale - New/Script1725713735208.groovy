@@ -100,20 +100,34 @@ WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interf
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
 
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard'))
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
 
-WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-    '3379')
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
 
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Find'))
+XSSFSheet sheet = workbook.getSheet('Sheet1')
 
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+// cell B1
+Row row = sheet.getRow(0)
 
-WebUI.delay(5)
+Cell cell = row.getCell(1)
 
-WebUI.takeFullPageScreenshot()
+row = sheet.createRow(1)
 
-WebUI.verifyTextPresent(invoiceNum, false)
+cell = row.createCell(0)
+
+cell.setCellValue('Invoice Number')
+
+cell = row.createCell(1)
+
+cell.setCellValue(invoiceNum)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 

@@ -33,7 +33,9 @@ Row row = sheet.getRow(2)
 
 Cell cell = row.getCell(1)
 
-transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+//transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+
+transactionNumber = cell.getStringCellValue()
 
 println(transactionNumber)
 

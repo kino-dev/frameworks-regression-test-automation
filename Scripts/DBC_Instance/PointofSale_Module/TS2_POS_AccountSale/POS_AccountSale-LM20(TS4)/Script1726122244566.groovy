@@ -56,7 +56,9 @@ WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Inte
     'LM20')
 
 WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'),
-	'3')
+	'2')
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add'))
 
@@ -64,28 +66,7 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)'))
-
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add'))
-
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
-
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard'))
-
-WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-    '3379')
-
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Find'))
-
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
-
-WebUI.delay(5)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.verifyTextPresent(invoiceNum, false)
-
-println(invoiceNum)
 
 FileInputStream sourceFile = new FileInputStream(ExcelFile)
 

@@ -33,9 +33,11 @@ Row row = sheet.getRow(1)
 
 Cell cell = row.getCell(1)
 
-invoiceNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
 
-println(invoiceNumber)
+docketNumber = cell.getStringCellValue()
+
+println(docketNumber)
 
 WebUI.openBrowser('')
 
@@ -89,4 +91,37 @@ WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_F
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS'))
 
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact'))
+
+FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
+
+XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
+
+// cell B1
+Row updateRow = updateSheet.getRow(0)
+
+Cell updateCell = updateRow.getCell(1)
+
+updateRow = updateSheet.createRow(2)
+
+updateCell = updateRow.createCell(0)
+
+updateCell.setCellValue('TransactionNumber')
+
+updateCell = updateRow.createCell(1)
+
+updateCell.setCellValue(transaction_Number)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+updateWorkbook.write(fos)
+
+fos.close()
+
+updatesourceFile.close()
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
 

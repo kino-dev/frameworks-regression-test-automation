@@ -48,8 +48,10 @@ invoiceNum = WebUI.getText(findTestObject('Object Repository/TS1_POS_CashSale_DB
 WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 
     'LM20')
 
-WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'), 
-    '2')
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'),
+	'2')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add'))
 
@@ -66,6 +68,36 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)'))
+
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(0)
+
+Cell cell = row.getCell(1)
+
+row = sheet.createRow(1)
+
+cell = row.createCell(0)
+
+cell.setCellValue('Invoice Number')
+
+cell = row.createCell(1)
+
+cell.setCellValue(invoiceNum)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 

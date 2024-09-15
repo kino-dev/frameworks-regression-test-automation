@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_and_TS2,Chrome 128.0.0.0,Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale,,15-09-2024 13:09:06,15-09-2024 13:09:46,40.446s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New,Chrome 128.0.0.0,,,15-09-2024 13:09:06,15-09-2024 13:09:42,35.556s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,15-09-2024 13:09:07,15-09-2024 13:09:11,4.132s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,15-09-2024 13:09:11,15-09-2024 13:09:11,0.180s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 128.0.0.0,,,15-09-2024 13:09:11,15-09-2024 13:09:25,13.844s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 128.0.0.0,,,15-09-2024 13:09:25,15-09-2024 13:09:27,2.147s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 128.0.0.0,,,15-09-2024 13:09:27,15-09-2024 13:09:28,0.609s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 128.0.0.0,,,15-09-2024 13:09:28,15-09-2024 13:09:29,0.630s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 128.0.0.0,,,15-09-2024 13:09:29,15-09-2024 13:09:42,12.864s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New,Chrome 128.0.0.0,,,15-09-2024 13:09:42,15-09-2024 13:09:46,4.521s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,15-09-2024 13:09:42,15-09-2024 13:09:43,1.188s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,15-09-2024 13:09:43,15-09-2024 13:09:43,0.110s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 128.0.0.0,,,15-09-2024 13:09:43,15-09-2024 13:09:45,1.627s,PASSED
+"setText(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 128.0.0.0,,,15-09-2024 13:09:45,15-09-2024 13:09:46,1.157s,FAILED
