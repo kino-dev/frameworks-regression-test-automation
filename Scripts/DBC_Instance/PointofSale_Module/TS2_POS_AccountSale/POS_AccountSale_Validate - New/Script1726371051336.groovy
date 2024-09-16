@@ -65,6 +65,12 @@ WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interf
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshot()
 
 WebUI.verifyTextPresent(invoiceNum, false)

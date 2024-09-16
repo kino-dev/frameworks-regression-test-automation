@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[3]/div/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td[12]/div</value>
+         <value>//div[3]/div/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td[12]/div[(text() = '0' or . = '0')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d086961d-16cf-48a8-93fa-b950f21f18ac</webElementGuid>
+      <webElementGuid>3f537008-b663-4041-8956-a93a0c50b907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>align</name>
       <type>Main</type>
       <value>left</value>
-      <webElementGuid>fa33bd90-da23-4c0c-8b49-5c1532ac4259</webElementGuid>
+      <webElementGuid>ecab6f78-38d2-45ee-8e8b-233c18f686d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tallCellSelectedOverDark</value>
-      <webElementGuid>cf0edc94-a813-4d4e-be03-fe8dbbefb930</webElementGuid>
+      <webElementGuid>38bc66d8-37b3-49aa-8ccf-05498afa9a4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>37614e0b-377e-4d67-8891-811afce4b2bb</webElementGuid>
+      <webElementGuid>f1718811-dab2-41a3-b892-fce553ef3a20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1FItable&quot;)/tbody[1]/tr[2]/td[@class=&quot;tallCellSelectedOverDark&quot;]</value>
-      <webElementGuid>29430854-f6c0-498d-96a5-d5effefa550f</webElementGuid>
+      <webElementGuid>db3cc640-7109-420d-9704-2394ccb67270</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_1FItable']/tbody/tr[2]/td[12]</value>
-      <webElementGuid>03ec85f4-b42d-405a-8144-0f73165fb10e</webElementGuid>
+      <webElementGuid>eb35ec48-4886-40ae-a943-0c576caced60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EA'])[2]/following::td[2]</value>
-      <webElementGuid>92e5963f-acfc-47b6-a80e-34c2c0958a99</webElementGuid>
+      <webElementGuid>85b13aed-1918-4132-ace1-efaa44f54cb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hydrated Lime 20kg'])[1]/following::td[9]</value>
-      <webElementGuid>d51f5d74-e188-49c9-a4c6-09bee950b1c7</webElementGuid>
+      <webElementGuid>6905db0b-e8df-4c58-bb8e-8d2ff02dba5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Line'])[1]/preceding::td[9]</value>
-      <webElementGuid>68454d6e-055a-40a1-9f57-a3165d2192a9</webElementGuid>
+      <webElementGuid>cd4d54df-2c2c-43da-97b7-0e00e354aa73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code'])[1]/preceding::td[10]</value>
-      <webElementGuid>0fbdb6ed-d4ab-4725-bc52-a9000291b65d</webElementGuid>
+      <webElementGuid>f38c82f6-1a80-4117-97d7-9e84f0d4d8f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr[2]/td[12]</value>
-      <webElementGuid>03d4ac43-1b67-434f-9737-a7404a7fa81c</webElementGuid>
+      <webElementGuid>2ddd065d-f90d-49a1-8e3d-c95e0e72167b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '0' or . = '0')]</value>
-      <webElementGuid>bb8e32f5-c410-4aae-8bbf-ec71470c4f15</webElementGuid>
+      <webElementGuid>4f92898f-fd8e-48fb-a9ef-36c9083308c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

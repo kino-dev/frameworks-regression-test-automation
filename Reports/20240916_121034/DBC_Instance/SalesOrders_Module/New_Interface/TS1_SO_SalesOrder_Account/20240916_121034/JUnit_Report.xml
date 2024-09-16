@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_SO_SalesOrder_Account" time="82.366" tests="2" failures="0" errors="0">
+   <testsuite name="TS1_SO_SalesOrder_Account" tests="2" failures="0" errors="0" time="82.366" skipped="0" timestamp="16-09-2024T12:10:41" hostname="User - ROG" id="Test Suites/DBC_Instance/SalesOrders_Module/New_Interface/TS1_SO_SalesOrder_Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452670734.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452674903.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452683365.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452689754.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452692681.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452700789.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452701643.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452721628.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.3"/>
+         <property name="sessionId" value="146dd963daf4fe21b782803f3150eaad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_Account_Sale - New" time="62.406" classname="Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_Account_Sale - New" status="PASSED">
+         <system-out><![CDATA[16-09-2024T12:10:41 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_Account_Sale - New: Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_Account_Sale - New
+
+16-09-2024T12:10:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T12:10:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T12:10:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T12:10:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T12:10:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T12:10:43 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T12:10:43 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T12:10:45 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T12:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T12:10:47 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T12:10:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T12:10:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T12:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T12:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T12:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+16-09-2024T12:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+16-09-2024T12:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T12:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T12:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Sales Orders")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+16-09-2024T12:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+16-09-2024T12:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_New' is clicked on
+
+16-09-2024T12:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_New' is clicked on
+
+16-09-2024T12:10:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-09-2024T12:10:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-09-2024T12:10:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer_idCustX"), "JOE CHILA (3379)"): Text 'JOE CHILA (3379)' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+16-09-2024T12:10:57 - [MESSAGE][PASSED] - Text 'JOE CHILA (3379)' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+16-09-2024T12:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+16-09-2024T12:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+16-09-2024T12:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Desp. Method_isc_IE")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Desp. Method_isc_IE' is clicked on
+
+16-09-2024T12:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Desp. Method_isc_IE' is clicked on
+
+16-09-2024T12:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Deliv - Delivery Ex Store")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Deliv - Delivery Ex Store' is clicked on
+
+16-09-2024T12:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Deliv - Delivery Ex Store' is clicked on
+
+16-09-2024T12:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Date Required_isc_IN")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Date Required_isc_IN' is clicked on
+
+16-09-2024T12:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Date Required_isc_IN' is clicked on
+
+16-09-2024T12:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_setDate")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_setDate' is clicked on
+
+16-09-2024T12:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_setDate' is clicked on
+
+16-09-2024T12:11:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Address"), "10 chila road"): Text '10 chila road' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Address'
+
+16-09-2024T12:11:03 - [MESSAGE][PASSED] - Text '10 chila road' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Address'
+
+16-09-2024T12:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_SuburbCity"), "chilaville"): Text 'chilaville' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_SuburbCity'
+
+16-09-2024T12:11:04 - [MESSAGE][PASSED] - Text 'chilaville' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_SuburbCity'
+
+16-09-2024T12:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_State")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_State' is clicked on
+
+16-09-2024T12:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_State' is clicked on
+
+16-09-2024T12:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_VIC - Victoria")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_VIC - Victoria' is clicked on
+
+16-09-2024T12:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_VIC - Victoria' is clicked on
+
+16-09-2024T12:11:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Post Code"), "3875"): Text '3875' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Post Code'
+
+16-09-2024T12:11:07 - [MESSAGE][PASSED] - Text '3875' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Post Code'
+
+16-09-2024T12:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx' is clicked on
+
+16-09-2024T12:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx' is clicked on
+
+16-09-2024T12:11:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx"), "65"): Keys '65' sent to object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx'
+
+16-09-2024T12:11:08 - [MESSAGE][PASSED] - Keys '65' sent to object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx'
+
+16-09-2024T12:11:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search"), 2): Scroll to object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search' successfully
+
+16-09-2024T12:11:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search' successfully
+
+16-09-2024T12:11:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452670734.png]]
+
+16-09-2024T12:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search' is clicked on
+
+16-09-2024T12:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search' is clicked on
+
+16-09-2024T12:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/a_DLV0")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/a_DLV0' is clicked on
+
+16-09-2024T12:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/a_DLV0' is clicked on
+
+16-09-2024T12:11:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:14 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452674903.png]]
+
+16-09-2024T12:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+16-09-2024T12:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+16-09-2024T12:11:15 - [TEST_STEP][PASSED] - salesorder_Number = getText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/span_SOnumber")): Text of object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/span_SOnumber' is: 'SO 26530580/0'
+
+16-09-2024T12:11:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/span_SOnumber' is: 'SO 26530580/0'
+
+16-09-2024T12:11:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_P_idProd"), "PH2B9035"): Text 'PH2B9035' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_P_idProd'
+
+16-09-2024T12:11:19 - [MESSAGE][PASSED] - Text 'PH2B9035' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_P_idProd'
+
+16-09-2024T12:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Quantity_qtyTran")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Quantity_qtyTran' is clicked on
+
+16-09-2024T12:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Quantity_qtyTran' is clicked on
+
+16-09-2024T12:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Tally_tallyText"), "1/3.0"): Text '1/3.0' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Tally_tallyText'
+
+16-09-2024T12:11:20 - [MESSAGE][PASSED] - Text '1/3.0' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Tally_tallyText'
+
+16-09-2024T12:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T12:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T12:11:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452683365.png]]
+
+16-09-2024T12:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T12:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T12:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick  Release")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+16-09-2024T12:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+16-09-2024T12:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Picker_isc_1HW")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Picker_isc_1HW' is clicked on
+
+16-09-2024T12:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Picker_isc_1HW' is clicked on
+
+16-09-2024T12:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_228 Celestine Z")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_228 Celestine Z' is clicked on
+
+16-09-2024T12:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_228 Celestine Z' is clicked on
+
+16-09-2024T12:11:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452689754.png]]
+
+16-09-2024T12:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick All")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick All' is clicked on
+
+16-09-2024T12:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick All' is clicked on
+
+16-09-2024T12:11:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:32 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452692681.png]]
+
+16-09-2024T12:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+16-09-2024T12:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+16-09-2024T12:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Complete Picking")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Complete Picking' is clicked on
+
+16-09-2024T12:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Complete Picking' is clicked on
+
+16-09-2024T12:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Check Picking")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Check Picking' is clicked on
+
+16-09-2024T12:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Check Picking' is clicked on
+
+16-09-2024T12:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+16-09-2024T12:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+16-09-2024T12:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Release Order")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Release Order' is clicked on
+
+16-09-2024T12:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Release Order' is clicked on
+
+16-09-2024T12:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1YT")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1YT' is clicked on
+
+16-09-2024T12:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1YT' is clicked on
+
+16-09-2024T12:11:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452700789.png]]
+
+16-09-2024T12:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Release (S)")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Release (S)' is clicked on
+
+16-09-2024T12:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Release (S)' is clicked on
+
+16-09-2024T12:11:41 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:11:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:11:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452701643.png]]
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - println(salesorder_Number): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - salesorder_Number = salesorder_Number.replace("SO ", ""): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - salesorder_Number = salesorder_Number.replace("/0", ""): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - println(salesorder_Number): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T12:11:42 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - cell.setCellValue("SalesOrderNumber"): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - cell.setCellValue(salesorder_Number): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - fos.close(): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T12:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T12:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T12:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_AS_Validate - New" time="19.81" classname="Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_AS_Validate - New" status="PASSED">
+         <system-out><![CDATA[16-09-2024T12:11:43 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_AS_Validate - New: Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_AS_Validate - New
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - salesorder_Number = cell.getStringCellValue(): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - println(salesorder_Number): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T12:11:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T12:11:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+16-09-2024T12:11:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T12:11:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T12:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T12:11:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T12:11:45 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T12:11:45 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T12:11:47 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T12:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T12:11:48 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T12:11:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T12:11:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T12:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T12:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T12:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard' is clicked on
+
+16-09-2024T12:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard' is clicked on
+
+16-09-2024T12:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId"), "3379"): Text '3379' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+16-09-2024T12:11:53 - [MESSAGE][PASSED] - Text '3379' is set on object 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+16-09-2024T12:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T12:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T12:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+16-09-2024T12:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+16-09-2024T12:11:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:11:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number' is clicked on
+
+16-09-2024T12:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number' is clicked on
+
+16-09-2024T12:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number")): Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number' is clicked on
+
+16-09-2024T12:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number' is clicked on
+
+16-09-2024T12:11:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T12:12:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T12:12:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T12:12:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T12:12:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_121034\\DBC_Instance\\SalesOrders_Module\\New_Interface\\TS1_SO_SalesOrder_Account\\20240916_121034\\1726452721628.png]]
+
+16-09-2024T12:12:02 - [TEST_STEP][PASSED] - verifyTextPresent(salesorder_Number, false): Text '26530580' is present on page 
+
+16-09-2024T12:12:02 - [MESSAGE][PASSED] - Text '26530580' is present on page 
+
+16-09-2024T12:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T12:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T12:12:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T12:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-09-2024T12:10:41 - [TEST_SUITE][PASSED] - TS1_SO_SalesOrder_Account: Test Cases/DBC_Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account/SO_AS_Validate - New]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

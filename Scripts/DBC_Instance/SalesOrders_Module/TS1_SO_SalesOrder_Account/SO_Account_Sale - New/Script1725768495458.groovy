@@ -45,6 +45,8 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_New'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer_idCustX'), 
     'JOE CHILA (3379)')
 
@@ -68,13 +70,30 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Post Code'), '3875')
 
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Agreed Price_agreedValueEx'), 
+    '65')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search'), 
+    2)
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_Delivery Area_search'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/a_DLV0'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)'))
 
-salesorder_Number = WebUI.getText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/span_SO 265305590'))
+//WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Yes - Perform Save'))
+salesorder_Number = WebUI.getText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/span_SOnumber'))
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_P_idProd'), 'PH2B9035')
 
@@ -85,6 +104,10 @@ WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/img_add'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Actions'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick  Release'))
@@ -93,7 +116,15 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_228 Celestine Z'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Pick All'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Save (S)'))
 
@@ -106,6 +137,10 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Release Order'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1YT'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Release (S)'))
 

@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 //additional imports
 import org.apache.poi.ss.usermodel.Cell as Cell
 import org.apache.poi.ss.usermodel.Row as Row
@@ -63,6 +62,12 @@ WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Find'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
 
 WebUI.delay(2)
 

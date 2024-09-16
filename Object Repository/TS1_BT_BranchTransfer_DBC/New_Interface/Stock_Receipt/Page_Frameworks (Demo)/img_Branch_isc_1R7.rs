@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[contains(@src,'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png')])[5]</value>
+         <value>//div[2]/div/div/div/div/div/div/form/table/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/span/img</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>80ea1c52-f0ce-4858-b8b2-9cc26a149caa</webElementGuid>
+      <webElementGuid>550ca05c-32ad-4227-8fbe-47effb553190</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png</value>
-      <webElementGuid>2bf5dbed-bb27-4d45-9f41-5dfec60a2285</webElementGuid>
+      <webElementGuid>b83ae8a2-dcd5-4e26-91ec-69e71a10408e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>bb687110-43ea-4a02-8914-c999b254fcaa</webElementGuid>
+      <webElementGuid>a21df194-2907-4152-b3c4-2917c79bcccc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>7493e1be-4490-41c1-b10d-0734f21ee89a</webElementGuid>
+      <webElementGuid>0979044d-3fce-43fd-bc53-3db77ce22367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>align</name>
       <type>Main</type>
       <value>absmiddle</value>
-      <webElementGuid>f9e86adc-79f3-4740-b0c7-ebe7a8315f23</webElementGuid>
+      <webElementGuid>f21fcc2a-422a-41d7-90fe-dd57b2b9769b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_1R7</value>
-      <webElementGuid>2f952c19-4af4-4d42-87de-c0d7df2d1b58</webElementGuid>
+      <webElementGuid>4041be7a-52a0-4b5d-b991-fa92afb22d21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>307cb781-4fcd-4774-a0dd-b24a9b684b03</webElementGuid>
+      <webElementGuid>1714ccca-183d-462e-adfd-8b822dc38c3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>suppress</name>
       <type>Main</type>
       <value>TRUE</value>
-      <webElementGuid>e0e5160f-a2e8-4e0d-9436-6c9c0549adc8</webElementGuid>
+      <webElementGuid>c57ac164-de28-47cd-b8ed-45185fe93b29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>draggable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ff361724-6501-4939-9b9e-7c27feef96ce</webElementGuid>
+      <webElementGuid>0ab1c128-e6ed-4f8c-b4e1-bf127d8918fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1R7&quot;)</value>
-      <webElementGuid>e39d776c-df9e-4777-9efe-4274f73a6a75</webElementGuid>
+      <webElementGuid>ac3ea044-7fee-454b-b85d-023ef7ac44cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='isc_1R7']</value>
-      <webElementGuid>6b90476c-3fce-4969-a9a4-33f11eb9a358</webElementGuid>
+      <webElementGuid>1b918185-9658-4d12-8f94-1f2d8519695f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='isc_1R6']/img</value>
-      <webElementGuid>6c0c3d6a-2148-43cd-a5dc-f1c0a84db461</webElementGuid>
+      <webElementGuid>a903ec1a-9826-4e8f-9008-1dcd1f6ea451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[contains(@src,'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png')])[5]</value>
-      <webElementGuid>b4c2b4b5-0a90-440c-be12-dd4ac8fa3f0c</webElementGuid>
+      <webElementGuid>5f7a269f-52e9-432a-b5bf-f6d225f2d442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/form/table/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/span/img</value>
-      <webElementGuid>db39e2bd-bef5-48aa-8771-7c4cfd12d017</webElementGuid>
+      <webElementGuid>bbf80e36-f9d5-4006-b3be-d4945b1b99bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png' and @id = 'isc_1R7']</value>
-      <webElementGuid>082ed9a6-1610-4d42-a62e-399e570d0058</webElementGuid>
+      <webElementGuid>5ebe19b3-065b-460d-a32d-cab462e6eb9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

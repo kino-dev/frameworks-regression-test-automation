@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Yes - Perform Save</name>
+   <tag></tag>
+   <elementGuidId>180c6328-3591-494f-bf99-14cfc28529b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='es - Perform Save']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Yes - Perform Save&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>917c9914-dd75-4c95-8ab5-2aa67e9c14f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonPositiveActionFocusedOver</value>
+      <webElementGuid>dadd989b-245b-4299-8887-ba22c6d82f2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>a9aa4e37-f54c-4ae5-ab37-d513cf6756e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nowrap</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6d23a654-6cfe-45ba-92cb-1864b8977306</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes - Perform Save</value>
+      <webElementGuid>6d31fe33-aaf8-49da-9fda-3aee7173a2b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_WD&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]</value>
+      <webElementGuid>634b69a2-cd50-436b-a51a-b735237621d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_WD']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>0aab52c6-2c42-49cc-b89b-95384c5b6c2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you want to save this data?'])[1]/following::td[4]</value>
+      <webElementGuid>5bc339ac-c497-4929-a92f-50be98e2d16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WA - Western Australia'])[1]/following::td[6]</value>
+      <webElementGuid>61d462fe-8387-466c-814b-4a99cc260051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='es - Perform Save']/parent::*</value>
+      <webElementGuid>cf40a43e-80bf-4ff9-82df-4c2eb8b47dbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[19]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>4a289d93-391e-4ab2-af0f-37a08b8bc8a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Yes - Perform Save' or . = 'Yes - Perform Save')]</value>
+      <webElementGuid>ea15bbbb-fbfc-4495-87d3-9aaf25a6dc17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

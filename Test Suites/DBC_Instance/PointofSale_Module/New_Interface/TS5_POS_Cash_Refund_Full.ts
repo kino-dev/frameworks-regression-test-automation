@@ -74,37 +74,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1fe596eb-ad99-4338-9d40-3c72613b0b8f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateRefund</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>295f4dca-b048-45e5-bbcc-4ffe2d8d301a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bc79e20e-e370-4ae3-ac88-b79af83ba9c4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f043e448-2c2b-4c53-8184-894962874aed</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e7c92b95-9ade-4c8b-acdb-c630a9cbf16b</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>74392a11-16d2-4cac-91c6-9f9097e49871</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

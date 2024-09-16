@@ -6,15 +6,15 @@
    <elementGuidId>48dd4dff-153f-4468-872c-dc3e77450b46</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//img</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>img[name=&quot;isc_Amain&quot;]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//img[@name='isc_Amain']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>

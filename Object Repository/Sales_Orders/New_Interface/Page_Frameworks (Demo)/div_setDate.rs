@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr/td[6]/div[(text() = '13' or . = '13')]</value>
+         <value>//tr/td[6]/div[(text() = '20' or . = '20')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6bc34d5c-3655-4646-a823-7d0b295fa055</webElementGuid>
+      <webElementGuid>cea94308-99dc-4174-a17f-6d5a49ecf74a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>76e3b7f4-7a0c-4826-af81-ab736b34a75b</webElementGuid>
+      <webElementGuid>58f35032-2549-4fb1-90e0-4b8eb5074f28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>97f78399-0664-4e71-9728-e7bb6d3db8ab</webElementGuid>
+      <webElementGuid>b5ac686f-1cb5-48bb-b5f2-c78d3c726d83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>2efb6d7f-baca-4bf4-aa80-cc29afc6f45d</webElementGuid>
+      <webElementGuid>a0897fa1-9ada-4e3c-abb0-1be7e782d5e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_SDtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;dateChooserWeekdaySelected&quot;]/div[1]</value>
-      <webElementGuid>9023d317-da23-4286-9aa8-dd42ab97b1c9</webElementGuid>
+      <webElementGuid>111be8c2-acfc-4d7c-b34a-3f3a89a0f0b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_SDtable']/tbody/tr[2]/td[6]/div</value>
-      <webElementGuid>4bc72830-f9c5-4399-b964-83a5dfb4b136</webElementGuid>
+      <webElementGuid>e33c249d-8d87-4fbe-9e14-f259264c7102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[17]</value>
-      <webElementGuid>7fe57d8f-5918-4e8d-898d-78d76d6f56e2</webElementGuid>
+      <webElementGuid>5b371bfc-b354-497b-9fa0-062e5972badf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[19]</value>
-      <webElementGuid>9718785b-2d28-4b53-9fbb-c5ee2975fb4a</webElementGuid>
+      <webElementGuid>408a528f-54ca-482c-ab65-312464662e64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[33]</value>
-      <webElementGuid>91e2d03c-c629-484e-b20a-52f7d212d5ec</webElementGuid>
+      <webElementGuid>0ff11ae6-fca7-4a32-bee9-1be6d0db5082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[37]</value>
-      <webElementGuid>6ce54384-92ad-4b6f-8a4a-2fdab4b5de42</webElementGuid>
+      <webElementGuid>11081c13-6cb9-45da-a071-5b6d7bb5452c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='13']/parent::*</value>
-      <webElementGuid>e5b59068-cc68-4f0e-bdeb-89900b0ab99b</webElementGuid>
+      <webElementGuid>d7c337bb-e330-4f5f-ace1-9f02b039f97a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr[2]/td[6]/div</value>
-      <webElementGuid>6563bdc0-ea45-4832-bde0-6d14719bac18</webElementGuid>
+      <webElementGuid>8904310c-57ff-49af-bd5c-9b691c8584bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '13' or . = '13')]</value>
-      <webElementGuid>adfd1dbf-251d-4163-b72a-b865212874fa</webElementGuid>
+      <webElementGuid>afc6b6df-d198-4968-8d7d-d4f4859cee89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

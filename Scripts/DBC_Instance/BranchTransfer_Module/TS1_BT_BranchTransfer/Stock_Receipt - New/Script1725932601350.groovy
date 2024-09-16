@@ -74,18 +74,28 @@ WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Inte
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Stock Receipting'))
 
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Order_orderNo'), 
-    '53444713')
+    PurchaseOrder)
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Find'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/a_PurchaseOrder_link'))
 
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Docket Number_refSuppDocket'), 
-    '26530562')
+    SalesOrder)
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Receipt Goods'))
 
-WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img'))
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard'))
 
@@ -96,25 +106,45 @@ WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Inte
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements'))
 
-WebUI.verifyTextPresent('53444713', false)
+WebUI.delay(2)
 
-WebUI.acceptAlert()
+WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(PurchaseOrder, false)
 
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1'), 
     'LM20')
 
 WebUI.click(findTestObject('TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements'))
 
-WebUI.verifyTextPresent('53444713', false)
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(PurchaseOrder, false)
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_Branch_isc_1R7'))
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_202 - DEMONSTRATION BRANCH 202'))
 
+WebUI.click(findTestObject('TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(SalesOrder, false)
+
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1'),
 	'CM20')
 
 WebUI.click(findTestObject('TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(SalesOrder, false)
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 

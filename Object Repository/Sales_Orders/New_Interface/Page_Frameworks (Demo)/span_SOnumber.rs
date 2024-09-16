@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_SO 265305590</name>
+   <name>span_SOnumber</name>
    <tag></tag>
    <elementGuidId>dcf3939d-8474-4fe3-9bfa-32b0e8b4fb0b</elementGuidId>
    <selectorCollection>

@@ -74,37 +74,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e17652f-b446-47fc-9fbe-c33cbead168e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS6_POS_CashRefund_Partial_StockReturn/POS_CashRefund_Partial_ValidateRefund</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>15b468a9-81b0-488d-9f3e-24e158857b37</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>faa53f92-e8ac-4eae-bdbe-9eebfdcb8cb1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3252c7ca-f086-49c5-9c99-baf01addabf1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>acd71970-cac9-427c-8694-130e2d2d2eb2</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>47c13778-40d1-46cf-ae9e-b1369afeabdc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
