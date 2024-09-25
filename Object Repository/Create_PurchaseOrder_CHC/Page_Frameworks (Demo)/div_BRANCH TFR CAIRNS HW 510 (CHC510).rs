@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_BRANCH TFR CAIRNS HW 510 (CHC510)</name>
+   <tag></tag>
+   <elementGuidId>4ca299c3-8ddf-4691-a962-c38a11461778</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='isc_11Ptable']/tbody/tr/td/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'BRANCH TFR CAIRNS HW 510 (CHC510)' or . = 'BRANCH TFR CAIRNS HW 510 (CHC510)')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;BRANCH TFR CNS PAINT 511 (CHC511)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8222ae18-48b2-4a2c-91ef-9899c0fc8471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>4152b7ba-62c9-4370-bcbb-75bd687d6b80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>800f0293-070c-4f4f-a554-b00a81cef52a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BRANCH TFR CAIRNS HW 510 (CHC510)</value>
+      <webElementGuid>6d56ad98-e2e9-44db-b310-3b9de448ae93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_11Ptable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>c9126f01-6fa1-446d-af8e-5f70c04b08b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_11Ptable']/tbody/tr/td/div</value>
+      <webElementGuid>2940c341-ef70-4035-bc72-5293617ec44b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select suppliers with a word in the name beginning ...'])[1]/following::div[6]</value>
+      <webElementGuid>4fed0476-18b7-446a-b17a-8c9fabe993cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Purchase Order'])[2]/following::div[11]</value>
+      <webElementGuid>e64ba2c8-095b-49a6-b07a-4f67d71c8854</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BRANCH TFR CNS PAINT 511 (CHC511)']/parent::*</value>
+      <webElementGuid>becff8fa-2590-4410-aa7b-f8087319b2ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>86875f16-a785-4282-bafc-cb0856596a36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BRANCH TFR CNS PAINT 511 (CHC511)' or . = 'BRANCH TFR CNS PAINT 511 (CHC511)')]</value>
+      <webElementGuid>c7605d1d-bd78-48bd-bfde-3920e00d8d75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

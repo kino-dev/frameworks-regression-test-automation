@@ -59,7 +59,15 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'), 
     '3379')
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Find'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 

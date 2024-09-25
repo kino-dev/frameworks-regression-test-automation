@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_BT_BranchTransfer_DBC" time="187.189" tests="3" failures="0" errors="0">
+   <testsuite name="TS1_BT_BranchTransfer_DBC" tests="3" failures="0" errors="0" time="187.189" skipped="0" timestamp="16-09-2024T23:35:35" hostname="User - ROG" id="Test Suites/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer_DBC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493748749.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493752079.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493755238.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493763591.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493766625.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493773939.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493779540.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493813604.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493830038.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493832949.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493836835.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493841153.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493845907.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493852373.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493857258.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493861296.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493864199.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493867083.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493870897.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493873718.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493889471.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493892279.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493895109.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493898243.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493901070.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493907298.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493911642.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493916553.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493920865.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.1"/>
+         <property name="sessionId" value="045a3b66a9fdaff59b360cccbfb638d3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order - New" time="80.463" classname="Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order - New" status="PASSED">
+         <system-out><![CDATA[16-09-2024T23:35:35 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order - New: Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order - New
+
+16-09-2024T23:35:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T23:35:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T23:35:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T23:35:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T23:35:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T23:35:37 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T23:35:37 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T23:35:40 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T23:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T23:35:42 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T23:35:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T23:35:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T23:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T23:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T23:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+16-09-2024T23:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+16-09-2024T23:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Purchasing  Receipting")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Purchasing  Receipting' is clicked on
+
+16-09-2024T23:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Purchasing  Receipting' is clicked on
+
+16-09-2024T23:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Transaction Processing")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Transaction Processing' is clicked on
+
+16-09-2024T23:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/Transaction Processing' is clicked on
+
+16-09-2024T23:35:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:35:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:35:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:35:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:35:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493748749.png]]
+
+16-09-2024T23:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Purchase_Orders_level3")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Purchase_Orders_level3' is clicked on
+
+16-09-2024T23:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Purchase_Orders_level3' is clicked on
+
+16-09-2024T23:35:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:35:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:35:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:35:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:35:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493752079.png]]
+
+16-09-2024T23:35:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_New' is clicked on
+
+16-09-2024T23:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_New' is clicked on
+
+16-09-2024T23:35:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:35:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:35:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:35:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:35:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493755238.png]]
+
+16-09-2024T23:35:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Supplier No_idSupp"), "dbc202"): Text 'dbc202' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Supplier No_idSupp'
+
+16-09-2024T23:35:56 - [MESSAGE][PASSED] - Text 'dbc202' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Supplier No_idSupp'
+
+16-09-2024T23:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)' is clicked on
+
+16-09-2024T23:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)' is clicked on
+
+16-09-2024T23:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon' is clicked on
+
+16-09-2024T23:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon' is clicked on
+
+16-09-2024T23:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_date")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_date' is clicked on
+
+16-09-2024T23:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_date' is clicked on
+
+16-09-2024T23:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Shipping Basis_isc_GH")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Shipping Basis_isc_GH' is clicked on
+
+16-09-2024T23:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Shipping Basis_isc_GH' is clicked on
+
+16-09-2024T23:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DLV - Supplier Delivery")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DLV - Supplier Delivery' is clicked on
+
+16-09-2024T23:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DLV - Supplier Delivery' is clicked on
+
+16-09-2024T23:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Order From_isc_LB")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Order From_isc_LB' is clicked on
+
+16-09-2024T23:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Order From_isc_LB' is clicked on
+
+16-09-2024T23:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_1")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_1' is clicked on
+
+16-09-2024T23:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_1' is clicked on
+
+16-09-2024T23:36:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:36:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:36:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:36:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:36:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493763591.png]]
+
+16-09-2024T23:36:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+16-09-2024T23:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+16-09-2024T23:36:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:36:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:36:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:36:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:36:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493766625.png]]
+
+16-09-2024T23:36:07 - [TEST_STEP][PASSED] - PurchaseOrder = getText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/purchaseOrderNo")): Text of object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/purchaseOrderNo' is: 'PO 53444722'
+
+16-09-2024T23:36:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/purchaseOrderNo' is: 'PO 53444722'
+
+16-09-2024T23:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd"), "cm20"): Text 'cm20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'
+
+16-09-2024T23:36:07 - [MESSAGE][PASSED] - Text 'cm20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'
+
+16-09-2024T23:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran"), "1"): Text '1' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran'
+
+16-09-2024T23:36:08 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran'
+
+16-09-2024T23:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T23:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T23:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd"), "lm20"): Text 'lm20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'
+
+16-09-2024T23:36:10 - [MESSAGE][PASSED] - Text 'lm20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_P_idProd'
+
+16-09-2024T23:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran"), "2"): Text '2' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran'
+
+16-09-2024T23:36:11 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Quantity_qtyTran'
+
+16-09-2024T23:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T23:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T23:36:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:36:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:36:13 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:36:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:36:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493773939.png]]
+
+16-09-2024T23:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T23:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T23:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Finalise Transfer")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Finalise Transfer' is clicked on
+
+16-09-2024T23:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Finalise Transfer' is clicked on
+
+16-09-2024T23:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Print Picking Slip")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Print Picking Slip' is clicked on
+
+16-09-2024T23:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_Print Picking Slip' is clicked on
+
+16-09-2024T23:36:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:36:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:36:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:36:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:36:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493779540.png]]
+
+16-09-2024T23:36:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)_BT_SO_Details")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)_BT_SO_Details' is clicked on
+
+16-09-2024T23:36:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Y'])[3]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-09-2024T23:36:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)_BT_SO_Details'. Try using Self-healing.
+
+16-09-2024T23:36:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)_BT_SO_Details' was broken. Propose an alternative one: '//div[@id='isc_18E']/table/tbody/tr/td'.
+
+16-09-2024T23:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/td_Save (S)_BT_SO_Details' is clicked on
+
+16-09-2024T23:36:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:36:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:36:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:36:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:36:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493813604.png]]
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - SalesOrder = getText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO")): Text of object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO' is: 'Tfer SO: 26530588'
+
+16-09-2024T23:36:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO' is: 'Tfer SO: 26530588'
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - println(SalesOrder): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - println(PurchaseOrder): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+16-09-2024T23:36:54 - [TEST_STEP][PASSED] - cell.setCellValue("Purchase Order"): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - cell.setCellValue(PurchaseOrder): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - row = sheet.createRow(2): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - cell.setCellValue("Sales Order"): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - cell.setCellValue(SalesOrder): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - fos.close(): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T23:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T23:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T23:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO - New" time="59.298" classname="Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO - New" status="PASSED">
+         <system-out><![CDATA[16-09-2024T23:36:56 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO - New: Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO - New
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - row = sheet.getRow(2): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - SalesOrder = cell.getStringCellValue(): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - SalesOrder = SalesOrder.replace("Tfer SO: ", ""): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - println(SalesOrder): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T23:36:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T23:36:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+16-09-2024T23:36:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T23:36:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T23:36:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T23:36:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T23:36:57 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T23:36:57 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T23:36:59 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T23:36:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T23:37:00 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T23:37:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T23:37:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T23:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T23:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T23:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+16-09-2024T23:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+16-09-2024T23:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T23:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T23:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Sales Orders")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+16-09-2024T23:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+16-09-2024T23:37:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo"), SalesOrder): Text '26530588' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo'
+
+16-09-2024T23:37:08 - [MESSAGE][PASSED] - Text '26530588' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo'
+
+16-09-2024T23:37:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493830038.png]]
+
+16-09-2024T23:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Find")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Find' is clicked on
+
+16-09-2024T23:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Find' is clicked on
+
+16-09-2024T23:37:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493832949.png]]
+
+16-09-2024T23:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SalesOrderLink")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SalesOrderLink' is clicked on
+
+16-09-2024T23:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SalesOrderLink' is clicked on
+
+16-09-2024T23:37:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-09-2024T23:37:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-09-2024T23:37:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493836835.png]]
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - SalesOrderValidate = getText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SO_Value_Tab")): Text of object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SO_Value_Tab' is: 'SO 26530588/0'
+
+16-09-2024T23:37:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SO_Value_Tab' is: 'SO 26530588/0'
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - SalesOrderValidate = SalesOrderValidate.replace("SO ", ""): null
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - SalesOrderValidate = SalesOrderValidate.replace("/0", ""): null
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - if (SalesOrder == SalesOrderValidate): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - println("yes it is same" + SalesOrder): null
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T23:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T23:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+16-09-2024T23:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+16-09-2024T23:37:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493841153.png]]
+
+16-09-2024T23:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_OK")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_OK' is clicked on
+
+16-09-2024T23:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_OK' is clicked on
+
+16-09-2024T23:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Delivery Area_isc_XX")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Delivery Area_isc_XX' is clicked on
+
+16-09-2024T23:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Delivery Area_isc_XX' is clicked on
+
+16-09-2024T23:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/a_DLV0")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/a_DLV0' is clicked on
+
+16-09-2024T23:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/a_DLV0' is clicked on
+
+16-09-2024T23:37:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:25 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493845907.png]]
+
+16-09-2024T23:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T23:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T23:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+16-09-2024T23:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+16-09-2024T23:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Picker_dropdown")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Picker_dropdown' is clicked on
+
+16-09-2024T23:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/img_Picker_dropdown' is clicked on
+
+16-09-2024T23:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_202 Bairnsdale Trade")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_202 Bairnsdale Trade' is clicked on
+
+16-09-2024T23:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_202 Bairnsdale Trade' is clicked on
+
+16-09-2024T23:37:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:32 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493852373.png]]
+
+16-09-2024T23:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_cm20")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_cm20' is clicked on
+
+16-09-2024T23:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_cm20' is clicked on
+
+16-09-2024T23:37:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty"), "1"): Keys '1' sent to object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'
+
+16-09-2024T23:37:34 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'
+
+16-09-2024T23:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_lm20")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_lm20' is clicked on
+
+16-09-2024T23:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/PickQty_lm20' is clicked on
+
+16-09-2024T23:37:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty"), "2"): Keys '2' sent to object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'
+
+16-09-2024T23:37:35 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_pickedQty'
+
+16-09-2024T23:37:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493857258.png]]
+
+16-09-2024T23:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Save (S) - Order Details")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Save (S) - Order Details' is clicked on
+
+16-09-2024T23:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Save (S) - Order Details' is clicked on
+
+16-09-2024T23:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Complete Picking")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Complete Picking' is clicked on
+
+16-09-2024T23:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Complete Picking' is clicked on
+
+16-09-2024T23:37:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:41 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493861296.png]]
+
+16-09-2024T23:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Check Picking")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Check Picking' is clicked on
+
+16-09-2024T23:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Check Picking' is clicked on
+
+16-09-2024T23:37:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493864199.png]]
+
+16-09-2024T23:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_SaveClose (S) - Check Picking")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_SaveClose (S) - Check Picking' is clicked on
+
+16-09-2024T23:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_SaveClose (S) - Check Picking' is clicked on
+
+16-09-2024T23:37:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493867083.png]]
+
+16-09-2024T23:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Release Order")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Release Order' is clicked on
+
+16-09-2024T23:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Release Order' is clicked on
+
+16-09-2024T23:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1R0")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1R0' is clicked on
+
+16-09-2024T23:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1R0' is clicked on
+
+16-09-2024T23:37:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493870897.png]]
+
+16-09-2024T23:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Release (S)")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Release (S)' is clicked on
+
+16-09-2024T23:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Release (S)' is clicked on
+
+16-09-2024T23:37:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:37:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:37:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:37:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:37:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493873718.png]]
+
+16-09-2024T23:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T23:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T23:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T23:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Stock_Receipt - New" time="47.271" classname="Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Stock_Receipt - New" status="PASSED">
+         <system-out><![CDATA[16-09-2024T23:37:55 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Stock_Receipt - New: Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Stock_Receipt - New
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - row = sheet.getRow(2): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - SalesOrder = cell.getStringCellValue(): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - SalesOrder = SalesOrder.replace("Tfer SO: ", ""): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - println(SalesOrder): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - PurchaseOrder = cell.getStringCellValue(): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - PurchaseOrder = PurchaseOrder.replace("PO ", ""): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - println(PurchaseOrder): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T23:37:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T23:37:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+16-09-2024T23:37:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T23:37:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T23:37:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T23:37:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T23:37:56 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T23:37:56 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T23:37:58 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T23:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T23:38:00 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T23:38:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T23:38:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T23:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T23:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T23:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+16-09-2024T23:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+16-09-2024T23:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/b_Purchasing  Receipting")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/b_Purchasing  Receipting' is clicked on
+
+16-09-2024T23:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/b_Purchasing  Receipting' is clicked on
+
+16-09-2024T23:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T23:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T23:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Stock Receipting")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Stock Receipting' is clicked on
+
+16-09-2024T23:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Stock Receipting' is clicked on
+
+16-09-2024T23:38:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Order_orderNo"), PurchaseOrder): Text '53444722' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Order_orderNo'
+
+16-09-2024T23:38:07 - [MESSAGE][PASSED] - Text '53444722' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Order_orderNo'
+
+16-09-2024T23:38:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493889471.png]]
+
+16-09-2024T23:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Find")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Find' is clicked on
+
+16-09-2024T23:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Find' is clicked on
+
+16-09-2024T23:38:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493892279.png]]
+
+16-09-2024T23:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/a_PurchaseOrder_link")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/a_PurchaseOrder_link' is clicked on
+
+16-09-2024T23:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/a_PurchaseOrder_link' is clicked on
+
+16-09-2024T23:38:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493895109.png]]
+
+16-09-2024T23:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Docket Number_refSuppDocket"), SalesOrder): Text '26530588' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Docket Number_refSuppDocket'
+
+16-09-2024T23:38:16 - [MESSAGE][PASSED] - Text '26530588' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Docket Number_refSuppDocket'
+
+16-09-2024T23:38:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:18 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493898243.png]]
+
+16-09-2024T23:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Receipt Goods")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Receipt Goods' is clicked on
+
+16-09-2024T23:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Receipt Goods' is clicked on
+
+16-09-2024T23:38:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493901070.png]]
+
+16-09-2024T23:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard' is clicked on
+
+16-09-2024T23:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard' is clicked on
+
+16-09-2024T23:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId"), "CM20"): Text 'CM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId'
+
+16-09-2024T23:38:23 - [MESSAGE][PASSED] - Text 'CM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId'
+
+16-09-2024T23:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T23:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T23:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements' is clicked on
+
+16-09-2024T23:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements' is clicked on
+
+16-09-2024T23:38:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493907298.png]]
+
+16-09-2024T23:38:27 - [TEST_STEP][PASSED] - verifyTextPresent(PurchaseOrder, false): Text '53444722' is present on page 
+
+16-09-2024T23:38:28 - [MESSAGE][PASSED] - Text '53444722' is present on page 
+
+16-09-2024T23:38:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1"), "LM20"): Text 'LM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1'
+
+16-09-2024T23:38:29 - [MESSAGE][PASSED] - Text 'LM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1'
+
+16-09-2024T23:38:29 - [TEST_STEP][PASSED] - click(findTestObject("TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements' is clicked on
+
+16-09-2024T23:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements' is clicked on
+
+16-09-2024T23:38:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493911642.png]]
+
+16-09-2024T23:38:32 - [TEST_STEP][PASSED] - verifyTextPresent(PurchaseOrder, false): Text '53444722' is present on page 
+
+16-09-2024T23:38:32 - [MESSAGE][PASSED] - Text '53444722' is present on page 
+
+16-09-2024T23:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_Branch_isc_1R7")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_Branch_isc_1R7' is clicked on
+
+16-09-2024T23:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_Branch_isc_1R7' is clicked on
+
+16-09-2024T23:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_202 - DEMONSTRATION BRANCH 202")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_202 - DEMONSTRATION BRANCH 202' is clicked on
+
+16-09-2024T23:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_202 - DEMONSTRATION BRANCH 202' is clicked on
+
+16-09-2024T23:38:33 - [TEST_STEP][PASSED] - click(findTestObject("TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements' is clicked on
+
+16-09-2024T23:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements' is clicked on
+
+16-09-2024T23:38:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:36 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493916553.png]]
+
+16-09-2024T23:38:37 - [TEST_STEP][PASSED] - verifyTextPresent(SalesOrder, false): Text '26530588' is present on page 
+
+16-09-2024T23:38:37 - [MESSAGE][PASSED] - Text '26530588' is present on page 
+
+16-09-2024T23:38:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1"), "CM20"): Text 'CM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1'
+
+16-09-2024T23:38:38 - [MESSAGE][PASSED] - Text 'CM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_prodId_1'
+
+16-09-2024T23:38:38 - [TEST_STEP][PASSED] - click(findTestObject("TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements' is clicked on
+
+16-09-2024T23:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find_stockmovements' is clicked on
+
+16-09-2024T23:38:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T23:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T23:38:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T23:38:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T23:38:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_233529\\DBC_Instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_DBC\\20240916_233529\\1726493920865.png]]
+
+16-09-2024T23:38:41 - [TEST_STEP][PASSED] - verifyTextPresent(SalesOrder, false): Text '26530588' is present on page 
+
+16-09-2024T23:38:41 - [MESSAGE][PASSED] - Text '26530588' is present on page 
+
+16-09-2024T23:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T23:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T23:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T23:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-09-2024T23:35:35 - [TEST_SUITE][PASSED] - TS1_BT_BranchTransfer_DBC: Test Cases/DBC_Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Stock_Receipt - New]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

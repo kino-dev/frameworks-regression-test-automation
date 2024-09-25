@@ -56,6 +56,10 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_New'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_Supplier No_idSupp'), 
     'dbc202')
 

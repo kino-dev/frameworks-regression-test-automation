@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//additional imports for excel data usage
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
 
 WebUI.openBrowser('')
 
@@ -51,6 +57,8 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Close (O)'))
 
+invoiceNum = WebUI.getText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
+
 WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5006866')
 
 WebUI.delay(2)
@@ -59,7 +67,13 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 
 WebUI.delay(2)
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/img_add'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5155103')
 
@@ -94,10 +108,46 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_SaveClose (S)'))
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(0)
+
+Cell cell = row.getCell(1)
+
+row = sheet.createRow(1)
+
+cell = row.createCell(0)
+
+cell.setCellValue('Invoice Number')
+
+cell = row.createCell(1)
+
+cell.setCellValue(invoiceNum)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
 
 //WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
 //    '2237')
@@ -106,18 +156,6 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 //
 //WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK'))
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_CustomerDashboard'))
-
-WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-    '518451')
-
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Find'))
-
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
-
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 

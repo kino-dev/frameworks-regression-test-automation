@@ -37,12 +37,16 @@ WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale'))
 
-WebUI.setText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
-    '2237')
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
+WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK'))
+//WebUI.setText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
+//    '2237')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
+//
+//WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK'))
 
 WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5006866')
 
@@ -53,6 +57,10 @@ WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5155103')
 
@@ -84,6 +92,10 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add'))
 
 WebUI.delay(2)
@@ -91,6 +103,10 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_50 Cash'))
 
@@ -100,12 +116,12 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)'))
 
-WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 
-    '2237')
-
-WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_PIN_pin_1'), '2237')
-
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK_1'))
+//WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 
+//    '2237')
+//
+//WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_PIN_pin_1'), '2237')
+//
+//WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK_1'))
 
 WebUI.delay(2)
 

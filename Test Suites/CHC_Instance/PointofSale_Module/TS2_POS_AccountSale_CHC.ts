@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS2_POS_AccountSale_CHC</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>7029e5f7-4f2f-486c-9cac-b3f463fbef56</testSuiteGuid>
+   <testCaseLink>
+      <guid>fac49f64-a408-46a9-b2e3-73f9cf404730</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>056ec2ff-650b-4baf-9d00-2c745cce20fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>216c6589-4db9-4228-980f-b1c5031f22b6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a00bb58e-a11f-4159-afb0-dfc159e0803e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate_CHC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e7c4da1-5aa7-46b8-94b3-942881a39273</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49c229c0-566c-4829-81e8-2d8a6cd9ec6d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

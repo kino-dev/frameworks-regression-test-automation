@@ -61,6 +61,10 @@ WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Inte
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Find'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 
 WebUI.delay(2)

@@ -58,7 +58,15 @@ WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_F
 
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 transaction_Number = WebUI.getText(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number'))
 
@@ -82,16 +90,36 @@ WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_F
 
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial_DBC/Page_Frameworks (Demo)/div_CreditQty_Row1'))
 
 WebUI.sendKeys(findTestObject('Object Repository/TS4_POS_AccountCredit_Partial_DBC/Page_Frameworks (Demo)/input_CreditQty_row1'),
 	'1')
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact'))
 

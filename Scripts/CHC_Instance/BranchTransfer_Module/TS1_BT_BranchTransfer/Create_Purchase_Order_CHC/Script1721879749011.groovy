@@ -55,18 +55,17 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_New'))
 
-WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
-    '2237')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 
-    'uzzxF8+Oh1A=')
-
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_OK'))
-
+//WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
+//    '2237')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 
+//    'uzzxF8+Oh1A=')
+//
+//WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_OK'))
 WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Supplier No_idSupp'), 
-    'CHC511')
+    'CHC510')
 
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_BRANCH TFR CNS PAINT 511 (CHC511)'))
+WebUI.click(findTestObject('Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_BRANCH TFR CAIRNS HW 510 (CHC510)'))
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Calendaricon'))
 

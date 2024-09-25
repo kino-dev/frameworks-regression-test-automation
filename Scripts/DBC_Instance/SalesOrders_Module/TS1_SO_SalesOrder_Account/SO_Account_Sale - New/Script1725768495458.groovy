@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 
 WebUI.delay(3)
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/input_Customer_idCustX'), 
     'JOE CHILA (3379)')
 
@@ -130,7 +132,15 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Fr
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Complete Picking'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Check Picking'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)'))
 
@@ -143,6 +153,8 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/td_Release (S)'))
+
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 

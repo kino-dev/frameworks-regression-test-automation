@@ -58,9 +58,17 @@ WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Framew
 WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer No_CustId'), 
     '3379')
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Find'))
 
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Payment History'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.verifyTextPresent(transactionNumber, false)
 

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS5_POS_Cash_Refund_Full" time="83.0" tests="3" failures="0" errors="0">
+   <testsuite name="TS5_POS_Cash_Refund_Full" tests="3" failures="0" errors="0" time="83.0" skipped="0" timestamp="16-09-2024T22:48:57" hostname="User - ROG" id="Test Suites/DBC_Instance/PointofSale_Module/New_Interface/TS5_POS_Cash_Refund_Full">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490956037.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490961679.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490976194.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490979087.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490987553.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490990417.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490993350.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490996256.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490999138.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726491014502.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726491017771.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.1"/>
+         <property name="sessionId" value="42754c7a8bba33716bcf5df3b370f7db"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5)" time="26.719" classname="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5)" status="PASSED">
+         <system-out><![CDATA[16-09-2024T22:48:57 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5): Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5)
+
+16-09-2024T22:48:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T22:48:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T22:48:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T22:49:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T22:49:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T22:49:00 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T22:49:00 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T22:49:02 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T22:49:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T22:49:03 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T22:49:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T22:49:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T22:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T22:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T22:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+16-09-2024T22:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+16-09-2024T22:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T22:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T22:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+16-09-2024T22:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+16-09-2024T22:49:08 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217650'
+
+16-09-2024T22:49:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217650'
+
+16-09-2024T22:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "LM20"): Text 'LM20' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+16-09-2024T22:49:11 - [MESSAGE][PASSED] - Text 'LM20' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+16-09-2024T22:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered"), "2"): Text '2' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'
+
+16-09-2024T22:49:12 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'
+
+16-09-2024T22:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+16-09-2024T22:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+16-09-2024T22:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T22:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+16-09-2024T22:49:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490956037.png]]
+
+16-09-2024T22:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+16-09-2024T22:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+16-09-2024T22:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash' is clicked on
+
+16-09-2024T22:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash' is clicked on
+
+16-09-2024T22:49:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490961679.png]]
+
+16-09-2024T22:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+16-09-2024T22:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+16-09-2024T22:49:22 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T22:49:22 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - fos.close(): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T22:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T22:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T22:49:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T22:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full" time="38.15" classname="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full" status="PASSED">
+         <system-out><![CDATA[16-09-2024T22:49:24 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - docketNumber = cell.getStringCellValue(): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - println(docketNumber): null
+
+16-09-2024T22:49:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T22:49:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+16-09-2024T22:49:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T22:49:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T22:49:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T22:49:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T22:49:26 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T22:49:26 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T22:49:28 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T22:49:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T22:49:29 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T22:49:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T22:49:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T22:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T22:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T22:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/burger_Menu")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/burger_Menu' is clicked on
+
+16-09-2024T22:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/burger_Menu' is clicked on
+
+16-09-2024T22:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T22:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T22:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+16-09-2024T22:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+16-09-2024T22:49:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:36 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490976194.png]]
+
+16-09-2024T22:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New' is clicked on
+
+16-09-2024T22:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_New' is clicked on
+
+16-09-2024T22:49:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490979087.png]]
+
+16-09-2024T22:49:39 - [TEST_STEP][PASSED] - transaction_Number = getText(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number")): Text of object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number' is: '20217652'
+
+16-09-2024T22:49:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/transaction_Number' is: '20217652'
+
+16-09-2024T22:49:40 - [TEST_STEP][PASSED] - println(transaction_Number): null
+
+16-09-2024T22:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Select a Value")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Select a Value' is clicked on
+
+16-09-2024T22:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Select a Value' is clicked on
+
+16-09-2024T22:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Stock Return")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Stock Return' is clicked on
+
+16-09-2024T22:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Stock Return' is clicked on
+
+16-09-2024T22:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Reason")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Reason' is clicked on
+
+16-09-2024T22:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/table_Reason' is clicked on
+
+16-09-2024T22:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_C - Not ReqdOver Order")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_C - Not ReqdOver Order' is clicked on
+
+16-09-2024T22:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_C - Not ReqdOver Order' is clicked on
+
+16-09-2024T22:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), STOP_ON_FAILURE): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+16-09-2024T22:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+16-09-2024T22:49:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), docketNumber): Keys '20217650' sent to object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+16-09-2024T22:49:44 - [MESSAGE][PASSED] - Keys '20217650' sent to object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+16-09-2024T22:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_BranchDropdown")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_BranchDropdown' is clicked on
+
+16-09-2024T22:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_BranchDropdown' is clicked on
+
+16-09-2024T22:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228' is clicked on
+
+16-09-2024T22:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228' is clicked on
+
+16-09-2024T22:49:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490987553.png]]
+
+16-09-2024T22:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+16-09-2024T22:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+16-09-2024T22:49:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490990417.png]]
+
+16-09-2024T22:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Refund All")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Refund All' is clicked on
+
+16-09-2024T22:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Refund All' is clicked on
+
+16-09-2024T22:49:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490993350.png]]
+
+16-09-2024T22:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+16-09-2024T22:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+16-09-2024T22:49:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490996256.png]]
+
+16-09-2024T22:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+16-09-2024T22:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+16-09-2024T22:49:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:49:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:49:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:49:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:49:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726490999138.png]]
+
+16-09-2024T22:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact")): Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact' is clicked on
+
+16-09-2024T22:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/img_Eftpos_Transact' is clicked on
+
+16-09-2024T22:49:59 - [TEST_STEP][PASSED] - updatesourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T22:49:59 - [TEST_STEP][PASSED] - updateWorkbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(updatesourceFile): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateSheet = updateWorkbook.getSheet("Sheet1"): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateRow = updateSheet.getRow(0): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateCell = updateRow.getCell(1): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateRow = updateSheet.createRow(2): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateCell = updateRow.createCell(0): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateCell.setCellValue("TransactionNumber"): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateCell = updateRow.createCell(1): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateCell.setCellValue(transaction_Number): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updateWorkbook.write(fos): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - fos.close(): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - updatesourceFile.close(): null
+
+16-09-2024T22:50:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T22:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T22:50:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T22:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock" time="17.943" classname="Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock" status="PASSED">
+         <system-out><![CDATA[16-09-2024T22:50:02 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - row = sheet.getRow(2): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - transactionNumber = cell.getStringCellValue(): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - println(transactionNumber): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T22:50:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T22:50:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+16-09-2024T22:50:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T22:50:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T22:50:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T22:50:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T22:50:04 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T22:50:04 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T22:50:06 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T22:50:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T22:50:07 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T22:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T22:50:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T22:50:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T22:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T22:50:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard' is clicked on
+
+16-09-2024T22:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard' is clicked on
+
+16-09-2024T22:50:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId"), "LM20"): Text 'LM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId'
+
+16-09-2024T22:50:11 - [MESSAGE][PASSED] - Text 'LM20' is set on object 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId'
+
+16-09-2024T22:50:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T22:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T22:50:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:50:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:50:14 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:50:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:50:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726491014502.png]]
+
+16-09-2024T22:50:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements")): Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements' is clicked on
+
+16-09-2024T22:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements' is clicked on
+
+16-09-2024T22:50:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T22:50:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T22:50:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T22:50:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T22:50:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_224851\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS5_POS_Cash_Refund_Full\\20240916_224851\\1726491017771.png]]
+
+16-09-2024T22:50:18 - [TEST_STEP][PASSED] - verifyTextPresent(transactionNumber, false): Text '20217652' is present on page 
+
+16-09-2024T22:50:19 - [MESSAGE][PASSED] - Text '20217652' is present on page 
+
+16-09-2024T22:50:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T22:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T22:50:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T22:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-09-2024T22:48:57 - [TEST_SUITE][PASSED] - TS5_POS_Cash_Refund_Full: Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

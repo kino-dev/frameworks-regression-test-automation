@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale</description>
+   <name>TS2_POS_AccountSale</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>bdb09b88-6366-4278-bf6c-6d7f9c351af7</testSuiteGuid>
+   <testCaseLink>
+      <guid>767d0a52-9bb8-4dd2-9994-9ee4af8a4346</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbe21f5e-8648-4027-8d29-8a753ffbaa50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fd20f6be-e4e7-4c4f-af99-b1f5f08fa82c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57414960-1d9b-4961-aaf5-aca215da2c92</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b728a65-c695-4aee-bec3-b6bfdf893559</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa7f9967-6381-475e-a722-dc100f2125a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aceaf58a-e4b4-4272-9519-d2dc17564c37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>216c6589-4db9-4228-980f-b1c5031f22b6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

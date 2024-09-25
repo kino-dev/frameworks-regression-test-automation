@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//additional imports
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
 
 WebUI.openBrowser('')
 
@@ -23,13 +29,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'), 
-    userName)
+WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'), 
-    '6hUhntXdJknVTuE5fOO5WA==')
+WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Password_password'), 'BvRmjN+0xFM=')
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Login'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/Fws_Menu'))
 
@@ -39,20 +45,27 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_New'))
 
-WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
-    '2237')
-
-WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_PIN_pin'), '2237')
-
-WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_OK'))
-
+//WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
+//    '2237')
+//
+//WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_PIN_pin'), '2237')
+//
+//WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_OK'))
 WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_Customer_idCustX'), 'Lee Pearce')
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)'))
 
-WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/img_Desp. Method_isc_12H'))
+WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_Cust Order_custOrderRef'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/td_Close (O)'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_Order Branch'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_510 - DEMONSTRATION BRANCH 510'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/img_Desp. Method_isc_12H'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_SUPP - Supplier Direct Delivery'))
 
@@ -73,6 +86,9 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (
 WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_Post Code_postCodeShip'), 
     '4870')
 
+WebUI.scrollToElement(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/img_Delivery Area_isc_18U'), 
+    2)
+
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/img_Delivery Area_isc_18U'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/a_Expo'))
@@ -80,6 +96,10 @@ WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/td_Save (S)'))
+
+WebUI.delay(8)
+
+salesorder_Number = WebUI.getText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/span_SOnumber'))
 
 WebUI.setText(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/input_P_idProd'), '5155103')
 
@@ -101,9 +121,11 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_Save Order'))
 
-WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_Actions'))
-
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_Actions'))
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_Mark as Entry Complete'))
 
@@ -133,24 +155,53 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_2P4'))
 
-WebUI.delay(3)
-
-println('first delay done, check print delivery docket for 15 secs, 15 secs starts now...')
-
-WebUI.delay(3)
-
-println('by this time it should be unticked already, proceeding to save in 15 secs... press cancel if not unticked')
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/td_Release (S)'))
 
 WebUI.takeFullPageScreenshot()
 
+println(salesorder_Number)
+
+salesorder_Number = salesorder_Number.replace('SO ', '')
+
+salesorder_Number = salesorder_Number.replace('/0', '')
+
+println(salesorder_Number)
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(0)
+
+Cell cell = row.getCell(1)
+
+row = sheet.createRow(1)
+
+cell = row.createCell(0)
+
+cell.setCellValue('SalesOrderNumber')
+
+cell = row.createCell(1)
+
+cell.setCellValue(salesorder_Number)
+
+FileOutputStream fos = new FileOutputStream(ExcelFile)
+
+workbook.write(fos)
+
+fos.close()
+
+sourceFile.close()
+
+
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))
-
 

@@ -61,12 +61,12 @@ WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Inte
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Sales Orders'))
 
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo'), 
+    SalesOrder)
+
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
-
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/input_Order_orderNo'), 
-    SalesOrder)
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Find'))
 
@@ -77,6 +77,8 @@ WebUI.takeFullPageScreenshot()
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SalesOrderLink'))
 
 WebUI.delay(3)
+
+WebUI.takeFullPageScreenshot()
 
 SalesOrderValidate = WebUI.getText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/SO_Value_Tab'))
 
@@ -135,6 +137,10 @@ WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Inte
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Complete Picking'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Check Picking'))
 
 WebUI.delay(2)
@@ -142,6 +148,10 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_SaveClose (S) - Check Picking'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/div_Release Order'))
 
@@ -152,6 +162,10 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Pick_Release_SO/Page_Frameworks (Demo)/td_Release (S)'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 

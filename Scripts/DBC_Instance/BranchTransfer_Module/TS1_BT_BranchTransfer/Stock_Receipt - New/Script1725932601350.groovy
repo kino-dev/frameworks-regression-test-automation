@@ -76,6 +76,10 @@ WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Inte
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Order_orderNo'), 
     PurchaseOrder)
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Find'))
 
 WebUI.delay(2)
@@ -83,6 +87,10 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/a_PurchaseOrder_link'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Docket Number_refSuppDocket'), 
     SalesOrder)

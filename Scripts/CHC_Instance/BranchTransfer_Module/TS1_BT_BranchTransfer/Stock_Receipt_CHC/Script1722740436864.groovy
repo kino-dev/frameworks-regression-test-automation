@@ -107,6 +107,8 @@ WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.verifyTextPresent(PurchaseOrder, false)
+
 WebUI.click(findTestObject('Object Repository/Stock_Receipt_CHC/Page_Frameworks (Demo)/img_Branch_dropdown'))
 
 WebUI.click(findTestObject('Object Repository/Stock_Receipt_CHC/Page_Frameworks (Demo)/div_511 - DEMONSTRATION BRANCH 511'))
@@ -116,6 +118,8 @@ WebUI.click(findTestObject('Object Repository/Stock_Receipt_CHC/Page_Frameworks 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(SalesOrder, false)
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 

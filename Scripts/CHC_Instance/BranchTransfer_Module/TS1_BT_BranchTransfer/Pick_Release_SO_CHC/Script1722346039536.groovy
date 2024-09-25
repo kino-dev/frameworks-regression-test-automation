@@ -74,12 +74,12 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 
-    '2237')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
-
-WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_OK'))
+//WebUI.setText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 
+//    '2237')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
+//
+//WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/div_OK'))
 
 SalesOrderValidate = WebUI.getText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/SO_Value_Tab'))
 
@@ -141,18 +141,6 @@ if (SalesOrder == SalesOrderValidate) {
     WebUI.delay(2)
 
     WebUI.takeFullPageScreenshot()
-
-    WebUI.delay(3)
-
-    println('first delay done, check print delivery docket for 15 secs, 15 secs starts now...')
-
-    WebUI.delay(3)
-
-    println('by this time it should be unticked already, proceeding to save in 15 secs... press cancel if not unticked')
-
-    WebUI.takeFullPageScreenshot()
-
-    WebUI.delay(5)
 
     WebUI.click(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/td_Release (S)'))
 

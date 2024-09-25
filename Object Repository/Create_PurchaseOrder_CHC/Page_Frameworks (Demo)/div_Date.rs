@@ -6,12 +6,12 @@
    <elementGuidId>a8a53138-d630-4115-994b-62ab1bcf53e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table/tbody/tr/td[6]/div[(text() = '9' or . = '9')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td.dateChooserWeekdaySelected > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr/td[6]/div[(text() = '20' or . = '20')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e33f77cd-4700-4c94-969e-139e0ab2cc8a</webElementGuid>
+      <webElementGuid>428b50a7-4913-4874-92b0-ba8bafedd16f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>1d6cacb4-270b-4688-b126-c84b2b6f1ec1</webElementGuid>
+      <webElementGuid>cbe32e08-d129-4f6e-8051-ce8dd7d00fc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>27ad51d0-3023-4f6c-8e84-dd5692c134d0</webElementGuid>
+      <webElementGuid>2c136fc6-1b5f-481b-bc7c-ed41c729d748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>bc6c9fa4-d7bd-4675-a4c4-3a121afd2cb9</webElementGuid>
+      <webElementGuid>57e63df3-be5f-4370-b054-d8caa8d9d620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_13Utable&quot;)/tbody[1]/tr[1]/td[@class=&quot;dateChooserWeekdaySelected&quot;]/div[1]</value>
-      <webElementGuid>d18a9d07-60a5-476a-851c-1d102e88d6ec</webElementGuid>
+      <webElementGuid>874a470f-92a2-49c8-8163-6491ebcac8fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_13Utable']/tbody/tr/td[6]/div</value>
-      <webElementGuid>2ab7b7b7-2e90-42b6-ad18-97c2773ecaf4</webElementGuid>
+      <webElementGuid>c42ff7df-d209-47d1-a043-e28ba9bf9fad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[10]</value>
-      <webElementGuid>4e55b0c8-2bf1-4abb-8d84-503451b6616c</webElementGuid>
+      <webElementGuid>f5f2d2e0-cde1-4d3f-9c65-f18e95dabf13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::div[12]</value>
-      <webElementGuid>233e3179-4598-4d99-a812-03b2b6e56c86</webElementGuid>
+      <webElementGuid>1d558e6b-2239-48eb-8c34-2f42b14f767b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::div[40]</value>
-      <webElementGuid>616751eb-91fc-4ebb-9950-4228de784cdb</webElementGuid>
+      <webElementGuid>884abbe8-48e3-48bc-a39a-a56f651b6894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::div[44]</value>
-      <webElementGuid>15906631-dc6f-4610-8b31-b941780694ba</webElementGuid>
+      <webElementGuid>ad3404f9-ab00-48b4-b1a8-889501a366d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='2']/parent::*</value>
-      <webElementGuid>5158a42f-7c62-4bd9-918d-605896ad0729</webElementGuid>
+      <webElementGuid>1c5a0f97-dc36-4317-8479-021852753c47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/table/tbody/tr/td[6]/div</value>
-      <webElementGuid>22e88d8d-4f47-4af4-9db0-ece4bd81ba1b</webElementGuid>
+      <webElementGuid>187e55ac-6756-4306-8b96-ab9249b63cec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '2' or . = '2')]</value>
-      <webElementGuid>ecc19843-a4f0-4b83-982e-061fb7ac78a7</webElementGuid>
+      <webElementGuid>3c3443b9-9203-4b65-8fa2-a54aac217b89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

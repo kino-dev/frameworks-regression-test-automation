@@ -52,6 +52,10 @@ println(transactionNum)
 
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Actions'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_PayAccount'))
 
 WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX'), 
@@ -66,9 +70,21 @@ WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Framew
 WebUI.sendKeys(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'), 
     '5')
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Tendering'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_5 Cash'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 FileInputStream sourceFile = new FileInputStream(ExcelFile)
 
@@ -89,7 +105,7 @@ cell.setCellValue('TransactionNumber')
 
 cell = row.createCell(1)
 
-cell.setCellValue(transaction_Number)
+cell.setCellValue(transactionNum)
 
 FileOutputStream fos = new FileOutputStream(ExcelFile)
 

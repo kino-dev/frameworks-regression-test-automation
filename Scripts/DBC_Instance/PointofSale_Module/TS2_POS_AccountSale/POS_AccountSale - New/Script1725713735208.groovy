@@ -98,6 +98,10 @@ WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interf
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
 
 FileInputStream sourceFile = new FileInputStream(ExcelFile)

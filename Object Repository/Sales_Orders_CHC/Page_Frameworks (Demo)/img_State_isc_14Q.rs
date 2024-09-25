@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png')])[7]</value>
+         <value>(//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png')])[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>f64f1bfb-92ab-41a2-89f2-4bb23867299e</webElementGuid>
+      <webElementGuid>1587dd68-b6a7-499d-8124-327c6d55930b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png</value>
-      <webElementGuid>048b70f0-8b14-4d1c-a517-d7941e541d86</webElementGuid>
+      <webElementGuid>97f01be7-1089-40a3-a2b2-7545572a7d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>72834db6-418b-4fb3-81fb-0bd0559b42d1</webElementGuid>
+      <webElementGuid>feeffbd4-0316-4afd-8c42-a3d4ae973ee8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>39000516-0d9e-4e2a-9576-dd5b9afd4ab6</webElementGuid>
+      <webElementGuid>3eb697a5-0c8b-4ee9-ac6c-b059826d4b97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>align</name>
       <type>Main</type>
       <value>absmiddle</value>
-      <webElementGuid>57a66e19-b92d-468d-933c-4a625d6f3f53</webElementGuid>
+      <webElementGuid>73c9d1d7-5da2-4df1-a91e-75fd626d6b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_14Q</value>
-      <webElementGuid>b9aa0c3c-2574-4a3c-8517-8b531cf3bf51</webElementGuid>
+      <webElementGuid>6272a2cb-7895-46ea-9796-f687f6d46156</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b874f66f-80c4-4258-8740-af2898cf8ebc</webElementGuid>
+      <webElementGuid>5ad5de82-3a46-4de4-aaea-4774e3cd2ab4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>suppress</name>
       <type>Main</type>
       <value>TRUE</value>
-      <webElementGuid>c9b890cd-251e-4dae-9cb1-57d9588d1aa1</webElementGuid>
+      <webElementGuid>b7a65f39-c5e7-4641-add3-a365b9b17fd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>draggable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e48a4c82-f575-4c87-9858-5f1e8e1fdada</webElementGuid>
+      <webElementGuid>4d919229-e13c-4608-a638-c9a6234ca0a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_14Q&quot;)</value>
-      <webElementGuid>72915766-2fe9-4035-bd79-012f2270efe8</webElementGuid>
+      <webElementGuid>029ae1fc-b7ae-43b9-9441-a6f9b17a3e5c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='isc_14Q']</value>
-      <webElementGuid>2532ae52-25cd-407d-8e2d-6636a1f348b5</webElementGuid>
+      <webElementGuid>3686e248-8f06-4254-97b6-e243371204ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,15 +117,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='isc_14P']/img</value>
-      <webElementGuid>22130275-7bfe-4581-b0ce-318ceafb0716</webElementGuid>
+      <webElementGuid>de839233-6391-411b-86b8-ee198d3d0fbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>(//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png')])[7]</value>
-      <webElementGuid>dd008eae-484f-4b42-b021-71c8c22b5a80</webElementGuid>
+      <value>(//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png')])[8]</value>
+      <webElementGuid>83ba8837-6cb6-4467-b4d4-36cec02a5358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/table/tbody/tr/td[2]/span/img</value>
-      <webElementGuid>93524441-131d-4177-b912-f7a6b510f530</webElementGuid>
+      <webElementGuid>d6742cea-9379-42c6-aa0f-66bf8200f505</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png' and @id = 'isc_14Q']</value>
-      <webElementGuid>33f0d278-ea45-4077-a2a6-0db03c7f0d4a</webElementGuid>
+      <webElementGuid>7217cb23-2bf6-4e1e-820c-fad72dd50af5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

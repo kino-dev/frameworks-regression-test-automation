@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS7_POS_AccountPayment" time="52.079" tests="2" failures="0" errors="0">
+   <testsuite name="TS7_POS_AccountPayment" tests="2" failures="0" errors="0" time="52.079" skipped="0" timestamp="16-09-2024T21:03:30" hostname="User - ROG" id="Test Suites/DBC_Instance/PointofSale_Module/New_Interface/TS7_POS_AccountPayment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484626850.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484635282.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484639822.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484654986.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484660156.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.1"/>
+         <property name="sessionId" value="39ec51ad4e706ca1d34f52a236f26855"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment" time="31.648" classname="Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment" status="PASSED">
+         <system-out><![CDATA[16-09-2024T21:03:30 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment: Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment
+
+16-09-2024T21:03:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T21:03:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T21:03:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T21:03:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T21:03:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T21:03:32 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T21:03:32 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T21:03:34 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T21:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T21:03:36 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T21:03:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T21:03:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T21:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T21:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T21:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+16-09-2024T21:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+16-09-2024T21:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T21:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+16-09-2024T21:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+16-09-2024T21:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+16-09-2024T21:03:42 - [TEST_STEP][PASSED] - transactionNum = getText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217631'
+
+16-09-2024T21:03:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20217631'
+
+16-09-2024T21:03:44 - [TEST_STEP][PASSED] - println(transactionNum): null
+
+16-09-2024T21:03:44 - [TEST_STEP][PASSED] - transactionNum = transactionNum.toInteger() + 1: null
+
+16-09-2024T21:03:44 - [TEST_STEP][PASSED] - println(transactionNum): null
+
+16-09-2024T21:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T21:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+16-09-2024T21:03:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T21:03:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T21:03:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T21:03:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T21:03:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484626850.png]]
+
+16-09-2024T21:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_PayAccount")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_PayAccount' is clicked on
+
+16-09-2024T21:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_PayAccount' is clicked on
+
+16-09-2024T21:03:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX"), "Joe Chila (3379)"): Text 'Joe Chila (3379)' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+16-09-2024T21:03:49 - [MESSAGE][PASSED] - Text 'Joe Chila (3379)' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+16-09-2024T21:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_JOE CHILA (3379)")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+16-09-2024T21:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+16-09-2024T21:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Payment Number_isc_QH")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Payment Number_isc_QH' is clicked on
+
+16-09-2024T21:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Payment Number_isc_QH' is clicked on
+
+16-09-2024T21:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment' is clicked on
+
+16-09-2024T21:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment' is clicked on
+
+16-09-2024T21:03:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment"), "5"): Keys '5' sent to object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'
+
+16-09-2024T21:03:53 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'
+
+16-09-2024T21:03:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T21:03:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T21:03:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T21:03:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T21:03:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484635282.png]]
+
+16-09-2024T21:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Tendering")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Tendering' is clicked on
+
+16-09-2024T21:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Tendering' is clicked on
+
+16-09-2024T21:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_5 Cash")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_5 Cash' is clicked on
+
+16-09-2024T21:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_5 Cash' is clicked on
+
+16-09-2024T21:03:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T21:03:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T21:03:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T21:04:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T21:04:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484639822.png]]
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - cell.setCellValue("TransactionNumber"): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+16-09-2024T21:04:00 - [TEST_STEP][PASSED] - cell.setCellValue(transactionNum): null
+
+16-09-2024T21:04:01 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+16-09-2024T21:04:01 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+16-09-2024T21:04:01 - [TEST_STEP][PASSED] - fos.close(): null
+
+16-09-2024T21:04:01 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T21:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T21:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T21:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T21:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment" time="20.277" classname="Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment" status="PASSED">
+         <system-out><![CDATA[16-09-2024T21:04:02 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment: Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - transactionNumber = String.valueOf(cell.getNumericCellValue()): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - println(transactionNumber): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+16-09-2024T21:04:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2024T21:04:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+16-09-2024T21:04:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2024T21:04:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2024T21:04:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2024T21:04:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+16-09-2024T21:04:03 - [MESSAGE][PASSED] - Current window maximized
+
+16-09-2024T21:04:03 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T21:04:05 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+16-09-2024T21:04:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T21:04:07 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'
+
+16-09-2024T21:04:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T21:04:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'
+
+16-09-2024T21:04:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T21:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+16-09-2024T21:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_CustomerDashboard")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_CustomerDashboard' is clicked on
+
+16-09-2024T21:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_CustomerDashboard' is clicked on
+
+16-09-2024T21:04:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer No_CustId"), "3379"): Text '3379' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+16-09-2024T21:04:12 - [MESSAGE][PASSED] - Text '3379' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+16-09-2024T21:04:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T21:04:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T21:04:14 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T21:04:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T21:04:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484654986.png]]
+
+16-09-2024T21:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T21:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Find' is clicked on
+
+16-09-2024T21:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Payment History")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Payment History' is clicked on
+
+16-09-2024T21:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Payment History' is clicked on
+
+16-09-2024T21:04:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+16-09-2024T21:04:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+16-09-2024T21:04:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+16-09-2024T21:04:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-09-2024T21:04:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20240916_210322\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS7_POS_AccountPayment\\20240916_210323\\1726484660156.png]]
+
+16-09-2024T21:04:20 - [TEST_STEP][PASSED] - verifyTextPresent(transactionNumber, false): Text '20217632' is present on page 
+
+16-09-2024T21:04:21 - [MESSAGE][PASSED] - Text '20217632' is present on page 
+
+16-09-2024T21:04:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T21:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+16-09-2024T21:04:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+16-09-2024T21:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-09-2024T21:03:30 - [TEST_SUITE][PASSED] - TS7_POS_AccountPayment: Test Cases/DBC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -16,6 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//additional imports
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
+
+FileInputStream sourceFile = new FileInputStream(ExcelFile)
+
+XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+
+XSSFSheet sheet = workbook.getSheet('Sheet1')
+
+// cell B1
+Row row = sheet.getRow(1)
+
+Cell cell = row.getCell(1)
+
+//salesorder_Number = String.valueOf(((cell.getNumericCellValue()) as int))
+
+salesorder_Number = cell.getStringCellValue()
+
+println(salesorder_Number)
+
+sourceFile.close()
 
 WebUI.openBrowser('')
 
@@ -26,7 +51,7 @@ WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.h
 WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password'),
-	'6hUhntXdJknVTuE5fOO5WA==')
+	'BvRmjN+0xFM=')
 
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login'))
 
@@ -46,6 +71,16 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(salesorder_Number, false)
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 

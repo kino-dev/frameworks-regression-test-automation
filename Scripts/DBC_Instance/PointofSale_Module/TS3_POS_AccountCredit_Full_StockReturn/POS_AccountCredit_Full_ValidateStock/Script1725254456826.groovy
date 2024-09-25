@@ -33,7 +33,9 @@ Row row = sheet.getRow(2)
 
 Cell cell = row.getCell(1)
 
-transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+//transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+
+transactionNumber = cell.getStringCellValue()
 
 println(transactionNumber)
 
@@ -59,6 +61,10 @@ WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_In
 	'LM20')
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements'))
 
