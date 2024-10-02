@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Logout</name>
+   <name>div_VIC - Victoria (1)</name>
    <tag></tag>
-   <elementGuidId>bc059d03-f3b0-448a-98bc-9415c632f96c</elementGuidId>
+   <elementGuidId>16bc2d8d-c1eb-4ab8-adcb-41310751bcbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(8) > td.menuTitleField > div</value>
+         <value>#isc_TJtable > tbody > tr > td.pickListCellSelected > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
+         <value>//*/text()[normalize-space(.)='VIC - Victoria']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_1ETtable >> internal:text=&quot;Logout&quot;i</value>
+         <value>internal:text=&quot;VIC - Victoria&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19149b76-086e-4008-9ea0-9d70e7ca3b75</webElementGuid>
+      <webElementGuid>b5777b5c-0363-46db-991f-7b2fc9cd2c77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>e80ffe2d-fb00-4c7e-ace8-5cf8650c6975</webElementGuid>
+      <webElementGuid>c382ff74-337b-4085-85c7-41cb8c8dd5d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +45,70 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>13740121-2656-4f2d-bfb6-7f7d719cf2c5</webElementGuid>
+      <webElementGuid>1be6a2b4-e11c-4a17-bc18-11d9ca4aae52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>47b0a2f5-812e-413e-aac2-5393edccab2a</webElementGuid>
+      <value>VIC - Victoria</value>
+      <webElementGuid>416250ac-fe9e-4440-bce2-cb3ceb84732a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>47ee46b0-fd9b-4ea1-ae80-500ecea50370</webElementGuid>
+      <value>id(&quot;isc_TJtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>e4cb2999-dc01-4fff-8772-e7a0a8d44cd6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>f26e4b56-c12a-41be-b93a-3691e59faef7</webElementGuid>
+      <value>//table[@id='isc_TJtable']/tbody/tr/td/div</value>
+      <webElementGuid>afeca084-0f8d-4d5c-84ad-bea3a9807223</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>b4866f9e-427c-4ae7-8ca1-27d33c30f792</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZZPWP - Purchase Order Picku'])[1]/following::div[9]</value>
+      <webElementGuid>626ebbfb-288e-4f0f-a2dd-0c9d2d99e5dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>0cf390c8-31d9-4d98-b49f-b30de5f886a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='xDlv - Delivery Cost in Job'])[1]/following::div[10]</value>
+      <webElementGuid>afbda199-a72c-444b-9532-e1ab45085a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='VIC - Victoria']/parent::*</value>
+      <webElementGuid>5f97a405-8410-40f8-8b09-121856f11806</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>acb81974-e221-4b67-bfe4-1c1f97f66c19</webElementGuid>
+      <value>//div[22]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>975422b5-fe15-434a-be5e-73f7b91c1153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>66a5b70e-60d7-442b-bd08-7406a6bb5ff5</webElementGuid>
+      <value>//div[(text() = 'VIC - Victoria' or . = 'VIC - Victoria')]</value>
+      <webElementGuid>0059ae5d-b466-48b2-9069-de48a520fcd7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

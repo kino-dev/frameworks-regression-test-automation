@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Logout</name>
+   <name>div_E - Inv to wrong Custome</name>
    <tag></tag>
-   <elementGuidId>bc059d03-f3b0-448a-98bc-9415c632f96c</elementGuidId>
+   <elementGuidId>f0250d87-f538-4bf4-a5e2-cb4b5d3570c5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(8) > td.menuTitleField > div</value>
+         <value>tr:nth-of-type(6) > td.pickListCellSelectedDark > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
+         <value>//div[(text() = 'E - Inv to wrong Custome' or . = 'E - Inv to wrong Custome')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_1ETtable >> internal:text=&quot;Logout&quot;i</value>
+         <value>#isc_163table >> internal:text=&quot;E - Inv to wrong Custome&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19149b76-086e-4008-9ea0-9d70e7ca3b75</webElementGuid>
+      <webElementGuid>398922cd-187e-444d-8e86-8c46118afef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>e80ffe2d-fb00-4c7e-ace8-5cf8650c6975</webElementGuid>
+      <webElementGuid>067ba2c6-29eb-4556-bb74-bbe1b92ed3b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +45,70 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>13740121-2656-4f2d-bfb6-7f7d719cf2c5</webElementGuid>
+      <webElementGuid>c8f42664-10ed-4b54-9b9e-cfef4312428c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>47b0a2f5-812e-413e-aac2-5393edccab2a</webElementGuid>
+      <value>E - Inv to wrong Custome</value>
+      <webElementGuid>aaedd9e3-19d7-4002-b1db-df83a78919f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>47ee46b0-fd9b-4ea1-ae80-500ecea50370</webElementGuid>
+      <value>id(&quot;isc_163table&quot;)/tbody[1]/tr[6]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>492d2577-206b-4488-894a-6509f3d4ce7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>f26e4b56-c12a-41be-b93a-3691e59faef7</webElementGuid>
+      <value>//table[@id='isc_163table']/tbody/tr[6]/td/div</value>
+      <webElementGuid>d15cda27-2069-4c68-b4c5-7a2a18f7156d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>b4866f9e-427c-4ae7-8ca1-27d33c30f792</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D - Goods Cancelled'])[1]/following::div[1]</value>
+      <webElementGuid>a6fe95d3-d3b1-4aa5-a8f7-d69191fb45f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>0cf390c8-31d9-4d98-b49f-b30de5f886a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='C - Not Reqd/Over Order'])[1]/following::div[2]</value>
+      <webElementGuid>d9ef7b90-c639-4652-bbd6-66307608ebfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Q - Gift Card Purchase'])[1]/preceding::div[1]</value>
+      <webElementGuid>7c3b7f1d-6f71-4045-ab46-af9fc5006773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>acb81974-e221-4b67-bfe4-1c1f97f66c19</webElementGuid>
+      <value>//div[14]/div/div/div/table/tbody/tr[6]/td/div</value>
+      <webElementGuid>feb8a9d8-358f-4e15-8130-6e54ae47e0d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>66a5b70e-60d7-442b-bd08-7406a6bb5ff5</webElementGuid>
+      <value>//div[(text() = 'E - Inv to wrong Custome' or . = 'E - Inv to wrong Custome')]</value>
+      <webElementGuid>40f80b33-9520-4c1f-a4a5-89c92dea9bc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PickU - Pick up</name>
+   <tag></tag>
+   <elementGuidId>38b24de6-56c3-4d9e-b891-d75a47b6af72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td.pickListCellSelected > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Supply - Supply &amp; Install'])[1]/preceding::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_TDtable >> internal:text=&quot;PickU - Pick up&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d42f8fa-1a6c-4c87-bfb1-2fd9c131311c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>765a3d87-d398-4c95-86c7-f9d8642bee27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f3b230e0-01d3-44fa-8753-62bc1723a12f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PickU - Pick up</value>
+      <webElementGuid>0c7af67f-2d38-49c5-ba3b-b260a8352d26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_TDtable&quot;)/tbody[1]/tr[3]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>18690e40-59f2-4afa-826d-ffc104df082f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_TDtable']/tbody/tr[3]/td/div</value>
+      <webElementGuid>2d2c541f-fb90-4106-b847-9ab5b3cdaec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direc - Direct from Supplier'])[1]/following::div[1]</value>
+      <webElementGuid>b4dee018-542c-4227-b739-938f4a59b0e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deliv - Delivery Ex Store'])[1]/following::div[2]</value>
+      <webElementGuid>8070682a-42e1-4304-a009-0f1c4850d9c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supply - Supply &amp; Install'])[1]/preceding::div[1]</value>
+      <webElementGuid>211718b8-f7be-4bfa-b195-295802ac2586</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TAFD - TAF Delivery'])[1]/preceding::div[2]</value>
+      <webElementGuid>ece1446b-b231-4cea-ab41-373f16659d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[19]/div/div/div/table/tbody/tr[3]/td/div</value>
+      <webElementGuid>f1f31d62-b313-41e1-a579-8eb3245aecb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PickU - Pick up' or . = 'PickU - Pick up')]</value>
+      <webElementGuid>d480f205-ab65-4dfa-b2d7-bedc434af671</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

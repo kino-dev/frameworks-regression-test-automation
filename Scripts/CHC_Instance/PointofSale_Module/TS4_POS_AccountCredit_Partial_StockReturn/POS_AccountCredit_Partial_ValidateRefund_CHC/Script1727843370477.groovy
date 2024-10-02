@@ -29,11 +29,13 @@ XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
 XSSFSheet sheet = workbook.getSheet('Sheet1')
 
 // cell B1
-Row row = sheet.getRow(1)
+Row row = sheet.getRow(2)
 
 Cell cell = row.getCell(1)
 
 transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+
+//transactionNumber = cell.getStringCellValue()
 
 println(transactionNumber)
 
@@ -45,24 +47,30 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Password_password'), 'BvRmjN+0xFM=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_Password_password'), 'BvRmjN+0xFM=')
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_CustomerDashboard'))
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard'))
 
-WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-    '518451')
+WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'),
+	'518451')
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Find'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/td_Find'))
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Payment History'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
 
 WebUI.delay(2)
 
@@ -70,7 +78,6 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.verifyTextPresent(transactionNumber, false)
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
+WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Logout'))
-
+WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))

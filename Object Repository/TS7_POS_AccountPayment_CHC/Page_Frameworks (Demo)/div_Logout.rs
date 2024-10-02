@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Logout</name>
    <tag></tag>
-   <elementGuidId>bc059d03-f3b0-448a-98bc-9415c632f96c</elementGuidId>
+   <elementGuidId>fcc50811-6961-4fd6-965f-616c0a88618e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19149b76-086e-4008-9ea0-9d70e7ca3b75</webElementGuid>
+      <webElementGuid>ca12c691-2eac-43f7-a9ad-b528790ccd81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>e80ffe2d-fb00-4c7e-ace8-5cf8650c6975</webElementGuid>
+      <webElementGuid>73de62f7-8954-4db1-9fd5-622658b69dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>13740121-2656-4f2d-bfb6-7f7d719cf2c5</webElementGuid>
+      <webElementGuid>aa3f6c94-3405-432a-b9d7-dd3f7344062b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>47b0a2f5-812e-413e-aac2-5393edccab2a</webElementGuid>
+      <webElementGuid>b5323d28-e35f-48ec-ae87-2e48bbed4ede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>47ee46b0-fd9b-4ea1-ae80-500ecea50370</webElementGuid>
+      <webElementGuid>66611a81-c958-429a-8544-e79c15b2a4bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>f26e4b56-c12a-41be-b93a-3691e59faef7</webElementGuid>
+      <webElementGuid>02e3aa04-e694-4e21-86bc-c8be973343ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>b4866f9e-427c-4ae7-8ca1-27d33c30f792</webElementGuid>
+      <webElementGuid>1766cbb5-4411-4ec6-9aa5-741e50051cbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>0cf390c8-31d9-4d98-b49f-b30de5f886a1</webElementGuid>
+      <webElementGuid>4e12da81-082a-45c1-95fc-db226e4ee388</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>acb81974-e221-4b67-bfe4-1c1f97f66c19</webElementGuid>
+      <webElementGuid>9d3f745e-1ea3-4ad7-9045-c6454fd8ab5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>66a5b70e-60d7-442b-bd08-7406a6bb5ff5</webElementGuid>
+      <webElementGuid>86b04bb8-4c78-4694-9fee-60260de15047</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

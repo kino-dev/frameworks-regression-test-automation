@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Logout</name>
    <tag></tag>
-   <elementGuidId>bc059d03-f3b0-448a-98bc-9415c632f96c</elementGuidId>
+   <elementGuidId>948783ca-25e3-474f-8b9f-bc827235bedc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -18,18 +18,18 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_1ETtable >> internal:text=&quot;Logout&quot;i</value>
+         <value>#isc_262table >> internal:text=&quot;Logout&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19149b76-086e-4008-9ea0-9d70e7ca3b75</webElementGuid>
+      <webElementGuid>fee753ee-64ce-4d9d-9fe6-dc1699ef83a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>e80ffe2d-fb00-4c7e-ace8-5cf8650c6975</webElementGuid>
+      <webElementGuid>25ca4f58-8060-4aae-a111-7d7348a676e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>13740121-2656-4f2d-bfb6-7f7d719cf2c5</webElementGuid>
+      <webElementGuid>5575844c-fcfc-4893-b1ae-4f6f9434d346</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,23 +53,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>47b0a2f5-812e-413e-aac2-5393edccab2a</webElementGuid>
+      <webElementGuid>ff244ede-692b-48ae-929b-43157a9979e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>47ee46b0-fd9b-4ea1-ae80-500ecea50370</webElementGuid>
+      <value>id(&quot;isc_262table&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>59f56437-2303-4601-a632-8b9c2e5dbe8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>f26e4b56-c12a-41be-b93a-3691e59faef7</webElementGuid>
+      <value>//table[@id='isc_262table']/tbody/tr[8]/td/div</value>
+      <webElementGuid>dd44cdf7-bb42-4b34-a5ff-50aa6b2e0b8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>b4866f9e-427c-4ae7-8ca1-27d33c30f792</webElementGuid>
+      <webElementGuid>70ef1139-aec6-4f00-9ed2-128b18722355</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +85,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>0cf390c8-31d9-4d98-b49f-b30de5f886a1</webElementGuid>
+      <webElementGuid>c042999b-72d5-46d3-9ddc-784658c7db32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>acb81974-e221-4b67-bfe4-1c1f97f66c19</webElementGuid>
+      <value>//div[9]/div/div/div/div/table/tbody/tr[8]/td/div</value>
+      <webElementGuid>69c059b8-ce18-4184-a64a-3619451a7a6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>66a5b70e-60d7-442b-bd08-7406a6bb5ff5</webElementGuid>
+      <webElementGuid>b03f3cc7-214b-4f9c-8485-e818446414a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

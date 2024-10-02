@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Logout</name>
+   <name>div_1 - Stock Return</name>
    <tag></tag>
-   <elementGuidId>bc059d03-f3b0-448a-98bc-9415c632f96c</elementGuidId>
+   <elementGuidId>26d0f486-39bd-4936-b29c-5955b0c5593c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(8) > td.menuTitleField > div</value>
+         <value>#isc_N2table > tbody > tr:nth-of-type(2) > td.pickListCellSelectedDark > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_1ETtable >> internal:text=&quot;Logout&quot;i</value>
+         <value>#isc_MZ >> internal:text=&quot;1 - Stock Return&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19149b76-086e-4008-9ea0-9d70e7ca3b75</webElementGuid>
+      <webElementGuid>be6795cf-70ca-489a-bd26-c23d3d322526</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>e80ffe2d-fb00-4c7e-ace8-5cf8650c6975</webElementGuid>
+      <webElementGuid>3538afc5-3b0a-4294-b6a6-35503dbd46d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +45,62 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>13740121-2656-4f2d-bfb6-7f7d719cf2c5</webElementGuid>
+      <webElementGuid>d77f3bbc-e3cb-4104-bc9e-294fd6357409</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>47b0a2f5-812e-413e-aac2-5393edccab2a</webElementGuid>
+      <value>1 - Stock Return</value>
+      <webElementGuid>511b5165-ee3b-42c4-8d01-b2549098b7d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>47ee46b0-fd9b-4ea1-ae80-500ecea50370</webElementGuid>
+      <value>id(&quot;isc_N2table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>3d35eb95-223e-46fa-a0dc-66088e288276</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>f26e4b56-c12a-41be-b93a-3691e59faef7</webElementGuid>
+      <value>//table[@id='isc_N2table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>9f1e4700-5094-40c4-9b97-14c962cede5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>b4866f9e-427c-4ae7-8ca1-27d33c30f792</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/following::div[10]</value>
+      <webElementGuid>48d6d723-5952-4834-8e62-d208b95f0d80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>0cf390c8-31d9-4d98-b49f-b30de5f886a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[11]</value>
+      <webElementGuid>ee69deb6-8e61-4046-a22f-3357bebb3a0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>acb81974-e221-4b67-bfe4-1c1f97f66c19</webElementGuid>
+      <value>//div[13]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>b35c78d8-58ce-4001-b7b7-0c8d0ea42c8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>66a5b70e-60d7-442b-bd08-7406a6bb5ff5</webElementGuid>
+      <value>//div[(text() = '1 - Stock Return' or . = '1 - Stock Return')]</value>
+      <webElementGuid>0e6a165e-1d80-4b83-904c-c90e53f5914e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

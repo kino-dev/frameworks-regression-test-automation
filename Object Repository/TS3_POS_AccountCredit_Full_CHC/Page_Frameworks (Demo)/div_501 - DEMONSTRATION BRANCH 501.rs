@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Logout</name>
+   <name>div_501 - DEMONSTRATION BRANCH 501</name>
    <tag></tag>
-   <elementGuidId>bc059d03-f3b0-448a-98bc-9415c632f96c</elementGuidId>
+   <elementGuidId>9182b2be-dea4-4c87-887b-da94764c0bb5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(8) > td.menuTitleField > div</value>
+         <value>#isc_N8table > tbody > tr:nth-of-type(2) > td.pickListCellSelectedDark > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_1ETtable >> internal:text=&quot;Logout&quot;i</value>
+         <value>internal:text=&quot;501 - DEMONSTRATION BRANCH 501&quot;i >> nth=2</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19149b76-086e-4008-9ea0-9d70e7ca3b75</webElementGuid>
+      <webElementGuid>feed9a01-4146-4a0c-a2a7-47d05f9e7aef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>e80ffe2d-fb00-4c7e-ace8-5cf8650c6975</webElementGuid>
+      <webElementGuid>78dd2aa4-3749-47bf-b826-69c9d348d75b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +45,62 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>13740121-2656-4f2d-bfb6-7f7d719cf2c5</webElementGuid>
+      <webElementGuid>a71e68ad-ea1d-459d-8718-db3edc26965a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>47b0a2f5-812e-413e-aac2-5393edccab2a</webElementGuid>
+      <value>501 - DEMONSTRATION BRANCH 501</value>
+      <webElementGuid>543aee56-f98a-4d81-a6ea-59bb67f0d1d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_1ETtable&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>47ee46b0-fd9b-4ea1-ae80-500ecea50370</webElementGuid>
+      <value>id(&quot;isc_N8table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>2cc97aa7-c3b9-4dac-a2a2-991caf0b7d49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_1ETtable']/tbody/tr[8]/td/div</value>
-      <webElementGuid>f26e4b56-c12a-41be-b93a-3691e59faef7</webElementGuid>
+      <value>//table[@id='isc_N8table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>7a42e9ba-1a47-4854-a6d7-912d28955bed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>b4866f9e-427c-4ae7-8ca1-27d33c30f792</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/following::div[21]</value>
+      <webElementGuid>17e65902-53bc-43ea-b88e-942f1b3df86c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>0cf390c8-31d9-4d98-b49f-b30de5f886a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[22]</value>
+      <webElementGuid>eb429ea3-eed7-400e-8eb7-a53df18feee5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>acb81974-e221-4b67-bfe4-1c1f97f66c19</webElementGuid>
+      <value>//div[16]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>cf3e9aee-dfd4-49b2-ab08-a9abe19c3aa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>66a5b70e-60d7-442b-bd08-7406a6bb5ff5</webElementGuid>
+      <value>//div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
+      <webElementGuid>caa37e4f-ac0e-424a-b69b-8543091b6ee7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

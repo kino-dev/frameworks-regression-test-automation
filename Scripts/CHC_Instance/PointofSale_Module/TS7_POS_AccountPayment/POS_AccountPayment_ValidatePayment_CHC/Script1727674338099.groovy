@@ -43,18 +43,20 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
+WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'), 
+    userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Password_password'), 'BvRmjN+0xFM=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'), 
+    'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login'))
 
 WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_CustomerDashboard'))
 
 WebUI.setText(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-    '518451')
+    '3379')
 
 WebUI.delay(2)
 
@@ -70,7 +72,7 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.verifyTextPresent(transactionNumber, false)
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
+WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/img_AccountDropdown'))
 
-WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Logout'))
+WebUI.click(findTestObject('Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/div_Logout'))
 
