@@ -48,6 +48,9 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 //WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
 //
 //WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_OK'))
+
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_m_customerIdX'), customerName)
 
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)'))
@@ -114,6 +117,9 @@ sourceFile.close()
 //WebUI.setEncryptedText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
 //
 //WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 
 WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))

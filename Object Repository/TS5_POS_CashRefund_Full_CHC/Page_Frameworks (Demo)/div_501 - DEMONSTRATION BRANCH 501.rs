@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_501 - DEMONSTRATION BRANCH 501</name>
+   <tag></tag>
+   <elementGuidId>a1c8c7f8-b9c2-467a-80f9-dd900fee396f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_N8table > tbody > tr:nth-of-type(2) > td.pickListCellSelectedDark > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;501 - DEMONSTRATION BRANCH 501&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>feed9a01-4146-4a0c-a2a7-47d05f9e7aef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>78dd2aa4-3749-47bf-b826-69c9d348d75b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a71e68ad-ea1d-459d-8718-db3edc26965a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>501 - DEMONSTRATION BRANCH 501</value>
+      <webElementGuid>543aee56-f98a-4d81-a6ea-59bb67f0d1d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_N8table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>2cc97aa7-c3b9-4dac-a2a2-991caf0b7d49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_N8table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>7a42e9ba-1a47-4854-a6d7-912d28955bed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/following::div[21]</value>
+      <webElementGuid>17e65902-53bc-43ea-b88e-942f1b3df86c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[22]</value>
+      <webElementGuid>eb429ea3-eed7-400e-8eb7-a53df18feee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>cf3e9aee-dfd4-49b2-ab08-a9abe19c3aa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
+      <webElementGuid>caa37e4f-ac0e-424a-b69b-8543091b6ee7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

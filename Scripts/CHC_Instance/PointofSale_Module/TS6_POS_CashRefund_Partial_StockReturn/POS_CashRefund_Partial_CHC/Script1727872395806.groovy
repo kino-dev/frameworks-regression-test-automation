@@ -46,58 +46,53 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+WebUI.setText(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_Password_password'), 'BvRmjN+0xFM=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/input_Password_password'), 'BvRmjN+0xFM=')
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/Fws_Menu'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/Fws_Menu'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/td_Credit Notes'))
-
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_New'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/td_Credit Notes'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-transaction_Number = WebUI.getText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/transaction_Number'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_New'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+transaction_Number = WebUI.getText(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/transaction_Number'))
 
 println(transaction_Number)
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_Customer_idCustX'), 
-    'Lee Pearce (518451)')
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/table_Select a Value'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_Stock Return'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/table_Select a Value'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/table_Reason_isc_YX'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Stock Return'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_1 - Stock Return'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/table_Reason_isc_YX'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_1 - Stock Return'))
+WebUI.sendKeys(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), docketNumber)
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_BranchDropdown'))
 
-WebUI.sendKeys(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), docketNumber)
-
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_BranchDropdown'))
-
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_501 - DEMONSTRATION BRANCH 501'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_501 - DEMONSTRATION BRANCH 501'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Load Details'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_Load Details'))
 
 WebUI.delay(2)
 
@@ -112,13 +107,19 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Finish (S)'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_Finish (S)'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/div_Refund'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_EFTPOS'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/img_EftposTransact'))
 
 FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
 
@@ -149,7 +150,7 @@ fos.close()
 
 updatesourceFile.close()
 
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))
+WebUI.click(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/div_Logout'))
 
