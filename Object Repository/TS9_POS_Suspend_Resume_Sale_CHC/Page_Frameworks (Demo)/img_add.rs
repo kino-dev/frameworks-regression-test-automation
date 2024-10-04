@@ -3,7 +3,7 @@
    <description></description>
    <name>img_add</name>
    <tag></tag>
-   <elementGuidId>2d42e785-8f95-4ac1-a334-550f7f7edfdf</elementGuidId>
+   <elementGuidId>6d1f31d1-83cb-4168-9235-fb3be954be08</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>a405f180-c3ab-418a-aa84-4b62b0d280c7</webElementGuid>
+      <webElementGuid>b9f28818-cd9d-4615-9fce-c95b9cf9f6d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png</value>
-      <webElementGuid>9c697fb3-2aa9-4ae6-8839-e2259f1cd5a2</webElementGuid>
+      <webElementGuid>414434aa-a937-4a17-8577-1bf3274497c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>dc0ae5ed-9a91-4e55-85a7-3162a2ad4a39</webElementGuid>
+      <webElementGuid>5e920698-4ae2-45e6-99d2-a748107edff5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>1f5bc440-8e60-4811-8af9-eaa848f8e60f</webElementGuid>
+      <webElementGuid>bd484ff8-849c-4133-b768-fddae9f7a901</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>width</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>fcec2e98-b668-442d-9679-348496844f3e</webElementGuid>
+      <webElementGuid>6afe32f3-707d-4f3b-a3b1-d254e5ae844a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_G8&quot;)/img[1]</value>
-      <webElementGuid>eb827b43-2300-4e17-97e2-eca944716083</webElementGuid>
+      <webElementGuid>36ef1d31-9300-4a94-9a0a-6c9bedac5c21</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='isc_G8']/img</value>
-      <webElementGuid>097d5d95-0f86-46d5-aa33-b1b4b267e60c</webElementGuid>
+      <webElementGuid>16520064-1769-459c-ac4b-5740a9e109d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
-      <webElementGuid>f040e0a9-afa1-4bcf-8408-5eae7d1a570c</webElementGuid>
+      <webElementGuid>b47b66bc-daf3-42b4-b120-decee6c00152</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/a/img</value>
-      <webElementGuid>d643fed5-5169-4598-87f7-38073eeb6b6e</webElementGuid>
+      <webElementGuid>418001d9-4b13-43ce-afc8-55367b4bbae5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
-      <webElementGuid>15660a0a-98fa-45f2-87ad-6c9df0b8210d</webElementGuid>
+      <webElementGuid>1ae5b985-10c7-4f88-b993-ad3dfb940244</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
