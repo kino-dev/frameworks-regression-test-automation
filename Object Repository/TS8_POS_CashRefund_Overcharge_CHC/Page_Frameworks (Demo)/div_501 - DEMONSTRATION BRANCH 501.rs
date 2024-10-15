@@ -6,19 +6,23 @@
    <elementGuidId>40fcbbb1-9d5e-4f42-9361-4109114108da</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[2]/following::div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#isc_N8table > tbody > tr:nth-of-type(2) > td.pickListCellSelectedDark > div</value>
+         <value>#isc_N2table > tbody > tr:nth-of-type(2) > td.pickListCellSelectedDark > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;501 - DEMONSTRATION BRANCH 501&quot;i >> nth=2</value>
+         <value>#isc_MZ >> internal:text=&quot;501 - DEMONSTRATION BRANCH 501&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>feed9a01-4146-4a0c-a2a7-47d05f9e7aef</webElementGuid>
+      <webElementGuid>5f6ce817-6c81-479f-9402-b533de6b35ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>78dd2aa4-3749-47bf-b826-69c9d348d75b</webElementGuid>
+      <webElementGuid>0245f113-2de0-47cf-a267-75983a0e668a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a71e68ad-ea1d-459d-8718-db3edc26965a</webElementGuid>
+      <webElementGuid>da997d8d-da69-4fa0-8410-03aa35a8ba96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,47 +57,47 @@
       <name>text</name>
       <type>Main</type>
       <value>501 - DEMONSTRATION BRANCH 501</value>
-      <webElementGuid>543aee56-f98a-4d81-a6ea-59bb67f0d1d7</webElementGuid>
+      <webElementGuid>fd6fea8a-8de9-4e9d-81a3-4bf995060dee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_N8table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>2cc97aa7-c3b9-4dac-a2a2-991caf0b7d49</webElementGuid>
+      <value>id(&quot;isc_N2table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>a4af15a3-95fb-4177-b8e8-52cccead36f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_N8table']/tbody/tr[2]/td/div</value>
-      <webElementGuid>7a42e9ba-1a47-4854-a6d7-912d28955bed</webElementGuid>
+      <value>//table[@id='isc_N2table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>7a7b1fac-bb1b-4d49-bb75-769c8e074691</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/following::div[21]</value>
-      <webElementGuid>17e65902-53bc-43ea-b88e-942f1b3df86c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[2]/following::div[20]</value>
+      <webElementGuid>30688c67-aa4a-416a-9537-289bd68dd2a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[22]</value>
-      <webElementGuid>eb429ea3-eed7-400e-8eb7-a53df18feee5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[1]/following::div[21]</value>
+      <webElementGuid>dcb0d5a3-f709-47cf-b719-f5795c72a4fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[16]/div/div/div/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>cf3e9aee-dfd4-49b2-ab08-a9abe19c3aa8</webElementGuid>
+      <value>//div[13]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>8bf9cef1-89e3-4f85-b63e-2d022ff407ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,38 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '501 - DEMONSTRATION BRANCH 501' or . = '501 - DEMONSTRATION BRANCH 501')]</value>
-      <webElementGuid>caa37e4f-ac0e-424a-b69b-8543091b6ee7</webElementGuid>
+      <webElementGuid>d084b89d-22a1-47a0-b01c-91d2ed540c2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_N8table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>861cd649-97f9-4fd2-bc46-22e13a7b8082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/following::div[21]</value>
+      <webElementGuid>3e808e08-595f-4120-9525-bc4bf9845237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[22]</value>
+      <webElementGuid>cd7fae8f-9718-48cb-89e2-789fa21fa6fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>d0aff424-0224-4f7f-b885-e11d9a6c1a07</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

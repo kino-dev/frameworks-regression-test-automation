@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1963e371-b0b6-48e7-b1ef-caab0c39e4b9</webElementGuid>
+      <webElementGuid>ff038964-c728-4e83-af40-a3587c172389</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>8ec89e87-9234-4266-923e-8f9f9144641c</webElementGuid>
+      <webElementGuid>a5a75eaf-68b4-4506-a411-c1c2375a0c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>911cf5d9-a317-4449-98bb-ec71c8573da9</webElementGuid>
+      <webElementGuid>fa4f6b30-94ab-4cb3-b28c-87ec1b317984</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>3 - Overcharge Adj</value>
-      <webElementGuid>a8949214-735d-445b-9e3d-f23231d24781</webElementGuid>
+      <webElementGuid>e452a7d7-23f6-4aab-ac5e-0a5dba8151d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_MYtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>fb4cb905-e96e-465c-8897-1f86536a385d</webElementGuid>
+      <webElementGuid>b4a715af-dfa1-41f8-a56d-afb6011b65cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_MYtable']/tbody/tr[2]/td/div</value>
-      <webElementGuid>2e11fcff-4c6a-47ed-8c6b-579c205a4ed9</webElementGuid>
+      <webElementGuid>8b04f45b-e7ec-491f-afd3-d6fac3d1a0c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[2]/following::div[10]</value>
-      <webElementGuid>50da40b5-a215-4bb8-8771-60ecf1a64598</webElementGuid>
+      <webElementGuid>7d06e0cf-75b7-4bc1-99b0-dfd00b84e942</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[1]/following::div[11]</value>
-      <webElementGuid>8ae8aaec-5fe9-41fc-af59-307382faf8b1</webElementGuid>
+      <webElementGuid>b3c436d0-2bd4-4ad3-a164-54f6b5d8c76f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/div/div/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>de6a2407-f826-4ebd-b325-ee03deac72d6</webElementGuid>
+      <webElementGuid>7615ae9b-9b2e-4548-9fe7-8e5e2cb5f252</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '3 - Overcharge Adj' or . = '3 - Overcharge Adj')]</value>
-      <webElementGuid>38aac61c-1512-400e-8ece-3449df167ccb</webElementGuid>
+      <webElementGuid>ff1bce91-a1c9-4bab-b96c-0b1159391e6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -48,6 +48,8 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 //WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
 //
 //WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_OK'))
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_m_customerIdX'), customerName)
 
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)'))

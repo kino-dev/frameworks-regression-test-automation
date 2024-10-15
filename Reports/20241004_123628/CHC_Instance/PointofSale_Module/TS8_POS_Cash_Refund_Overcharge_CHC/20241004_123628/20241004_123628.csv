@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS8_POS_Cash_Refund_Overcharge_CHC,Chrome 129.0.0.0,,,04-10-2024 12:36:34,04-10-2024 12:36:42,8.108s,ERROR
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-5006866(TS8),Chrome 129.0.0.0,,,04-10-2024 12:36:34,04-10-2024 12:36:41,6.923s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,04-10-2024 12:36:35,04-10-2024 12:36:36,1.673s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,04-10-2024 12:36:36,04-10-2024 12:36:36,0.070s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,04-10-2024 12:36:36,04-10-2024 12:36:40,4.123s,PASSED
+"setText(findTestObject(""Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,04-10-2024 12:36:40,04-10-2024 12:36:41,0.363s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge_CHC,Chrome 129.0.0.0,,,04-10-2024 12:36:41,04-10-2024 12:36:42,0.997s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,04-10-2024 12:36:41,04-10-2024 12:36:41,0.026s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,04-10-2024 12:36:41,04-10-2024 12:36:42,0.471s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,04-10-2024 12:36:42,04-10-2024 12:36:42,0.004s,PASSED
+row = sheet.getRow(1),Chrome 129.0.0.0,,,04-10-2024 12:36:42,04-10-2024 12:36:42,0.029s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,04-10-2024 12:36:42,04-10-2024 12:36:42,0.009s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 129.0.0.0,,,04-10-2024 12:36:42,04-10-2024 12:36:42,0.027s,ERROR

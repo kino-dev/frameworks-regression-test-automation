@@ -88,7 +88,7 @@ WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/
 WebUI.sendKeys(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), 
     docketNumber)
 
-WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_BranchDropdown'))
+WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/img_Branch_selector'))
 
 WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_501 - DEMONSTRATION BRANCH 501'))
 
@@ -102,11 +102,10 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-
 WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_UnitCredit'))
 
-WebUI.sendKeys(findTestObject('Object Repository/TS5_POS_CashRefund_Full_CHC/Page_Frameworks (Demo)/input_EA_unitSellBrowse'),
-	'2')
+WebUI.sendKeys(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/input_EA_unitSellBrowse'), 
+    '2')
 
 WebUI.delay(2)
 
@@ -124,40 +123,11 @@ WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/
 
 WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_Refund'))
 
+WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/img_EftposTransact'))
+
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
-
-//WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/img_EftposTransact'))
-
-FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
-
-XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
-
-XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
-
-// cell B1
-Row updateRow = updateSheet.getRow(0)
-
-Cell updateCell = updateRow.getCell(1)
-
-updateRow = updateSheet.createRow(2)
-
-updateCell = updateRow.createCell(0)
-
-updateCell.setCellValue('TransactionNumber')
-
-updateCell = updateRow.createCell(1)
-
-updateCell.setCellValue(transaction_Number)
-
-FileOutputStream fos = new FileOutputStream(ExcelFile)
-
-updateWorkbook.write(fos)
-
-fos.close()
-
-updatesourceFile.close()
 
 WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>8eafdc2c-f721-4733-83bb-b1167b55bc2c</webElementGuid>
+      <webElementGuid>670e1960-9e70-4c17-8b61-c2e45fbccc60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.cairnshardware.com.au:8080/FWDemo/images/frameworks-logo-610.png</value>
-      <webElementGuid>4d1c8504-e12c-4717-9a69-2d156eefe3f1</webElementGuid>
+      <webElementGuid>0db916ab-b00e-4f93-ae17-e2e4cbe16f52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>179</value>
-      <webElementGuid>2bfc6b91-4259-4b53-8886-7cea7a0a76cc</webElementGuid>
+      <webElementGuid>48f61db9-7a83-45c7-a826-ead1c8a29ea9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>35</value>
-      <webElementGuid>5dc08553-2464-4178-836a-ebfac1d436ac</webElementGuid>
+      <webElementGuid>25d08e3e-d21d-4e0f-afad-1a9eb775fea3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>align</name>
       <type>Main</type>
       <value>TEXTTOP</value>
-      <webElementGuid>627b502a-80c3-4e67-bc00-8a79d271af20</webElementGuid>
+      <webElementGuid>7eae6efd-1e0b-404a-a773-f1ec20de5751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>isc_Fmain</value>
-      <webElementGuid>3bdb7a2a-cf76-41df-b042-8af702e168fb</webElementGuid>
+      <webElementGuid>7db07c9a-fd69-429c-a6cf-314fdf89e1e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>f8d1cdd2-11e8-4e4f-9509-5a259b256828</webElementGuid>
+      <webElementGuid>f12b978e-7602-47a1-8812-53dd7a683d17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>suppress</name>
       <type>Main</type>
       <value>TRUE</value>
-      <webElementGuid>0e196ecc-459c-4236-a2db-862f264c952e</webElementGuid>
+      <webElementGuid>8719aae4-f13c-4493-91ef-86d951cfdd27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>draggable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>01a9a63a-0f80-4e90-a1be-b8b964c3802c</webElementGuid>
+      <webElementGuid>b4a8615b-f7f1-48f6-97e6-4f09feb05ed5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_F&quot;)/table[1]/tbody[1]/tr[1]/td[1]/img[1]</value>
-      <webElementGuid>5322b1fb-9bb7-429d-b728-dfa674d34286</webElementGuid>
+      <webElementGuid>a099c82c-ef41-485e-844d-5f7443605c01</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@name='isc_Fmain']</value>
-      <webElementGuid>acb963d2-969f-4030-9b69-cad98dda0b60</webElementGuid>
+      <webElementGuid>104663a6-0349-49a2-b8bd-41a71554416e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_F']/table/tbody/tr/td/img</value>
-      <webElementGuid>d7a9d4bd-bf23-4ac2-97ef-bef3c4f25a62</webElementGuid>
+      <webElementGuid>8beabc5c-73db-4849-9c80-fd6a710cd8bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/images/frameworks-logo-610.png')]</value>
-      <webElementGuid>67c24d60-89ca-4ac6-8d16-82d629aa3197</webElementGuid>
+      <webElementGuid>6be6bb2b-3221-47a6-b536-8d95fbc3e16f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/table/tbody/tr/td/img</value>
-      <webElementGuid>5869aef0-5a59-4bd1-9fee-cff3db367c20</webElementGuid>
+      <webElementGuid>1b244267-c96b-4a60-b1d9-51c3348eae63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.cairnshardware.com.au:8080/FWDemo/images/frameworks-logo-610.png' and @name = 'isc_Fmain']</value>
-      <webElementGuid>9241d2dd-5b91-4fba-9db3-b843e72967e5</webElementGuid>
+      <webElementGuid>2d7f9a06-f50e-42eb-bc04-327315b24f6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -83,7 +83,7 @@ WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (
 
 WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Pay'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_EftposTransact'))
 
 //WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 
 //    '2237')
@@ -124,7 +124,6 @@ fos.close()
 
 sourceFile.close()
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
+WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Logout'))
-
+WebUI.click(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_Logout'))

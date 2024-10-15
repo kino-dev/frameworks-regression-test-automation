@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>363be802-d729-4910-b285-0c5ee0d58c0c</webElementGuid>
+      <webElementGuid>f1e1079a-0c49-45ca-a32a-251f1d5476eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_F3</value>
-      <webElementGuid>e80af78e-c23e-4faa-9d30-59b9a9e61fbc</webElementGuid>
+      <webElementGuid>0908ee06-5bcf-4473-b359-07659e573a21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_HeaderItem_0</value>
-      <webElementGuid>4a6b9a16-a37f-4730-bd74-f3f6cb01f4cf</webElementGuid>
+      <webElementGuid>9ef2d13c-5ec2-47f4-9d10-4fe68c77c84d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9d</value>
-      <webElementGuid>e1a5af1e-25a3-4ed9-975c-3feb99db3821</webElementGuid>
+      <webElementGuid>c77cdd97-1b7d-4183-9f37-e5bb3951701d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>headerItemDisabled</value>
-      <webElementGuid>ef5b0d7e-4f65-4175-94cc-ad0164d137ca</webElementGuid>
+      <webElementGuid>7ac24050-a245-4119-8406-e01892323f22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>20217463</value>
-      <webElementGuid>73fe0b0e-4388-40e9-9ad3-25b446e5a4e0</webElementGuid>
+      <webElementGuid>9a14e9a2-c210-4967-a4a5-e37dd9ec6f4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_F3&quot;)</value>
-      <webElementGuid>b0f6808e-a795-47a6-bb7c-482d6cbf3fe2</webElementGuid>
+      <webElementGuid>6f3eac8f-9fc7-4bd9-b773-966d268cb182</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_F3']</value>
-      <webElementGuid>d3a7cfa5-c3ac-4760-8bba-73cb23583630</webElementGuid>
+      <webElementGuid>5bef31f6-6769-4d1a-b45d-eb7e8426872c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_F2']/div</value>
-      <webElementGuid>f25794d6-ae01-4b6a-a4a1-12b6867c4213</webElementGuid>
+      <webElementGuid>901156f9-e2ef-4b7a-ab0b-99b568e40ae2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[2]/following::div[9]</value>
-      <webElementGuid>d90c9f4e-4a32-4a9c-9ed8-fde117e598d7</webElementGuid>
+      <webElementGuid>5299fc1e-9ea7-41e5-a6a1-bcbec08d68b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer'])[2]/preceding::div[14]</value>
-      <webElementGuid>547c596b-c64f-4457-9a50-b0e3ac1d9af5</webElementGuid>
+      <webElementGuid>da3beefd-5ae2-4134-b6e9-c8d96bf8b7b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash Sale'])[1]/preceding::div[15]</value>
-      <webElementGuid>ff71d85e-dd45-4216-8f92-0c3f8c1253f5</webElementGuid>
+      <webElementGuid>4817a776-de6e-4518-82d0-8f61db98121a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='20217463']/parent::*</value>
-      <webElementGuid>604f0a52-7908-47be-a85c-565e249eb162</webElementGuid>
+      <webElementGuid>dcf1bdf1-d086-42df-8e7b-657d587840cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/form/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>d258a07d-d7b9-4d2a-bc4b-b115966a946f</webElementGuid>
+      <webElementGuid>213c90dd-679a-4b60-aa1e-0ec3f8b639f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_F3' and (text() = '20217463' or . = '20217463')]</value>
-      <webElementGuid>4f99588f-e200-4fb9-bd8b-2da1874cf320</webElementGuid>
+      <webElementGuid>b55c5104-bf8e-4335-8f81-b74a55d4e4d1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

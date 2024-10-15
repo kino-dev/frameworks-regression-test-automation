@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Override Stocking Fee'])[1]/preceding::div[7]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[2]/following::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f947e164-f7b3-4c53-aebe-75f6e1062e32</webElementGuid>
+      <webElementGuid>d8469f30-936c-4e4c-b60b-42d7e4720da6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_GB</value>
-      <webElementGuid>461412a9-b36d-474e-a253-f7bca0326d2d</webElementGuid>
+      <webElementGuid>cf9f3ac8-1d38-41f1-8023-30522fdb39c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_SelectItem_5</value>
-      <webElementGuid>93376853-5ff4-4138-91e9-c52c9944b0ea</webElementGuid>
+      <webElementGuid>1369ceeb-4a99-439e-aacb-7c75bf6af2a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9d</value>
-      <webElementGuid>dc8a95f6-3609-4e28-9104-a8479229ea97</webElementGuid>
+      <webElementGuid>8e235390-b0d3-45ee-ae01-b6e7ffdc1f96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>selectItemTextFocused</value>
-      <webElementGuid>085d0563-0fbd-469e-ac03-a2b2768962b0</webElementGuid>
+      <webElementGuid>640cec68-ca03-4a02-b546-3b676e8b4269</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>4056</value>
-      <webElementGuid>d3f5337a-c085-4933-8272-e63496fc97f3</webElementGuid>
+      <webElementGuid>410c2b8c-1e0d-4d27-9700-012558ef495d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>04a86a9b-0cde-4cc1-96c1-58896dfa8d09</webElementGuid>
+      <webElementGuid>6480797f-05a3-4cf6-9ffc-a25d90e4d32a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>text</name>
       <type>Main</type>
       <value>228 - DEMONSTRATION BRANCH 228</value>
-      <webElementGuid>a39b4211-51db-4709-9778-c0f4e90f5444</webElementGuid>
+      <webElementGuid>cc3f95ac-cd94-488b-bf7c-1afe4838ea7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_GB&quot;)</value>
-      <webElementGuid>c93dc8d3-6a97-4926-8a57-e2e54669bb2f</webElementGuid>
+      <webElementGuid>46edb5f2-d537-48ea-93f8-7f6ec05096f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_GB']</value>
-      <webElementGuid>91d19fbf-1e0a-43ca-98f3-fd8f62af80f6</webElementGuid>
+      <webElementGuid>ce15d954-c342-40fc-840c-4117e1d6e58c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_GC']/tbody/tr/td/div</value>
-      <webElementGuid>a0b87f1d-284b-42e5-86ee-bdd544565352</webElementGuid>
+      <webElementGuid>43d8fa7e-9e81-4fdb-8336-eeff4dddd8c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[2]/following::div[1]</value>
-      <webElementGuid>c6d3b225-f795-4d41-b74e-072017a3249c</webElementGuid>
+      <webElementGuid>cec83c09-78ad-4d0e-91f3-89db0c2ff40b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='B/O'])[2]/following::div[1]</value>
-      <webElementGuid>b524e628-2709-4c67-b9af-cdd2644ff4ed</webElementGuid>
+      <webElementGuid>3ccd52dd-77a2-40f6-b711-36d1cc408e26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Disc %'])[1]/preceding::div[7]</value>
-      <webElementGuid>5d531a0b-6cea-40bb-b017-e988ca5f5ba9</webElementGuid>
+      <webElementGuid>c1b59c40-a243-4b87-82f0-905a07fd8659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Override Stocking Fee'])[1]/preceding::div[7]</value>
-      <webElementGuid>c38a23ad-efa8-43e2-af9c-c2345d1ee40e</webElementGuid>
+      <webElementGuid>02175a16-5937-4d73-9ca5-aea084e152ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[10]/table/tbody/tr/td/div</value>
-      <webElementGuid>dbb7cda7-b6ab-414c-b475-a3d76ebe056e</webElementGuid>
+      <webElementGuid>fb313c65-fba1-4b50-90f4-b4374c1ae510</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_GB' and (text() = '228 - DEMONSTRATION BRANCH 228' or . = '228 - DEMONSTRATION BRANCH 228')]</value>
-      <webElementGuid>a7e1653f-e336-40bd-a1c3-37675b1b2e58</webElementGuid>
+      <webElementGuid>ae34d9a1-229a-464a-ae62-8adc4b8b9ca8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS9_POS_Suspend_Resume_Sale</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f10d3043-e8de-48f5-82a9-2b555977ef38</testSuiteGuid>
+   <testCaseLink>
+      <guid>9b4da123-3f67-480c-8bbe-0a390e5267cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b03a4cde-3744-4cc2-961f-b76baf02ab41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f802bf3f-63bb-4a81-a83a-7e1fd0267a91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3c884dfb-d8d9-4a88-a5ea-42ee00a2de32</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c5eaef8-05b8-4ff4-b44c-ef0b5892585f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DBC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d8cd074-8084-466a-b90b-2fd369a36c78</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92bef5c5-f9d1-4716-a6b4-4bd9bd31c61d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>51538595-d37f-4b3a-a265-575351a605ab</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>4ac06eb6-4dbb-43b8-97e4-b9f5c0298321</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.pseudoLink > img</value>
+         <key>XPATH</key>
+         <value>//div/span/img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
+         <key>CSS</key>
+         <value>span.pseudoLink > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>5b3ddbf5-7300-49f6-846b-558d81501c56</webElementGuid>
+      <webElementGuid>0863e4f0-5fcd-4782-aa90-a0eca1793b81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png</value>
-      <webElementGuid>6cb0ca52-a336-4481-96ce-d29a57acbe38</webElementGuid>
+      <webElementGuid>e3e119a5-1424-4395-98bd-4bdefa00442c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>5e4e7562-ee94-4be5-9200-e1ecc15aa27f</webElementGuid>
+      <webElementGuid>9a6453c2-8731-4bdb-bfae-6e8934d189b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>60b2afb1-d627-4567-bc90-323dfc4bc7a9</webElementGuid>
+      <webElementGuid>fd0eab8c-3fdb-42c7-ba64-8c3a033cc3db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>width</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>142f776b-23b8-43c8-b76f-529b2e96590a</webElementGuid>
+      <webElementGuid>0883ca9c-9ebb-4440-8c3b-1acdd3b165b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_YJtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;MediumGridItemSelectedOver&quot;]/div[1]/span[@class=&quot;pseudoLink&quot;]/img[1]</value>
-      <webElementGuid>6895d5f0-b12e-4300-b25f-7628991348aa</webElementGuid>
+      <webElementGuid>f3e2127e-b897-4320-bdfe-2efeb660a429</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_YJtable']/tbody/tr/td[3]/div/span/img</value>
-      <webElementGuid>18acddda-fced-4351-a005-6e0d4f58d922</webElementGuid>
+      <webElementGuid>8be27537-8cc1-47f8-89b5-6e63204f1e3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
-      <webElementGuid>8f2b3f0f-52a5-4b39-9928-e9535b81610f</webElementGuid>
+      <webElementGuid>6f0b6353-7776-4107-86a1-dcad83f75a8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span/img</value>
-      <webElementGuid>6a28e1c2-7227-4085-bec8-0b9252b1e57a</webElementGuid>
+      <webElementGuid>8f68a447-386d-4b94-956d-4206e16f4e4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
-      <webElementGuid>f32caf3c-fc73-4dad-b347-c4bcd77b5c8a</webElementGuid>
+      <webElementGuid>6aef8301-a085-4bcb-b146-5ea96d237c68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

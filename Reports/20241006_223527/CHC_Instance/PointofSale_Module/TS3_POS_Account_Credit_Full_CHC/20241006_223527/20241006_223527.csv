@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS3_POS_Account_Credit_Full_CHC,Chrome 129.0.0.0,,,06-10-2024 22:35:35,06-10-2024 22:37:26,1m - 51.062s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale-5006866(TS3),Chrome 129.0.0.0,,,06-10-2024 22:36:32,06-10-2024 22:36:37,5.065s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 22:36:32,06-10-2024 22:36:32,0.824s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,06-10-2024 22:36:32,06-10-2024 22:36:32,0.043s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,06-10-2024 22:36:32,06-10-2024 22:36:36,3.091s,PASSED
+"setText(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,06-10-2024 22:36:36,06-10-2024 22:36:37,1.069s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full_CHC,Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:51,3.343s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.001s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.025s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.001s,PASSED
+row = sheet.getRow(1),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.001s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.001s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.003s,PASSED
+println(docketNumber),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.002s,PASSED
+sourceFile.close(),Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:48,0.001s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 22:36:48,06-10-2024 22:36:49,0.883s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,06-10-2024 22:36:49,06-10-2024 22:36:49,0.042s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,06-10-2024 22:36:49,06-10-2024 22:36:50,1.278s,PASSED
+"setText(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,06-10-2024 22:36:50,06-10-2024 22:36:51,1.058s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full_ValidateRefund_CHC,Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:11,4.235s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.008s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.001s,PASSED
+row = sheet.getRow(2),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.001s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.000s,PASSED
+transactionNumber = String.valueOf(cell.getNumericCellValue()),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.001s,PASSED
+println(transactionNumber),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.001s,PASSED
+sourceFile.close(),Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:06,0.001s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 22:37:06,06-10-2024 22:37:07,0.674s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,06-10-2024 22:37:07,06-10-2024 22:37:07,0.040s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,06-10-2024 22:37:07,06-10-2024 22:37:10,2.464s,PASSED
+"setText(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,06-10-2024 22:37:10,06-10-2024 22:37:11,1.027s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full_ValidateStock_CHC,Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:26,2.238s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.001s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.008s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.001s,PASSED
+row = sheet.getRow(2),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.001s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.000s,PASSED
+transactionNumber = String.valueOf(cell.getNumericCellValue()),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.001s,PASSED
+println(transactionNumber),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.006s,PASSED
+sourceFile.close(),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.001s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.655s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:24,0.039s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,06-10-2024 22:37:24,06-10-2024 22:37:25,0.468s,PASSED
+"setText(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,06-10-2024 22:37:25,06-10-2024 22:37:26,1.031s,FAILED

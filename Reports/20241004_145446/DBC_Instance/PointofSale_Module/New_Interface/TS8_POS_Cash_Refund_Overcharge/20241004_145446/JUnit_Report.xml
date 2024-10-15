@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS8_POS_Cash_Refund_Overcharge" time="75.247" tests="2" failures="0" errors="0">
+   <testsuite name="TS8_POS_Cash_Refund_Overcharge" tests="2" failures="0" errors="0" time="75.247" skipped="0" timestamp="04-10-2024T14:54:52" hostname="User - ROG" id="Test Suites/DBC_Instance/PointofSale_Module/New_Interface/TS8_POS_Cash_Refund_Overcharge">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017712049.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017718426.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017721409.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017737787.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017740672.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017748875.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017751961.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017755639.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017758529.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017762214.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017765068.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.3"/>
+         <property name="sessionId" value="5fc9f89e8c4517a3dd573cf26c50cbd7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS8)" time="32.519" classname="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS8)" status="PASSED">
+         <system-out><![CDATA[04-10-2024T14:54:52 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS8): Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS8)
+
+04-10-2024T14:54:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-10-2024T14:54:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-10-2024T14:54:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-10-2024T14:54:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-10-2024T14:54:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-10-2024T14:54:55 - [MESSAGE][PASSED] - Current window maximized
+
+04-10-2024T14:54:55 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+04-10-2024T14:54:58 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+04-10-2024T14:54:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+04-10-2024T14:54:59 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+04-10-2024T14:54:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+04-10-2024T14:54:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+04-10-2024T14:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+04-10-2024T14:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+04-10-2024T14:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+04-10-2024T14:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+04-10-2024T14:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+04-10-2024T14:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+04-10-2024T14:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+04-10-2024T14:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+04-10-2024T14:55:05 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20258398'
+
+04-10-2024T14:55:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20258398'
+
+04-10-2024T14:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "LM20"): Text 'LM20' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+04-10-2024T14:55:08 - [MESSAGE][PASSED] - Text 'LM20' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+04-10-2024T14:55:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered"), "2"): Text '2' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'
+
+04-10-2024T14:55:09 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'
+
+04-10-2024T14:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+04-10-2024T14:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+04-10-2024T14:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+04-10-2024T14:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+04-10-2024T14:55:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017712049.png]]
+
+04-10-2024T14:55:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+04-10-2024T14:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+04-10-2024T14:55:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_Pay_selection")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_Pay_selection' is clicked on
+
+04-10-2024T14:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_Pay_selection' is clicked on
+
+04-10-2024T14:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_EFTPOS")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+04-10-2024T14:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+04-10-2024T14:55:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:18 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017718426.png]]
+
+04-10-2024T14:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Pay")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+04-10-2024T14:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+04-10-2024T14:55:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017721409.png]]
+
+04-10-2024T14:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_EFTPOSTransact")): Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_EFTPOSTransact' is clicked on
+
+04-10-2024T14:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_EFTPOSTransact' is clicked on
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+04-10-2024T14:55:22 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - fos.close(): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+04-10-2024T14:55:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+04-10-2024T14:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+04-10-2024T14:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+04-10-2024T14:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge" time="42.552" classname="Test Cases/DBC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge" status="PASSED">
+         <system-out><![CDATA[04-10-2024T14:55:25 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge: Test Cases/DBC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - docketNumber = cell.getStringCellValue(): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - println(docketNumber): null
+
+04-10-2024T14:55:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-10-2024T14:55:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-10-2024T14:55:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-10-2024T14:55:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-10-2024T14:55:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-10-2024T14:55:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-10-2024T14:55:26 - [MESSAGE][PASSED] - Current window maximized
+
+04-10-2024T14:55:26 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+04-10-2024T14:55:28 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+04-10-2024T14:55:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_User ID_userid'
+
+04-10-2024T14:55:30 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_User ID_userid'
+
+04-10-2024T14:55:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Password_password'
+
+04-10-2024T14:55:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Password_password'
+
+04-10-2024T14:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Login' is clicked on
+
+04-10-2024T14:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Login' is clicked on
+
+04-10-2024T14:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/burger_Menu")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/burger_Menu' is clicked on
+
+04-10-2024T14:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/burger_Menu' is clicked on
+
+04-10-2024T14:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+04-10-2024T14:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+04-10-2024T14:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/td_Credit Notes")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+04-10-2024T14:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+04-10-2024T14:55:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017737787.png]]
+
+04-10-2024T14:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_New' is clicked on
+
+04-10-2024T14:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_New' is clicked on
+
+04-10-2024T14:55:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017740672.png]]
+
+04-10-2024T14:55:41 - [TEST_STEP][PASSED] - transaction_Number = getText(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/transaction_Number")): Text of object 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/transaction_Number' is: '20258400'
+
+04-10-2024T14:55:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/transaction_Number' is: '20258400'
+
+04-10-2024T14:55:41 - [TEST_STEP][PASSED] - println(transaction_Number): null
+
+04-10-2024T14:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Select a Value")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Select a Value' is clicked on
+
+04-10-2024T14:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Select a Value' is clicked on
+
+04-10-2024T14:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Overcharge")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Overcharge' is clicked on
+
+04-10-2024T14:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Overcharge' is clicked on
+
+04-10-2024T14:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Reason")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Reason' is clicked on
+
+04-10-2024T14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Reason' is clicked on
+
+04-10-2024T14:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_M - Incorrect Pricing (c")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_M - Incorrect Pricing (c' is clicked on
+
+04-10-2024T14:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_M - Incorrect Pricing (c' is clicked on
+
+04-10-2024T14:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), STOP_ON_FAILURE): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+04-10-2024T14:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+04-10-2024T14:55:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), docketNumber): Keys '20258398' sent to object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+04-10-2024T14:55:45 - [MESSAGE][PASSED] - Keys '20258398' sent to object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+04-10-2024T14:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Branch_selector")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Branch_selector' is clicked on
+
+04-10-2024T14:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Branch_selector' is clicked on
+
+04-10-2024T14:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228' is clicked on
+
+04-10-2024T14:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228' is clicked on
+
+04-10-2024T14:55:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017748875.png]]
+
+04-10-2024T14:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Load Details")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+04-10-2024T14:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+04-10-2024T14:55:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017751961.png]]
+
+04-10-2024T14:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_UnitCredit")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_UnitCredit' is clicked on
+
+04-10-2024T14:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_UnitCredit' is clicked on
+
+04-10-2024T14:55:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_EA_unitSellBrowse"), "2"): Keys '2' sent to object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_EA_unitSellBrowse'
+
+04-10-2024T14:55:53 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_EA_unitSellBrowse'
+
+04-10-2024T14:55:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017755639.png]]
+
+04-10-2024T14:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Finish (S)")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+04-10-2024T14:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+04-10-2024T14:55:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:55:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:55:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:55:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:55:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017758529.png]]
+
+04-10-2024T14:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Pay_selection")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Pay_selection' is clicked on
+
+04-10-2024T14:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Pay_selection' is clicked on
+
+04-10-2024T14:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_EFTPOS_1")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_EFTPOS_1' is clicked on
+
+04-10-2024T14:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_EFTPOS_1' is clicked on
+
+04-10-2024T14:56:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:56:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:56:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:56:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:56:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017762214.png]]
+
+04-10-2024T14:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Refund")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Refund' is clicked on
+
+04-10-2024T14:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Refund' is clicked on
+
+04-10-2024T14:56:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-10-2024T14:56:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-10-2024T14:56:05 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-10-2024T14:56:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-10-2024T14:56:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241004_145446\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS8_POS_Cash_Refund_Overcharge\\20241004_145446\\1728017765068.png]]
+
+04-10-2024T14:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_EFTPOSTransact")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_EFTPOSTransact' is clicked on
+
+04-10-2024T14:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_EFTPOSTransact' is clicked on
+
+04-10-2024T14:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+04-10-2024T14:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+04-10-2024T14:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+04-10-2024T14:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-10-2024T14:54:52 - [TEST_SUITE][PASSED] - TS8_POS_Cash_Refund_Overcharge: Test Cases/DBC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

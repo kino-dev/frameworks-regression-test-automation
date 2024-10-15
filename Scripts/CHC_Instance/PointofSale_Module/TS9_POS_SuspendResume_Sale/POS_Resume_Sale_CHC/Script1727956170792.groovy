@@ -78,17 +78,41 @@ WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Pa
 
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Today'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Find'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/first_invoiceNumber_link'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)'))
 
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Please Select_isc_13P'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Cash'))
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Pay'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
 

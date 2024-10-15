@@ -29,33 +29,38 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'), 
+WebUI.setText(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/input_Password_password'), 
     'FHoXGFMjtD0=')
 
-WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_MenuIcon'))
 
-WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/b_Transaction Processing'))
 
-WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/td_Point Of Sale'))
 
-invoiceNum = WebUI.getText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
+invoiceNum = WebUI.getText(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/div_invoiceNum'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 
+WebUI.setText(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/input_P_prodId'), 
     'LM20')
 
-WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
-WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_add'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_SuspendSale'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 
 FileInputStream sourceFile = new FileInputStream(ExcelFile)
 
@@ -86,7 +91,7 @@ fos.close()
 
 sourceFile.close()
 
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_AccountDropdown'))
 
-WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
+WebUI.click(findTestObject('Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/div_Logout'))
 

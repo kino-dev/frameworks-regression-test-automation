@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS8_POS_Cash_Refund_Overcharge,Chrome 129.0.0.0,,,04-10-2024 14:54:52,04-10-2024 14:56:07,1m - 15.247s,PASSED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS8),Chrome 129.0.0.0,,,04-10-2024 14:54:52,04-10-2024 14:55:25,32.519s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,04-10-2024 14:54:53,04-10-2024 14:54:55,1.611s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,04-10-2024 14:54:55,04-10-2024 14:54:55,0.052s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,04-10-2024 14:54:55,04-10-2024 14:54:58,2.999s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,04-10-2024 14:54:58,04-10-2024 14:54:59,1.236s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 129.0.0.0,,,04-10-2024 14:54:59,04-10-2024 14:54:59,0.390s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 129.0.0.0,,,04-10-2024 14:54:59,04-10-2024 14:55:00,0.561s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 129.0.0.0,,,04-10-2024 14:55:00,04-10-2024 14:55:03,3.345s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 129.0.0.0,,,04-10-2024 14:55:03,04-10-2024 14:55:04,1.104s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 129.0.0.0,,,04-10-2024 14:55:04,04-10-2024 14:55:05,0.732s,PASSED
+"invoiceNum = getText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum""))",Chrome 129.0.0.0,,,04-10-2024 14:55:05,04-10-2024 14:55:07,2.066s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId""), ""LM20"")",Chrome 129.0.0.0,,,04-10-2024 14:55:07,04-10-2024 14:55:08,0.580s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered""), ""2"")",Chrome 129.0.0.0,,,04-10-2024 14:55:08,04-10-2024 14:55:09,1.209s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered""))",Chrome 129.0.0.0,,,04-10-2024 14:55:09,04-10-2024 14:55:09,0.302s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add""))",Chrome 129.0.0.0,,,04-10-2024 14:55:09,04-10-2024 14:55:09,0.361s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:09,04-10-2024 14:55:12,2.040s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:12,04-10-2024 14:55:12,0.686s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)""))",Chrome 129.0.0.0,,,04-10-2024 14:55:12,04-10-2024 14:55:13,0.394s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_Pay_selection""))",Chrome 129.0.0.0,,,04-10-2024 14:55:13,04-10-2024 14:55:15,2.045s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_EFTPOS""))",Chrome 129.0.0.0,,,04-10-2024 14:55:15,04-10-2024 14:55:16,1.261s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:16,04-10-2024 14:55:18,2.018s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:18,04-10-2024 14:55:18,0.528s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Pay""))",Chrome 129.0.0.0,,,04-10-2024 14:55:18,04-10-2024 14:55:19,0.435s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:19,04-10-2024 14:55:21,2.015s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:21,04-10-2024 14:55:21,0.513s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_EFTPOSTransact""))",Chrome 129.0.0.0,,,04-10-2024 14:55:21,04-10-2024 14:55:22,0.306s,PASSED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.020s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.653s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.004s,PASSED
+row = sheet.getRow(0),Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.043s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.014s,PASSED
+row = sheet.createRow(1),Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.007s,PASSED
+cell = row.createCell(0),Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:22,0.003s,PASSED
+"cell.setCellValue(""Invoice Number"")",Chrome 129.0.0.0,,,04-10-2024 14:55:22,04-10-2024 14:55:23,0.039s,PASSED
+cell = row.createCell(1),Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:23,0.004s,PASSED
+cell.setCellValue(invoiceNum),Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:23,0.005s,PASSED
+fos = new java.io.FileOutputStream(ExcelFile),Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:23,0.014s,PASSED
+workbook.write(fos),Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:23,0.123s,PASSED
+fos.close(),Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:23,0.004s,PASSED
+sourceFile.close(),Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:23,0.003s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown""))",Chrome 129.0.0.0,,,04-10-2024 14:55:23,04-10-2024 14:55:24,1.383s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout""))",Chrome 129.0.0.0,,,04-10-2024 14:55:24,04-10-2024 14:55:25,0.869s,PASSED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge,Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:56:07,42.552s,PASSED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.004s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.014s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.002s,PASSED
+row = sheet.getRow(1),Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.002s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.002s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.002s,PASSED
+println(docketNumber),Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:25,0.004s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,04-10-2024 14:55:25,04-10-2024 14:55:26,0.900s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,04-10-2024 14:55:26,04-10-2024 14:55:26,0.036s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,04-10-2024 14:55:26,04-10-2024 14:55:28,1.888s,PASSED
+"setText(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,04-10-2024 14:55:28,04-10-2024 14:55:30,1.661s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 129.0.0.0,,,04-10-2024 14:55:30,04-10-2024 14:55:30,0.331s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Login""))",Chrome 129.0.0.0,,,04-10-2024 14:55:30,04-10-2024 14:55:31,0.514s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/burger_Menu""))",Chrome 129.0.0.0,,,04-10-2024 14:55:31,04-10-2024 14:55:34,3.127s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 129.0.0.0,,,04-10-2024 14:55:34,04-10-2024 14:55:35,0.794s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/td_Credit Notes""))",Chrome 129.0.0.0,,,04-10-2024 14:55:35,04-10-2024 14:55:35,0.691s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:35,04-10-2024 14:55:37,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:37,04-10-2024 14:55:38,0.541s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_New""))",Chrome 129.0.0.0,,,04-10-2024 14:55:38,04-10-2024 14:55:38,0.336s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:38,04-10-2024 14:55:40,2.006s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:40,04-10-2024 14:55:41,0.513s,PASSED
+"transaction_Number = getText(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/transaction_Number""))",Chrome 129.0.0.0,,,04-10-2024 14:55:41,04-10-2024 14:55:41,0.259s,PASSED
+println(transaction_Number),Chrome 129.0.0.0,,,04-10-2024 14:55:41,04-10-2024 14:55:41,0.004s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Select a Value""))",Chrome 129.0.0.0,,,04-10-2024 14:55:41,04-10-2024 14:55:41,0.329s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Overcharge""))",Chrome 129.0.0.0,,,04-10-2024 14:55:41,04-10-2024 14:55:42,0.839s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/table_Reason""))",Chrome 129.0.0.0,,,04-10-2024 14:55:42,04-10-2024 14:55:43,0.693s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_M - Incorrect Pricing (c""))",Chrome 129.0.0.0,,,04-10-2024 14:55:43,04-10-2024 14:55:44,0.750s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket""), STOP_ON_FAILURE)",Chrome 129.0.0.0,,,04-10-2024 14:55:44,04-10-2024 14:55:44,0.558s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_Original Docket_originalDocket""), docketNumber)",Chrome 129.0.0.0,,,04-10-2024 14:55:44,04-10-2024 14:55:45,0.546s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Branch_selector""))",Chrome 129.0.0.0,,,04-10-2024 14:55:45,04-10-2024 14:55:45,0.347s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_228 - DEMONSTRATION BRANCH 228""))",Chrome 129.0.0.0,,,04-10-2024 14:55:45,04-10-2024 14:55:46,1.353s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:46,04-10-2024 14:55:48,2.004s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:48,04-10-2024 14:55:49,0.532s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Load Details""))",Chrome 129.0.0.0,,,04-10-2024 14:55:49,04-10-2024 14:55:49,0.549s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:49,04-10-2024 14:55:51,2.003s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:51,04-10-2024 14:55:52,0.538s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_UnitCredit""))",Chrome 129.0.0.0,,,04-10-2024 14:55:52,04-10-2024 14:55:52,0.307s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/input_EA_unitSellBrowse""), ""2"")",Chrome 129.0.0.0,,,04-10-2024 14:55:52,04-10-2024 14:55:53,0.816s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:53,04-10-2024 14:55:55,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:55,04-10-2024 14:55:56,0.520s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Finish (S)""))",Chrome 129.0.0.0,,,04-10-2024 14:55:56,04-10-2024 14:55:56,0.352s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:55:56,04-10-2024 14:55:58,2.018s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:55:58,04-10-2024 14:55:59,0.540s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_Pay_selection""))",Chrome 129.0.0.0,,,04-10-2024 14:55:59,04-10-2024 14:55:59,0.313s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_EFTPOS_1""))",Chrome 129.0.0.0,,,04-10-2024 14:55:59,04-10-2024 14:56:00,0.826s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:56:00,04-10-2024 14:56:02,2.005s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:56:02,04-10-2024 14:56:02,0.507s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Refund""))",Chrome 129.0.0.0,,,04-10-2024 14:56:02,04-10-2024 14:56:03,0.329s,PASSED
+delay(2),Chrome 129.0.0.0,,,04-10-2024 14:56:03,04-10-2024 14:56:05,2.015s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,04-10-2024 14:56:05,04-10-2024 14:56:05,0.518s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_EFTPOSTransact""))",Chrome 129.0.0.0,,,04-10-2024 14:56:05,04-10-2024 14:56:05,0.313s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/img_AccountDropdown""))",Chrome 129.0.0.0,,,04-10-2024 14:56:05,04-10-2024 14:56:07,1.473s,PASSED
+"click(findTestObject(""Object Repository/TS8_POS_CashRefund_Overcharge/Page_Frameworks (Demo)/div_Logout""))",Chrome 129.0.0.0,,,04-10-2024 14:56:07,04-10-2024 14:56:07,0.604s,PASSED

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS9_POS_Suspend_Resume_Sale_CHC" time="66.763" tests="2" failures="0" errors="0">
+   <testsuite name="TS9_POS_Suspend_Resume_Sale_CHC" tests="2" failures="0" errors="0" time="66.763" skipped="0" timestamp="07-10-2024T22:44:44" hostname="User - ROG" id="Test Suites/CHC_Instance/PointofSale_Module/TS9_POS_Suspend_Resume_Sale_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301507018.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301515627.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301518579.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301535961.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.1"/>
+         <property name="sessionId" value="c441acb1129f24bcc1eb41681d75f7d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale_CHC" time="35.758" classname="Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale_CHC" status="PASSED">
+         <system-out><![CDATA[07-10-2024T22:44:45 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale_CHC
+
+07-10-2024T22:44:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-10-2024T22:44:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-10-2024T22:44:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-10-2024T22:44:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-10-2024T22:44:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-10-2024T22:44:47 - [MESSAGE][PASSED] - Current window maximized
+
+07-10-2024T22:44:47 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+07-10-2024T22:44:54 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+07-10-2024T22:44:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+07-10-2024T22:44:59 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+07-10-2024T22:44:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+07-10-2024T22:45:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+07-10-2024T22:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+07-10-2024T22:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+07-10-2024T22:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+07-10-2024T22:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+07-10-2024T22:45:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+07-10-2024T22:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+07-10-2024T22:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+07-10-2024T22:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+07-10-2024T22:45:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-10-2024T22:45:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-10-2024T22:45:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+07-10-2024T22:45:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-10-2024T22:45:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301507018.png]]
+
+07-10-2024T22:45:07 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '13072740'
+
+07-10-2024T22:45:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '13072740'
+
+07-10-2024T22:45:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5006866"): Text '5006866' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+07-10-2024T22:45:08 - [MESSAGE][PASSED] - Text '5006866' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+07-10-2024T22:45:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-10-2024T22:45:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-10-2024T22:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+07-10-2024T22:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+07-10-2024T22:45:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-10-2024T22:45:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-10-2024T22:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+07-10-2024T22:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+07-10-2024T22:45:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-10-2024T22:45:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-10-2024T22:45:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+07-10-2024T22:45:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-10-2024T22:45:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301515627.png]]
+
+07-10-2024T22:45:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_SuspendSale")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_SuspendSale' is clicked on
+
+07-10-2024T22:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_SuspendSale' is clicked on
+
+07-10-2024T22:45:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-10-2024T22:45:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-10-2024T22:45:18 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+07-10-2024T22:45:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-10-2024T22:45:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301518579.png]]
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - fos.close(): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+07-10-2024T22:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+07-10-2024T22:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+07-10-2024T22:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+07-10-2024T22:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale_CHC" time="30.809" classname="Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale_CHC" status="PASSED">
+         <system-out><![CDATA[07-10-2024T22:45:20 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale_CHC
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - invoiceNum = cell.getStringCellValue(): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - println(invoiceNum): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+07-10-2024T22:45:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-10-2024T22:45:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-10-2024T22:45:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-10-2024T22:45:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-10-2024T22:45:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-10-2024T22:45:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-10-2024T22:45:22 - [MESSAGE][PASSED] - Current window maximized
+
+07-10-2024T22:45:22 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+07-10-2024T22:45:26 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+07-10-2024T22:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+07-10-2024T22:45:30 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+07-10-2024T22:45:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+07-10-2024T22:45:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+07-10-2024T22:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+07-10-2024T22:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+07-10-2024T22:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+07-10-2024T22:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+07-10-2024T22:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+07-10-2024T22:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+07-10-2024T22:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+07-10-2024T22:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+07-10-2024T22:45:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-10-2024T22:45:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-10-2024T22:45:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+07-10-2024T22:45:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+07-10-2024T22:45:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241007_224437\\CHC_Instance\\PointofSale_Module\\TS9_POS_Suspend_Resume_Sale_CHC\\20241007_224437\\1728301535961.png]]
+
+07-10-2024T22:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+07-10-2024T22:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+07-10-2024T22:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_ResumeSale")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_ResumeSale' is clicked on
+
+07-10-2024T22:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_ResumeSale' is clicked on
+
+07-10-2024T22:45:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_FromNumber"), invoiceNum): Text '13072740' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_FromNumber'
+
+07-10-2024T22:45:39 - [MESSAGE][PASSED] - Text '13072740' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_FromNumber'
+
+07-10-2024T22:45:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_ToNumber"), invoiceNum): Text '13072740' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_ToNumber'
+
+07-10-2024T22:45:40 - [MESSAGE][PASSED] - Text '13072740' is set on object 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_ToNumber'
+
+07-10-2024T22:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Date_isc_N6")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Date_isc_N6' is clicked on
+
+07-10-2024T22:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Date_isc_N6' is clicked on
+
+07-10-2024T22:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Today")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Today' is clicked on
+
+07-10-2024T22:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Today' is clicked on
+
+07-10-2024T22:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Find' is clicked on
+
+07-10-2024T22:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/td_Find' is clicked on
+
+07-10-2024T22:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/first_invoiceNumber_link")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/first_invoiceNumber_link' is clicked on
+
+07-10-2024T22:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/first_invoiceNumber_link' is clicked on
+
+07-10-2024T22:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+07-10-2024T22:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+07-10-2024T22:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Please Select_isc_13P")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Please Select_isc_13P' is clicked on
+
+07-10-2024T22:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Please Select_isc_13P' is clicked on
+
+07-10-2024T22:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Cash")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Cash' is clicked on
+
+07-10-2024T22:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Cash' is clicked on
+
+07-10-2024T22:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Pay")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+07-10-2024T22:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+07-10-2024T22:45:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+07-10-2024T22:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+07-10-2024T22:45:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+07-10-2024T22:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-10-2024T22:44:44 - [TEST_SUITE][PASSED] - TS9_POS_Suspend_Resume_Sale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale_CHC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

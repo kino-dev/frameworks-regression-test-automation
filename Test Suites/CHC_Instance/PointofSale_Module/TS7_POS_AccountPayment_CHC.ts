@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -55,7 +55,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a0e3134-09c3-4dee-8c87-fa9a848e9031</guid>
+      <guid>ba909469-00d9-4e02-9d3c-79245e36e260</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC</testCaseId>
@@ -64,25 +64,25 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8b082fb3-eba0-4fcc-9941-980145afe40d</variableId>
+         <variableId>416bc086-2241-4e32-a401-21872e94af2e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cffb9a35-2977-4f3d-9981-58a681e53db8</variableId>
+         <variableId>0700b6ff-01f0-493d-b1aa-e8fc6cf7037b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2fcf6f67-0fc7-4628-8489-1d0df45b84d4</variableId>
+         <variableId>acd2bdf9-1cdf-45b2-9bd9-f7b8370599e5</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ffb016a8-05f3-44c1-b475-773658e0c415</variableId>
+         <variableId>b4de1216-4cbc-4816-ba4d-0e50c8324d1b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

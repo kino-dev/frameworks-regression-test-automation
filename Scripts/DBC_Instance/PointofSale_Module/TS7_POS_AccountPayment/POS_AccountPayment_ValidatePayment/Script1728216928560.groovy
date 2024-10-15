@@ -35,6 +35,8 @@ Cell cell = row.getCell(1)
 
 transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
 
+//transactionNumber = cell.getStringCellValue()
+
 println(transactionNumber)
 
 sourceFile.close()

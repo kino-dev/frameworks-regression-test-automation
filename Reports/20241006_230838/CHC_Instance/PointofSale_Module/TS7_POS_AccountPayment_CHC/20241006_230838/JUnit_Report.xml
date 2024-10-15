@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS7_POS_AccountPayment_CHC" time="38.61" tests="2" failures="0" errors="1">
+   <testsuite name="TS7_POS_AccountPayment_CHC" tests="2" failures="0" errors="1" time="38.61" skipped="0" timestamp="06-10-2024T23:08:46" hostname="User - ROG" id="Test Suites/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216547716.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216556314.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216559213.png, C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216562138.png"/>
+         <property name="hostName" value="User - ROG"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="10.192.251.2"/>
+         <property name="sessionId" value="afe5f243c85034dee7905c2599b1f7b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_CHC" time="37.808" classname="Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_CHC" status="PASSED">
+         <system-out><![CDATA[06-10-2024T23:08:46 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_CHC
+
+06-10-2024T23:08:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-10-2024T23:08:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-10-2024T23:08:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-10-2024T23:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-10-2024T23:08:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-10-2024T23:08:48 - [MESSAGE][PASSED] - Current window maximized
+
+06-10-2024T23:08:48 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+06-10-2024T23:08:53 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+06-10-2024T23:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+06-10-2024T23:08:58 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+06-10-2024T23:08:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+06-10-2024T23:08:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+06-10-2024T23:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+06-10-2024T23:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+06-10-2024T23:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+06-10-2024T23:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+06-10-2024T23:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+06-10-2024T23:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+06-10-2024T23:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+06-10-2024T23:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+06-10-2024T23:09:02 - [TEST_STEP][PASSED] - transactionNum = getText(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_invoiceNum' is: '13072730'
+
+06-10-2024T23:09:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_invoiceNum' is: '13072730'
+
+06-10-2024T23:09:05 - [TEST_STEP][PASSED] - println(transactionNum): null
+
+06-10-2024T23:09:05 - [TEST_STEP][PASSED] - transactionNum = transactionNum.toInteger() + 1: null
+
+06-10-2024T23:09:05 - [TEST_STEP][PASSED] - println(transactionNum): null
+
+06-10-2024T23:09:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+06-10-2024T23:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+06-10-2024T23:09:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-10-2024T23:09:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-10-2024T23:09:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+06-10-2024T23:09:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-10-2024T23:09:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216547716.png]]
+
+06-10-2024T23:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_PayAccount")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_PayAccount' is clicked on
+
+06-10-2024T23:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_PayAccount' is clicked on
+
+06-10-2024T23:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX"), "Lee Pearce (518451)"): Text 'Lee Pearce (518451)' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+06-10-2024T23:09:11 - [MESSAGE][PASSED] - Text 'Lee Pearce (518451)' is set on object 'Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+06-10-2024T23:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)' is clicked on
+
+06-10-2024T23:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)' is clicked on
+
+06-10-2024T23:09:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Payment Number_isc_QH")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Payment Number_isc_QH' is clicked on
+
+06-10-2024T23:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Payment Number_isc_QH' is clicked on
+
+06-10-2024T23:09:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment' is clicked on
+
+06-10-2024T23:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment' is clicked on
+
+06-10-2024T23:09:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment"), "5"): Keys '5' sent to object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'
+
+06-10-2024T23:09:14 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'
+
+06-10-2024T23:09:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-10-2024T23:09:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-10-2024T23:09:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+06-10-2024T23:09:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-10-2024T23:09:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216556314.png]]
+
+06-10-2024T23:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Tendering")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Tendering' is clicked on
+
+06-10-2024T23:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Tendering' is clicked on
+
+06-10-2024T23:09:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-10-2024T23:09:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-10-2024T23:09:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+06-10-2024T23:09:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-10-2024T23:09:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216559213.png]]
+
+06-10-2024T23:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_5 Cash")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_5 Cash' is clicked on
+
+06-10-2024T23:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_5 Cash' is clicked on
+
+06-10-2024T23:09:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-10-2024T23:09:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-10-2024T23:09:22 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+06-10-2024T23:09:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-10-2024T23:09:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\git\\frameworks-regression-test-automation\\Reports\\20241006_230838\\CHC_Instance\\PointofSale_Module\\TS7_POS_AccountPayment_CHC\\20241006_230838\\1728216562138.png]]
+
+06-10-2024T23:09:22 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+06-10-2024T23:09:22 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - cell.setCellValue("TransactionNumber"): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - cell.setCellValue(transactionNum): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - fos.close(): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/img_Accountdropd")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+06-10-2024T23:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+06-10-2024T23:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+06-10-2024T23:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC" time="0.063" classname="Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC" status="ERROR">
+         <error type="ERROR" message="Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.&#xa;Reason:&#xa;java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)&#xa;	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[06-10-2024T23:09:24 - [TEST_CASE][ERROR] - Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
+	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+06-10-2024T23:09:24 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+06-10-2024T23:09:24 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+06-10-2024T23:09:24 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+06-10-2024T23:09:24 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+06-10-2024T23:09:24 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+06-10-2024T23:09:24 - [TEST_STEP][ERROR] - transactionNumber = cell.getStringCellValue(): Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
+	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+06-10-2024T23:09:24 - [MESSAGE][ERROR] - Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
+	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[06-10-2024T23:09:24 - [TEST_CASE][ERROR] - Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
+	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-10-2024T23:08:46 - [TEST_SUITE][ERROR] - TS7_POS_AccountPayment_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
+	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[06-10-2024T23:08:46 - [TEST_SUITE][ERROR] - TS7_POS_AccountPayment_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:395)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:347)
+	at POS_AccountPayment_ValidatePayment_CHC.run(POS_AccountPayment_ValidatePayment_CHC:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1728216518318.run(TempTestSuite1728216518318.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

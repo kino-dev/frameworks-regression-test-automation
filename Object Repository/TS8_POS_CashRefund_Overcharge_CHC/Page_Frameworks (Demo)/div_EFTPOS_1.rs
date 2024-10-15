@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>458d0b3a-fe27-4c95-a1e2-e37411f16368</webElementGuid>
+      <webElementGuid>38120b76-3c81-4160-b80b-96581bb468db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>28e90792-eaec-42e4-ba84-9b7e125970e0</webElementGuid>
+      <webElementGuid>50da054e-7948-429f-af75-1b9a3d62e021</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>71a132e7-230e-4636-bd14-544ac2b35f78</webElementGuid>
+      <webElementGuid>f4ee4fcf-10fc-40ee-822a-5aa0c9cc00dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EFTPOS</value>
-      <webElementGuid>a51489e6-06f8-4938-945d-a3b7b8b16321</webElementGuid>
+      <webElementGuid>5af08af8-b88d-466b-9440-3a7d04fa562d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_X3table&quot;)/tbody[1]/tr[4]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>f12b8345-0066-4012-b95c-6da51f7b019d</webElementGuid>
+      <webElementGuid>79b35a28-b31f-4ed1-85af-fa3b3b7bb1e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_X3table']/tbody/tr[4]/td/div</value>
-      <webElementGuid>2dd4dc36-66c6-4790-963e-1acefe74a985</webElementGuid>
+      <webElementGuid>eb9c9599-d932-411c-9b9f-537121e0a67c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque'])[2]/following::div[1]</value>
-      <webElementGuid>2a5b2431-8ee7-4eda-acc1-b2c0ef4c5e53</webElementGuid>
+      <webElementGuid>f8015207-2106-4dd4-ad5b-7e9034aa1dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash'])[1]/following::div[2]</value>
-      <webElementGuid>c162a6c6-ae92-4aa0-8d57-a428925e3d31</webElementGuid>
+      <webElementGuid>a5326e74-6fb3-4361-80c0-ead970e85019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Voucher'])[1]/preceding::div[1]</value>
-      <webElementGuid>1085f56b-107b-4ac4-980b-b2d03ec904d4</webElementGuid>
+      <webElementGuid>52a83a65-c741-478f-854c-0794ca06c2df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile EFTPOS'])[1]/preceding::div[2]</value>
-      <webElementGuid>9748e465-ada2-4497-86f9-3828bd93c32e</webElementGuid>
+      <webElementGuid>35f73f90-68a7-451f-a38c-079089014b85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[17]/div/div/div/table/tbody/tr[4]/td/div</value>
-      <webElementGuid>9ef6633f-f90a-428e-a5fe-9fd874fe50a7</webElementGuid>
+      <webElementGuid>c7f7faaa-642c-4310-9383-901ee0ac4b33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'EFTPOS' or . = 'EFTPOS')]</value>
-      <webElementGuid>b290341d-5614-486e-b01f-b3bba12dbb9b</webElementGuid>
+      <webElementGuid>02afee59-d1d8-4165-a499-ed41deeb9e16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

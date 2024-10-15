@@ -39,6 +39,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_Date_isc_N6",
+      "brokenLocator": "//td[2]/table/tbody/tr/td[2]/table/tbody/tr/td/span/img[contains(@src,\u0027http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/calendar.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[2]/table/tbody/tr/td[2]/table/tbody/tr/td/span/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_Date_isc_N6_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_Please Select_isc_13P",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/buttons/dropdown2.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[2]/span/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_Please Select_isc_13P_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_Accountdropd",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/Menu/menu_button.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@name\u003d\u0027isc_Ticon\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_Accountdropd_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_BranchDropdown",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Override Stocking Fee\u0027])[1]/preceding::div[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Branch\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_BranchDropdown_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_501 - DEMONSTRATION BRANCH 501",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Stock Return\u0027])[2]/following::div[(text() \u003d \u0027501 - DEMONSTRATION BRANCH 501\u0027 or . \u003d \u0027501 - DEMONSTRATION BRANCH 501\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Overcharge\u0027])[1]/following::div[21]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/div_501 - DEMONSTRATION BRANCH 501_neighbor.png"
     }
   ]
 }

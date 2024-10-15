@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS7_POS_AccountPayment_CHC,Chrome 129.0.0.0,,,06-10-2024 23:07:05,06-10-2024 23:07:47,41.583s,ERROR
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_CHC,Chrome 129.0.0.0,,,06-10-2024 23:07:05,06-10-2024 23:07:46,40.819s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,06-10-2024 23:07:06,06-10-2024 23:07:08,1.530s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,06-10-2024 23:07:08,06-10-2024 23:07:08,0.067s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 129.0.0.0,,,06-10-2024 23:07:08,06-10-2024 23:07:12,4.802s,PASSED
+"setText(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 129.0.0.0,,,06-10-2024 23:07:12,06-10-2024 23:07:20,7.570s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Password_password""), ""BvRmjN+0xFM="")",Chrome 129.0.0.0,,,06-10-2024 23:07:20,06-10-2024 23:07:20,0.479s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Login""))",Chrome 129.0.0.0,,,06-10-2024 23:07:20,06-10-2024 23:07:21,0.565s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Fws_Menu""))",Chrome 129.0.0.0,,,06-10-2024 23:07:21,06-10-2024 23:07:23,1.809s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing""))",Chrome 129.0.0.0,,,06-10-2024 23:07:23,06-10-2024 23:07:23,0.540s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 129.0.0.0,,,06-10-2024 23:07:23,06-10-2024 23:07:24,0.721s,PASSED
+"transactionNum = getText(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_invoiceNum""))",Chrome 129.0.0.0,,,06-10-2024 23:07:24,06-10-2024 23:07:27,2.497s,PASSED
+println(transactionNum),Chrome 129.0.0.0,,,06-10-2024 23:07:27,06-10-2024 23:07:27,0.006s,PASSED
+transactionNum = transactionNum.toInteger() + 1,Chrome 129.0.0.0,,,06-10-2024 23:07:27,06-10-2024 23:07:27,0.014s,PASSED
+println(transactionNum),Chrome 129.0.0.0,,,06-10-2024 23:07:27,06-10-2024 23:07:27,0.002s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Actions""))",Chrome 129.0.0.0,,,06-10-2024 23:07:27,06-10-2024 23:07:27,0.486s,PASSED
+delay(2),Chrome 129.0.0.0,,,06-10-2024 23:07:27,06-10-2024 23:07:29,2.047s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,06-10-2024 23:07:29,06-10-2024 23:07:30,1.033s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_PayAccount""))",Chrome 129.0.0.0,,,06-10-2024 23:07:30,06-10-2024 23:07:31,0.545s,PASSED
+"setText(findTestObject(""Object Repository/TS7_POS_AccountPayment/Page_Frameworks (Demo)/input_Customer_idCustX""), ""Lee Pearce (518451)"")",Chrome 129.0.0.0,,,06-10-2024 23:07:31,06-10-2024 23:07:33,2.510s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)""))",Chrome 129.0.0.0,,,06-10-2024 23:07:33,06-10-2024 23:07:34,0.558s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Payment Number_isc_QH""))",Chrome 129.0.0.0,,,06-10-2024 23:07:34,06-10-2024 23:07:34,0.541s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment""))",Chrome 129.0.0.0,,,06-10-2024 23:07:34,06-10-2024 23:07:35,0.935s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/input_Payment Amount_valuePayment""), ""5"")",Chrome 129.0.0.0,,,06-10-2024 23:07:35,06-10-2024 23:07:36,0.810s,PASSED
+delay(2),Chrome 129.0.0.0,,,06-10-2024 23:07:36,06-10-2024 23:07:38,2.011s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,06-10-2024 23:07:38,06-10-2024 23:07:39,0.535s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/td_Tendering""))",Chrome 129.0.0.0,,,06-10-2024 23:07:39,06-10-2024 23:07:39,0.313s,PASSED
+delay(2),Chrome 129.0.0.0,,,06-10-2024 23:07:39,06-10-2024 23:07:41,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,06-10-2024 23:07:41,06-10-2024 23:07:42,0.573s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_5 Cash""))",Chrome 129.0.0.0,,,06-10-2024 23:07:42,06-10-2024 23:07:42,0.321s,PASSED
+delay(2),Chrome 129.0.0.0,,,06-10-2024 23:07:42,06-10-2024 23:07:44,2.026s,PASSED
+takeFullPageScreenshot(),Chrome 129.0.0.0,,,06-10-2024 23:07:44,06-10-2024 23:07:44,0.519s,PASSED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,06-10-2024 23:07:44,06-10-2024 23:07:44,0.030s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 129.0.0.0,,,06-10-2024 23:07:44,06-10-2024 23:07:45,0.500s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.004s,PASSED
+row = sheet.getRow(0),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.032s,PASSED
+cell = row.getCell(1),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.015s,PASSED
+row = sheet.createRow(1),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.008s,PASSED
+cell = row.createCell(0),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.003s,PASSED
+"cell.setCellValue(""TransactionNumber"")",Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.027s,PASSED
+cell = row.createCell(1),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.006s,PASSED
+cell.setCellValue(transactionNum),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.018s,PASSED
+fos = new java.io.FileOutputStream(ExcelFile),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.014s,PASSED
+workbook.write(fos),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.135s,PASSED
+fos.close(),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.005s,PASSED
+sourceFile.close(),Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:45,0.002s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/img_Accountdropd""))",Chrome 129.0.0.0,,,06-10-2024 23:07:45,06-10-2024 23:07:46,0.371s,PASSED
+"click(findTestObject(""Object Repository/TS7_POS_AccountPayment_CHC/Page_Frameworks (Demo)/div_Logout""))",Chrome 129.0.0.0,,,06-10-2024 23:07:46,06-10-2024 23:07:46,0.576s,PASSED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_CHC,Chrome 129.0.0.0,,,06-10-2024 23:07:47,06-10-2024 23:07:47,0.034s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 129.0.0.0,,,06-10-2024 23:07:47,06-10-2024 23:07:47,0.004s,ERROR
