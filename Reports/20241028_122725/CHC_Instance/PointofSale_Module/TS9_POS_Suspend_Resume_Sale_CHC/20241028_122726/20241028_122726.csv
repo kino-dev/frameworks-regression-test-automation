@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS9_POS_Suspend_Resume_Sale_CHC,Chrome 130.0.0.0,,,28-10-2024 12:27:36,28-10-2024 12:29:50,2m - 14.391s,ERROR
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale_CHC,Chrome 130.0.0.0,,,28-10-2024 12:29:29,28-10-2024 12:29:50,20.887s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,28-10-2024 12:29:29,28-10-2024 12:29:31,1.671s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,28-10-2024 12:29:31,28-10-2024 12:29:31,0.140s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,28-10-2024 12:29:31,28-10-2024 12:29:37,6.202s,PASSED
+"setText(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,28-10-2024 12:29:37,28-10-2024 12:29:40,3.117s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/input_Password_password""), ""BvRmjN+0xFM="")",Chrome 130.0.0.0,,,28-10-2024 12:29:40,28-10-2024 12:29:40,0.451s,PASSED
+"click(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,28-10-2024 12:29:40,28-10-2024 12:29:41,0.595s,PASSED
+"click(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_CHC/Page_Frameworks (Demo)/Fws_Menu""))",Chrome 130.0.0.0,,,28-10-2024 12:29:41,28-10-2024 12:29:50,8.643s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale_CHC,Chrome 130.0.0.0,,,28-10-2024 12:29:50,28-10-2024 12:29:50,0.062s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,28-10-2024 12:29:50,28-10-2024 12:29:50,0.026s,ERROR

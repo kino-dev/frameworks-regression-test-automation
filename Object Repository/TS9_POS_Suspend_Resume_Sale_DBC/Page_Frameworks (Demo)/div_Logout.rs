@@ -6,12 +6,16 @@
    <elementGuidId>43029c74-6cc7-494f-978b-e039dc587dfb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(8) > td.menuTitleField > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fee753ee-64ce-4d9d-9fe6-dc1699ef83a1</webElementGuid>
+      <webElementGuid>204e20f0-7f82-4bcd-8966-b1691b83dc55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>25ca4f58-8060-4aae-a111-7d7348a676e0</webElementGuid>
+      <webElementGuid>9f397972-0db4-4628-b2cf-6cbb05487428</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5575844c-fcfc-4893-b1ae-4f6f9434d346</webElementGuid>
+      <webElementGuid>b45e22db-ab1f-4598-9099-487124baa78c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>ff244ede-692b-48ae-929b-43157a9979e9</webElementGuid>
+      <webElementGuid>de724c64-317b-4319-9699-510e01c8b7f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_262table&quot;)/tbody[1]/tr[8]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
-      <webElementGuid>59f56437-2303-4601-a632-8b9c2e5dbe8e</webElementGuid>
+      <webElementGuid>4136c62c-2be9-424c-ab94-7aef8d662d73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_262table']/tbody/tr[8]/td/div</value>
-      <webElementGuid>dd44cdf7-bb42-4b34-a5ff-50aa6b2e0b8d</webElementGuid>
+      <webElementGuid>21cc4fe4-08ba-4c3e-9a21-a7a15dd3bec0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::div[4]</value>
-      <webElementGuid>70ef1139-aec6-4f00-9ed2-128b18722355</webElementGuid>
+      <webElementGuid>92edaa94-090f-439f-ab8c-f4a30b178093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Signature Pad Configuration'])[1]/following::div[8]</value>
-      <webElementGuid>c042999b-72d5-46d3-9ddc-784658c7db32</webElementGuid>
+      <webElementGuid>edfad5a8-8ba9-4043-9c98-0c16cb8cda5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/div/div/div/table/tbody/tr[8]/td/div</value>
-      <webElementGuid>69c059b8-ce18-4184-a64a-3619451a7a6a</webElementGuid>
+      <webElementGuid>8cd9846c-4f28-4af8-85f4-4d3c522e529d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>b03f3cc7-214b-4f9c-8485-e818446414a8</webElementGuid>
+      <webElementGuid>031635b0-de29-49a9-b165-25b5c8451c0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

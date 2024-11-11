@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS7_POS_AccountPayment_NT" time="45.529" tests="2" failures="0" errors="1">
+   <testsuite name="TS7_POS_AccountPayment_NT" tests="2" failures="0" errors="1" time="45.529" skipped="0" timestamp="05-11-2024T04:00:56" hostname="azureuser - 10.192.8.5" id="Test Suites/Nortruss instance/PointofSale_Module/TS7_POS_AccountPayment_NT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241105_040046\\Nortruss instance\\PointofSale_Module\\TS7_POS_AccountPayment_NT\\20241105_040046"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241105_040046\\Nortruss instance\\PointofSale_Module\\TS7_POS_AccountPayment_NT\\20241105_040046\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="b2594a3c1b3b3fe22bebf1140a4e296c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_Nortrus" time="43.961" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_Nortrus" status="PASSED">
+         <system-out><![CDATA[05-11-2024T04:00:56 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_Nortrus: Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_Nortrus
+
+05-11-2024T04:00:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-11-2024T04:00:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-11-2024T04:00:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-11-2024T04:01:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-11-2024T04:01:01 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'data:,'
+
+05-11-2024T04:01:01 - [MESSAGE][PASSED] - Current window's url is: 'data:,'
+
+05-11-2024T04:01:01 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-11-2024T04:01:08 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-11-2024T04:01:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-11-2024T04:01:08 - [MESSAGE][PASSED] - Current window maximized
+
+05-11-2024T04:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-11-2024T04:01:12 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-11-2024T04:01:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+05-11-2024T04:01:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+05-11-2024T04:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-11-2024T04:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-11-2024T04:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_FW")): Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+05-11-2024T04:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+05-11-2024T04:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+05-11-2024T04:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+05-11-2024T04:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+05-11-2024T04:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+05-11-2024T04:01:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+05-11-2024T04:01:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+05-11-2024T04:01:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_PIN_pin"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+05-11-2024T04:01:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+05-11-2024T04:01:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_OK")): Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+05-11-2024T04:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+05-11-2024T04:01:25 - [TEST_STEP][PASSED] - transactionNum = getText(findTestObject("Object Repository/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/Page_Frameworks (Demo)/div_invoiceNum' is: '40559273'
+
+05-11-2024T04:01:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Frameworks (Demo)/div_invoiceNum' is: '40559273'
+
+05-11-2024T04:01:27 - [TEST_STEP][PASSED] - println(transactionNum): null
+
+05-11-2024T04:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+05-11-2024T04:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+05-11-2024T04:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_PayAccount")): Object: 'Object Repository/Page_Frameworks (Demo)/div_PayAccount' is clicked on
+
+05-11-2024T04:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_PayAccount' is clicked on
+
+05-11-2024T04:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Customer_isc_R6")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Customer_isc_R6' is clicked on
+
+05-11-2024T04:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Customer_isc_R6' is clicked on
+
+05-11-2024T04:01:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Customer_idCustX"), "17179"): Text '17179' is set on object 'Object Repository/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+05-11-2024T04:01:32 - [MESSAGE][PASSED] - Text '17179' is set on object 'Object Repository/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+05-11-2024T04:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Tiffany Brown (17179)")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Tiffany Brown (17179)' is clicked on
+
+05-11-2024T04:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Tiffany Brown (17179)' is clicked on
+
+05-11-2024T04:01:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Payment Amount_valuePayment"), "25.45"): Text '25.45' is set on object 'Object Repository/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'
+
+05-11-2024T04:01:35 - [MESSAGE][PASSED] - Text '25.45' is set on object 'Object Repository/Page_Frameworks (Demo)/input_Payment Amount_valuePayment'
+
+05-11-2024T04:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Tendering")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Tendering' is clicked on
+
+05-11-2024T04:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Tendering' is clicked on
+
+05-11-2024T04:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Pay")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+05-11-2024T04:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+05-11-2024T04:01:37 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+05-11-2024T04:01:38 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - fos.close(): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+05-11-2024T04:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+05-11-2024T04:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+05-11-2024T04:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td__1")): Object: 'Object Repository/Page_Frameworks (Demo)/td__1' is clicked on
+
+05-11-2024T04:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td__1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus" time="0.11" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus" status="ERROR">
+         <error type="ERROR" message="Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.&#xa;Reason:&#xa;java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)&#xa;	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[05-11-2024T04:01:42 - [TEST_CASE][ERROR] - Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus: Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-11-2024T04:01:42 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+05-11-2024T04:01:42 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+05-11-2024T04:01:42 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+05-11-2024T04:01:42 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+05-11-2024T04:01:42 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+05-11-2024T04:01:42 - [TEST_STEP][ERROR] - transactionNumber = String.valueOf(cell.getNumericCellValue()): Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-11-2024T04:01:42 - [MESSAGE][ERROR] - Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[05-11-2024T04:01:42 - [TEST_CASE][ERROR] - Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus: Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-11-2024T04:00:56 - [TEST_SUITE][ERROR] - TS7_POS_AccountPayment_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[05-11-2024T04:00:56 - [TEST_SUITE][ERROR] - TS7_POS_AccountPayment_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS7_POS_AccountPayment/POS_AccountPayment_ValidatePayment_Nortrus FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at POS_AccountPayment_ValidatePayment_Nortrus.run(POS_AccountPayment_ValidatePayment_Nortrus:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1730779246151.run(TempTestSuite1730779246151.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

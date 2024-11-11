@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS5_POS_Cash_Refund_Full,Chrome 130.0.0.0,,,01-11-2024 10:38:21,01-11-2024 10:38:55,34.206s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale-LM20(TS5),Chrome 130.0.0.0,,,01-11-2024 10:38:22,01-11-2024 10:38:40,18.419s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,01-11-2024 10:38:23,01-11-2024 10:38:29,5.508s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,01-11-2024 10:38:29,01-11-2024 10:38:29,0.269s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,01-11-2024 10:38:29,01-11-2024 10:38:31,2.093s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,01-11-2024 10:38:31,01-11-2024 10:38:35,4.203s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 130.0.0.0,,,01-11-2024 10:38:35,01-11-2024 10:38:36,0.941s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,01-11-2024 10:38:36,01-11-2024 10:38:37,0.779s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 130.0.0.0,,,01-11-2024 10:38:37,01-11-2024 10:38:40,3.263s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full,Chrome 130.0.0.0,,,01-11-2024 10:38:40,01-11-2024 10:38:52,11.463s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,01-11-2024 10:38:41,01-11-2024 10:38:41,0.016s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,01-11-2024 10:38:41,01-11-2024 10:38:43,1.859s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,01-11-2024 10:38:43,01-11-2024 10:38:43,0.021s,PASSED
+row = sheet.getRow(1),Chrome 130.0.0.0,,,01-11-2024 10:38:43,01-11-2024 10:38:43,0.183s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,01-11-2024 10:38:43,01-11-2024 10:38:43,0.016s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 130.0.0.0,,,01-11-2024 10:38:43,01-11-2024 10:38:43,0.086s,PASSED
+println(docketNumber),Chrome 130.0.0.0,,,01-11-2024 10:38:43,01-11-2024 10:38:43,0.006s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,01-11-2024 10:38:43,01-11-2024 10:38:49,5.582s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,01-11-2024 10:38:49,01-11-2024 10:38:49,0.126s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,01-11-2024 10:38:49,01-11-2024 10:38:49,0.497s,PASSED
+"setText(findTestObject(""Object Repository/TS5_POS_CashRefund_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,01-11-2024 10:38:49,01-11-2024 10:38:52,2.259s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock,Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:55,3.788s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.003s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.078s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.004s,PASSED
+row = sheet.getRow(2),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.003s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.016s,PASSED
+transactionNumber = cell.getStringCellValue(),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.002s,PASSED
+println(transactionNumber),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.017s,PASSED
+sourceFile.close(),Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:52,0.012s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,01-11-2024 10:38:52,01-11-2024 10:38:54,1.816s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,01-11-2024 10:38:54,01-11-2024 10:38:54,0.137s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,01-11-2024 10:38:54,01-11-2024 10:38:55,1.355s,FAILED

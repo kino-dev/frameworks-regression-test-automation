@@ -6,12 +6,16 @@
    <elementGuidId>3f4d538e-78b3-45c9-8d3d-6a29206ee597</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/table/tbody/tr[1]/td[3]/div/a[@href = 'javascript:void']</value>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:void']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>td.cellSelectedOver > div > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table/tbody/tr[1]/td[3]/div/a[@href = 'javascript:void']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>23b0a94f-1a90-4086-8985-8b01f8fb2ac8</webElementGuid>
+      <webElementGuid>a9bcde08-6489-4c43-bcf4-4bb6db88ea26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void</value>
-      <webElementGuid>403d1727-e2fe-4562-84b7-794015032c1f</webElementGuid>
+      <webElementGuid>4bd73c07-645b-4e74-a2f2-54752fcb57d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>target</name>
       <type>Main</type>
       <value>javascript</value>
-      <webElementGuid>e67a408b-2006-4e3f-bb5f-28aff1f22a73</webElementGuid>
+      <webElementGuid>5a4c9384-5496-43f9-842e-14955dc23688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>if(window.transactionFind_results_ListGrid1) return transactionFind_results_ListGrid1.$30i(event,0,2);</value>
-      <webElementGuid>c298a50c-7b3d-4a84-8b55-b7b1d5671747</webElementGuid>
+      <webElementGuid>baeb1be0-4035-4898-bf80-b21657505253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>13072679</value>
-      <webElementGuid>c9a07105-b4c4-4b38-ad0c-6337aaa2ea35</webElementGuid>
+      <webElementGuid>339ee15d-f1fa-4987-95a1-48b70fada346</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_Q1table&quot;)/tbody[1]/tr[1]/td[@class=&quot;cellSelectedOver&quot;]/div[1]/a[1]</value>
-      <webElementGuid>485075a2-98ad-43ec-b7fa-df6fd15d92de</webElementGuid>
+      <webElementGuid>9100b475-c12c-4cfa-936b-3c5a0518913d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick='if(window.transactionFind_results_ListGrid1) return transactionFind_results_ListGrid1.$30i(event,0,2);']</value>
-      <webElementGuid>45f0ff61-b405-4fc4-ae80-cc911043b12a</webElementGuid>
+      <webElementGuid>8ca09bf6-7ad8-41cd-a7be-4a26a21fb1e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_Q1table']/tbody/tr/td[3]/div/a</value>
-      <webElementGuid>f889e4d5-c08f-4de8-a2f5-1b01780ea819</webElementGuid>
+      <webElementGuid>7aecdbb0-0e42-49d4-8c5e-dea4b29d1c33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'13072679')]</value>
-      <webElementGuid>7b28ac03-c9c7-49fe-bb46-1a22f8e1cb70</webElementGuid>
+      <webElementGuid>daeae1e2-c23f-440f-bca0-6b98f20a0d06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash Sale'])[3]/preceding::a[1]</value>
-      <webElementGuid>2cca210c-93a0-405c-bafa-63bd5e1e8ca5</webElementGuid>
+      <webElementGuid>b50138a2-11df-4eb0-9fe3-6af781543a0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='manaki'])[1]/preceding::a[1]</value>
-      <webElementGuid>176cbec2-e61e-4286-b161-073ebfa6e14d</webElementGuid>
+      <webElementGuid>71db1aa5-e06b-4e61-90e9-eb5e377d7ccb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='13072679']/parent::*</value>
-      <webElementGuid>f59fb0c5-42fa-4611-b452-9eff8a79935c</webElementGuid>
+      <webElementGuid>3c154e98-fcb4-4a52-902b-e70d3925d41d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void')])[7]</value>
-      <webElementGuid>6e1d3c1e-fe48-4c5b-92c0-23bc78d0e28e</webElementGuid>
+      <webElementGuid>896c2068-2268-4aca-aa57-cee868f147d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr/td[3]/div/a</value>
-      <webElementGuid>ec02a0a7-c866-4bf1-be1f-2f79d3a223c9</webElementGuid>
+      <webElementGuid>8df919dc-e664-40e2-9647-54512339ff29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void' and (text() = '13072679' or . = '13072679')]</value>
-      <webElementGuid>1a687073-9d5f-4679-8410-9dd881a8565e</webElementGuid>
+      <webElementGuid>ef8dc705-2f90-4d46-8d06-8af839c8a3bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

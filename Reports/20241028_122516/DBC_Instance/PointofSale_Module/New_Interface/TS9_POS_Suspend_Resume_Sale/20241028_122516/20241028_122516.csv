@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS9_POS_Suspend_Resume_Sale,Chrome 130.0.0.0,,,28-10-2024 12:25:25,28-10-2024 12:25:40,14.712s,ERROR
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Suspend_Sale,Chrome 130.0.0.0,,,28-10-2024 12:25:25,28-10-2024 12:25:39,13.916s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,28-10-2024 12:25:26,28-10-2024 12:25:30,3.204s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,28-10-2024 12:25:30,28-10-2024 12:25:30,0.162s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,28-10-2024 12:25:30,28-10-2024 12:25:31,1.506s,PASSED
+"setText(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,28-10-2024 12:25:31,28-10-2024 12:25:33,1.776s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 130.0.0.0,,,28-10-2024 12:25:33,28-10-2024 12:25:34,0.609s,PASSED
+"click(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,28-10-2024 12:25:34,28-10-2024 12:25:34,0.571s,PASSED
+"click(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 130.0.0.0,,,28-10-2024 12:25:34,28-10-2024 12:25:37,2.454s,PASSED
+"click(findTestObject(""Object Repository/TS9_POS_Suspend_Resume_Sale_DBC/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,28-10-2024 12:25:37,28-10-2024 12:25:39,2.576s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS9_POS_SuspendResume_Sale/POS_Resume_Sale,Chrome 130.0.0.0,,,28-10-2024 12:25:39,28-10-2024 12:25:40,0.469s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,28-10-2024 12:25:40,28-10-2024 12:25:40,0.015s,ERROR

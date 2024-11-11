@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS8_POS_CashRefund_Overcharge_NT" time="91.904" tests="2" failures="0" errors="0">
+   <testsuite name="TS8_POS_CashRefund_Overcharge_NT" tests="2" failures="0" errors="0" time="91.904" skipped="0" timestamp="03-11-2024T07:05:36" hostname="azureuser - 10.192.8.5" id="Test Suites/Nortruss instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge_NT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241103_070526\\Nortruss instance\\PointofSale_Module\\TS8_POS_CashRefund_Overcharge_NT\\20241103_070526"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241103_070526\\Nortruss instance\\PointofSale_Module\\TS8_POS_CashRefund_Overcharge_NT\\20241103_070526\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="198aa37dadb739bfc3a885aeea36280c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS1_POS_CashSale/POS Cash Sale-2014086(TS8)" time="42.637" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS1_POS_CashSale/POS Cash Sale-2014086(TS8)" status="PASSED">
+         <system-out><![CDATA[03-11-2024T07:05:36 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/PointofSale_Module/TS1_POS_CashSale/POS Cash Sale-2014086(TS8): Test Cases/Nortruss Instance/PointofSale_Module/TS1_POS_CashSale/POS Cash Sale-2014086(TS8)
+
+03-11-2024T07:05:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2024T07:05:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2024T07:05:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2024T07:05:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2024T07:05:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-11-2024T07:05:41 - [MESSAGE][PASSED] - Current window maximized
+
+03-11-2024T07:05:41 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+03-11-2024T07:05:41 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+03-11-2024T07:05:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+03-11-2024T07:05:51 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+03-11-2024T07:05:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+03-11-2024T07:05:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+03-11-2024T07:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+03-11-2024T07:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+03-11-2024T07:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_FW")): Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+03-11-2024T07:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+03-11-2024T07:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+03-11-2024T07:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+03-11-2024T07:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+03-11-2024T07:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+03-11-2024T07:05:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+03-11-2024T07:06:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+03-11-2024T07:06:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_PIN_pin"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+03-11-2024T07:06:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+03-11-2024T07:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_OK")): Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+03-11-2024T07:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+03-11-2024T07:06:03 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/Page_Frameworks (Demo)/div_invoiceNum' is: '40559171'
+
+03-11-2024T07:06:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Frameworks (Demo)/div_invoiceNum' is: '40559171'
+
+03-11-2024T07:06:05 - [TEST_STEP][PASSED] - println(invoiceNum): null
+
+03-11-2024T07:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_P_prodId"), "2014086"): Text '2014086' is set on object 'Object Repository/Page_Frameworks (Demo)/input_P_prodId'
+
+03-11-2024T07:06:06 - [MESSAGE][PASSED] - Text '2014086' is set on object 'Object Repository/Page_Frameworks (Demo)/input_P_prodId'
+
+03-11-2024T07:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+03-11-2024T07:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+03-11-2024T07:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img")): Object: 'Object Repository/Page_Frameworks (Demo)/img' is clicked on
+
+03-11-2024T07:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img' is clicked on
+
+03-11-2024T07:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+03-11-2024T07:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+03-11-2024T07:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Pay")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+03-11-2024T07:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+03-11-2024T07:06:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1'
+
+03-11-2024T07:06:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1'
+
+03-11-2024T07:06:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1'
+
+03-11-2024T07:06:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1'
+
+03-11-2024T07:06:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_OK_1")): Object: 'Object Repository/Page_Frameworks (Demo)/div_OK_1' is clicked on
+
+03-11-2024T07:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_OK_1' is clicked on
+
+03-11-2024T07:06:16 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+03-11-2024T07:06:16 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+03-11-2024T07:06:17 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+03-11-2024T07:06:17 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+03-11-2024T07:06:17 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+03-11-2024T07:06:17 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - fos.close(): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+03-11-2024T07:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+03-11-2024T07:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+03-11-2024T07:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge" time="48.933" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge" status="PASSED">
+         <system-out><![CDATA[03-11-2024T07:06:19 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge: Test Cases/Nortruss Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - docketNumber = cell.getStringCellValue(): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - println(docketNumber): null
+
+03-11-2024T07:06:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-11-2024T07:06:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+03-11-2024T07:06:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-11-2024T07:06:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-11-2024T07:06:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-11-2024T07:06:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-11-2024T07:06:22 - [MESSAGE][PASSED] - Current window maximized
+
+03-11-2024T07:06:22 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+03-11-2024T07:06:22 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+03-11-2024T07:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+03-11-2024T07:06:33 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+03-11-2024T07:06:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+03-11-2024T07:06:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+03-11-2024T07:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+03-11-2024T07:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+03-11-2024T07:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_FW")): Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+03-11-2024T07:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+03-11-2024T07:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+03-11-2024T07:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+03-11-2024T07:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Credit Notes")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+03-11-2024T07:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Credit Notes' is clicked on
+
+03-11-2024T07:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_New")): Object: 'Object Repository/Page_Frameworks (Demo)/td_New' is clicked on
+
+03-11-2024T07:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_New' is clicked on
+
+03-11-2024T07:06:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+03-11-2024T07:06:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+03-11-2024T07:06:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_PIN_pin"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+03-11-2024T07:06:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+03-11-2024T07:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_OK")): Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+03-11-2024T07:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+03-11-2024T07:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_Select a Value_isc_FP")): Object: 'Object Repository/Page_Frameworks (Demo)/img_Select a Value_isc_FP' is clicked on
+
+03-11-2024T07:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_Select a Value_isc_FP' is clicked on
+
+03-11-2024T07:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Overcharge")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Overcharge' is clicked on
+
+03-11-2024T07:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Overcharge' is clicked on
+
+03-11-2024T07:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_Reason_isc_FX")): Object: 'Object Repository/Page_Frameworks (Demo)/img_Reason_isc_FX' is clicked on
+
+03-11-2024T07:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_Reason_isc_FX' is clicked on
+
+03-11-2024T07:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_02 - Overcharged")): Object: 'Object Repository/Page_Frameworks (Demo)/div_02 - Overcharged' is clicked on
+
+03-11-2024T07:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_02 - Overcharged' is clicked on
+
+03-11-2024T07:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket")): Object: 'Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+03-11-2024T07:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket' is clicked on
+
+03-11-2024T07:06:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket"), docketNumber): Keys '40559171' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+03-11-2024T07:06:52 - [MESSAGE][PASSED] - Keys '40559171' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket'
+
+03-11-2024T07:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_No line items loaded")): Object: 'Object Repository/Page_Frameworks (Demo)/td_No line items loaded' is clicked on
+
+03-11-2024T07:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_No line items loaded' is clicked on
+
+03-11-2024T07:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Load Details")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+03-11-2024T07:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Load Details' is clicked on
+
+03-11-2024T07:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_0.0000")): Object: 'Object Repository/Page_Frameworks (Demo)/div_0.0000' is clicked on
+
+03-11-2024T07:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_0.0000' is clicked on
+
+03-11-2024T07:06:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Frameworks (Demo)/input_EA_unitSellBrowse"), "5.09"): Keys '5.09' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_EA_unitSellBrowse'
+
+03-11-2024T07:06:56 - [MESSAGE][PASSED] - Keys '5.09' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_EA_unitSellBrowse'
+
+03-11-2024T07:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_2014086CEMENT GP 20KG NORTHERN CEMENT40_a57d0d")): Object: 'Object Repository/Page_Frameworks (Demo)/div_2014086CEMENT GP 20KG NORTHERN CEMENT40_a57d0d' is clicked on
+
+03-11-2024T07:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_2014086CEMENT GP 20KG NORTHERN CEMENT40_a57d0d' is clicked on
+
+03-11-2024T07:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Finish (S)")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+03-11-2024T07:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Finish (S)' is clicked on
+
+03-11-2024T07:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Cash_isc_R4")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Cash_isc_R4' is clicked on
+
+03-11-2024T07:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Cash_isc_R4' is clicked on
+
+03-11-2024T07:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_EFTPOS")): Object: 'Object Repository/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+03-11-2024T07:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_EFTPOS' is clicked on
+
+03-11-2024T07:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Refund_1")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Refund_1' is clicked on
+
+03-11-2024T07:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Refund_1' is clicked on
+
+03-11-2024T07:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img")): Object: 'Object Repository/Page_Frameworks (Demo)/img' is clicked on
+
+03-11-2024T07:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img' is clicked on
+
+03-11-2024T07:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+03-11-2024T07:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+03-11-2024T07:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+03-11-2024T07:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-11-2024T07:05:36 - [TEST_SUITE][PASSED] - TS8_POS_CashRefund_Overcharge_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

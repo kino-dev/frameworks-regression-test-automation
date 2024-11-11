@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ACSM Builders Pty Ltd (31862)</name>
+   <tag></tag>
+   <elementGuidId>a169ea65-d910-4c58-b7a6-f44ccac30ed7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelected > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='isc_TYtable']/tbody/tr[25]/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ACSM Builders Pty Ltd (31862)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d005c37-3104-4996-b4e8-7ec61e448604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>9b12a1f9-0e99-463e-b11f-ab2cee545bc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bc32b31f-b331-4bf7-a5cc-baf0cbfebf31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACSM Builders Pty Ltd (31862)</value>
+      <webElementGuid>fa5904c7-05ef-48f6-ad5a-8859cbfdb8c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_TYtable&quot;)/tbody[1]/tr[25]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>d9ef910d-152c-4a7b-b51f-975ed9b7ef85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_TYtable']/tbody/tr[25]/td/div</value>
+      <webElementGuid>63f71f9b-7031-4bb9-be5b-9674794b26fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Access Hardware (30559)'])[1]/following::div[2]</value>
+      <webElementGuid>46ae1139-8b2b-4d2c-8ce8-f3c3f173f13a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ACSM Builders Pty Ltd (31862)']/parent::*</value>
+      <webElementGuid>8feec4bd-f732-435e-a220-df5f5ffeb4ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[25]/td/div</value>
+      <webElementGuid>ca9d8940-96ba-485d-8c9f-6d7542190d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ACSM Builders Pty Ltd (31862)' or . = 'ACSM Builders Pty Ltd (31862)')]</value>
+      <webElementGuid>817103be-e460-439f-8f3b-150b43779145</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
