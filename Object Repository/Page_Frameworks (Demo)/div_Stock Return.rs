@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bc9c61ee-b975-4bfe-934e-6e471f20f3f5</webElementGuid>
+      <webElementGuid>de4d7842-8deb-4b46-9eef-9c2c04aeb0d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>49cd6e50-15e9-4ad7-a307-f7bc80f3d564</webElementGuid>
+      <webElementGuid>f27c42ac-cd40-464a-8932-9e3560377bd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f3bce60b-a6d8-40bf-94cc-4eaf5fcd03a7</webElementGuid>
+      <webElementGuid>794fef55-1570-4f4e-993b-21ee8016b4d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Stock Return</value>
-      <webElementGuid>99033238-e767-4866-969a-24771862348f</webElementGuid>
+      <webElementGuid>acbdb6c2-3396-4e05-a6c6-aa76e40b9881</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_O0table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>8f13cb6f-4336-4dd0-89eb-a6c84c9a7560</webElementGuid>
+      <webElementGuid>ffb3acbd-a622-42fa-9d3c-c0e84aad8d20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_O0table']/tbody/tr[2]/td/div</value>
-      <webElementGuid>cb4394a3-325e-4602-bd05-bcc039918db0</webElementGuid>
+      <webElementGuid>ac473c33-d506-46ff-a14f-10b77ab58374</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;Select a Value>'])[1]/following::div[1]</value>
-      <webElementGuid>677b2706-cea2-471b-8362-49c6ed2312f3</webElementGuid>
+      <webElementGuid>d06b5f39-b874-48e5-b00c-c4fe93dc5511</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[14]</value>
-      <webElementGuid>30880356-031c-4880-9cc6-282d4a8430ca</webElementGuid>
+      <webElementGuid>af91a6f4-18c1-42c5-8236-a570a0fdda9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/preceding::div[1]</value>
-      <webElementGuid>6142906f-3836-4562-b430-4cf25513a019</webElementGuid>
+      <webElementGuid>064342ca-55dc-4240-8ad9-20b9f18d4676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>d694f754-1de7-40b3-a07f-a915d6c409dd</webElementGuid>
+      <webElementGuid>a2ff3b9c-dc99-4bd8-ad20-ebaa30b4e59b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Stock Return' or . = 'Stock Return')]</value>
-      <webElementGuid>c7f75978-8d2f-4310-acba-8d99370d2c55</webElementGuid>
+      <webElementGuid>46dbdc4e-0bc4-4f79-bcd8-6c706eccdd64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

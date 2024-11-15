@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e06dba34-0144-4cc3-b064-0aae06003584</webElementGuid>
+      <webElementGuid>49011c4d-2db7-4214-8f00-a046767bf92c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>f7dd46a6-f2af-4924-9811-71470c3d2513</webElementGuid>
+      <webElementGuid>e320706a-753d-474a-974f-81a1c95f99a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e27975a3-4dbe-4dec-a068-c8d688c448da</webElementGuid>
+      <webElementGuid>87fd507a-f9f6-4e6f-b634-272859aa4b00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0.0000</value>
-      <webElementGuid>ef8b3aba-ec02-4865-bf9d-f0cf3825014c</webElementGuid>
+      <webElementGuid>a4bac125-8556-4c4a-864b-881dda0f6c21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_KGtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;tallCellSelectedOver&quot;]/div[1]</value>
-      <webElementGuid>01e17054-c6f0-46c8-8db0-308185e3ad4b</webElementGuid>
+      <webElementGuid>5e4fd17a-59da-49fe-8512-ad9f87a64959</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_KGtable']/tbody/tr/td[11]/div</value>
-      <webElementGuid>e6d68a06-563c-42f4-97de-f07746e5bbcb</webElementGuid>
+      <webElementGuid>13473ab5-6a1a-46fc-8a1f-9b333017dca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EA'])[1]/following::div[1]</value>
-      <webElementGuid>081b5112-c51c-4fcf-afc2-6da1fd4c6294</webElementGuid>
+      <webElementGuid>e07e5ba2-ee91-47e7-b04d-8964bf08f5c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CEMENT GP 20KG NORTHERN CEMENT'])[1]/following::div[9]</value>
-      <webElementGuid>83dc2c73-773b-4b1c-a47b-90128b5f0975</webElementGuid>
+      <webElementGuid>214fdb7a-81cd-4525-84f1-36baa790bb4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally'])[1]/preceding::div[9]</value>
-      <webElementGuid>17d9b147-ecb4-467f-ab6a-69559451bdd7</webElementGuid>
+      <webElementGuid>8d89e534-3c20-4571-8120-89fe0c21b94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/preceding::div[23]</value>
-      <webElementGuid>23dfb79d-64d3-413e-9090-90c827be0e39</webElementGuid>
+      <webElementGuid>86dab4a4-e67e-409a-bbbf-d028e78518d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='0.0000']/parent::*</value>
-      <webElementGuid>be20e361-9313-46c7-8a2f-7cb838837040</webElementGuid>
+      <webElementGuid>a955f77f-fefb-448e-aa21-79318d38aeec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr/td[11]/div</value>
-      <webElementGuid>939bfa72-5fb5-4cba-be0b-7ff1808aa676</webElementGuid>
+      <webElementGuid>5a233f54-4935-4049-aeae-739570820c4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '0.0000' or . = '0.0000')]</value>
-      <webElementGuid>087255b4-6458-441e-a70f-0ac4dda03494</webElementGuid>
+      <webElementGuid>e297418e-3fa3-44a4-b9a4-db2a447f0262</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

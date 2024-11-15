@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2c894749-44d2-43d3-b124-2736792db3aa</webElementGuid>
+      <webElementGuid>0702f857-8abf-4f54-829d-c8228432d3fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.nt.nortruss.com.au:8080/FWDemo/images/frameworks-logo-610.png</value>
-      <webElementGuid>cf662c46-1166-4d1c-8ef1-bd558d8c3682</webElementGuid>
+      <webElementGuid>ae992690-feab-4de5-acd5-b20f2955b76e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>179</value>
-      <webElementGuid>c0e13261-cabf-4695-b108-fa75d5d3e01e</webElementGuid>
+      <webElementGuid>5a689aae-5890-42cf-9602-8da62c70db6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>35</value>
-      <webElementGuid>6e56e110-49d1-478c-bc5e-23d534dbc16e</webElementGuid>
+      <webElementGuid>49782840-5dc7-442c-b7b8-b8a93a544ff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>align</name>
       <type>Main</type>
       <value>TEXTTOP</value>
-      <webElementGuid>c36a7dc1-9b91-41bf-98e7-f0fdf9476ea3</webElementGuid>
+      <webElementGuid>147ed76e-2078-4c3a-bfd6-bf384f3d26e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>isc_Fmain</value>
-      <webElementGuid>5a041bd1-44cf-4452-b705-a225beeba923</webElementGuid>
+      <webElementGuid>76c9ef26-86e2-42b7-87f2-6729694fa5a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1ec765ec-1b42-4db1-b2fc-b1d7b5e024f1</webElementGuid>
+      <webElementGuid>e30036b7-71cf-4622-be8d-a61c8eb82d03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>suppress</name>
       <type>Main</type>
       <value>TRUE</value>
-      <webElementGuid>6cb18fb5-926c-4cb1-bfee-aa7e1bbda0cf</webElementGuid>
+      <webElementGuid>db228d6f-d065-405d-9d06-09e48c17e9e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>draggable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>57d670b4-c91e-4daa-88ce-01083b515f56</webElementGuid>
+      <webElementGuid>901c3b4b-f292-4cbd-9f40-6bd46b97acb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_F&quot;)/table[1]/tbody[1]/tr[1]/td[1]/img[1]</value>
-      <webElementGuid>f5e660f6-b15c-47ac-b668-87c582e1f4e5</webElementGuid>
+      <webElementGuid>ff3fc3a3-ed40-4a79-a9b6-559bfea67e9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@name='isc_Fmain']</value>
-      <webElementGuid>21c385cb-4509-4d99-b3e6-8e075a2e611d</webElementGuid>
+      <webElementGuid>f59e2306-b6b6-40d9-b28f-1374eb9ec1c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_F']/table/tbody/tr/td/img</value>
-      <webElementGuid>3ea9f32a-34c4-40c4-b2eb-08c48215f379</webElementGuid>
+      <webElementGuid>5ad5622b-986f-43fd-baee-6748049c04c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.nt.nortruss.com.au:8080/FWDemo/images/frameworks-logo-610.png')]</value>
-      <webElementGuid>dfceeb70-e228-4ed6-9c95-2fc18ec46730</webElementGuid>
+      <webElementGuid>92765a0a-2747-4f3e-9ee7-9b4d57a4f655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/table/tbody/tr/td/img</value>
-      <webElementGuid>6d05ecec-452f-41cf-96a4-95d8d045d15b</webElementGuid>
+      <webElementGuid>98c67b14-0e5e-4acd-ad69-32dec2ae0ad4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/images/frameworks-logo-610.png' and @name = 'isc_Fmain']</value>
-      <webElementGuid>8caf1bf5-dc88-4820-b0d6-c6ed422c775c</webElementGuid>
+      <webElementGuid>16dc881c-9c21-4048-98cb-eb8a9c909acb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

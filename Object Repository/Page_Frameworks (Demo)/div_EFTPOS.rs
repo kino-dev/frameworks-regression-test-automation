@@ -6,16 +6,16 @@
    <elementGuidId>399f4508-5e45-4b6a-a5c9-be9ab4136952</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@role = 'presentation' and (text() = 'EFTPOS' or . = 'EFTPOS')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_XCtable > tbody > tr:nth-of-type(3) > td.pickListCellSelected > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Voucher'])[1]/preceding::div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role = 'presentation' and (text() = 'EFTPOS' or . = 'EFTPOS')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bae9c4d7-3952-43c1-ad37-6ef1dec08661</webElementGuid>
+      <webElementGuid>53d2702c-a083-48b7-a13c-9e73b812ac52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>1bbbd1ec-57e4-4262-b1cf-513935ca1dbb</webElementGuid>
+      <webElementGuid>d3978672-1ea4-4585-b58d-eac425e848f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a44d1597-6115-48c4-98c8-95ba7cc7ab09</webElementGuid>
+      <webElementGuid>4c23bc85-cd3a-4f54-901f-81f9f654d4d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EFTPOS</value>
-      <webElementGuid>f6896563-2717-4d05-9754-ff3bc9924796</webElementGuid>
+      <webElementGuid>0dd35fce-eb6e-4b1d-9195-44be03cc9a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_XCtable&quot;)/tbody[1]/tr[3]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
-      <webElementGuid>6016b01f-8053-4ed3-8525-0afc15e0bfdc</webElementGuid>
+      <webElementGuid>2717c1ba-ebd1-4548-b23d-318a9b10d09c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_XCtable']/tbody/tr[3]/td/div</value>
-      <webElementGuid>25fe1c0c-463a-4e3d-8b6e-4b0a4fe18681</webElementGuid>
+      <webElementGuid>fcba6133-118d-41e7-8aef-b2bdcda69210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque'])[2]/following::div[1]</value>
-      <webElementGuid>3df49f84-0158-4719-b15f-3cfa6864f326</webElementGuid>
+      <webElementGuid>e04e2003-c30a-4baa-b9e2-161c0f93cdc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash'])[2]/following::div[2]</value>
-      <webElementGuid>9f1ba1bc-6a8c-4c12-b4ec-a63cf88032b9</webElementGuid>
+      <webElementGuid>29b5a32a-19ae-49ea-a002-8bd5a80b7210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Direct Deposit'])[1]/preceding::div[1]</value>
-      <webElementGuid>1d8f547f-5e38-4000-97bc-8c7226c66962</webElementGuid>
+      <webElementGuid>45159cf8-5054-4195-8572-db3cceaeef8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Voucher'])[1]/preceding::div[2]</value>
-      <webElementGuid>21c294e6-7b29-459d-b286-94299b44e7db</webElementGuid>
+      <webElementGuid>94eff780-2e9b-4ed1-a74f-b199315f211f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[18]/div/div/div/table/tbody/tr[3]/td/div</value>
-      <webElementGuid>afddccc0-ca8a-4548-87e4-ba58264c1eda</webElementGuid>
+      <webElementGuid>e74761eb-d1cb-4dec-b4f8-eccc95202ef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'EFTPOS' or . = 'EFTPOS')]</value>
-      <webElementGuid>3a614f2c-a4a5-4247-ae93-9a2960a0842f</webElementGuid>
+      <webElementGuid>1fea9ac8-c94a-4454-9d5d-0e78b9463d47</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

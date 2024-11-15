@@ -16,12 +16,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//additional imports
+import org.apache.poi.ss.usermodel.Cell as Cell
+import org.apache.poi.ss.usermodel.Row as Row
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import java.lang.Integer as Integer
+
+//Get the demo environment URL from test data container
+FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+
+XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+
+XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+
+// cell B1
+Row currentSheet_row = sourceTestData_sheet.getRow(2)
+
+Cell currentSheet_cell = currentSheet_row.getCell(1)
+
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+CHC_Demo = currentSheet_cell.getStringCellValue()
+
+println(CHC_Demo)
+
+sourceTestData_FwksEnv.close()
 
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
+WebUI.navigateToUrl(CHC_Demo)
 
 WebUI.setText(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)
@@ -47,7 +72,6 @@ WebUI.takeFullPageScreenshot()
 //WebUI.setEncryptedText(findTestObject('Object Repository/Pick_Release_SO_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
 //
 //WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK'))
-
 WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5006866')
 
 WebUI.delay(2)
@@ -122,7 +146,6 @@ WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (
 //WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_PIN_pin_1'), '2237')
 //
 //WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK_1'))
-
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()

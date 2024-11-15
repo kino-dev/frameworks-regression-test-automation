@@ -14,7 +14,7 @@
          <value>//div[@id='isc_HY']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +24,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9a0cd378-d4f9-4ee0-a662-cfdfd5a876eb</webElementGuid>
+      <webElementGuid>53b6da34-a4b1-4cce-b7b9-43c86cfb41f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>isc_HY</value>
-      <webElementGuid>cd5048bf-171a-4777-8143-470d4771da3e</webElementGuid>
+      <webElementGuid>fbf8b5ed-efb9-491f-afae-1628dcf603b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>af191b95-55c4-4a46-aff6-7ee8ac1c2afc</webElementGuid>
+      <webElementGuid>d215d1df-ed24-4868-9cde-3de10c97e8c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Finish (S)</value>
-      <webElementGuid>6789e56f-933f-4fa3-a1be-c9d25dc50d69</webElementGuid>
+      <webElementGuid>34b95f3e-a667-4bb0-b04b-8bc169477540</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_HY&quot;)</value>
-      <webElementGuid>a9a1cbcf-6e94-40a0-9f4f-aafd98550ee0</webElementGuid>
+      <webElementGuid>a8f08b8a-e79d-463b-9bb9-64f43c6f5cd2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_HY']</value>
-      <webElementGuid>a61547a3-1bd9-4bf9-b383-11e4a227a9fd</webElementGuid>
+      <webElementGuid>195103da-f6e6-47d1-97f3-1baa4b69a36f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_HZ']/table/tbody/tr/td/div</value>
-      <webElementGuid>46436f3e-ecd3-4e08-9dc8-945307d60e27</webElementGuid>
+      <webElementGuid>7363fd9c-1a0c-418b-b760-7d8dd74e5180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$5.60'])[1]/following::div[8]</value>
-      <webElementGuid>bdec6147-4005-4869-9542-bee2a347adfd</webElementGuid>
+      <webElementGuid>f6e179dd-8f75-4162-9057-c833f860c67e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total INC'])[2]/following::div[9]</value>
-      <webElementGuid>d74e2ec4-6827-4246-9504-39ce63214c17</webElementGuid>
+      <webElementGuid>bd4d9e8c-1399-4de4-b458-ad8d8836996f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspend'])[1]/preceding::div[1]</value>
-      <webElementGuid>8443abe1-1ba7-480f-9cd8-a31d19f30dcb</webElementGuid>
+      <webElementGuid>e58050f1-ef08-4efe-baba-f49518954bf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Finish (']/parent::*</value>
-      <webElementGuid>845f2872-b193-4ce0-8440-f3e02675f86d</webElementGuid>
+      <webElementGuid>c9e149f4-96a2-4065-bd33-3ea695d6252d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>4bf3b7e7-0633-49d0-b7ce-c5ab81b57a2f</webElementGuid>
+      <webElementGuid>c1125463-718f-4a74-8f71-f6e4972b39f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_HY' and (text() = 'Finish (S)' or . = 'Finish (S)')]</value>
-      <webElementGuid>235e7bad-1ffa-4064-8d52-591f136f7ac0</webElementGuid>
+      <webElementGuid>696161b4-6de4-4f92-b801-3291f4088336</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

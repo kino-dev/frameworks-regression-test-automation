@@ -6,15 +6,15 @@
    <elementGuidId>6c890cda-fcc0-456a-aeff-a14e22ca33c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Overcharge' or . = 'Overcharge')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td.pickListCellSelected > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>//div[(text() = 'Overcharge' or . = 'Overcharge')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
          <value>//div[(text() = 'Overcharge' or . = 'Overcharge')]</value>
       </entry>
    </selectorCollection>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8f4c01fe-69b4-4177-b1ef-42b02086e9bb</webElementGuid>
+      <webElementGuid>9b516003-92d2-4a52-b093-8ae58b2ff303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>ee4b0816-b005-495b-aae9-5324f5aa1841</webElementGuid>
+      <webElementGuid>9aa5fa94-4efe-4ce2-aa5b-9cc5d42d0e6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>927c7644-85e9-454b-8392-a7a0797da4f1</webElementGuid>
+      <webElementGuid>4044903d-7e2c-4e7d-9c6e-23e4ca051dcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Overcharge</value>
-      <webElementGuid>f0e9640d-d46d-45d7-863b-8b1b0e12fe29</webElementGuid>
+      <webElementGuid>96ba3f24-27fe-499a-9cc4-e72f49040bb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_O1table&quot;)/tbody[1]/tr[3]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
-      <webElementGuid>ecdd44b9-618d-4f51-849f-bbf1b8ccb975</webElementGuid>
+      <webElementGuid>c2bca5ac-9366-4eb6-97e4-7bae317a3ecc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_O1table']/tbody/tr[3]/td/div</value>
-      <webElementGuid>e24ca549-2c64-4344-be3c-025e59461b20</webElementGuid>
+      <webElementGuid>8c53cec9-68eb-4d4e-ac3d-21bcd0fda2b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[1]/following::div[1]</value>
-      <webElementGuid>391c6404-72d9-4363-9a0d-43d93324fab0</webElementGuid>
+      <webElementGuid>0c7f14a1-fed8-4157-a66f-335b1ba066c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;Select a Value>'])[1]/following::div[2]</value>
-      <webElementGuid>4131baa3-7d3a-41b3-8807-d9b6ab9ae40c</webElementGuid>
+      <webElementGuid>70bf9e39-eecf-4f84-8452-35271f9c3a7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/table/tbody/tr[3]/td/div</value>
-      <webElementGuid>f7bb566c-5036-46d8-98f5-b2af15f68a38</webElementGuid>
+      <webElementGuid>7e498e03-f3d3-43be-9831-8b10e6a92884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Overcharge' or . = 'Overcharge')]</value>
-      <webElementGuid>47baf806-ddbb-4d86-83d3-5a536687389a</webElementGuid>
+      <webElementGuid>c11e8b29-1a5a-4a27-beae-dc22c9e31e5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

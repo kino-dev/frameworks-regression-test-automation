@@ -6,16 +6,15 @@
    <elementGuidId>633be3ee-07c5-45f3-823c-baac1afb6de1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//td[@align = 'right' and @class = 'menu' and (text() = ' ' or . = ' ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::td[6]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[@align = 'right' and @class = 'menu' and (text() = ' ' or . = ' ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>0258f92a-98e3-4f50-b75d-f0291e870176</webElementGuid>
+      <webElementGuid>2b84fa1e-e121-418b-be23-8187380f834b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +40,7 @@
       <name>align</name>
       <type>Main</type>
       <value>right</value>
-      <webElementGuid>05ff3288-b16b-4e41-b187-6c256f7a260e</webElementGuid>
+      <webElementGuid>e48f188e-b9e4-4309-91be-2936dcfd03c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +48,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>e8eaec06-3493-4b08-994f-9a560def5546</webElementGuid>
+      <webElementGuid>943dfa60-8305-493a-a233-4f919c4bedf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value> </value>
-      <webElementGuid>adc2bc26-21de-48f8-9231-9aa4564aaf28</webElementGuid>
+      <webElementGuid>f4629b3f-bfa8-48d6-a60e-e2a7d3771b8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_MBtable&quot;)/tbody[1]/tr[6]/td[@class=&quot;menu&quot;]</value>
-      <webElementGuid>f029d2cc-53ed-4b48-a8e4-1cd7ea2bbcb6</webElementGuid>
+      <webElementGuid>288127a8-cd08-4112-987e-a294d21e20ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_MBtable']/tbody/tr[6]/td[3]</value>
-      <webElementGuid>b6a1778d-bc3d-416d-8ca6-b2468ee34ed4</webElementGuid>
+      <webElementGuid>8a749428-b804-461e-a054-e9194ff8fdf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/following::td[2]</value>
-      <webElementGuid>3d9cdd49-1228-496d-bbc0-7973a2a676dd</webElementGuid>
+      <webElementGuid>e705dd06-002d-48cb-9585-1832571d706b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::td[6]</value>
-      <webElementGuid>f7d6ce67-44d5-4a2b-a91b-675655c0044c</webElementGuid>
+      <webElementGuid>52d5df67-cdaa-4e69-8570-14fbbce920b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td[3]</value>
-      <webElementGuid>6f55fe28-c37d-4574-a7ed-56d1cc1d9eb4</webElementGuid>
+      <webElementGuid>ba6d5f0a-861f-406c-8b7b-82deea92639b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = ' ' or . = ' ')]</value>
-      <webElementGuid>b8183910-b826-4095-b847-34c704d0b64b</webElementGuid>
+      <webElementGuid>5b8c647d-1d40-4630-a4a1-ec157e306593</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

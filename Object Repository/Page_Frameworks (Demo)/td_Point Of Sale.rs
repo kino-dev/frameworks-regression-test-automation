@@ -6,12 +6,12 @@
    <elementGuidId>5139c697-aa53-4685-ac87-b46ec8f68cb5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_TreeGrid_0_valueCell2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_TreeGrid_0_valueCell2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>2bbcbeb7-ce30-4536-a4b4-51f15c30beb1</webElementGuid>
+      <webElementGuid>4d255558-8e60-4844-9edb-8aa19420a6e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_TreeGrid_0_valueCell2</value>
-      <webElementGuid>b2e22ced-8268-4adf-a10d-ee0686a143d7</webElementGuid>
+      <webElementGuid>9a237801-e84c-4102-8fa4-4136ed45dae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>treeTallCellSelectedOver</value>
-      <webElementGuid>3a28e6e6-50cf-47c9-a0fd-ba1d76921c93</webElementGuid>
+      <webElementGuid>7db96fa2-229b-4e2c-9045-759163730919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Point Of Sale</value>
-      <webElementGuid>87a5cf42-4159-41cf-909d-6cffad006ba6</webElementGuid>
+      <webElementGuid>fcff3636-8157-442f-819e-e1807a810fff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_TreeGrid_0_valueCell2&quot;)</value>
-      <webElementGuid>7c315fb3-2233-434d-8b1c-3ffc390eb94a</webElementGuid>
+      <webElementGuid>c66d2411-d9b3-4fac-9c98-a48a34c74c8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//td[@id='isc_TreeGrid_0_valueCell2']</value>
-      <webElementGuid>e816560f-3e2f-4368-b55c-770ed2cb2a36</webElementGuid>
+      <webElementGuid>3114bd8b-29d9-4b18-b631-818f3c9162cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_69table']/tbody/tr[3]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>75b4c090-31ba-496d-86b6-3e8c0f172e07</webElementGuid>
+      <webElementGuid>1ae4c787-0700-4609-a350-fc4c66fe6ae1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Processing'])[1]/following::td[4]</value>
-      <webElementGuid>4369f2d7-0750-4357-b52e-0021d7f7b756</webElementGuid>
+      <webElementGuid>c285fc2b-a5ea-466b-b4dd-016c69fadf5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::td[8]</value>
-      <webElementGuid>c7894799-9f26-43fe-a8af-4cb6d260b77f</webElementGuid>
+      <webElementGuid>f77b2528-ba64-4098-abfc-7d86f0340051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Orders'])[1]/preceding::td[3]</value>
-      <webElementGuid>78a92549-d12a-4fed-9fdb-27c7ddaa4334</webElementGuid>
+      <webElementGuid>79e9d4d2-14b1-46a5-8b1b-d2e4bee81e79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Notes'])[1]/preceding::td[7]</value>
-      <webElementGuid>b85ac843-7446-4480-86dd-789a8853a54b</webElementGuid>
+      <webElementGuid>0c53c912-6b9a-4b69-84e9-768d42db929e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
-      <webElementGuid>a5e9de7d-e52f-49c7-bbee-780595b4ce18</webElementGuid>
+      <webElementGuid>5a53efff-de31-4ed7-a705-4fd4087f53b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>1723e15b-72c2-401b-aa72-e090dbb7d296</webElementGuid>
+      <webElementGuid>4db9acf0-6903-4a25-8852-dfc795112618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[@id = 'isc_TreeGrid_0_valueCell2' and (text() = 'Point Of Sale' or . = 'Point Of Sale')]</value>
-      <webElementGuid>e14d390a-6cd8-44ed-8b7d-998c98ab72f8</webElementGuid>
+      <webElementGuid>06589c95-d677-4828-b94d-cf7add341af6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

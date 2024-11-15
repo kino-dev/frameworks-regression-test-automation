@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>66ae1723-3871-4c4a-b0d0-caa0c43bc9c1</webElementGuid>
+      <webElementGuid>b12c7388-8214-4718-b85e-fc265a2d619a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_KF</value>
-      <webElementGuid>16ad92cb-7d1a-4ac7-b34e-7905b24e4adb</webElementGuid>
+      <webElementGuid>acb5f2fd-9032-4c5b-897c-2b7a55245a10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2014086CEMENT GP 20KG NORTHERN CEMENT40559134110.59000.0010.5910.591EA5.09000.000.0002 - Overcharged </value>
-      <webElementGuid>82562017-df24-48ad-81da-f8f1c50ef6e2</webElementGuid>
+      <webElementGuid>52d2641d-439e-4e87-b238-fd0407e4a4c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_KF&quot;)</value>
-      <webElementGuid>04321f44-cb11-45fa-8563-abb043f02549</webElementGuid>
+      <webElementGuid>ca529a68-6e43-4d13-b0c8-8950ddd8d538</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_KF']</value>
-      <webElementGuid>19d55d0b-efc4-4ce4-b5a5-83568fc4ab5e</webElementGuid>
+      <webElementGuid>b423354f-7074-4ac3-9ec3-edd67525c733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_KG']/div</value>
-      <webElementGuid>ad04a5d9-f0ce-4ae1-b653-bf79d1d86385</webElementGuid>
+      <webElementGuid>52a8ddee-59a7-4b8b-9104-7ad397d8e29d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::div[2]</value>
-      <webElementGuid>f1ff32e4-9c2f-46fa-8102-87f4089e6106</webElementGuid>
+      <webElementGuid>937b9691-c481-4de0-ac4d-06c78918a06b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason'])[3]/following::div[6]</value>
-      <webElementGuid>01676c04-dd58-4d99-ae18-be62740c6459</webElementGuid>
+      <webElementGuid>0edfd880-016e-43c3-9f08-da89bfc7b3f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[3]/div/div/div/div/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>a56a1f18-af49-4885-8489-26e8d36d6fa6</webElementGuid>
+      <webElementGuid>ee65d14c-593a-4567-a382-7e9f18d1f474</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_KF' and (text() = '2014086CEMENT GP 20KG NORTHERN CEMENT40559134110.59000.0010.5910.591EA5.09000.000.0002 - Overcharged ' or . = '2014086CEMENT GP 20KG NORTHERN CEMENT40559134110.59000.0010.5910.591EA5.09000.000.0002 - Overcharged ')]</value>
-      <webElementGuid>9d591b66-6df9-4427-93b1-44eef93bd82f</webElementGuid>
+      <webElementGuid>3c856e4a-4fea-49f5-bf4a-42b4a830333f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

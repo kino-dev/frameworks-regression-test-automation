@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>e980bc90-2894-4587-bff6-40403bfc49af</webElementGuid>
+      <webElementGuid>f29c8d58-9f67-412b-aecf-eaff199ebba9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction Processing</value>
-      <webElementGuid>90fd5f90-5e1b-465d-aded-9c005c78e257</webElementGuid>
+      <webElementGuid>947fded0-c38a-48a0-9b7f-8e4bc24fde90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_TreeGrid_0_valueCell1&quot;)/b[1]</value>
-      <webElementGuid>d6ebbeb2-325e-4ed5-ac68-1e5adbdd4adc</webElementGuid>
+      <webElementGuid>367d319a-ea26-43c8-a4be-d79876209aba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_TreeGrid_0_valueCell1']/b</value>
-      <webElementGuid>089479c6-85ae-47c3-9d66-69be740d351d</webElementGuid>
+      <webElementGuid>76e8994b-eaa8-4af9-a1e7-04376fc1deac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::b[1]</value>
-      <webElementGuid>5a214262-56da-4ca8-ace0-49535de55337</webElementGuid>
+      <webElementGuid>6b94cc0f-44e7-4c1a-97dc-482de75ecf94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/following::b[3]</value>
-      <webElementGuid>5c1f701a-486d-4c11-b5c1-5ae2174aa63c</webElementGuid>
+      <webElementGuid>d4fbf013-5d18-4cbb-abec-901bf5f2a3fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Till Reconciliation &amp; Banking'])[1]/preceding::b[2]</value>
-      <webElementGuid>9d77c960-28fe-4e1d-9899-b5cfbc294a70</webElementGuid>
+      <webElementGuid>da216b5c-013c-4171-9c61-74aa55f55914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance'])[1]/preceding::b[3]</value>
-      <webElementGuid>8acc85cc-3a3a-40db-a1bc-80a0e935577f</webElementGuid>
+      <webElementGuid>83a3ac32-6585-4dfb-8e81-7aa5277a0e83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaction Processing']/parent::*</value>
-      <webElementGuid>463e43fc-7646-462a-a875-3ba3784e8435</webElementGuid>
+      <webElementGuid>0b6ce789-c50e-4988-acbc-b924f6aa38bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/table/tbody/tr/td[3]/b</value>
-      <webElementGuid>fc0e68ad-8574-42f6-968e-4ab7b304d25e</webElementGuid>
+      <webElementGuid>5fe6902e-31a0-4d79-a063-f3caafbb062c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'Transaction Processing' or . = 'Transaction Processing')]</value>
-      <webElementGuid>cbd8c7f3-0ecf-4cb4-a0b1-a12d28c43ed6</webElementGuid>
+      <webElementGuid>cbe2ef2b-89d7-4de6-bf4c-2cd87f415c9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

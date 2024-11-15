@@ -168,6 +168,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Frameworks (Demo)/input_P_prodId_1_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered",
+      "brokenLocator": "//input[@id\u003d\u0027isc_EF\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/form/table/tbody/tr[2]/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Frameworks (Demo)/transaction_Number",
+      "brokenLocator": "//div[@id\u003d\u0027isc_EZ\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027O\u0027])[2]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Frameworks (Demo)/transaction_Number_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Frameworks (Demo)/input_Customer_idCustX",
+      "brokenLocator": "//input[@id\u003d\u0027isc_F5\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027isc_LR\u0027]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Frameworks (Demo)/input_Customer_idCustX_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Frameworks (Demo)/img",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027isc_28\u0027]/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Frameworks (Demo)/img_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Frameworks (Demo)/div_Stock Movements_1_2_3",
+      "brokenLocator": "//div[@id \u003d \u0027isc_HR\u0027 and (text() \u003d \u0027Stock Movements\u0027 or . \u003d \u0027Stock Movements\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Load Price\u0027])[1]/following::div[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Frameworks (Demo)/div_Stock Movements_1_2_3_neighbor.png"
     }
   ]
 }

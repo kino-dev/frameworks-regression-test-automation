@@ -6,16 +6,16 @@
    <elementGuidId>0e6df0fc-5f0f-49eb-995e-59ea8f13851d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'OK' or . = 'OK')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_IM</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'OK' or . = 'OK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>853f968b-0eaf-44e5-ad94-74aa12378964</webElementGuid>
+      <webElementGuid>960f0a7b-7c0c-4906-b452-77db54b6914a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_IM</value>
-      <webElementGuid>7bd94e34-4315-4714-a0f0-df5efc62ee34</webElementGuid>
+      <webElementGuid>8e55f741-42a3-47cb-8773-e59e1583d907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>08ef8728-949f-475d-8e6b-d272bde9c39a</webElementGuid>
+      <webElementGuid>b1b4e02a-b3a3-4b7d-b5f9-14b400563d6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>OK</value>
-      <webElementGuid>49906d54-de5a-4809-b725-5f5fceb2bbf5</webElementGuid>
+      <webElementGuid>9d86f36b-26ec-440f-9094-0828f675fe05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_IM&quot;)</value>
-      <webElementGuid>6251fd3d-1ff2-42f0-be21-b5afcdbb850b</webElementGuid>
+      <webElementGuid>d9e9634c-bc68-463b-a541-f349ac8ff17a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_IM']</value>
-      <webElementGuid>5f4cae0d-32f2-46cf-b1c6-eb0cde54b15b</webElementGuid>
+      <webElementGuid>5b78ef93-33a6-43fa-a37e-be7260d2426d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_IN']/table/tbody/tr/td/div</value>
-      <webElementGuid>9ffc3474-b734-426f-9e22-dfddc1d335f3</webElementGuid>
+      <webElementGuid>7b5a6fb5-b402-42ec-981b-c42ed459c460</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::div[8]</value>
-      <webElementGuid>0781dcbf-a91c-4c67-9428-acb07a077361</webElementGuid>
+      <webElementGuid>d813ce2e-abf7-4fdf-b92b-c2e69447aebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operator No'])[1]/following::div[8]</value>
-      <webElementGuid>972dfba0-97ef-445f-a92f-d856c92b07f1</webElementGuid>
+      <webElementGuid>d366ce73-113f-4aa2-9d5d-e4e76e195161</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
-      <webElementGuid>ebfafc5b-e143-4f47-82f6-3e50b2806c43</webElementGuid>
+      <webElementGuid>f5fc81ef-10b6-48bf-a121-5a0bc2784593</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pin Entry'])[1]/preceding::div[3]</value>
-      <webElementGuid>d976c551-ed1d-4e1e-a8c3-e247ee778125</webElementGuid>
+      <webElementGuid>f7be622c-8751-43fd-a347-35b2c691b4ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>ad0e6690-5290-4487-9f19-9ebef7d0f777</webElementGuid>
+      <webElementGuid>c6442827-a6b5-4880-ae9d-fa64a372d275</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>6c1d46af-96ce-4164-8a83-1541cdbc1282</webElementGuid>
+      <webElementGuid>11c9718b-61a2-4789-ae7a-b76e24fe57d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_IM' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>777b53d3-2179-4547-b3b1-7c8d8d022b33</webElementGuid>
+      <webElementGuid>37fd388a-6f5c-4a50-9b8f-ba93e842a5cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

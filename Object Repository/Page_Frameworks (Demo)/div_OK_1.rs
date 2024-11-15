@@ -6,16 +6,16 @@
    <elementGuidId>d50484b8-b81b-4983-82a0-95a60409b769</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'OK' or . = 'OK')]</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#isc_U2</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
+         <key>BASIC</key>
+         <value>//div[(text() = 'OK' or . = 'OK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>935861e3-d022-4316-ad58-b59b356ff7ac</webElementGuid>
+      <webElementGuid>ead0d807-41a2-4656-8385-5f97215791d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_U2</value>
-      <webElementGuid>670f9a34-791f-4758-88e3-9f50cb10753b</webElementGuid>
+      <webElementGuid>503cebd9-4fa6-4e53-b520-43bd39d34b21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>da5158f3-dd05-48b0-96fd-3fc6fb1eaa82</webElementGuid>
+      <webElementGuid>6a69b3cd-8152-44fe-a7f3-3968e46e1cb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>OK</value>
-      <webElementGuid>43ef813c-eb55-438a-9ff9-539b4faa1572</webElementGuid>
+      <webElementGuid>43fd578b-570e-4285-b714-9e31b6a9d6fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_U2&quot;)</value>
-      <webElementGuid>e88ec41b-3857-41ff-b31a-dd3f4ca2428a</webElementGuid>
+      <webElementGuid>dfee4493-218c-4441-b94e-5268ac2b6826</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_U2']</value>
-      <webElementGuid>6950972e-c5a0-489a-9f78-36813c1b01b0</webElementGuid>
+      <webElementGuid>5dccab70-f188-4a46-a07e-1cb853423c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_U3']/table/tbody/tr/td/div</value>
-      <webElementGuid>4c5a08d7-38a6-4f38-8f08-86b16210822c</webElementGuid>
+      <webElementGuid>b1518b15-22f5-4b8e-a042-87300ac3369e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::div[8]</value>
-      <webElementGuid>d53745e8-eb9f-4cd9-8a38-10ebc7fa2c9b</webElementGuid>
+      <webElementGuid>e77b3268-8d0c-4a27-8422-35849dc678b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operator No'])[1]/following::div[8]</value>
-      <webElementGuid>c6137da9-044a-4c2d-9bde-98b7358ce596</webElementGuid>
+      <webElementGuid>9a624756-d568-43ba-b4c9-f06388d60399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
-      <webElementGuid>36fdb668-cd80-4527-ab41-b95dbe46b060</webElementGuid>
+      <webElementGuid>7587e3f6-c077-4c54-95f3-61cc0a684488</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pin Entry'])[1]/preceding::div[3]</value>
-      <webElementGuid>7df28b8f-095c-4b31-8e7b-04c0fce31c44</webElementGuid>
+      <webElementGuid>23376aaa-fe40-453a-8f73-581fb5e7306f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>204ca6f1-b131-4a37-977c-3a79226b9a29</webElementGuid>
+      <webElementGuid>63e0cee6-573c-40a8-918b-0b5d7920daaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>a5771baa-a4f7-4ba1-9cb2-b958cf7244cf</webElementGuid>
+      <webElementGuid>5d5622a8-0d4f-4efb-9043-6629c12697d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_U2' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>12c3298f-8191-4036-adba-fa34a3d4857c</webElementGuid>
+      <webElementGuid>c648b8ca-dde7-4d6f-8e0f-50452380f129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_LU']</value>
-      <webElementGuid>76d65185-ae5a-4f41-898b-edd4738fdf92</webElementGuid>
+      <webElementGuid>6cef5671-76c8-43bf-b3fb-baa06c331eaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +153,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_LV']/table/tbody/tr/td/div</value>
-      <webElementGuid>aefa3611-eb1f-4149-936f-85a973094eaf</webElementGuid>
+      <webElementGuid>b0a266ab-7404-40aa-bf43-48a6ec43e79c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +161,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_LU' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>0a2a2b23-4750-4e29-ae33-33c93a2ed64b</webElementGuid>
+      <webElementGuid>047cc3fa-ae7e-46c3-9311-332b463a454e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

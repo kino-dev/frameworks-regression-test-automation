@@ -6,16 +6,16 @@
    <elementGuidId>b9bcbd48-23c5-41f9-84c4-69d49f84278c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@unselectable = 'on' and (text() = 'Pay' or . = 'Pay')]</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Pay']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#isc_WG</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Pay']/parent::*</value>
+         <key>BASIC</key>
+         <value>//*[@unselectable = 'on' and (text() = 'Pay' or . = 'Pay')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ac0d99aa-e8f5-410c-81f9-8264a7737e21</webElementGuid>
+      <webElementGuid>c52290f5-4abc-4b60-9b64-38cf453946c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_WG</value>
-      <webElementGuid>4145ba7d-ead0-4210-aa3e-7a05914c6c70</webElementGuid>
+      <webElementGuid>82720b05-71c6-47bc-8a00-bd20847ffff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>f98e62c1-cb4a-4905-b57c-9638e60ee6a3</webElementGuid>
+      <webElementGuid>0aa530ae-7781-437e-b1b1-2a51ebc8187d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pay</value>
-      <webElementGuid>524a3968-ef67-4ad0-aed6-fdc4046a2e85</webElementGuid>
+      <webElementGuid>464180f5-27d2-40c2-b260-271f79ad4f70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_WG&quot;)</value>
-      <webElementGuid>443aa504-4e8c-4a27-840a-e23d84fefe39</webElementGuid>
+      <webElementGuid>d09a8a67-d061-45bb-9584-6d1206a118cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_WG']</value>
-      <webElementGuid>ea6e6690-c1a2-446f-9f8c-e78bc72970df</webElementGuid>
+      <webElementGuid>a35ca120-cf8c-44a9-a945-df6a6b6d2084</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_WH']/table/tbody/tr/td/div</value>
-      <webElementGuid>3c09f4a6-49ba-4b22-a9f0-fa414a897d6e</webElementGuid>
+      <webElementGuid>f27be945-5714-4bf2-b8f4-5f8961418945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Receipt'])[1]/following::div[4]</value>
-      <webElementGuid>5c776765-1ea6-4de1-8f68-d63ef9bb3429</webElementGuid>
+      <webElementGuid>cb9e7eeb-43d3-4199-967c-3ed7d7e3cfb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash'])[1]/following::div[4]</value>
-      <webElementGuid>3d6e355f-95b9-42f6-9875-d7e661639cba</webElementGuid>
+      <webElementGuid>b862e146-04c5-4737-bf58-f2409201c601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ON ACCOUNT'])[1]/preceding::div[7]</value>
-      <webElementGuid>08bbe8d9-d7c9-47b7-87cf-c27fbb065ee2</webElementGuid>
+      <webElementGuid>493e5caf-bd27-4b0c-8166-66da7d472f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[2]/preceding::div[8]</value>
-      <webElementGuid>c7fb4470-5b55-4a83-9e1e-3475dfe19c8a</webElementGuid>
+      <webElementGuid>ff98864f-d865-45a4-9312-d11a754a4507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pay']/parent::*</value>
-      <webElementGuid>d350ffd8-93f0-4fca-96b3-b31b3016edb1</webElementGuid>
+      <webElementGuid>24853186-3230-41f0-af9c-833d93f9fc66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>9a9c56bc-03b1-457d-9818-b811c34bc35f</webElementGuid>
+      <webElementGuid>95840b82-f8bb-442f-b3ca-e3f4e57790e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_WG' and (text() = 'Pay' or . = 'Pay')]</value>
-      <webElementGuid>08f7f99c-02aa-409c-873f-c9d14c682ac7</webElementGuid>
+      <webElementGuid>331990c3-1bb1-468e-9c5d-bf333f050865</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_O1']</value>
-      <webElementGuid>d5edf821-5c41-48cf-8508-2afb92da47a3</webElementGuid>
+      <webElementGuid>f7cbc166-4964-47f8-8d7f-a3289bd3344c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +153,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_O2']/table/tbody/tr/td/div</value>
-      <webElementGuid>a64525bd-1755-4e65-b874-0d78bc1df0a8</webElementGuid>
+      <webElementGuid>e3b4c2dd-27f8-4176-9ef9-0964af69853b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,7 +161,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash'])[1]/following::div[3]</value>
-      <webElementGuid>4174edbc-1b04-4aae-8c8c-efade00aed08</webElementGuid>
+      <webElementGuid>a6e72f8e-3fce-4fe4-aab9-a5b07d213ca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -169,7 +169,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PAY'])[1]/following::div[4]</value>
-      <webElementGuid>57e524f5-b78f-4215-8e3f-a300782cb694</webElementGuid>
+      <webElementGuid>00e5ac5d-aa6d-4b80-b8f7-6f17508cfdfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -177,7 +177,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_O1' and (text() = 'Pay' or . = 'Pay')]</value>
-      <webElementGuid>b2168d76-55c1-4927-b31e-98c50fa52f9b</webElementGuid>
+      <webElementGuid>ea83a635-d341-4067-9149-8a1175a8f93c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,7 +185,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_YO']</value>
-      <webElementGuid>2038174e-4327-4bec-a639-ae45f7c14447</webElementGuid>
+      <webElementGuid>3df57c03-e7ca-4ed7-8b54-6bab3f42d993</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -193,7 +193,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_YP']/table/tbody/tr/td/div</value>
-      <webElementGuid>2b45d45d-b81b-4bec-9eb7-cc24faaddf54</webElementGuid>
+      <webElementGuid>52356715-e007-4558-9521-8768a1d897cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -201,6 +201,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_YO' and (text() = 'Pay' or . = 'Pay')]</value>
-      <webElementGuid>c4d1c04f-5cd5-48ed-940f-640e16c154e4</webElementGuid>
+      <webElementGuid>ad298481-5edc-4164-8231-928f92072d94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>73542292-f805-4723-82d5-d38f7b24defe</webElementGuid>
+      <webElementGuid>c1d2965d-424b-4b93-88ac-674808791341</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_TreeGrid_0_valueCell4</value>
-      <webElementGuid>c97f32d5-b5de-4869-9f88-4d6ec118f108</webElementGuid>
+      <webElementGuid>41b0f1b3-ebc7-41d3-8427-15b24f0a8a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>treeTallCellSelectedOver</value>
-      <webElementGuid>bbec9558-0914-4541-bd2c-15fccf3302c7</webElementGuid>
+      <webElementGuid>bcf5e438-14f1-4b3a-9f83-db74a37b5b28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Credit Notes</value>
-      <webElementGuid>31dd22ec-4616-47c0-b303-53ef71aee98b</webElementGuid>
+      <webElementGuid>0ea3a849-ce81-4117-ac23-76dc32cc2545</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_TreeGrid_0_valueCell4&quot;)</value>
-      <webElementGuid>b42e4592-66b6-433a-86f3-0a9557eb0fa8</webElementGuid>
+      <webElementGuid>0fe23085-d70b-4950-8987-17845c7fce84</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//td[@id='isc_TreeGrid_0_valueCell4']</value>
-      <webElementGuid>5586bbd3-d38f-429a-8343-98a2470fcf40</webElementGuid>
+      <webElementGuid>5ef76278-28b7-4326-9180-75ebc14f523c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_7Btable']/tbody/tr[5]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>f1ca9c5b-5958-4476-afc1-7e59275cac21</webElementGuid>
+      <webElementGuid>0d706b06-6c90-4414-b887-9036b22e6472</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Orders'])[1]/following::td[4]</value>
-      <webElementGuid>cb899421-076f-45d1-a1e8-658ae9b8cc82</webElementGuid>
+      <webElementGuid>9bdeec53-9a4d-4b8b-a085-515988fe4707</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Point Of Sale'])[1]/following::td[8]</value>
-      <webElementGuid>7fe02566-0e63-4afa-bacd-762bca9be9a2</webElementGuid>
+      <webElementGuid>eed7e3a5-d410-4335-8cfd-e0c9aebf5d25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Picking Dashboard'])[1]/preceding::td[3]</value>
-      <webElementGuid>06904afa-af4e-432b-99c2-2054c0b5b628</webElementGuid>
+      <webElementGuid>cfec8eb8-a798-4975-ada9-3dc55eb758b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Picking Slips'])[1]/preceding::td[7]</value>
-      <webElementGuid>fdabc6a4-ef64-46ce-a862-1ddb1cff4ed4</webElementGuid>
+      <webElementGuid>950e7b5a-8ed6-4f44-a4ba-fdb305dd8277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Credit Notes']/parent::*</value>
-      <webElementGuid>1fdbaa85-3f54-40cb-9407-308c0a1449c9</webElementGuid>
+      <webElementGuid>4c518200-d0fd-4d0d-92b3-63a6585c96ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>64832515-9bff-4e3f-9105-8a7df83393f2</webElementGuid>
+      <webElementGuid>264f98dd-bfb4-405d-9daf-84a9f9f298e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[@id = 'isc_TreeGrid_0_valueCell4' and (text() = 'Credit Notes' or . = 'Credit Notes')]</value>
-      <webElementGuid>cae854b0-9c0b-4bab-82d0-3126380ace4d</webElementGuid>
+      <webElementGuid>56a3b5d1-b9f5-4d16-81e1-dec1b0b9be6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

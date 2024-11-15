@@ -6,42 +6,42 @@
    <elementGuidId>4a4deffc-cb95-4a1c-bb38-3990e64de1eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'isc_RN' and (text() = 'Refund' or . = 'Refund')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#isc_RN</value>
+         <value>#isc_Z9</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Refund']/parent::*</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Refund' or . = 'Refund')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_RO</value>
+         <value>#isc_ZA</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>00583cd4-91e5-4ae1-aab5-77079f6c5032</webElementGuid>
+      <webElementGuid>8fc69612-aba2-4066-be12-13b0cb146cf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_RN</value>
-      <webElementGuid>bfbefcf6-cfa6-494c-8c4b-a9fdb852cb98</webElementGuid>
+      <value>isc_Z9</value>
+      <webElementGuid>38d976a7-bfca-4699-a7ad-491caa8a21ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>5b80b0db-632b-4ab0-ba98-5f0a2c52415f</webElementGuid>
+      <webElementGuid>de9d7557-ab1e-487f-9bae-875b1f595dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,23 +57,87 @@
       <name>text</name>
       <type>Main</type>
       <value>Refund</value>
-      <webElementGuid>928cb51f-4395-4f9a-8f0d-fe61f6c107d0</webElementGuid>
+      <webElementGuid>6b1b406f-ebad-4810-b414-df96fe149167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_RN&quot;)</value>
-      <webElementGuid>5c5ee9fa-9c7d-4a74-96f0-81f0a310d7cc</webElementGuid>
+      <value>id(&quot;isc_Z9&quot;)</value>
+      <webElementGuid>d0983bd4-d3b4-414a-bae1-91eaff6086b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
+      <value>//div[@id='isc_Z9']</value>
+      <webElementGuid>cfba7dc3-8b29-4d89-828f-14d7ee2c4e07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_ZA']/table/tbody/tr/td/div</value>
+      <webElementGuid>1c2ef175-78df-402f-a9ab-daf8d276876e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[2]/following::div[2]</value>
+      <webElementGuid>ff171b2d-931a-4088-9732-125b15c51653</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ON ACCOUNT'])[1]/following::div[2]</value>
+      <webElementGuid>56545cec-8c0b-4109-9b4b-5307e1fa0a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash'])[2]/preceding::div[4]</value>
+      <webElementGuid>30e2845a-d60a-43ae-a0a6-3b36b08e2560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$62.50'])[1]/preceding::div[5]</value>
+      <webElementGuid>9427a5ca-45f9-4588-bf73-c8186ba9c778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>f213a055-2171-407a-8bb2-b121e74754f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_Z9' and (text() = 'Refund' or . = 'Refund')]</value>
+      <webElementGuid>7ec85d4f-060d-4cac-804a-5cd7d6cd9bc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//div[@id='isc_RN']</value>
-      <webElementGuid>c5da7b26-32c1-4764-a1ba-727b239322b4</webElementGuid>
+      <webElementGuid>84494bac-7aab-4779-b0be-976047c6ddb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +145,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_RO']/table/tbody/tr/td/div</value>
-      <webElementGuid>c1ccb316-6eda-4bec-8692-5331ea8810d7</webElementGuid>
+      <webElementGuid>16fa3b9f-2ef6-4a44-9165-3377fad58ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EFTPOS'])[1]/following::div[2]</value>
-      <webElementGuid>84ad393d-a824-405b-8f42-46c63849c333</webElementGuid>
+      <webElementGuid>67193895-ed15-43ea-9789-31d91bb34301</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +161,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PAY'])[1]/following::div[3]</value>
-      <webElementGuid>177db1a3-99ce-4831-960e-141df2007cf9</webElementGuid>
+      <webElementGuid>d0ad7925-1b3a-4f51-93f2-75a1ee6a34b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +169,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ON ACCOUNT'])[1]/preceding::div[7]</value>
-      <webElementGuid>257dd2a8-7010-449c-886f-271f146cdc01</webElementGuid>
+      <webElementGuid>f23d41d1-55e7-454b-820b-1fb211edae63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +177,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[2]/preceding::div[8]</value>
-      <webElementGuid>e8d52f12-c3f5-4baa-921d-603e4df974e2</webElementGuid>
+      <webElementGuid>9e7f731e-8898-48cb-a399-e27ab0cf9a84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +185,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Refund']/parent::*</value>
-      <webElementGuid>ca1313ac-ab0d-4665-96e8-b6318f1aa450</webElementGuid>
+      <webElementGuid>ec7e87c8-b2df-4488-880b-c916f63157e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +193,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>cc49fd15-8bc9-409b-8f44-b7a399032c58</webElementGuid>
+      <webElementGuid>83351402-8b97-461d-9505-ee03e4981aa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +201,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_RN' and (text() = 'Refund' or . = 'Refund')]</value>
-      <webElementGuid>7c3e4935-a30d-4a53-9f7e-1aba94cb2c7a</webElementGuid>
+      <webElementGuid>68c48bff-5cfc-41c6-99d5-351c6415715d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

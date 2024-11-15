@@ -23,12 +23,31 @@ import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
 import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
 import java.lang.Integer as Integer
 
+//Get the demo environment URL from test data container
+FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+
+XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+
+XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+
+// cell B1
+Row currentSheet_row = sourceTestData_sheet.getRow(1)
+
+Cell currentSheet_cell = currentSheet_row.getCell(1)
+
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+DBC_Demo = currentSheet_cell.getStringCellValue()
+
+println(DBC_Demo)
+
+sourceTestData_FwksEnv.close()
+
 //WebUI.switchToWindowTitle('Frameworks (Demo)')
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
+WebUI.navigateToUrl(DBC_Demo)
 
 WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)
@@ -173,3 +192,4 @@ sourceFile.close()
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
+

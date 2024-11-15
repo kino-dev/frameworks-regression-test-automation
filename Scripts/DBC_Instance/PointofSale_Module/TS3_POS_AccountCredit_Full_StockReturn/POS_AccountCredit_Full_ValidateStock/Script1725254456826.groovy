@@ -34,37 +34,58 @@ Row row = sheet.getRow(2)
 Cell cell = row.getCell(1)
 
 //transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
-
 transactionNumber = cell.getStringCellValue()
 
 println(transactionNumber)
 
 sourceFile.close()
 
+//Get the demo environment URL from test data container
+FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+
+XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+
+XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+
+// cell B1
+Row currentSheet_row = sourceTestData_sheet.getRow(1)
+
+Cell currentSheet_cell = currentSheet_row.getCell(1)
+
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+DBC_Demo = currentSheet_cell.getStringCellValue()
+
+println(DBC_Demo)
+
+sourceTestData_FwksEnv.close()
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
+WebUI.navigateToUrl(DBC_Demo)
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'),
-	userName)
+WebUI.setText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid'), 
+    userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'),
-	'FHoXGFMjtD0=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password'), 
+    'FHoXGFMjtD0=')
 
 WebUI.click(findTestObject('Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login'))
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/img_ProductDashboard'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId'),
-	'LM20')
+WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/input_Product_ProdId'), 
+    'LM20')
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/td_Find'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.scrollToElement(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Stock_Receipt/Page_Frameworks (Demo)/div_Stock Movements'))
 
@@ -77,3 +98,4 @@ WebUI.verifyTextPresent(transactionNumber, false)
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
+

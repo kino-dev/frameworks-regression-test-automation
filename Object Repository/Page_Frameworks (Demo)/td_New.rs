@@ -6,15 +6,15 @@
    <elementGuidId>d7484d71-9c31-45b2-b046-a8f55bd2d0ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//td[(text() = 'New' or . = 'New')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_8L > table > tbody > tr > td.buttonPositiveActionDisabled</value>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>//td[(text() = 'New' or . = 'New')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
          <value>//td[(text() = 'New' or . = 'New')]</value>
       </entry>
    </selectorCollection>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>85c8a7cb-126f-4d72-ba19-49824fbd1377</webElementGuid>
+      <webElementGuid>fafce358-db07-44e2-bdaf-843c44d9b8ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonPositiveActionDisabled</value>
-      <webElementGuid>6b775963-a71b-4b98-84f8-5c3f131003b1</webElementGuid>
+      <webElementGuid>ccd06189-b97c-4cad-b42e-d885061a771f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New</value>
-      <webElementGuid>f53f029b-e71b-44b4-988d-ef64698faba7</webElementGuid>
+      <webElementGuid>ec548a7f-c38e-466b-930d-853ce3304615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_8L&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]</value>
-      <webElementGuid>d2bc2257-2265-483a-a535-330135158d93</webElementGuid>
+      <webElementGuid>a3bc1465-5854-4009-bbc5-a26c35423e52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_8L']/table/tbody/tr/td</value>
-      <webElementGuid>095b030c-2cf8-4dfb-b74a-2a0faf14fc35</webElementGuid>
+      <webElementGuid>6353d4f3-dde7-49c1-90ac-c4033e200eb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Advanced'])[1]/following::td[1]</value>
-      <webElementGuid>97815700-1cf4-4bfd-8e51-8fe475aa7c1e</webElementGuid>
+      <webElementGuid>4cc9f4f8-ba9b-444f-91ba-452e8da6b72d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Find'])[1]/following::td[2]</value>
-      <webElementGuid>8a51062f-508e-46b0-b25b-8359630fbd7d</webElementGuid>
+      <webElementGuid>a0b693ef-e47c-45d0-927f-2f96a91a7005</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::td[1]</value>
-      <webElementGuid>400afbd2-4327-45e3-8cfe-d1427736f4c1</webElementGuid>
+      <webElementGuid>08ec0b02-b80b-4b18-aded-c6eeb2a1a9cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[3]/table/tbody/tr/td</value>
-      <webElementGuid>edba5b77-58f1-4e26-b775-22b7d21d6215</webElementGuid>
+      <webElementGuid>77ceb4ac-b956-4747-aa48-b80237e1ad5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'New' or . = 'New')]</value>
-      <webElementGuid>29104344-dfb8-486a-83ce-def349f3cc68</webElementGuid>
+      <webElementGuid>6b50c9c4-9eb8-4333-8723-90ef8f2ed512</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

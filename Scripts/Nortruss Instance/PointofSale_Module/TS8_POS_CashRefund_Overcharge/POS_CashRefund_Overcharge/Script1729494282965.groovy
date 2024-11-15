@@ -21,12 +21,8 @@ import org.apache.poi.ss.usermodel.Row as Row
 import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
 import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
 import java.lang.Integer as Integer
+
 //additional imports
-import org.apache.poi.ss.usermodel.Cell as Cell
-import org.apache.poi.ss.usermodel.Row as Row
-import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
-import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
-import java.lang.Integer as Integer
 //additional imports
 FileInputStream sourceFile = new FileInputStream(ExcelFile)
 
@@ -80,7 +76,7 @@ WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_02 - Ov
 
 WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket'),  docketNumber)
+WebUI.sendKeys(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket'), docketNumber)
 
 WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/td_No line items loaded'))
 
