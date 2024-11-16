@@ -40,11 +40,30 @@ println(docketNumber)
 
 sourceFile.close()
 
+//Get the demo environment URL from test data container
+FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+
+XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+
+XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+
+// cell B1
+Row currentSheet_row = sourceTestData_sheet.getRow(2)
+
+Cell currentSheet_cell = currentSheet_row.getCell(1)
+
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+CHC_Demo = currentSheet_cell.getStringCellValue()
+
+println(CHC_Demo)
+
+sourceTestData_FwksEnv.close()
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
+WebUI.navigateToUrl(CHC_Demo)
 
 WebUI.setText(findTestObject('Object Repository/TS8_POS_CashRefund_Overcharge_CHC/Page_Frameworks (Demo)/input_User ID_userid'), 
     userName)

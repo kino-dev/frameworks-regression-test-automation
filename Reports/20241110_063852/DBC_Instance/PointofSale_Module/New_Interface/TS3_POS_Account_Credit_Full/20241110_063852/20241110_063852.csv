@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS3_POS_Account_Credit_Full,Chrome 130.0.0.0,,,10-11-2024 06:39:12,10-11-2024 06:39:55,43.851s,ERROR
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale-LM20(TS3),Chrome 130.0.0.0,,,10-11-2024 06:39:12,10-11-2024 06:39:39,27.467s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,10-11-2024 06:39:13,10-11-2024 06:39:16,3.370s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,10-11-2024 06:39:16,10-11-2024 06:39:16,0.215s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,10-11-2024 06:39:16,10-11-2024 06:39:18,1.610s,PASSED
+"setText(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,10-11-2024 06:39:18,10-11-2024 06:39:20,2.012s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 130.0.0.0,,,10-11-2024 06:39:20,10-11-2024 06:39:20,0.470s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,10-11-2024 06:39:20,10-11-2024 06:39:21,0.613s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 130.0.0.0,,,10-11-2024 06:39:21,10-11-2024 06:39:35,13.723s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,10-11-2024 06:39:35,10-11-2024 06:39:36,1.130s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 130.0.0.0,,,10-11-2024 06:39:36,10-11-2024 06:39:37,0.761s,PASSED
+"setText(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX""), ""Joe Chila (3379)"")",Chrome 130.0.0.0,,,10-11-2024 06:39:37,10-11-2024 06:39:39,2.585s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full,Chrome 130.0.0.0,,,10-11-2024 06:39:39,10-11-2024 06:39:55,15.293s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,10-11-2024 06:39:40,10-11-2024 06:39:40,0.049s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,10-11-2024 06:39:40,10-11-2024 06:39:41,1.139s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:41,0.005s,PASSED
+row = sheet.getRow(1),Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:41,0.046s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:41,0.031s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:41,0.047s,PASSED
+println(docketNumber),Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:41,0.000s,PASSED
+sourceFile.close(),Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:41,0.000s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,10-11-2024 06:39:41,10-11-2024 06:39:43,1.667s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,10-11-2024 06:39:43,10-11-2024 06:39:43,0.146s,PASSED
+"navigateToUrl(""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,10-11-2024 06:39:43,10-11-2024 06:39:43,0.327s,PASSED
+"setText(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,10-11-2024 06:39:43,10-11-2024 06:39:46,2.965s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 130.0.0.0,,,10-11-2024 06:39:46,10-11-2024 06:39:47,0.444s,PASSED
+"click(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,10-11-2024 06:39:47,10-11-2024 06:39:47,0.503s,PASSED
+"click(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/burger_Menu""))",Chrome 130.0.0.0,,,10-11-2024 06:39:47,10-11-2024 06:39:52,4.353s,PASSED
+"click(findTestObject(""Object Repository/TS3_POS_AccountCredit_Full_DBC/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,10-11-2024 06:39:52,10-11-2024 06:39:55,2.934s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full_ValidateRefund,Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.392s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.033s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,PASSED
+row = sheet.getRow(2),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.032s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,ERROR
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS3_POS_AccountCredit_Full_StockReturn/POS_AccountCredit_Full_ValidateStock,Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.281s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.031s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,PASSED
+row = sheet.getRow(2),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,10-11-2024 06:39:55,10-11-2024 06:39:55,0.000s,ERROR

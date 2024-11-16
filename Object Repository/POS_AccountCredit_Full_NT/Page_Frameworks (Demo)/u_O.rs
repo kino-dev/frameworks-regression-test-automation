@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>u_O</name>
+   <tag></tag>
+   <elementGuidId>f91480bd-54d2-4a87-9545-f32a774c3da7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//u[(text() = 'O' or . = 'O')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//u[(text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.buttonRoundedFocusedOver > u</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;OK&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>u</value>
+      <webElementGuid>f51f48ca-529a-4e59-a201-114d4331fae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>O</value>
+      <webElementGuid>e95a2853-eac9-4262-bc32-621c471f3e91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_P2&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedFocusedOver&quot;]/u[1]</value>
+      <webElementGuid>ddb8cd76-8424-496a-8043-543dd7128eb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_P2']/table/tbody/tr/td/u</value>
+      <webElementGuid>6b7c0ec9-2ada-4310-82cf-4e14a619afb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='There were errors during the save'])[1]/following::u[1]</value>
+      <webElementGuid>e2984f51-098a-4eb1-89af-30195854c7d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credits &amp; Refunds'])[2]/preceding::u[1]</value>
+      <webElementGuid>ab6164ea-8210-459b-9674-45e52873239d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credits &amp; Refunds'])[3]/preceding::u[1]</value>
+      <webElementGuid>f5210767-60aa-4eba-a998-fc5dd00aae71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td/u</value>
+      <webElementGuid>f335cd19-3c31-488e-854e-07be3d55e4f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//u[(text() = 'O' or . = 'O')]</value>
+      <webElementGuid>b7bc4465-5954-45ca-8124-9fc9596b56bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

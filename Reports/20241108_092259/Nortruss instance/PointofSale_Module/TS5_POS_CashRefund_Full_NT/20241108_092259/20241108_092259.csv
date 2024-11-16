@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS5_POS_CashRefund_Full_NT,Chrome 130.0.0.0,,,08-11-2024 09:23:08,08-11-2024 09:26:03,2m - 54.673s,ERROR
+,,,,,,,
+Test Cases/Nortruss Instance/PointofSale_Module/TS1_POS_CashSale/POS Cash Sale-2014086(TS5),Chrome 130.0.0.0,,,08-11-2024 09:23:09,08-11-2024 09:23:52,43.008s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,08-11-2024 09:23:10,08-11-2024 09:23:12,2.685s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,08-11-2024 09:23:12,08-11-2024 09:23:13,0.123s,PASSED
+"navigateToUrl(""http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,08-11-2024 09:23:13,08-11-2024 09:23:19,6.855s,PASSED
+"setText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_User ID_userid""), ""manaki"")",Chrome 130.0.0.0,,,08-11-2024 09:23:19,08-11-2024 09:23:23,3.798s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Password_password""), ""C5+8mNJ15mA="")",Chrome 130.0.0.0,,,08-11-2024 09:23:23,08-11-2024 09:23:24,0.509s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,08-11-2024 09:23:24,08-11-2024 09:23:24,0.543s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_FW""))",Chrome 130.0.0.0,,,08-11-2024 09:23:24,08-11-2024 09:23:28,3.744s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,08-11-2024 09:23:28,08-11-2024 09:23:30,2.065s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 130.0.0.0,,,08-11-2024 09:23:30,08-11-2024 09:23:31,0.773s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,08-11-2024 09:23:31,08-11-2024 09:23:34,3.035s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_PIN_pin""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,08-11-2024 09:23:34,08-11-2024 09:23:35,1.070s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_OK""))",Chrome 130.0.0.0,,,08-11-2024 09:23:35,08-11-2024 09:23:36,0.831s,PASSED
+"invoiceNum = getText(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_invoiceNum""))",Chrome 130.0.0.0,,,08-11-2024 09:23:36,08-11-2024 09:23:38,2.246s,PASSED
+println(invoiceNum),Chrome 130.0.0.0,,,08-11-2024 09:23:38,08-11-2024 09:23:38,0.006s,PASSED
+"setText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_P_prodId""), ""2014086"")",Chrome 130.0.0.0,,,08-11-2024 09:23:38,08-11-2024 09:23:39,0.982s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered""))",Chrome 130.0.0.0,,,08-11-2024 09:23:39,08-11-2024 09:23:39,0.398s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_1""))",Chrome 130.0.0.0,,,08-11-2024 09:23:39,08-11-2024 09:23:41,1.284s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)""))",Chrome 130.0.0.0,,,08-11-2024 09:23:41,08-11-2024 09:23:42,1.780s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Pay""))",Chrome 130.0.0.0,,,08-11-2024 09:23:42,08-11-2024 09:23:46,3.097s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,08-11-2024 09:23:46,08-11-2024 09:23:47,1.703s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,08-11-2024 09:23:47,08-11-2024 09:23:48,0.840s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_OK_1""))",Chrome 130.0.0.0,,,08-11-2024 09:23:48,08-11-2024 09:23:49,0.554s,PASSED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,08-11-2024 09:23:49,08-11-2024 09:23:49,0.019s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,08-11-2024 09:23:49,08-11-2024 09:23:50,1.211s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.021s,PASSED
+row = sheet.getRow(0),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.088s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.015s,PASSED
+row = sheet.createRow(1),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.000s,PASSED
+cell = row.createCell(0),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.016s,PASSED
+"cell.setCellValue(""Invoice Number"")",Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.078s,PASSED
+cell = row.createCell(1),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.000s,PASSED
+cell.setCellValue(invoiceNum),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.016s,PASSED
+fos = new java.io.FileOutputStream(ExcelFile),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.031s,PASSED
+workbook.write(fos),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.218s,PASSED
+fos.close(),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.016s,PASSED
+sourceFile.close(),Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:50,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_dropdownLogout""))",Chrome 130.0.0.0,,,08-11-2024 09:23:50,08-11-2024 09:23:51,0.763s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Logout""))",Chrome 130.0.0.0,,,08-11-2024 09:23:51,08-11-2024 09:23:52,0.591s,PASSED
+,,,,,,,
+Test Cases/Nortruss Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full,Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:26:02,17.485s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.034s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.000s,PASSED
+row = sheet.getRow(1),Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.001s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.000s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.001s,PASSED
+println(docketNumber),Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:45,0.000s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,08-11-2024 09:25:45,08-11-2024 09:25:46,1.564s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,08-11-2024 09:25:46,08-11-2024 09:25:46,0.125s,PASSED
+"navigateToUrl(""http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,08-11-2024 09:25:46,08-11-2024 09:25:47,0.424s,PASSED
+"setText(findTestObject(""Object Repository/TS05_Cash_refund_Full/Page_Frameworks (Demo)/input_User ID_userid""), username)",Chrome 130.0.0.0,,,08-11-2024 09:25:47,08-11-2024 09:25:57,10.390s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS05_Cash_refund_Full/Page_Frameworks (Demo)/input_Password_password""), ""C5+8mNJ15mA="")",Chrome 130.0.0.0,,,08-11-2024 09:25:57,08-11-2024 09:25:58,0.419s,PASSED
+"click(findTestObject(""Object Repository/TS05_Cash_refund_Full/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,08-11-2024 09:25:58,08-11-2024 09:25:58,0.586s,PASSED
+"click(findTestObject(""Object Repository/TS05_Cash_refund_Full/Page_Frameworks (Demo)/img_FW""))",Chrome 130.0.0.0,,,08-11-2024 09:25:58,08-11-2024 09:26:02,3.906s,FAILED
+,,,,,,,
+Test Cases/Nortruss Instance/PointofSale_Module/TS5_POS_CashRefund_Full_StockReturn/POS_CashRefund_Full_ValidateStock,Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.094s,ERROR
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.047s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.000s,PASSED
+row = sheet.getRow(1),Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.000s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.000s,PASSED
+transactionNumber = String.valueOf(cell.getNumericCellValue()),Chrome 130.0.0.0,,,08-11-2024 09:26:03,08-11-2024 09:26:03,0.000s,ERROR

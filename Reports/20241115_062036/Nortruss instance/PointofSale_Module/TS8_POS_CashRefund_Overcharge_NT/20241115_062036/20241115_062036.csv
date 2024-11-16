@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS8_POS_CashRefund_Overcharge_NT,Chrome 130.0.0.0,,,15-11-2024 06:20:45,15-11-2024 06:22:19,1m - 33.607s,PASSED
+,,,,,,,
+Test Cases/Nortruss Instance/PointofSale_Module/TS1_POS_CashSale/POS Cash Sale-2014086(TS8),Chrome 130.0.0.0,,,15-11-2024 06:20:46,15-11-2024 06:21:29,43.611s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,15-11-2024 06:20:47,15-11-2024 06:20:50,3.039s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,15-11-2024 06:20:50,15-11-2024 06:20:50,0.141s,PASSED
+"navigateToUrl(""http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,15-11-2024 06:20:50,15-11-2024 06:20:51,0.429s,PASSED
+"setText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_User ID_userid""), ""manaki"")",Chrome 130.0.0.0,,,15-11-2024 06:20:51,15-11-2024 06:21:01,10.434s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Password_password""), ""C5+8mNJ15mA="")",Chrome 130.0.0.0,,,15-11-2024 06:21:01,15-11-2024 06:21:02,0.556s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,15-11-2024 06:21:02,15-11-2024 06:21:02,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_FW""))",Chrome 130.0.0.0,,,15-11-2024 06:21:02,15-11-2024 06:21:07,4.660s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,15-11-2024 06:21:07,15-11-2024 06:21:08,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 130.0.0.0,,,15-11-2024 06:21:08,15-11-2024 06:21:09,0.864s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,15-11-2024 06:21:09,15-11-2024 06:21:12,3.419s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_PIN_pin""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,15-11-2024 06:21:12,15-11-2024 06:21:12,0.443s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_OK""))",Chrome 130.0.0.0,,,15-11-2024 06:21:12,15-11-2024 06:21:13,0.967s,PASSED
+"invoiceNum = getText(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_invoiceNum""))",Chrome 130.0.0.0,,,15-11-2024 06:21:13,15-11-2024 06:21:16,2.329s,PASSED
+println(invoiceNum),Chrome 130.0.0.0,,,15-11-2024 06:21:16,15-11-2024 06:21:16,0.007s,PASSED
+"setText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_P_prodId""), ""2014086"")",Chrome 130.0.0.0,,,15-11-2024 06:21:16,15-11-2024 06:21:17,0.966s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered""))",Chrome 130.0.0.0,,,15-11-2024 06:21:17,15-11-2024 06:21:17,0.423s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img""))",Chrome 130.0.0.0,,,15-11-2024 06:21:17,15-11-2024 06:21:18,1.291s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)""))",Chrome 130.0.0.0,,,15-11-2024 06:21:18,15-11-2024 06:21:20,1.764s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Pay""))",Chrome 130.0.0.0,,,15-11-2024 06:21:20,15-11-2024 06:21:23,3.280s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,15-11-2024 06:21:23,15-11-2024 06:21:25,1.724s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,15-11-2024 06:21:25,15-11-2024 06:21:26,0.558s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_OK_1""))",Chrome 130.0.0.0,,,15-11-2024 06:21:26,15-11-2024 06:21:26,0.555s,PASSED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,15-11-2024 06:21:26,15-11-2024 06:21:26,0.018s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,15-11-2024 06:21:26,15-11-2024 06:21:27,1.072s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,15-11-2024 06:21:27,15-11-2024 06:21:27,0.027s,PASSED
+row = sheet.getRow(0),Chrome 130.0.0.0,,,15-11-2024 06:21:27,15-11-2024 06:21:27,0.088s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.021s,PASSED
+row = sheet.createRow(1),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.000s,PASSED
+cell = row.createCell(0),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.015s,PASSED
+"cell.setCellValue(""Invoice Number"")",Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.047s,PASSED
+cell = row.createCell(1),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.000s,PASSED
+cell.setCellValue(invoiceNum),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.000s,PASSED
+fos = new java.io.FileOutputStream(ExcelFile),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.031s,PASSED
+workbook.write(fos),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.188s,PASSED
+fos.close(),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.000s,PASSED
+sourceFile.close(),Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:28,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_dropdownLogout""))",Chrome 130.0.0.0,,,15-11-2024 06:21:28,15-11-2024 06:21:29,0.924s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Logout""))",Chrome 130.0.0.0,,,15-11-2024 06:21:29,15-11-2024 06:21:29,0.604s,PASSED
+,,,,,,,
+Test Cases/Nortruss Instance/PointofSale_Module/TS8_POS_CashRefund_Overcharge/POS_CashRefund_Overcharge,Chrome 130.0.0.0,,,15-11-2024 06:21:29,15-11-2024 06:22:19,49.656s,PASSED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.056s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.039s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.006s,PASSED
+row = sheet.getRow(1),Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.065s,PASSED
+cell = row.getCell(1),Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.009s,PASSED
+docketNumber = cell.getStringCellValue(),Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.004s,PASSED
+println(docketNumber),Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:30,0.011s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,15-11-2024 06:21:30,15-11-2024 06:21:32,1.870s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,15-11-2024 06:21:32,15-11-2024 06:21:32,0.155s,PASSED
+"navigateToUrl(""http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,15-11-2024 06:21:32,15-11-2024 06:21:39,6.535s,PASSED
+"setText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 130.0.0.0,,,15-11-2024 06:21:39,15-11-2024 06:21:43,4.372s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Password_password""), ""C5+8mNJ15mA="")",Chrome 130.0.0.0,,,15-11-2024 06:21:43,15-11-2024 06:21:43,0.458s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,15-11-2024 06:21:43,15-11-2024 06:21:44,0.618s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_FW""))",Chrome 130.0.0.0,,,15-11-2024 06:21:44,15-11-2024 06:21:50,5.476s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,15-11-2024 06:21:50,15-11-2024 06:21:50,0.976s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Credit Notes""))",Chrome 130.0.0.0,,,15-11-2024 06:21:50,15-11-2024 06:21:52,1.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_New""))",Chrome 130.0.0.0,,,15-11-2024 06:21:52,15-11-2024 06:21:54,1.852s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,15-11-2024 06:21:54,15-11-2024 06:21:57,2.653s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_PIN_pin""), ""uzzxF8+Oh1A="")",Chrome 130.0.0.0,,,15-11-2024 06:21:57,15-11-2024 06:21:57,0.427s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_OK""))",Chrome 130.0.0.0,,,15-11-2024 06:21:57,15-11-2024 06:21:58,0.589s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_Select a Value_isc_FP""))",Chrome 130.0.0.0,,,15-11-2024 06:21:58,15-11-2024 06:21:59,1.263s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Overcharge""))",Chrome 130.0.0.0,,,15-11-2024 06:21:59,15-11-2024 06:22:00,0.728s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_Reason_isc_FX""))",Chrome 130.0.0.0,,,15-11-2024 06:22:00,15-11-2024 06:22:01,1.017s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_02 - Overcharged""))",Chrome 130.0.0.0,,,15-11-2024 06:22:01,15-11-2024 06:22:01,0.824s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket""))",Chrome 130.0.0.0,,,15-11-2024 06:22:01,15-11-2024 06:22:02,0.888s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_Original Docket_originalDocket""), docketNumber)",Chrome 130.0.0.0,,,15-11-2024 06:22:02,15-11-2024 06:22:03,0.605s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_No line items loaded""))",Chrome 130.0.0.0,,,15-11-2024 06:22:03,15-11-2024 06:22:04,0.824s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Load Details""))",Chrome 130.0.0.0,,,15-11-2024 06:22:04,15-11-2024 06:22:05,0.776s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_0.0000""))",Chrome 130.0.0.0,,,15-11-2024 06:22:05,15-11-2024 06:22:06,1.259s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Frameworks (Demo)/input_EA_unitSellBrowse""), ""5.09"")",Chrome 130.0.0.0,,,15-11-2024 06:22:06,15-11-2024 06:22:07,0.806s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_2014086CEMENT GP 20KG NORTHERN CEMENT40_a57d0d""))",Chrome 130.0.0.0,,,15-11-2024 06:22:07,15-11-2024 06:22:07,0.418s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Finish (S)""))",Chrome 130.0.0.0,,,15-11-2024 06:22:07,15-11-2024 06:22:08,1.313s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Cash_isc_R4""))",Chrome 130.0.0.0,,,15-11-2024 06:22:08,15-11-2024 06:22:11,2.852s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_EFTPOS""))",Chrome 130.0.0.0,,,15-11-2024 06:22:11,15-11-2024 06:22:12,0.721s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/div_Refund_1""))",Chrome 130.0.0.0,,,15-11-2024 06:22:12,15-11-2024 06:22:13,1.160s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img""))",Chrome 130.0.0.0,,,15-11-2024 06:22:13,15-11-2024 06:22:15,1.963s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/img_dropdownLogout""))",Chrome 130.0.0.0,,,15-11-2024 06:22:15,15-11-2024 06:22:18,3.057s,PASSED
+"click(findTestObject(""Object Repository/Page_Frameworks (Demo)/td_Logout""))",Chrome 130.0.0.0,,,15-11-2024 06:22:18,15-11-2024 06:22:19,0.857s,PASSED
