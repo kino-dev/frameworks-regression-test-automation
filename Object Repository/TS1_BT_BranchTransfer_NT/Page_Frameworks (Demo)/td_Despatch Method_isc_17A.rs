@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Despatch Method_isc_17A</name>
+   <tag></tag>
+   <elementGuidId>f2d31683-155f-4ca9-bc75-1d0b9f70a396</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Despatch Method'])[1]/following::td[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'selectItemPickerIcon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_17A</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Despatch Method&quot;i] >> internal:role=cell >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>19fef80d-d489-4342-b486-3c44d0c3c2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_17A</value>
+      <webElementGuid>07f8e957-e947-49ec-8906-53b171a9ced1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>$9a</name>
+      <type>Main</type>
+      <value>$1906</value>
+      <webElementGuid>d20b6396-19f6-427b-a220-60b299e1c2dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectItemPickerIcon</value>
+      <webElementGuid>9db7cfbe-149d-4b94-8d97-687d1dff9923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_17A&quot;)</value>
+      <webElementGuid>5c60e5d0-f49a-498a-bb19-7e4ef536827a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='isc_17A']</value>
+      <webElementGuid>aa6972a0-5ac7-4af6-afab-db7dc0398cf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_179']/tbody/tr/td[2]</value>
+      <webElementGuid>8bb7daae-dbfc-4a9f-a19f-e4aeacaed08e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Despatch Method'])[1]/following::td[3]</value>
+      <webElementGuid>dd7583a4-c6ed-4e2d-9638-5cbb1907040b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/following::td[5]</value>
+      <webElementGuid>c6d494de-e5f5-4af2-93e9-5d6d7ca2f3a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date Required'])[2]/preceding::td[1]</value>
+      <webElementGuid>7b6063e7-197c-4bc1-913a-1eae33637658</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Picking Slip'])[1]/preceding::td[6]</value>
+      <webElementGuid>b795b71e-3b80-4850-8638-27994860def6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[2]/table/tbody/tr/td[2]</value>
+      <webElementGuid>f9ae5cbd-550c-48cb-bb01-f6ea23a98fc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'isc_17A']</value>
+      <webElementGuid>69e9c077-78a9-4ca7-827e-29276336cc75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS4_POS_AccountCredit_Partial_NT" time="135.093" tests="4" failures="0" errors="1">
+   <testsuite name="TS4_POS_AccountCredit_Partial_NT" tests="4" failures="0" errors="1" time="135.093" skipped="0" timestamp="20-11-2024T06:30:08" hostname="azureuser - 10.192.8.5" id="Test Suites/Nortruss instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_NT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241120_063000\\Nortruss instance\\PointofSale_Module\\TS4_POS_AccountCredit_Partial_NT\\20241120_063000"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241120_063000\\Nortruss instance\\PointofSale_Module\\TS4_POS_AccountCredit_Partial_NT\\20241120_063000\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="c88f508c51a31423c89798fd659b8b87"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS2_POS_AccountSale/POS AccountSale-2023191(TS4)" time="56.454" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS2_POS_AccountSale/POS AccountSale-2023191(TS4)" status="PASSED">
+         <system-out><![CDATA[20-11-2024T06:30:09 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/PointofSale_Module/TS2_POS_AccountSale/POS AccountSale-2023191(TS4): Test Cases/Nortruss Instance/PointofSale_Module/TS2_POS_AccountSale/POS AccountSale-2023191(TS4)
+
+20-11-2024T06:30:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-11-2024T06:30:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-11-2024T06:30:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-11-2024T06:30:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-11-2024T06:30:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-11-2024T06:30:13 - [MESSAGE][PASSED] - Current window maximized
+
+20-11-2024T06:30:13 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-11-2024T06:30:14 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-11-2024T06:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-11-2024T06:30:26 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-11-2024T06:30:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+20-11-2024T06:30:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Password_password'
+
+20-11-2024T06:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-11-2024T06:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-11-2024T06:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_FW")): Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+20-11-2024T06:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_FW' is clicked on
+
+20-11-2024T06:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+20-11-2024T06:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+20-11-2024T06:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+20-11-2024T06:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+20-11-2024T06:30:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+20-11-2024T06:30:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+20-11-2024T06:30:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_PIN_pin"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+20-11-2024T06:30:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin'
+
+20-11-2024T06:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_OK")): Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+20-11-2024T06:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_OK' is clicked on
+
+20-11-2024T06:30:39 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/Page_Frameworks (Demo)/div_invoiceNum' is: '40559512'
+
+20-11-2024T06:30:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Frameworks (Demo)/div_invoiceNum' is: '40559512'
+
+20-11-2024T06:30:41 - [TEST_STEP][PASSED] - println(invoiceNum): null
+
+20-11-2024T06:30:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_m_customerIdX"), "17179"): Text '17179' is set on object 'Object Repository/Page_Frameworks (Demo)/input_m_customerIdX'
+
+20-11-2024T06:30:42 - [MESSAGE][PASSED] - Text '17179' is set on object 'Object Repository/Page_Frameworks (Demo)/input_m_customerIdX'
+
+20-11-2024T06:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Tiffany Brown (17179)")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Tiffany Brown (17179)' is clicked on
+
+20-11-2024T06:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Tiffany Brown (17179)' is clicked on
+
+20-11-2024T06:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/input_P_prodId")): Object: 'Object Repository/Page_Frameworks (Demo)/input_P_prodId' is clicked on
+
+20-11-2024T06:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/input_P_prodId' is clicked on
+
+20-11-2024T06:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Close (O)")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Close (O)' is clicked on
+
+20-11-2024T06:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Close (O)' is clicked on
+
+20-11-2024T06:30:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_P_prodId"), "2023191"): Text '2023191' is set on object 'Object Repository/Page_Frameworks (Demo)/input_P_prodId'
+
+20-11-2024T06:30:47 - [MESSAGE][PASSED] - Text '2023191' is set on object 'Object Repository/Page_Frameworks (Demo)/input_P_prodId'
+
+20-11-2024T06:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+20-11-2024T06:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+20-11-2024T06:30:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Frameworks (Demo)/input_LM_tallyQuantity_1"), "2"): Keys '2' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'
+
+20-11-2024T06:30:50 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'
+
+20-11-2024T06:30:50 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_Frameworks (Demo)/div_0.000")): Object: 'Object Repository/Page_Frameworks (Demo)/div_0.000' is double clicked on
+
+20-11-2024T06:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_0.000' is double clicked on
+
+20-11-2024T06:30:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Frameworks (Demo)/input_LM_tallyLength"), "2"): Keys '2' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+20-11-2024T06:30:52 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+20-11-2024T06:30:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+20-11-2024T06:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+20-11-2024T06:30:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img")): Object: 'Object Repository/Page_Frameworks (Demo)/img' is clicked on
+
+20-11-2024T06:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img' is clicked on
+
+20-11-2024T06:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+20-11-2024T06:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+20-11-2024T06:30:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_Pay")): Object: 'Object Repository/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+20-11-2024T06:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_Pay' is clicked on
+
+20-11-2024T06:30:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1'
+
+20-11-2024T06:31:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1'
+
+20-11-2024T06:31:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1'
+
+20-11-2024T06:31:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1'
+
+20-11-2024T06:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/div_OK_1")): Object: 'Object Repository/Page_Frameworks (Demo)/div_OK_1' is clicked on
+
+20-11-2024T06:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/div_OK_1' is clicked on
+
+20-11-2024T06:31:02 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+20-11-2024T06:31:02 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - fos.close(): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+20-11-2024T06:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+20-11-2024T06:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+20-11-2024T06:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Frameworks (Demo)/td_Logout")): Object: 'Object Repository/Page_Frameworks (Demo)/td_Logout' is clicked on
+
+20-11-2024T06:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Frameworks (Demo)/td_Logout' is clicked on
+
+20-11-2024T06:31:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-11-2024T06:31:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT" time="0.251" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT" status="ERROR">
+         <error type="ERROR" message="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 173: The current scope already contains a variable of the name sourceFile&#xa; @ line 173, column 17.&#xa;   FileInputStream sourceFile = new FileInputStream(ExcelFile)&#xa;                   ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 175: The current scope already contains a variable of the name workbook&#xa; @ line 175, column 14.&#xa;   XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)&#xa;                ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 177: The current scope already contains a variable of the name sheet&#xa; @ line 177, column 11.&#xa;   XSSFSheet sheet = workbook.getSheet('Sheet1')&#xa;             ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 180: The current scope already contains a variable of the name row&#xa; @ line 180, column 5.&#xa;   Row row = sheet.getRow(1)&#xa;       ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 182: The current scope already contains a variable of the name cell&#xa; @ line 182, column 6.&#xa;   Cell cell = row.getCell(1)&#xa;        ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 284: The current scope already contains a variable of the name updatesourceFile&#xa; @ line 284, column 17.&#xa;   FileInputStream updatesourceFile = new FileInputStream(ExcelFile)&#xa;                   ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 286: The current scope already contains a variable of the name updateWorkbook&#xa; @ line 286, column 14.&#xa;   XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)&#xa;                ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 288: The current scope already contains a variable of the name updateSheet&#xa; @ line 288, column 11.&#xa;   XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')&#xa;             ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 291: The current scope already contains a variable of the name updateRow&#xa; @ line 291, column 5.&#xa;   Row updateRow = updateSheet.getRow(0)&#xa;       ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 293: The current scope already contains a variable of the name updateCell&#xa; @ line 293, column 6.&#xa;   Cell updateCell = updateRow.getCell(1)&#xa;        ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 305: The current scope already contains a variable of the name fos&#xa; @ line 305, column 18.&#xa;   FileOutputStream fos = new FileOutputStream(ExcelFile)&#xa;                    ^&#xa;&#xa;11 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732084200142.run(TempTestSuite1732084200142.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[20-11-2024T06:31:06 - [TEST_CASE][ERROR] - Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 173: The current scope already contains a variable of the name sourceFile
+ @ line 173, column 17.
+   FileInputStream sourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 175: The current scope already contains a variable of the name workbook
+ @ line 175, column 14.
+   XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 177: The current scope already contains a variable of the name sheet
+ @ line 177, column 11.
+   XSSFSheet sheet = workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 180: The current scope already contains a variable of the name row
+ @ line 180, column 5.
+   Row row = sheet.getRow(1)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 182: The current scope already contains a variable of the name cell
+ @ line 182, column 6.
+   Cell cell = row.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 284: The current scope already contains a variable of the name updatesourceFile
+ @ line 284, column 17.
+   FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 286: The current scope already contains a variable of the name updateWorkbook
+ @ line 286, column 14.
+   XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 288: The current scope already contains a variable of the name updateSheet
+ @ line 288, column 11.
+   XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 291: The current scope already contains a variable of the name updateRow
+ @ line 291, column 5.
+   Row updateRow = updateSheet.getRow(0)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 293: The current scope already contains a variable of the name updateCell
+ @ line 293, column 6.
+   Cell updateCell = updateRow.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 305: The current scope already contains a variable of the name fos
+ @ line 305, column 18.
+   FileOutputStream fos = new FileOutputStream(ExcelFile)
+                    ^
+
+11 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732084200142.run(TempTestSuite1732084200142.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[20-11-2024T06:31:06 - [TEST_CASE][ERROR] - Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 173: The current scope already contains a variable of the name sourceFile
+ @ line 173, column 17.
+   FileInputStream sourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 175: The current scope already contains a variable of the name workbook
+ @ line 175, column 14.
+   XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 177: The current scope already contains a variable of the name sheet
+ @ line 177, column 11.
+   XSSFSheet sheet = workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 180: The current scope already contains a variable of the name row
+ @ line 180, column 5.
+   Row row = sheet.getRow(1)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 182: The current scope already contains a variable of the name cell
+ @ line 182, column 6.
+   Cell cell = row.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 284: The current scope already contains a variable of the name updatesourceFile
+ @ line 284, column 17.
+   FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 286: The current scope already contains a variable of the name updateWorkbook
+ @ line 286, column 14.
+   XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 288: The current scope already contains a variable of the name updateSheet
+ @ line 288, column 11.
+   XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 291: The current scope already contains a variable of the name updateRow
+ @ line 291, column 5.
+   Row updateRow = updateSheet.getRow(0)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 293: The current scope already contains a variable of the name updateCell
+ @ line 293, column 6.
+   Cell updateCell = updateRow.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 305: The current scope already contains a variable of the name fos
+ @ line 305, column 18.
+   FileOutputStream fos = new FileOutputStream(ExcelFile)
+                    ^
+
+11 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732084200142.run(TempTestSuite1732084200142.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateRefund" time="38.131" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateRefund" status="PASSED">
+         <system-out><![CDATA[20-11-2024T06:31:07 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateRefund: Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateRefund
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - transactionNumber = cell.getStringCellValue(): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - println(transactionNumber): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+20-11-2024T06:31:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-11-2024T06:31:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-11-2024T06:31:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-11-2024T06:31:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-11-2024T06:31:08 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'data:,'
+
+20-11-2024T06:31:08 - [MESSAGE][PASSED] - Current window's url is: 'data:,'
+
+20-11-2024T06:31:08 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-11-2024T06:31:08 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-11-2024T06:31:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-11-2024T06:31:15 - [MESSAGE][PASSED] - Current window maximized
+
+20-11-2024T06:31:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-11-2024T06:31:19 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-11-2024T06:31:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Password_password'
+
+20-11-2024T06:31:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Password_password'
+
+20-11-2024T06:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-11-2024T06:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-11-2024T06:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img")): Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img' is clicked on
+
+20-11-2024T06:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img' is clicked on
+
+20-11-2024T06:31:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Customer No_CustId"), "17179"): Text '17179' is set on object 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+20-11-2024T06:31:28 - [MESSAGE][PASSED] - Text '17179' is set on object 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+20-11-2024T06:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_Exclude Permanent Stop_isc_8Bicon")): Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_Exclude Permanent Stop_isc_8Bicon' is clicked on
+
+20-11-2024T06:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_Exclude Permanent Stop_isc_8Bicon' is clicked on
+
+20-11-2024T06:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs")): Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+20-11-2024T06:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+20-11-2024T06:31:31 - [TEST_STEP][PASSED] - verifyTextPresent(transactionNum, false): Text '' is present on page 
+
+20-11-2024T06:31:33 - [MESSAGE][PASSED] - Text '' is present on page 
+
+20-11-2024T06:31:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-11-2024T06:31:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-11-2024T06:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+20-11-2024T06:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+20-11-2024T06:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/td__1")): Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/td__1' is clicked on
+
+20-11-2024T06:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/td__1' is clicked on
+
+20-11-2024T06:31:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-11-2024T06:31:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateStock" time="38.609" classname="Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateStock" status="PASSED">
+         <system-out><![CDATA[20-11-2024T06:31:45 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateStock: Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_ValidateStock
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - transactionNumber = cell.getStringCellValue(): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - println(transactionNumber): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+20-11-2024T06:31:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-11-2024T06:31:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-11-2024T06:31:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-11-2024T06:31:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-11-2024T06:31:46 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'data:,'
+
+20-11-2024T06:31:46 - [MESSAGE][PASSED] - Current window's url is: 'data:,'
+
+20-11-2024T06:31:46 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-11-2024T06:31:53 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-11-2024T06:31:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-11-2024T06:31:53 - [MESSAGE][PASSED] - Current window maximized
+
+20-11-2024T06:31:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-11-2024T06:31:57 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-11-2024T06:31:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_Password_password'
+
+20-11-2024T06:31:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_Password_password'
+
+20-11-2024T06:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-11-2024T06:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-11-2024T06:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/img_1")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/img_1' is clicked on
+
+20-11-2024T06:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/img_1' is clicked on
+
+20-11-2024T06:32:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_Product_ProdId"), "2023191"): Text '2023191' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_Product_ProdId'
+
+20-11-2024T06:32:06 - [MESSAGE][PASSED] - Text '2023191' is set on object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/input_Product_ProdId'
+
+20-11-2024T06:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/td_Find' is clicked on
+
+20-11-2024T06:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/td_Find' is clicked on
+
+20-11-2024T06:32:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Stock Movements"), 30): Scroll to object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Stock Movements' successfully
+
+20-11-2024T06:32:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Stock Movements' successfully
+
+20-11-2024T06:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Stock Movements_1")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Stock Movements_1' is clicked on
+
+20-11-2024T06:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/div_Stock Movements_1' is clicked on
+
+20-11-2024T06:32:10 - [TEST_STEP][PASSED] - verifyTextPresent(transactionNum, false): Text '' is present on page 
+
+20-11-2024T06:32:12 - [MESSAGE][PASSED] - Text '' is present on page 
+
+20-11-2024T06:32:12 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-11-2024T06:32:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-11-2024T06:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+20-11-2024T06:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+20-11-2024T06:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/td__1")): Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/td__1' is clicked on
+
+20-11-2024T06:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS3_POS_AccountCredit_Full_ValidateStock/Page_Frameworks (Demo)/td__1' is clicked on
+
+20-11-2024T06:32:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-11-2024T06:32:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-11-2024T06:30:08 - [TEST_SUITE][ERROR] - TS4_POS_AccountCredit_Partial_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 173: The current scope already contains a variable of the name sourceFile
+ @ line 173, column 17.
+   FileInputStream sourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 175: The current scope already contains a variable of the name workbook
+ @ line 175, column 14.
+   XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 177: The current scope already contains a variable of the name sheet
+ @ line 177, column 11.
+   XSSFSheet sheet = workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 180: The current scope already contains a variable of the name row
+ @ line 180, column 5.
+   Row row = sheet.getRow(1)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 182: The current scope already contains a variable of the name cell
+ @ line 182, column 6.
+   Cell cell = row.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 284: The current scope already contains a variable of the name updatesourceFile
+ @ line 284, column 17.
+   FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 286: The current scope already contains a variable of the name updateWorkbook
+ @ line 286, column 14.
+   XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 288: The current scope already contains a variable of the name updateSheet
+ @ line 288, column 11.
+   XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 291: The current scope already contains a variable of the name updateRow
+ @ line 291, column 5.
+   Row updateRow = updateSheet.getRow(0)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 293: The current scope already contains a variable of the name updateCell
+ @ line 293, column 6.
+   Cell updateCell = updateRow.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 305: The current scope already contains a variable of the name fos
+ @ line 305, column 18.
+   FileOutputStream fos = new FileOutputStream(ExcelFile)
+                    ^
+
+11 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732084200142.run(TempTestSuite1732084200142.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[20-11-2024T06:30:08 - [TEST_SUITE][ERROR] - TS4_POS_AccountCredit_Partial_NT: Test Cases/Nortruss Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 173: The current scope already contains a variable of the name sourceFile
+ @ line 173, column 17.
+   FileInputStream sourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 175: The current scope already contains a variable of the name workbook
+ @ line 175, column 14.
+   XSSFWorkbook workbook = new XSSFWorkbook(sourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 177: The current scope already contains a variable of the name sheet
+ @ line 177, column 11.
+   XSSFSheet sheet = workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 180: The current scope already contains a variable of the name row
+ @ line 180, column 5.
+   Row row = sheet.getRow(1)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 182: The current scope already contains a variable of the name cell
+ @ line 182, column 6.
+   Cell cell = row.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 284: The current scope already contains a variable of the name updatesourceFile
+ @ line 284, column 17.
+   FileInputStream updatesourceFile = new FileInputStream(ExcelFile)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 286: The current scope already contains a variable of the name updateWorkbook
+ @ line 286, column 14.
+   XSSFWorkbook updateWorkbook = new XSSFWorkbook(updatesourceFile)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 288: The current scope already contains a variable of the name updateSheet
+ @ line 288, column 11.
+   XSSFSheet updateSheet = updateWorkbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 291: The current scope already contains a variable of the name updateRow
+ @ line 291, column 5.
+   Row updateRow = updateSheet.getRow(0)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 293: The current scope already contains a variable of the name updateCell
+ @ line 293, column 6.
+   Cell updateCell = updateRow.getCell(1)
+        ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/Nortruss%20Instance/PointofSale_Module/TS4_POS_AccountCredit_Partial_StockReturn_NT/POS_AccountCredit_Partial_NT/Script1732079988084.groovy: 305: The current scope already contains a variable of the name fos
+ @ line 305, column 18.
+   FileOutputStream fos = new FileOutputStream(ExcelFile)
+                    ^
+
+11 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732084200142.run(TempTestSuite1732084200142.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

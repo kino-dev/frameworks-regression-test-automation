@@ -6,12 +6,16 @@
    <elementGuidId>abb988cf-b6ca-4dcb-a743-ddf1319ad835</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Sales Orders']/parent::*</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_TreeGrid_0_valueCell4</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'isc_TreeGrid_0_valueCell4' and (text() = 'Sales Orders' or . = 'Sales Orders')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Sales Orders']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>0218efd4-daaa-4a55-a048-a8c7553208a1</webElementGuid>
+      <webElementGuid>b2901a5a-de5a-43e8-8c74-7c192af3c27b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_TreeGrid_0_valueCell4</value>
-      <webElementGuid>1097c4de-c346-4081-beaf-1cef968bf438</webElementGuid>
+      <webElementGuid>6293d33c-dace-471e-a689-e1a87cbfd4bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>treeTallCellSelectedOver</value>
-      <webElementGuid>a18ca23c-3056-45ba-9913-080f8813b6f2</webElementGuid>
+      <webElementGuid>4111c80a-a4e6-461d-ad35-df9a8b15c39a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sales Orders</value>
-      <webElementGuid>57a59b59-d295-4e0c-9479-78905c25754c</webElementGuid>
+      <webElementGuid>1510fd1b-15a5-4085-ae9f-265c01992a0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_TreeGrid_0_valueCell4&quot;)</value>
-      <webElementGuid>e57be7f7-0abe-4bb0-a89e-ea4d6b16589b</webElementGuid>
+      <webElementGuid>9e031506-af71-441c-882e-8ad699b989ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//td[@id='isc_TreeGrid_0_valueCell4']</value>
-      <webElementGuid>1acfc70b-5eed-4992-a1c4-81ae67d805a4</webElementGuid>
+      <webElementGuid>14c63846-36ca-4a1f-a31e-9bbc5050730e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_7Ftable']/tbody/tr[5]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>c8aa2c77-2269-4bd8-9b53-cb85be1e7ae8</webElementGuid>
+      <webElementGuid>08974269-7583-4017-8b0f-899df9ce54f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/following::td[4]</value>
-      <webElementGuid>c6aa4dc3-8ac9-4d8b-9efb-4e040d0e960f</webElementGuid>
+      <webElementGuid>59522a14-4a94-40b6-9106-7d8218ab1c38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Point Of Sale'])[1]/following::td[8]</value>
-      <webElementGuid>cea498f9-01f7-4678-ac41-b668d8feacf4</webElementGuid>
+      <webElementGuid>fb246045-1c20-4c3b-802b-54ca764c3b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Notes'])[1]/preceding::td[3]</value>
-      <webElementGuid>08957c66-7b87-4025-a29d-0c1cb2baa330</webElementGuid>
+      <webElementGuid>4df8fbaf-629e-43e4-9616-4e32b72f3ed0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Picking Dashboard'])[1]/preceding::td[7]</value>
-      <webElementGuid>0258ceb8-1c53-4816-ae8a-79df1d26f676</webElementGuid>
+      <webElementGuid>6197af01-87a7-4c1e-b1dc-fc5df141ad9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sales Orders']/parent::*</value>
-      <webElementGuid>4c852cd3-630d-42ba-9f5d-9ffccd811277</webElementGuid>
+      <webElementGuid>c49d006f-2f43-4e3c-bd08-46787d35bc71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>7db213a4-a959-454d-86ca-35b4967ffb6a</webElementGuid>
+      <webElementGuid>7e069453-e281-4b9e-b6bd-1ae22d2eb914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[@id = 'isc_TreeGrid_0_valueCell4' and (text() = 'Sales Orders' or . = 'Sales Orders')]</value>
-      <webElementGuid>9c9d8a30-706c-4f86-8821-856a99700eb2</webElementGuid>
+      <webElementGuid>6bc6b8a3-a9b6-472b-abb9-7dbe7714d7b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

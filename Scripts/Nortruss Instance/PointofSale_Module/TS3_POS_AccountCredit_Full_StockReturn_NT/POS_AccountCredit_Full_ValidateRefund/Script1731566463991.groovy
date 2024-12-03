@@ -35,8 +35,8 @@ Row row = sheet.getRow(1)
 Cell cell = row.getCell(1)
 
 //transactionNumber = String.valueOf(((cell.getNumericCellValue()) as int))
-
 transactionNumber = cell.getStringCellValue()
+
 println(transactionNumber)
 
 sourceFile.close()
@@ -50,30 +50,31 @@ WebUI.navigateToUrl('http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_User ID_userid'), 
-    'manaki')
+WebUI.setText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_User ID_userid'), 'manaki')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Password_password'), 
-    'C5+8mNJ15mA=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Password_password'), 'C5+8mNJ15mA=')
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img'))
 
-WebUI.setText(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-    '17179')
+WebUI.setText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Customer No_CustId'), '17179')
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_Exclude Permanent Stop_isc_8Bicon'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img_Exclude Permanent Stop_isc_8Bicon'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
 
 WebUI.verifyTextPresent(transactionNum, false)
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/img_dropdownLogout'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img_dropdownLogout'))
 
-WebUI.click(findTestObject('Object Repository/TS3_POS_Accountcredit_Full Validate Customer/Page_Frameworks (Demo)/td__1'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/td__1'))
 
 WebUI.closeBrowser()
+
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Number'))
 

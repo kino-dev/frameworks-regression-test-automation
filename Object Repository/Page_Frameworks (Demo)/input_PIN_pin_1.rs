@@ -6,16 +6,16 @@
    <elementGuidId>fcb8412b-99f9-4eb6-8ddf-079fbe18d44f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='isc_14D']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_14D</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@type = 'PASSWORD' and @name = 'pin']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='isc_14D']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6bbd6ce7-cd83-4032-a8f2-14ad08601bea</webElementGuid>
+      <webElementGuid>f54b719b-24ba-4beb-9d07-9fc70a7ba285</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>PASSWORD</value>
-      <webElementGuid>04e93f48-483e-4ff6-806b-816b80b3fdd1</webElementGuid>
+      <webElementGuid>b9e6d23f-eeea-423b-a703-8ec6f4ca5424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>pin</value>
-      <webElementGuid>e0233870-7997-49d8-acb3-cb007eb717b1</webElementGuid>
+      <webElementGuid>27267c67-fd3f-4cf2-9caa-eb021361da00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_14D</value>
-      <webElementGuid>d45958c7-ee9c-498b-8ce5-00dfd53b5207</webElementGuid>
+      <webElementGuid>d123319b-9792-46a0-b609-3d648e52568b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>handlenativeevents</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>93833034-17a3-49de-ada5-b58f8cd9c421</webElementGuid>
+      <webElementGuid>a0b2bfe2-3acf-4092-9b2c-10cac3bf852f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_PasswordItem_8</value>
-      <webElementGuid>42b3f3bc-deed-429d-931e-e305be2660c0</webElementGuid>
+      <webElementGuid>888b317d-0e10-47ee-a7e7-ac5c665e8427</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9b</value>
-      <webElementGuid>fe3b49c1-f583-494d-92f9-d36b51ace1c3</webElementGuid>
+      <webElementGuid>a859567c-b4eb-444c-8234-26b46476a1f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b33ac0ff-a887-4a4b-b642-eea27e1ab415</webElementGuid>
+      <webElementGuid>408fc009-d9c5-4804-aa92-f6f7ca57e495</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>oninput</name>
       <type>Main</type>
       <value>isc_PasswordItem_8._handleInput()</value>
-      <webElementGuid>ee508434-6f8b-4350-b8ab-81ed1979981c</webElementGuid>
+      <webElementGuid>8424df34-1e73-4c7f-8f2f-9115d45a6e02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>onselect</name>
       <type>Main</type>
       <value>if (window.isc_PasswordItem_8 == null) return;isc_PasswordItem_8.$1162()</value>
-      <webElementGuid>feedc285-4f14-4077-b471-449bd7d3d361</webElementGuid>
+      <webElementGuid>571b0c8a-58cb-42d5-bde6-9622bba4f932</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>OFF</value>
-      <webElementGuid>f9e9636b-f414-4912-ba0c-411548d849d4</webElementGuid>
+      <webElementGuid>4e616327-c1c1-447d-a09d-b2b9909c8bb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>class</name>
       <type>Main</type>
       <value>textItemFocused</value>
-      <webElementGuid>61ae7840-acc4-4e32-b57b-ff0642995220</webElementGuid>
+      <webElementGuid>cf0f53fe-1b68-4416-80b1-300ca2a9e60b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>14102</value>
-      <webElementGuid>f5630b81-b54c-4a63-9886-ffc2d4a59e11</webElementGuid>
+      <webElementGuid>0a429287-7144-476d-b716-516d8d973ad1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_14D&quot;)</value>
-      <webElementGuid>f6c8a30d-2ecc-4788-ae07-48e2e3960f90</webElementGuid>
+      <webElementGuid>5d07b728-ceab-4823-9e48-0b7698f74305</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='isc_14D']</value>
-      <webElementGuid>539f139d-bd14-4384-90ee-da564ecaafb1</webElementGuid>
+      <webElementGuid>e2896a98-c2b1-475c-b9c7-f7da37549b65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +153,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_14F']/input</value>
-      <webElementGuid>aa09b246-6ae3-439c-b3fa-816ebcb0dd7f</webElementGuid>
+      <webElementGuid>216e632b-1d42-4e9f-8216-45a97cbb6c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,7 +161,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/div/div/div/div/form/table/tbody/tr[3]/td[2]/input</value>
-      <webElementGuid>b7571978-4dc9-4ffb-a7b3-d53a656cac52</webElementGuid>
+      <webElementGuid>fb53f9f5-b501-4c95-bac6-7b459b4ea51c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -169,7 +169,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'PASSWORD' and @name = 'pin' and @id = 'isc_14D']</value>
-      <webElementGuid>f20b8026-a17d-47e8-9023-301716308579</webElementGuid>
+      <webElementGuid>21dee5ac-b054-4cea-9bf6-6331b183f13a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -177,7 +177,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='isc_TQ']</value>
-      <webElementGuid>0563484c-0dc0-4990-9367-519e577dc07c</webElementGuid>
+      <webElementGuid>48dff78b-f19b-40c7-8de2-27e7a126d806</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,7 +185,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_TS']/input</value>
-      <webElementGuid>1dc59324-6d53-4e90-9994-c789e96034ee</webElementGuid>
+      <webElementGuid>aaef80cf-6547-4aba-b060-94a7cd6a664a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -193,7 +193,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/div/div/div/div/div/div/form/table/tbody/tr[3]/td[2]/input</value>
-      <webElementGuid>a908b615-d675-4ab8-93e5-a8d81e79206e</webElementGuid>
+      <webElementGuid>ad57eeea-095d-4cdd-910e-275be47a0173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -201,7 +201,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'PASSWORD' and @name = 'pin' and @id = 'isc_TQ']</value>
-      <webElementGuid>6f85bcf1-25dd-4e01-a612-4b8ac9633709</webElementGuid>
+      <webElementGuid>312669f7-f5b5-47f6-982e-5b558ea9a73b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -209,7 +209,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='isc_LI']</value>
-      <webElementGuid>6a35fbd0-b682-49c0-a1ed-162a4732f6c5</webElementGuid>
+      <webElementGuid>1bc10a37-72bc-4159-bc53-f416d2b3fe2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -217,7 +217,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_LK']/input</value>
-      <webElementGuid>dab57b9b-e958-4ea2-8de3-6d73ebf34871</webElementGuid>
+      <webElementGuid>c21b9189-a37f-4c9d-9dc6-7cdcb1994bde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -225,6 +225,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'PASSWORD' and @name = 'pin' and @id = 'isc_LI']</value>
-      <webElementGuid>5f0c552e-859d-49b4-84d5-6e59149d3822</webElementGuid>
+      <webElementGuid>738269f9-87aa-4475-83aa-63d06fd6c423</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

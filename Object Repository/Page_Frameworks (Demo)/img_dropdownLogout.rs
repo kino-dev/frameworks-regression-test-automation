@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>bbb9ab5e-dd0c-447d-b3fb-38bd6f3a8bc5</webElementGuid>
+      <webElementGuid>34e662d8-63c7-4d4e-8b22-2117995ad1f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/Menu/menu_button.png</value>
-      <webElementGuid>acdf99d3-3f01-47a6-8ff6-20434a169b43</webElementGuid>
+      <webElementGuid>d0243fda-7f15-4157-a195-8cb572d4984c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>35b2de55-6364-44ec-9ff5-cf4a97dbf94e</webElementGuid>
+      <webElementGuid>6d1ded70-6b1e-4948-b763-3b74a2743b91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>ed45bced-5371-46e6-b4ca-6178caf902bf</webElementGuid>
+      <webElementGuid>2db90b86-1880-40ee-a1f3-fb3657f291e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>align</name>
       <type>Main</type>
       <value>absmiddle</value>
-      <webElementGuid>d9d2f82a-cf75-4d82-8fb1-637066b3e97e</webElementGuid>
+      <webElementGuid>15e6554a-eec1-4147-811d-c745db24e1d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>isc_Ticon</value>
-      <webElementGuid>26246227-039a-41c6-9fe9-cc5fc589bdb7</webElementGuid>
+      <webElementGuid>93b71ca2-ca1f-4769-98e8-5ce9c98aeb71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>eventpart</name>
       <type>Main</type>
       <value>icon</value>
-      <webElementGuid>6d8e6f9f-0a3e-409c-9363-d199bd971a92</webElementGuid>
+      <webElementGuid>4b6d04d3-a7e7-4788-98e8-26a0544582c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>464d7450-ebaf-40d8-b871-157e57a3a47c</webElementGuid>
+      <webElementGuid>3f08a367-6af5-481f-9323-db9302a0825a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>suppress</name>
       <type>Main</type>
       <value>TRUE</value>
-      <webElementGuid>cdc2e273-5828-4d2a-a4cd-f08d2ca2a3e3</webElementGuid>
+      <webElementGuid>4011e229-23a7-4311-8c82-bd8309ccdec4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>draggable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>670f9610-f0f9-408a-bce0-05beec2cdd54</webElementGuid>
+      <webElementGuid>4f5cc468-0fb9-4e7e-9158-a43d96d4e45a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_T&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;toolsMenuButton&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;toolsMenuButton&quot;]/img[1]</value>
-      <webElementGuid>f0f2eb81-332d-490b-8f33-b687fb98384c</webElementGuid>
+      <webElementGuid>4194b962-5fcd-42d3-a8eb-340838976c02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@name='isc_Ticon']</value>
-      <webElementGuid>14a091fa-5c3e-400f-a4ae-344364b20a89</webElementGuid>
+      <webElementGuid>f316f2fe-0056-45dd-a753-33e6add68aaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_T']/table/tbody/tr/td/table/tbody/tr/td[2]/img</value>
-      <webElementGuid>7d625359-6b4a-4856-a27d-a9b8b97bda08</webElementGuid>
+      <webElementGuid>0ea6ec5b-21c2-4272-9d09-7adc2bb463d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/Menu/menu_button.png')]</value>
-      <webElementGuid>1f02e932-3617-49e2-b7a5-656c923aa944</webElementGuid>
+      <webElementGuid>be92aaf6-5e65-4c9c-9974-94e0911a362a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/img</value>
-      <webElementGuid>0f035153-0ffb-413d-8929-eef050959413</webElementGuid>
+      <webElementGuid>2a369d12-1313-42f2-adb0-4a3087333a28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/Menu/menu_button.png' and @name = 'isc_Ticon']</value>
-      <webElementGuid>8fb9385d-cad8-426a-a2d7-fde37afb6c7a</webElementGuid>
+      <webElementGuid>b5a7874c-e442-432e-8cef-313214fa3877</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

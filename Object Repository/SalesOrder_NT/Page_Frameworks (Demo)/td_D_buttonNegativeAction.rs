@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_D_buttonNegativeAction</name>
+   <tag></tag>
+   <elementGuidId>0e992959-8641-44a6-80a2-036117f10c18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_FP > table > tbody > tr > td.buttonNegativeAction > table > tbody > tr > td.buttonNegativeAction</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_FP']/table/tbody/tr/td/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=dialog[name=&quot;New Sales Order&quot;i] >> internal:label=&quot;Close (O)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>2f746e46-90da-4a97-aab9-f7c6d0626ea9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonNegativeAction</value>
+      <webElementGuid>b0ed93f7-683f-43ed-818e-1cc90d7453c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_FP&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNegativeAction&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNegativeAction&quot;]</value>
+      <webElementGuid>a8990624-963d-414b-91e7-88aa0cf6ca08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_FP']/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>12e546d4-0163-4e6e-b91c-118df5773970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[2]/following::td[2]</value>
+      <webElementGuid>45de1e8f-0ac8-40cb-b851-3c0028ec3293</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[2]/preceding::td[1]</value>
+      <webElementGuid>2278695e-f91c-416e-9679-9a5e1478a080</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[2]/div/div[7]/div/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>df08b38b-4480-48bc-af6b-b046b5af6479</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,15 +6,15 @@
    <elementGuidId>4f6da1ea-7dcc-4da2-8f9e-8794ddb882aa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[2]/following::td[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//td[@nowrap = 'true' and @align = 'center' and @valign = 'middle' and @onfocus = 'PointOfSaleMain_CRUD_Close.$47()' and (text() = 'Close (O)' or . = 'Close (O)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[2]/following::td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>58192b2a-2987-4a4b-b8aa-d10c7bd0cd0f</webElementGuid>
+      <webElementGuid>25e46b53-fa9b-4171-af54-f61c77310fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +40,7 @@
       <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>199b10fd-f200-42fb-a7d8-7ac52e127924</webElementGuid>
+      <webElementGuid>3e3dcefd-50b9-4433-b058-393e05bb778b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonNegativeActionFocusedOver</value>
-      <webElementGuid>4b71dcf6-9032-4f83-aecb-3920e3997c33</webElementGuid>
+      <webElementGuid>8ba5152b-1acd-479d-8aed-4858d6737ec8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>align</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>d767a2d4-0a20-481e-a9e8-6ef4c3dc405f</webElementGuid>
+      <webElementGuid>8082217f-3bb0-479e-ba3e-80c3c124b19e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>valign</name>
       <type>Main</type>
       <value>middle</value>
-      <webElementGuid>a178989b-8eff-47ec-954a-e68b9b30341f</webElementGuid>
+      <webElementGuid>f4b81efe-660a-4d39-a9f8-c3c831fb0ea7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>PointOfSaleMain_CRUD_Close.$47()</value>
-      <webElementGuid>feb5cca1-9062-4fc8-b260-0bd49c54113b</webElementGuid>
+      <webElementGuid>494396ac-bb41-4b8a-aa34-fc7118c663ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Close (O)</value>
-      <webElementGuid>3ab3dc64-4fe0-42e8-8d0f-780c3a72827f</webElementGuid>
+      <webElementGuid>1918b997-f7cd-4691-a38a-65c2f0886c33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_12L&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNegativeActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNegativeActionFocusedOver&quot;]</value>
-      <webElementGuid>688e048d-18a5-461e-9b23-ec83545cf911</webElementGuid>
+      <webElementGuid>2282e717-a04c-4be5-8e90-63f9db81464e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_12L']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>7dd7f65d-d93c-437a-a94d-091fd2af6b46</webElementGuid>
+      <webElementGuid>42806430-85f5-4e3f-bcd0-4c1f353b48b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[2]/following::td[3]</value>
-      <webElementGuid>34d54a7a-8e9a-4b8b-a834-4c1c6d7c6e83</webElementGuid>
+      <webElementGuid>945cac0f-f295-49bf-a3d6-ab03ae14bca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Popup Message'])[1]/preceding::td[9]</value>
-      <webElementGuid>f55bdfd1-13b0-4806-836f-dfec3bc245c5</webElementGuid>
+      <webElementGuid>f10e4b41-3521-488a-9913-03571635f9e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/div[2]/div/div[7]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>f6d15da8-ad62-446b-a182-71966076b1a5</webElementGuid>
+      <webElementGuid>d175405b-294f-4c48-b73a-583af58af37f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Close (O)' or . = 'Close (O)')]</value>
-      <webElementGuid>50686994-5ed2-44f0-9c19-5b09bb8f8d75</webElementGuid>
+      <webElementGuid>cd3918a0-aaad-412f-a24e-4bf184793831</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_86']/table/tbody/tr/td</value>
-      <webElementGuid>00cc31a7-8c93-4c44-b9c3-e9ad98ac5416</webElementGuid>
+      <webElementGuid>8920bfd3-4bb1-44b6-9ae5-fd504a57927a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::td[1]</value>
-      <webElementGuid>d69c6768-cf01-4bf2-8088-3bcc1672010a</webElementGuid>
+      <webElementGuid>b3c251e4-8793-4564-a78c-458291038e95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,6 +152,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[7]/div/table/tbody/tr/td</value>
-      <webElementGuid>012d2b7b-22b8-4eac-a99d-e257a7915b2b</webElementGuid>
+      <webElementGuid>d44d6aca-964f-4e3a-80ce-7cb3aecd4d6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

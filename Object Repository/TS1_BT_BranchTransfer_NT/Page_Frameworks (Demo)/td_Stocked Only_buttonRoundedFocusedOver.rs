@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Stocked Only_buttonRoundedFocusedOver</name>
+   <tag></tag>
+   <elementGuidId>16cb4756-53bb-4f59-8cab-d6612b516978</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.buttonRoundedFocusedOver > table > tbody > tr > td.buttonRoundedFocusedOver</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_SB']/table/tbody/tr/td/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Find&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e6e2f403-c369-405b-9f17-62298dee0b73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonRoundedFocusedOver</value>
+      <webElementGuid>4a529846-7059-4597-b8ba-b95c4a1d40a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_SB&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedFocusedOver&quot;]</value>
+      <webElementGuid>413f1559-7bc7-43aa-a4a4-dce5bf2d6b78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_SB']/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>701deb3d-6650-40b8-9461-86361472b216</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stocked Only'])[1]/following::td[4]</value>
+      <webElementGuid>49a79974-d748-4d8b-be98-a5a9248c97ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::td[6]</value>
+      <webElementGuid>214b654d-7e78-46f9-880c-c618e0c3b92c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find'])[2]/preceding::td[1]</value>
+      <webElementGuid>cc401dba-caae-48b6-afea-bf4061a3a43f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[4]/preceding::td[2]</value>
+      <webElementGuid>0cb6dde9-a712-448d-82b1-6afea68455bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>3281c5d1-ffe0-47e7-8b6c-d57efd141f0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

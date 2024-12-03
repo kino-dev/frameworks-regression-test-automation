@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_SalesOrder_Account_NT,Chrome 130.0.0.0,,,25-11-2024 12:08:51,25-11-2024 12:10:24,1m - 33.261s,PASSED
+,,,,,,,
+Test Cases/Nortruss Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account_NT/SO_Account_Sale,Chrome 130.0.0.0,,,25-11-2024 12:08:51,25-11-2024 12:09:57,1m - 5.893s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,25-11-2024 12:08:52,25-11-2024 12:08:55,3.104s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,25-11-2024 12:08:55,25-11-2024 12:08:55,0.238s,PASSED
+"navigateToUrl(""http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,25-11-2024 12:08:55,25-11-2024 12:08:56,0.459s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_User ID_userid""), ""manaki"")",Chrome 130.0.0.0,,,25-11-2024 12:08:56,25-11-2024 12:09:06,10.361s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Password_password""), ""C5+8mNJ15mA="")",Chrome 130.0.0.0,,,25-11-2024 12:09:06,25-11-2024 12:09:06,0.535s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,25-11-2024 12:09:06,25-11-2024 12:09:07,0.583s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img_FW""))",Chrome 130.0.0.0,,,25-11-2024 12:09:07,25-11-2024 12:09:11,4.330s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 130.0.0.0,,,25-11-2024 12:09:11,25-11-2024 12:09:12,0.722s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Sales Orders""))",Chrome 130.0.0.0,,,25-11-2024 12:09:12,25-11-2024 12:09:13,0.740s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_New""))",Chrome 130.0.0.0,,,25-11-2024 12:09:13,25-11-2024 12:09:15,2.500s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Operator No_operatorId""), ""2237"")",Chrome 130.0.0.0,,,25-11-2024 12:09:15,25-11-2024 12:09:19,3.601s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_PIN_pin""), ""2237"")",Chrome 130.0.0.0,,,25-11-2024 12:09:19,25-11-2024 12:09:20,0.718s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_OK""))",Chrome 130.0.0.0,,,25-11-2024 12:09:20,25-11-2024 12:09:20,0.559s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Customer_idCustX""), ""17179"")",Chrome 130.0.0.0,,,25-11-2024 12:09:20,25-11-2024 12:09:23,2.521s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Tiffany Brown (17179)""))",Chrome 130.0.0.0,,,25-11-2024 12:09:23,25-11-2024 12:09:24,1.188s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/span""))",Chrome 130.0.0.0,,,25-11-2024 12:09:24,25-11-2024 12:09:25,0.631s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Close (O)_StaffChargeAccount""))",Chrome 130.0.0.0,,,25-11-2024 12:09:25,25-11-2024 12:09:27,2.280s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img_ALL - ALL DESPATCH TYPES_isc_IE""))",Chrome 130.0.0.0,,,25-11-2024 12:09:27,25-11-2024 12:09:28,1.447s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Supp - Direct From Supplier""))",Chrome 130.0.0.0,,,25-11-2024 12:09:28,25-11-2024 12:09:29,0.927s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img_Date Required_isc_IL""))",Chrome 130.0.0.0,,,25-11-2024 12:09:29,25-11-2024 12:09:30,1.073s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Today""))",Chrome 130.0.0.0,,,25-11-2024 12:09:30,25-11-2024 12:09:32,1.433s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Address_deliverToAddress2""), ""PO Box 1094"")",Chrome 130.0.0.0,,,25-11-2024 12:09:32,25-11-2024 12:09:33,1.207s,PASSED
+"scrollToElement(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Post Code_postCodeShip""), 30)",Chrome 130.0.0.0,,,25-11-2024 12:09:33,25-11-2024 12:09:33,0.457s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Post Code_postCodeShip""), ""0813"")",Chrome 130.0.0.0,,,25-11-2024 12:09:33,25-11-2024 12:09:35,1.151s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Y_buttonPositiveActionFocusedOver""))",Chrome 130.0.0.0,,,25-11-2024 12:09:35,25-11-2024 12:09:35,0.934s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_P_idProd""), ""2014086"")",Chrome 130.0.0.0,,,25-11-2024 12:09:35,25-11-2024 12:09:40,4.741s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img_1""))",Chrome 130.0.0.0,,,25-11-2024 12:09:40,25-11-2024 12:09:41,0.471s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Actions""))",Chrome 130.0.0.0,,,25-11-2024 12:09:41,25-11-2024 12:09:43,2.364s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Pick  Release""))",Chrome 130.0.0.0,,,25-11-2024 12:09:43,25-11-2024 12:09:44,1.082s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Pick All""))",Chrome 130.0.0.0,,,25-11-2024 12:09:44,25-11-2024 12:09:47,3.063s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Complete Picking""))",Chrome 130.0.0.0,,,25-11-2024 12:09:47,25-11-2024 12:09:48,1.157s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Release Order""))",Chrome 130.0.0.0,,,25-11-2024 12:09:48,25-11-2024 12:09:50,1.380s,PASSED
+delay(2),Chrome 130.0.0.0,,,25-11-2024 12:09:50,25-11-2024 12:09:52,2.045s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1J3""))",Chrome 130.0.0.0,,,25-11-2024 12:09:52,25-11-2024 12:09:52,0.641s,PASSED
+delay(2),Chrome 130.0.0.0,,,25-11-2024 12:09:52,25-11-2024 12:09:54,2.017s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Release (S)""))",Chrome 130.0.0.0,,,25-11-2024 12:09:54,25-11-2024 12:09:55,0.440s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img_dropdownLogout""))",Chrome 130.0.0.0,,,25-11-2024 12:09:55,25-11-2024 12:09:57,1.620s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Logout""))",Chrome 130.0.0.0,,,25-11-2024 12:09:57,25-11-2024 12:09:57,0.601s,PASSED
+,,,,,,,
+Test Cases/Nortruss Instance/SalesOrders_Module/TS1_SO_SalesOrder_Account_NT/SO_AccounSale_Validate,Chrome 130.0.0.0,,,25-11-2024 12:09:57,25-11-2024 12:10:24,27.015s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,25-11-2024 12:09:57,25-11-2024 12:09:59,1.685s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,25-11-2024 12:09:59,25-11-2024 12:09:59,0.098s,PASSED
+"navigateToUrl(""http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 130.0.0.0,,,25-11-2024 12:09:59,25-11-2024 12:10:00,0.527s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_User ID_userid""), ""manaki"")",Chrome 130.0.0.0,,,25-11-2024 12:10:00,25-11-2024 12:10:09,9.613s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Password_password""), ""C5+8mNJ15mA="")",Chrome 130.0.0.0,,,25-11-2024 12:10:09,25-11-2024 12:10:10,0.471s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Login""))",Chrome 130.0.0.0,,,25-11-2024 12:10:10,25-11-2024 12:10:10,0.491s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img""))",Chrome 130.0.0.0,,,25-11-2024 12:10:10,25-11-2024 12:10:15,4.765s,PASSED
+"setText(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/input_Customer No_CustId""), ""17179"")",Chrome 130.0.0.0,,,25-11-2024 12:10:15,25-11-2024 12:10:18,3.226s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Find""))",Chrome 130.0.0.0,,,25-11-2024 12:10:18,25-11-2024 12:10:19,0.423s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs""))",Chrome 130.0.0.0,,,25-11-2024 12:10:19,25-11-2024 12:10:22,3.576s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/img_dropdownLogout""))",Chrome 130.0.0.0,,,25-11-2024 12:10:22,25-11-2024 12:10:24,1.351s,PASSED
+"click(findTestObject(""Object Repository/SalesOrder_NT/Page_Frameworks (Demo)/td_Logout""))",Chrome 130.0.0.0,,,25-11-2024 12:10:24,25-11-2024 12:10:24,0.581s,PASSED

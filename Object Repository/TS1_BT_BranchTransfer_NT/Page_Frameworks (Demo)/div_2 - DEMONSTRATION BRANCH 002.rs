@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_2 - DEMONSTRATION BRANCH 002</name>
+   <tag></tag>
+   <elementGuidId>0970487b-6767-4455-b935-52b05a4c11cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '2 - DEMONSTRATION BRANCH 002' or . = '2 - DEMONSTRATION BRANCH 002')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '2 - DEMONSTRATION BRANCH 002' or . = '2 - DEMONSTRATION BRANCH 002')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelectedDark > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_1DEtable >> internal:text=&quot;2 - DEMONSTRATION BRANCH 002&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>83a9f66b-37d1-4a6b-bf6e-e6169591b48b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>935d295f-4458-4714-8732-4c6d4403463a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7a74c76e-3f9a-4671-aef5-c0bcfdbdbc48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2 - DEMONSTRATION BRANCH 002</value>
+      <webElementGuid>ed8deff6-5a48-4715-86b3-85337378d0eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1DEtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>29687ee2-2dba-40e1-a9e4-9c3227b80059</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_1DEtable']/tbody/tr[2]/td/div</value>
+      <webElementGuid>42302cbc-bda2-45a7-9f5a-39368bf4de77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select movements for this branch'])[1]/following::div[9]</value>
+      <webElementGuid>87e7291c-6a77-4c0d-849d-10f55a4336f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[18]</value>
+      <webElementGuid>df9b846e-55f8-46e0-a951-8e2467856829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>d87da1cb-51b9-4938-9869-43fdb89e11cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2 - DEMONSTRATION BRANCH 002' or . = '2 - DEMONSTRATION BRANCH 002')]</value>
+      <webElementGuid>bf0937e2-375e-4490-904b-7c850a48934b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_NPtable']/tbody/tr[2]/td/div</value>
+      <webElementGuid>4ee01b0c-d8dc-4f27-8112-bf5f13dd9a0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nortruss Branch Transfer (Branch1)'])[1]/following::div[10]</value>
+      <webElementGuid>0c30b73a-4c4e-476b-8a42-d51b3869afc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[24]</value>
+      <webElementGuid>1631840b-2ab3-44ba-b315-4dfa3d49944a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>cf03a0ac-7c85-494f-9792-e1dd2975350d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

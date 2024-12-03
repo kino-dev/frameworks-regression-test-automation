@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_BT_BranchTransfer_NT" time="109.919" tests="2" failures="0" errors="0">
+   <testsuite name="TS1_BT_BranchTransfer_NT" tests="2" failures="0" errors="0" time="109.919" skipped="0" timestamp="01-12-2024T05:47:44" hostname="azureuser - 10.192.8.5" id="Test Suites/Nortruss instance/BranchTransfer_Module/TS1_BT_BranchTransfer_NT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241201_054735\\Nortruss instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_NT\\20241201_054735"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241201_054735\\Nortruss instance\\BranchTransfer_Module\\TS1_BT_BranchTransfer_NT\\20241201_054735\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="d9bfddd2266a09a5665d9d3165db16c0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order_NT" time="63.85" classname="Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order_NT" status="PASSED">
+         <system-out><![CDATA[01-12-2024T05:47:45 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order_NT: Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Create_Purchase_Order_NT
+
+01-12-2024T05:47:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-12-2024T05:47:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-12-2024T05:47:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-12-2024T05:47:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-12-2024T05:47:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-12-2024T05:47:49 - [MESSAGE][PASSED] - Current window maximized
+
+01-12-2024T05:47:49 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-12-2024T05:47:58 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-12-2024T05:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-12-2024T05:48:02 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-12-2024T05:48:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Password_password'
+
+01-12-2024T05:48:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Password_password'
+
+01-12-2024T05:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Login' is clicked on
+
+01-12-2024T05:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Login' is clicked on
+
+01-12-2024T05:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_FW")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_FW' is clicked on
+
+01-12-2024T05:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_FW' is clicked on
+
+01-12-2024T05:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/b_Purchasing  Receipting")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/b_Purchasing  Receipting' is clicked on
+
+01-12-2024T05:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/b_Purchasing  Receipting' is clicked on
+
+01-12-2024T05:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/Transaction Processing")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/Transaction Processing' is clicked on
+
+01-12-2024T05:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/Transaction Processing' is clicked on
+
+01-12-2024T05:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Purchase Orders")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Purchase Orders' is clicked on
+
+01-12-2024T05:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Purchase Orders' is clicked on
+
+01-12-2024T05:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_New' is clicked on
+
+01-12-2024T05:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_New' is clicked on
+
+01-12-2024T05:48:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_PIN_pin"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_PIN_pin'
+
+01-12-2024T05:48:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_PIN_pin'
+
+01-12-2024T05:48:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Operator No_operatorId"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+01-12-2024T05:48:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+01-12-2024T05:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_OK")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_OK' is clicked on
+
+01-12-2024T05:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_OK' is clicked on
+
+01-12-2024T05:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Supplier No_idSupp"), "Branch1"): Text 'Branch1' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Supplier No_idSupp'
+
+01-12-2024T05:48:17 - [MESSAGE][PASSED] - Text 'Branch1' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Supplier No_idSupp'
+
+01-12-2024T05:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Nortruss Branch Transfer (Branch1)")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Nortruss Branch Transfer (Branch1)' is clicked on
+
+01-12-2024T05:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Nortruss Branch Transfer (Branch1)' is clicked on
+
+01-12-2024T05:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_1 - DEMONSTRATION BRANCH 001")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_1 - DEMONSTRATION BRANCH 001' is clicked on
+
+01-12-2024T05:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_1 - DEMONSTRATION BRANCH 001' is clicked on
+
+01-12-2024T05:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_2 - DEMONSTRATION BRANCH 002")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_2 - DEMONSTRATION BRANCH 002' is clicked on
+
+01-12-2024T05:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_2 - DEMONSTRATION BRANCH 002' is clicked on
+
+01-12-2024T05:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_Date Required_isc_FZ")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_Date Required_isc_FZ' is clicked on
+
+01-12-2024T05:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_Date Required_isc_FZ' is clicked on
+
+01-12-2024T05:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Today")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Today' is clicked on
+
+01-12-2024T05:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Today' is clicked on
+
+01-12-2024T05:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_Shipping Basis_isc_GD")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_Shipping Basis_isc_GD' is clicked on
+
+01-12-2024T05:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_Shipping Basis_isc_GD' is clicked on
+
+01-12-2024T05:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PU - PICK UP FROM SUPP")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PU - PICK UP FROM SUPP' is clicked on
+
+01-12-2024T05:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PU - PICK UP FROM SUPP' is clicked on
+
+01-12-2024T05:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pickup Method_isc_GY")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pickup Method_isc_GY' is clicked on
+
+01-12-2024T05:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pickup Method_isc_GY' is clicked on
+
+01-12-2024T05:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PICKU - Pick up From Store")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PICKU - Pick up From Store' is clicked on
+
+01-12-2024T05:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PICKU - Pick up From Store' is clicked on
+
+01-12-2024T05:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Address_addressSupp1"), "Kimberley"): Text 'Kimberley' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Address_addressSupp1'
+
+01-12-2024T05:48:27 - [MESSAGE][PASSED] - Text 'Kimberley' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Address_addressSupp1'
+
+01-12-2024T05:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Save (S)")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+01-12-2024T05:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Save (S)' is clicked on
+
+01-12-2024T05:48:28 - [TEST_STEP][PASSED] - PurchaseOrder = getText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/purchaseOrderNo")): Text of object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/purchaseOrderNo' is: 'PO 950134'
+
+01-12-2024T05:48:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/purchaseOrderNo' is: 'PO 950134'
+
+01-12-2024T05:48:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_P_idProd"), "2014086"): Text '2014086' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_P_idProd'
+
+01-12-2024T05:48:33 - [MESSAGE][PASSED] - Text '2014086' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_P_idProd'
+
+01-12-2024T05:48:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Quantity_qtyTran_1")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Quantity_qtyTran_1' is double clicked on
+
+01-12-2024T05:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Quantity_qtyTran_1' is double clicked on
+
+01-12-2024T05:48:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Quantity_qtyTran_1"), "2"): Keys '2' sent to object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Quantity_qtyTran_1'
+
+01-12-2024T05:48:35 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Quantity_qtyTran_1'
+
+01-12-2024T05:48:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_1")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_1' is clicked on
+
+01-12-2024T05:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_1' is clicked on
+
+01-12-2024T05:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+01-12-2024T05:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+01-12-2024T05:48:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Finalise Transfer")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Finalise Transfer' is clicked on
+
+01-12-2024T05:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Finalise Transfer' is clicked on
+
+01-12-2024T05:48:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Despatch Method_isc_17A")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Despatch Method_isc_17A' is clicked on
+
+01-12-2024T05:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Despatch Method_isc_17A' is clicked on
+
+01-12-2024T05:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PICKU - Pick up From Store_1")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PICKU - Pick up From Store_1' is clicked on
+
+01-12-2024T05:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_PICKU - Pick up From Store_1' is clicked on
+
+01-12-2024T05:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Save (S)_1")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Save (S)_1' is clicked on
+
+01-12-2024T05:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Save (S)_1' is clicked on
+
+01-12-2024T05:48:45 - [TEST_STEP][PASSED] - SalesOrder = getText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/a_Tfer SO")): Text of object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/a_Tfer SO' is: 'Tfer SO: 401501'
+
+01-12-2024T05:48:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/a_Tfer SO' is: 'Tfer SO: 401501'
+
+01-12-2024T05:48:46 - [TEST_STEP][PASSED] - println(SalesOrder): null
+
+01-12-2024T05:48:46 - [TEST_STEP][PASSED] - println(PurchaseOrder): null
+
+01-12-2024T05:48:46 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+01-12-2024T05:48:46 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell.setCellValue("Purchase Order"): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell.setCellValue(PurchaseOrder): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - row = sheet.createRow(2): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell.setCellValue("Sales Order"): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - cell.setCellValue(SalesOrder): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - fos.close(): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+01-12-2024T05:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+01-12-2024T05:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+01-12-2024T05:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout' is clicked on
+
+01-12-2024T05:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO_NT" time="45.702" classname="Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO_NT" status="PASSED">
+         <system-out><![CDATA[01-12-2024T05:48:48 - [TEST_CASE][PASSED] - Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO_NT: Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO_NT
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - row = sheet.getRow(2): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - SalesOrder = cell.getStringCellValue(): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - SalesOrder = SalesOrder.replace("Tfer SO: ", ""): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - println(SalesOrder): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+01-12-2024T05:48:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-12-2024T05:48:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-12-2024T05:48:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-12-2024T05:48:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-12-2024T05:48:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-12-2024T05:48:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-12-2024T05:48:51 - [MESSAGE][PASSED] - Current window maximized
+
+01-12-2024T05:48:51 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-12-2024T05:48:58 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-12-2024T05:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-12-2024T05:49:02 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-12-2024T05:49:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Password_password"), "C5+8mNJ15mA="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Password_password'
+
+01-12-2024T05:49:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Password_password'
+
+01-12-2024T05:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Login' is clicked on
+
+01-12-2024T05:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Login' is clicked on
+
+01-12-2024T05:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_FW")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_FW' is clicked on
+
+01-12-2024T05:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_FW' is clicked on
+
+01-12-2024T05:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+01-12-2024T05:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+01-12-2024T05:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Sales Orders")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+01-12-2024T05:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+01-12-2024T05:49:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/Sales_Td"), SalesOrder): Text '401501' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/Sales_Td'
+
+01-12-2024T05:49:11 - [MESSAGE][PASSED] - Text '401501' is set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/Sales_Td'
+
+01-12-2024T05:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Find")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Find' is clicked on
+
+01-12-2024T05:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Find' is clicked on
+
+01-12-2024T05:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/a_00401492")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/a_00401492' is clicked on
+
+01-12-2024T05:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/a_00401492' is clicked on
+
+01-12-2024T05:49:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Operator No_operatorId"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+01-12-2024T05:49:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Operator No_operatorId'
+
+01-12-2024T05:49:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_PIN_pin"), "uzzxF8+Oh1A="): Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_PIN_pin'
+
+01-12-2024T05:49:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_PIN_pin'
+
+01-12-2024T05:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_OK")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_OK' is clicked on
+
+01-12-2024T05:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_OK' is clicked on
+
+01-12-2024T05:49:18 - [TEST_STEP][PASSED] - SalesOrderValidate = getText(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/span_SO 4014940")): Text of object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/span_SO 4014940' is: 'SO 401501/0'
+
+01-12-2024T05:49:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/span_SO 4014940' is: 'SO 401501/0'
+
+01-12-2024T05:49:21 - [TEST_STEP][PASSED] - SalesOrderValidate = SalesOrderValidate.replace("SO ", ""): null
+
+01-12-2024T05:49:21 - [TEST_STEP][PASSED] - SalesOrderValidate = SalesOrderValidate.replace("/0", ""): null
+
+01-12-2024T05:49:21 - [TEST_STEP][PASSED] - if (SalesOrder == SalesOrderValidate): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout' is clicked on
+
+01-12-2024T05:49:21 - [TEST_STEP][PASSED] - println("yes it is same" + SalesOrder): null
+
+01-12-2024T05:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Actions")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+01-12-2024T05:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Actions' is clicked on
+
+01-12-2024T05:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pick  Release")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+01-12-2024T05:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pick  Release' is clicked on
+
+01-12-2024T05:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pick All")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pick All' is clicked on
+
+01-12-2024T05:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Pick All' is clicked on
+
+01-12-2024T05:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Complete Picking")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Complete Picking' is clicked on
+
+01-12-2024T05:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Complete Picking' is clicked on
+
+01-12-2024T05:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Release Order")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Release Order' is clicked on
+
+01-12-2024T05:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Release Order' is clicked on
+
+01-12-2024T05:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1IB")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1IB' is clicked on
+
+01-12-2024T05:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/div_Print Delivery Docket_isc_1IB' is clicked on
+
+01-12-2024T05:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Release (S)")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Release (S)' is clicked on
+
+01-12-2024T05:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Release (S)' is clicked on
+
+01-12-2024T05:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_dropdownLogout")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+01-12-2024T05:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/img_dropdownLogout' is clicked on
+
+01-12-2024T05:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout")): Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout' is clicked on
+
+01-12-2024T05:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-12-2024T05:47:44 - [TEST_SUITE][PASSED] - TS1_BT_BranchTransfer_NT: Test Cases/Nortruss Instance/BranchTransfer_Module/TS1_BT_BranchTransfer/Pick_Release_SO_NT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

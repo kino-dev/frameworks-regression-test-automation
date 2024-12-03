@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2d91344c-7afc-4adc-a52e-734a65bde349</webElementGuid>
+      <webElementGuid>47f943d0-6941-48d6-a10c-e8e32407aedc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>8bde7d5f-8fc4-4480-8627-9ce6be5b4cd3</webElementGuid>
+      <webElementGuid>f2b6c94f-65e4-4df5-9793-d35a264831fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>86bc3456-7c6a-4208-bb9d-163987c14512</webElementGuid>
+      <webElementGuid>ac2edc47-c19a-4fe1-aa2a-71f1f2d38352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PICKU - Pick up From Store</value>
-      <webElementGuid>a9e10ba2-c2cb-4469-8018-45625db0f8ec</webElementGuid>
+      <webElementGuid>74b0a334-ca44-479c-93d4-991a9608433a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_WYtable&quot;)/tbody[1]/tr[3]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
-      <webElementGuid>c1e80e28-c423-4dd1-94b8-4edfdd99c5ff</webElementGuid>
+      <webElementGuid>6af9f695-646c-4328-b663-8424310713cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_WYtable']/tbody/tr[3]/td/div</value>
-      <webElementGuid>8ddbca26-605c-41ca-b441-a1cb87b4af22</webElementGuid>
+      <webElementGuid>110e2477-2ee3-4445-8aaa-192a284955d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CENTR - Central Allocations'])[1]/following::div[1]</value>
-      <webElementGuid>37310273-382c-4e62-a711-ee0a21e361f2</webElementGuid>
+      <webElementGuid>0c37ef3c-371e-4a43-ae06-8b89626217d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ALL - ALL DESPATCH TYPES'])[1]/following::div[2]</value>
-      <webElementGuid>ce600ac7-9fa9-4c83-97b0-8f67a7074ebf</webElementGuid>
+      <webElementGuid>f77d1aac-3b9e-46c6-9b0a-5aa60a17dba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample - Sample Despatch Code'])[1]/preceding::div[1]</value>
-      <webElementGuid>d319a1d2-e463-41ed-a863-da13fb17fb4d</webElementGuid>
+      <webElementGuid>e09c1061-229e-4f8e-a4ef-6b5cefd3defb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supp - Direct From Supplier'])[1]/preceding::div[2]</value>
-      <webElementGuid>bdf80a15-2be8-4afa-85d2-1ead68e1e9e0</webElementGuid>
+      <webElementGuid>5ce09d09-587a-4bc8-8632-a6f401b55619</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[18]/div/div/div/table/tbody/tr[3]/td/div</value>
-      <webElementGuid>80fbb026-a839-4fdd-bf22-b85300966b80</webElementGuid>
+      <webElementGuid>6382aeee-cf0a-423f-8e26-f6e98897664e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'PICKU - Pick up From Store' or . = 'PICKU - Pick up From Store')]</value>
-      <webElementGuid>695418ba-876a-4e8e-8668-abe6056380b5</webElementGuid>
+      <webElementGuid>376564ce-2537-4ccd-8c8e-db707c8b464e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

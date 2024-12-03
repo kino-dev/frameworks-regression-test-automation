@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Stock Movements_1</name>
+   <tag></tag>
+   <elementGuidId>4725acbe-5d97-444d-9810-28fc1ce64005</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.buttonNeutralActionDisabled</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Stock Movements' or . = 'Stock Movements')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_1E7']/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Stock Movements&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3eed1eb6-b98b-4d58-993e-3aa0b51e6db3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonNeutralActionDisabled</value>
+      <webElementGuid>f8eadd6c-29b6-4aea-9981-afa963b22c8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stock Movements</value>
+      <webElementGuid>2b9ffe94-112b-43bb-a925-0be792ee5ea1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1E7&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNeutralActionDisabled&quot;]</value>
+      <webElementGuid>d3c887fd-db45-4436-826c-52144d811e36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1E7']/table/tbody/tr/td</value>
+      <webElementGuid>8c8e4052-e14d-4f79-98dd-e0958cc1519a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Load Price'])[1]/following::td[16]</value>
+      <webElementGuid>92f9eee1-ed05-4488-b208-06a3644e974c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Core Status'])[1]/following::td[18]</value>
+      <webElementGuid>b8f54064-1e85-4a57-9755-eb9760625b9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Enquiry'])[2]/preceding::td[1]</value>
+      <webElementGuid>969137e2-aa27-4be7-b9e4-641cc4f9ff90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/div[2]/div/div/table/tbody/tr/td</value>
+      <webElementGuid>61416ad1-dede-4af5-8efc-07b1258ea548</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Stock Movements' or . = 'Stock Movements')]</value>
+      <webElementGuid>23b7f99e-2899-485e-a757-2b3f7703a14d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -60,6 +60,7 @@ WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/Sa
 WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/td_Sales Orders'))
 
 WebUI.delay(3)
+
 WebUI.takeFullPageScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/input_Order_orderNo'), SalesOrder)
@@ -69,6 +70,7 @@ WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/di
 WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/SalesOrderLink'))
 
 WebUI.delay(5)
+
 WebUI.takeFullPageScreenshot()
 
 SalesOrderValidate = WebUI.getText(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/SO_Value_Tab'))
@@ -83,9 +85,10 @@ if (SalesOrder == SalesOrderValidate) {
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Actions'))
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Pick  Release'))
-	
-	WebUI.delay(3)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/td_OK'))
 
@@ -97,11 +100,13 @@ if (SalesOrder == SalesOrderValidate) {
 
     WebUI.click(findTestObject('FW_PR_SO/Page_Frameworks (Demo)/input_Contact Phone_contactPhone'))
 
-    WebUI.setText(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/input_Contact Phone_contactPhone'), contactPhone)
-	
-	WebUI.delay(3)
-	WebUI.takeFullPageScreenshot()
-	
+    WebUI.setText(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/input_Contact Phone_contactPhone'), 
+        contactPhone)
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
+
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Actions'))
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Pick  Release'))
@@ -123,31 +128,36 @@ if (SalesOrder == SalesOrderValidate) {
 
     WebUI.sendKeys(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_pickedQty'), 
         '2')
-	
-	WebUI.delay(3)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/td_Save (S)'))
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Complete Picking'))
 
     WebUI.delay(2)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.takeFullPageScreenshot()
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Check Picking'))
 
     WebUI.delay(2)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.takeFullPageScreenshot()
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/td_SaveClose (S)'))
 
     WebUI.delay(2)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.takeFullPageScreenshot()
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Release Order'))
 
     WebUI.delay(2)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.takeFullPageScreenshot()
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/div_Print Delivery Docket'))
 
@@ -160,23 +170,26 @@ if (SalesOrder == SalesOrderValidate) {
     println('first delay done, check print delivery docket for 15 secs, 15 secs starts now...')
 
     WebUI.delay(15)
-	
-	println('by this time it should be unticked already, proceeding to save in 15 secs... press cancel if not unticked')
-	
-	WebUI.takeFullPageScreenshot()
-	
-	WebUI.delay(15)
+
+    println('by this time it should be unticked already, proceeding to save in 15 secs... press cancel if not unticked')
+
+    WebUI.takeFullPageScreenshot()
+
+    WebUI.delay(15)
 
     WebUI.click(findTestObject('Object Repository/FW_PR_SO/Page_Frameworks (Demo)/td_Release (S)'))
-	
+
     WebUI.delay(5)
-	
-	WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
-	WebUI.delay(3)
-	
-	WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
-	WebUI.delay(3)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
 } else {
     println('No it is not same.')
 
@@ -185,12 +198,13 @@ if (SalesOrder == SalesOrderValidate) {
     println(SalesOrderValidate)
 
     WebUI.takeFullPageScreenshot('')
-	
-	
-	WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
-	
-	WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
-	WebUI.delay(3)
-	WebUI.takeFullPageScreenshot()
+
+    WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
+
+    WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
 }
 

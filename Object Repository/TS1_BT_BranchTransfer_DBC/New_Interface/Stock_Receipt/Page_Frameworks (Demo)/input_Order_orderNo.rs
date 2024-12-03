@@ -10,11 +10,15 @@
          <value>//input[@id='isc_90']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'TEXT' and @name = 'orderNo']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#isc_90</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>52769c49-a6ce-4eaa-9a7a-589bc1bcc582</webElementGuid>
+      <webElementGuid>c47d5bdb-c489-4f55-a248-c90885bb3ce3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>TEXT</value>
-      <webElementGuid>13969b95-d0a6-4e40-8de6-61ece3594f0e</webElementGuid>
+      <webElementGuid>83ff59ea-eeec-4696-9337-62488c4b9c8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>orderNo</value>
-      <webElementGuid>335b6b10-4733-49be-b69c-54816aef50b0</webElementGuid>
+      <webElementGuid>3314e872-303a-4bb0-b05f-760bb9f00518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_90</value>
-      <webElementGuid>ba6f2fcf-6e3a-4238-b729-d27050dc2bbb</webElementGuid>
+      <webElementGuid>b4da8ac9-9b10-4348-b23c-d9e20bc8a11a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>handlenativeevents</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4da5262f-5b7a-4e45-86d1-38402ca8152c</webElementGuid>
+      <webElementGuid>6cd6b21f-ac96-4da4-9433-d725dd5d804d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_TextItem_5</value>
-      <webElementGuid>bfb3fed0-e75d-49d6-a82c-758a0fd3ee58</webElementGuid>
+      <webElementGuid>e2eff233-6565-4e38-bf25-d951a8c9f89a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9b</value>
-      <webElementGuid>cc838839-7d06-43f1-8bd3-0f4bece57908</webElementGuid>
+      <webElementGuid>61ed2108-c5b2-4705-95cc-e433cd91cd3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>322a8323-0612-4cbc-9658-5411abbd9cca</webElementGuid>
+      <webElementGuid>b94f09a9-22b1-4fb6-b87e-a407d7f4061e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>oninput</name>
       <type>Main</type>
       <value>isc_TextItem_5._handleInput()</value>
-      <webElementGuid>d14e7165-f99d-40d3-ba38-95fedbe64da5</webElementGuid>
+      <webElementGuid>3b90d729-faf2-470d-a83c-4c05d8d790cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>onselect</name>
       <type>Main</type>
       <value>if (window.isc_TextItem_5 == null) return;isc_TextItem_5.$1162()</value>
-      <webElementGuid>e42349c5-23ae-4360-a099-8dd4f51c114f</webElementGuid>
+      <webElementGuid>cbaed79d-0ddb-4d1c-8520-fa0f0913f122</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>OFF</value>
-      <webElementGuid>155724cc-8759-4f4b-ac5e-2291d76865f3</webElementGuid>
+      <webElementGuid>9000951f-2109-491e-9b1a-af16cf48c482</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>class</name>
       <type>Main</type>
       <value>textItemFocused</value>
-      <webElementGuid>0b6ef1b8-1aa9-476d-a7e4-f86822527a48</webElementGuid>
+      <webElementGuid>c6130b94-9012-4cb4-8c6d-da5333af641f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>2416</value>
-      <webElementGuid>9a95c089-5d86-4b00-b2a6-1a57471ee0c0</webElementGuid>
+      <webElementGuid>ae67b2f0-2df2-4b68-84b3-01a3f3345335</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_90&quot;)</value>
-      <webElementGuid>b0e30571-2c54-4161-878e-ff62088490e9</webElementGuid>
+      <webElementGuid>fe15de60-cb22-4ba7-b027-35bc184295b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='isc_90']</value>
-      <webElementGuid>44c98a5c-40bf-4237-abc9-d044078c85c2</webElementGuid>
+      <webElementGuid>a62a5745-7c8d-4160-8776-618bf186aead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_92']/input</value>
-      <webElementGuid>f098edca-6c6b-428b-a7fc-ba6b120a7d3c</webElementGuid>
+      <webElementGuid>ab6a1799-39c8-4dc1-b2c7-7f64cd4cdb98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]/input</value>
-      <webElementGuid>a8dac677-5581-4d1f-9f0d-a290723614ff</webElementGuid>
+      <webElementGuid>bbd395b8-a1d9-4a2e-8f30-54ea72056458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +169,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'TEXT' and @name = 'orderNo' and @id = 'isc_90']</value>
-      <webElementGuid>2824a13b-ba0c-4462-8652-7dc47b067531</webElementGuid>
+      <webElementGuid>81222603-0592-408f-b4b2-28755020aa13</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

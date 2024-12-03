@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Print Delivery Docket</name>
+   <tag></tag>
+   <elementGuidId>2e3d68eb-ca9d-483d-bb41-0c13361a0235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_133</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='isc_133']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Print Delivery Docket&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7c64b69f-dd9a-4eb9-b572-60ff32d7f45b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_133</value>
+      <webElementGuid>bbb2697c-16a2-4174-aa75-d395485378b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Print Delivery Docket</value>
+      <webElementGuid>c65b4159-5cbb-4ac1-a0f1-6c12fd4ae54b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_133&quot;)</value>
+      <webElementGuid>53b9b135-a226-40e4-8750-e1bd11e54884</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='isc_133']</value>
+      <webElementGuid>8ea4fbb1-809c-4469-8573-5684436b2fd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='isc_132']/nobr/label</value>
+      <webElementGuid>391c42e2-90d0-43f7-90ed-1470636206b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::label[1]</value>
+      <webElementGuid>d7afe0a8-8aef-4159-9b77-3f3d4304044b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructions'])[1]/following::label[2]</value>
+      <webElementGuid>4e32b0a0-7362-4485-857e-681705df0a01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Delivery Docket'])[1]/preceding::label[1]</value>
+      <webElementGuid>5751e68a-8a64-411a-ae0b-fc20cffe207f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Printer Address'])[1]/preceding::label[2]</value>
+      <webElementGuid>5d92e01c-9e34-446e-9add-b392e056f430</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Print Delivery Docket']/parent::*</value>
+      <webElementGuid>a511c3e3-282c-4de4-b565-107380bc6e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[17]/td/nobr/label</value>
+      <webElementGuid>78abfd4b-1e6b-40f9-9e18-aa83cea7ba10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'isc_133' and (text() = 'Print Delivery Docket' or . = 'Print Delivery Docket')]</value>
+      <webElementGuid>64dd7dc1-2bf0-4f16-b641-ea6a82ae4ad1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

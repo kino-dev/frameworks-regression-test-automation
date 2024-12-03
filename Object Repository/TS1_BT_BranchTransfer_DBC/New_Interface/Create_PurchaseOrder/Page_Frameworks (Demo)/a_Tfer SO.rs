@@ -6,15 +6,19 @@
    <elementGuidId>7a1c3ad9-e388-48de-a4c5-e2df433f0c2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href = 'javascript:void' and (contains(text(), 'Tfer SO: ') or contains(., 'Tfer SO: '))]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_165</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'isc_165' and @href = 'javascript:void' and (text() = 'Tfer SO: 26530562' or . = 'Tfer SO: 26530562')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = 'javascript:void' and (contains(text(), 'Tfer SO: ') or contains(., 'Tfer SO: '))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a7dc8a20-02d6-4a5b-b202-9f6a1683c6b2</webElementGuid>
+      <webElementGuid>814cf709-96ff-446a-b136-a460e8786f35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_165</value>
-      <webElementGuid>77d9c61d-57d5-4f4a-a5db-4d42baf71461</webElementGuid>
+      <webElementGuid>55597566-b3b8-49f5-b32b-99c1169afbec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void</value>
-      <webElementGuid>fc5ef755-5f25-48e5-9fee-873c61f17d64</webElementGuid>
+      <webElementGuid>b4a2a150-ab30-4ab5-ba61-cb03b4cb5cf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>target</name>
       <type>Main</type>
       <value>javascript</value>
-      <webElementGuid>6430a743-0f1b-432e-83e5-26f07eb8536c</webElementGuid>
+      <webElementGuid>3e11e5ae-1fb3-4b6b-8066-3e4d689c3ae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>9692</value>
-      <webElementGuid>016d9cfe-7579-4792-a07f-797015449be1</webElementGuid>
+      <webElementGuid>385f42d5-167d-44f7-9bbc-07cf6869d01e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>if(window.isc_LinkItem_6) return isc_LinkItem_6.$30i(event);</value>
-      <webElementGuid>de8d138f-406d-4b4a-b5bb-80ae09dd1deb</webElementGuid>
+      <webElementGuid>14312ed3-fe0c-43a9-b99c-351382cda696</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9d</value>
-      <webElementGuid>a9ced0f0-94c8-4ae8-840a-d5cb845dc183</webElementGuid>
+      <webElementGuid>ba015639-52cf-409f-b227-9554881b9446</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tfer SO: 26530562</value>
-      <webElementGuid>41babe88-412c-44b7-a211-5dff6f55e8cd</webElementGuid>
+      <webElementGuid>de198dc9-f9a0-4419-a691-6d69a43e2f56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_165&quot;)</value>
-      <webElementGuid>ff62f44b-50d8-496a-80fb-83b031dbb5c8</webElementGuid>
+      <webElementGuid>14c9b8b3-8c4d-4009-b1b2-87b01f8820dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='isc_165']</value>
-      <webElementGuid>45af3223-b8af-427a-95ce-0ce7ce802b6d</webElementGuid>
+      <webElementGuid>36257493-fb46-40dd-907c-ebe45869a9ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_163']/a</value>
-      <webElementGuid>76eb2ee9-3dcd-4c32-9065-4c2a7ebaf4a1</webElementGuid>
+      <webElementGuid>2448b7a2-8c44-42ae-9c65-b63ab9e794d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Tfer SO: 26530562')]</value>
-      <webElementGuid>dd275e0e-bf60-4aa7-bef5-e4509b62324b</webElementGuid>
+      <webElementGuid>3afe9860-32b2-48c1-a6eb-fef1a1f7172e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CDFSrc'])[1]/following::a[1]</value>
-      <webElementGuid>7489e516-7584-412a-95ba-17fb1e8c11f4</webElementGuid>
+      <webElementGuid>bcd8e54f-5d1d-46e0-b050-e70534fad7ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Volume(m3)'])[1]/following::a[1]</value>
-      <webElementGuid>8920fa37-91fa-40e8-b255-3c86081a4817</webElementGuid>
+      <webElementGuid>92616e1f-f0bb-4d2a-a3af-9c34492aba69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/preceding::a[1]</value>
-      <webElementGuid>0c009931-bff2-4074-ba68-df8dd2ab2c4c</webElementGuid>
+      <webElementGuid>c982598e-9e3b-4511-b410-954feaea09ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/preceding::a[1]</value>
-      <webElementGuid>501fce6e-6b53-4606-8a2b-4a1d97ccc737</webElementGuid>
+      <webElementGuid>bdc571cc-7483-47ec-94aa-7ff4ce2eb22a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tfer SO: 26530562']/parent::*</value>
-      <webElementGuid>e41aa933-df44-44ff-b3a8-f09eebc5c0f7</webElementGuid>
+      <webElementGuid>cba5e998-2d8c-4716-a66f-20b516dcfebe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void')])[9]</value>
-      <webElementGuid>1fd351bb-0cca-4370-89fe-c3cec8fa2fee</webElementGuid>
+      <webElementGuid>9034a2f2-c9f5-4a38-8116-efbfd29774f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +177,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/div/a</value>
-      <webElementGuid>18891152-bd43-4702-9222-fbd05a23e3c3</webElementGuid>
+      <webElementGuid>4ac7a43c-992c-4797-bc80-b3f50d478012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,6 +185,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'isc_165' and @href = 'javascript:void' and (text() = 'Tfer SO: 26530562' or . = 'Tfer SO: 26530562')]</value>
-      <webElementGuid>f9c0b20c-c2b9-4f78-80c7-7a61262bbf6e</webElementGuid>
+      <webElementGuid>40b21d8a-fb88-4a23-b4eb-68771b5619c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

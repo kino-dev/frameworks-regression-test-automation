@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4cceeade-9a29-4ae7-b7ec-1ef53612401c</webElementGuid>
+      <webElementGuid>03f911e4-9e7c-4a8a-8bd8-2a19cbf7e782</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>37054b90-4bee-43ab-9bfb-23a3ebc91bbb</webElementGuid>
+      <webElementGuid>50fb6a69-a7c3-48ba-9385-b97b3b78742a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7e82d0e9-db3f-4c39-b417-2a044eeda3ed</webElementGuid>
+      <webElementGuid>5148411f-337a-4d35-b93a-3b0bb9192172</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>01 - Stock Returned</value>
-      <webElementGuid>ad43f92a-c35e-4c4f-a7aa-9a0fff9f58d2</webElementGuid>
+      <webElementGuid>fb2d8f45-f9f6-4c12-9375-29c269f85416</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_O3table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>a3ebf2ff-7fd3-4c86-aee1-23ffe0268d0c</webElementGuid>
+      <webElementGuid>3792db4e-a203-4bc9-aa48-2f85b2e83d88</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_O3table']/tbody/tr[2]/td/div</value>
-      <webElementGuid>7196620e-c0b5-4f6e-afe9-818b44376bab</webElementGuid>
+      <webElementGuid>639a8636-ab0b-4d4c-bec2-db1be81deeae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/following::div[10]</value>
-      <webElementGuid>2280b4b5-3a57-4fc3-a762-172e8ef8dd51</webElementGuid>
+      <webElementGuid>bbeca208-f1e0-419d-80c4-e32a2d23f1ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Return'])[2]/following::div[11]</value>
-      <webElementGuid>5e67f439-e200-43be-af85-e085df83830b</webElementGuid>
+      <webElementGuid>1de4b639-4ff6-4752-9931-50c3bcdf8f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>bbe8f989-e929-41df-96b0-3f156b4dd226</webElementGuid>
+      <webElementGuid>f7e476d3-e228-4058-9592-777d0d306cae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '01 - Stock Returned' or . = '01 - Stock Returned')]</value>
-      <webElementGuid>713a8b4f-ec3c-474a-a18d-eeb32f40d561</webElementGuid>
+      <webElementGuid>57dab6e2-7766-4397-bfbe-e100ce5fadbd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

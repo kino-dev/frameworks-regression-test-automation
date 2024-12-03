@@ -6,12 +6,16 @@
    <elementGuidId>68e2b881-f50e-42e6-9910-c4a22640fa33</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Delivery Docket'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#isc_1R0</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'isc_1R0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Delivery Docket'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b82a7a4c-0935-4e60-a296-3fc8f837f215</webElementGuid>
+      <webElementGuid>f78bc477-3ab8-428e-983e-812d337a78ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_1R0</value>
-      <webElementGuid>0a921601-4b21-4dbc-9e7a-a629d41a6f8f</webElementGuid>
+      <webElementGuid>384b3c38-6110-4a23-9855-f54491e37b66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_CheckboxItem_8</value>
-      <webElementGuid>e82dad54-f1d2-4ffd-bb43-fa65e102f2a5</webElementGuid>
+      <webElementGuid>90dc51fa-a2d7-4e96-bc20-fd914a490dc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9d</value>
-      <webElementGuid>59c9983d-dfde-4eb3-bfa4-0f64e2f99091</webElementGuid>
+      <webElementGuid>e42f3a0c-58bd-42f3-a8fe-e7e9030723b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>labelAnchor</value>
-      <webElementGuid>a40a2f53-66b1-4e10-9901-86fa1f83395b</webElementGuid>
+      <webElementGuid>3f5f25f1-999e-4010-9d4b-108a8d2524f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>15684</value>
-      <webElementGuid>f28a4487-935a-42d3-941a-41b86229e568</webElementGuid>
+      <webElementGuid>7b64a56e-7751-4e9c-b797-f18f3238f52e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>148b25e4-6ed1-4a91-ac3f-86fb2163a625</webElementGuid>
+      <webElementGuid>4e71d832-8da5-436b-b099-aa0abfc2a219</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1R0&quot;)</value>
-      <webElementGuid>d3649e19-2359-4c7e-9488-a86d8a9e7c22</webElementGuid>
+      <webElementGuid>a24803c7-efa4-4688-b665-534b67b749ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_1R0']</value>
-      <webElementGuid>12ebf048-caed-4020-9034-8f9c3cad1b41</webElementGuid>
+      <webElementGuid>8ba967f0-9446-4222-9ed4-870b6a8bd057</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_1QZ']/tbody/tr/td/div</value>
-      <webElementGuid>880ff4bd-d45c-430f-8eb0-017ab7481b7f</webElementGuid>
+      <webElementGuid>01dc6a3d-82b1-485e-87f6-5eff5bf289c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Delivery Docket'])[1]/following::div[1]</value>
-      <webElementGuid>874ab089-9de8-434b-a5fe-cfdae3f65381</webElementGuid>
+      <webElementGuid>dbe79663-cbcb-408c-8688-166378deba7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::div[1]</value>
-      <webElementGuid>5d39fa37-3fb8-4bb3-b53a-65a7de530bd8</webElementGuid>
+      <webElementGuid>b2de1624-2015-4915-b444-800b0cd9aabf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Delivery Docket'])[1]/preceding::div[1]</value>
-      <webElementGuid>145c2d3f-ddea-4655-95e6-93246a50c27a</webElementGuid>
+      <webElementGuid>61079173-d3d3-41cf-a913-7209c92ad2a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Printer Address'])[1]/preceding::div[2]</value>
-      <webElementGuid>01f84253-4ea9-4085-b079-938ac254dc73</webElementGuid>
+      <webElementGuid>cfe0f8ac-acdf-44cd-8302-8b2f72ae04d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[17]/td[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>6feff7ea-69ca-4ff0-9650-5601d4263541</webElementGuid>
+      <webElementGuid>bfbaacf6-bdcb-4f8c-8844-f068456dc8a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_1R0']</value>
-      <webElementGuid>7bc85b21-b244-46c4-8f6d-0f6cfb7ad197</webElementGuid>
+      <webElementGuid>e0a51295-e184-4d7f-a748-051baefbd828</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

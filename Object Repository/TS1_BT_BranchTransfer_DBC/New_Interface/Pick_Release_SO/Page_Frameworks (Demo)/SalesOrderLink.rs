@@ -6,15 +6,19 @@
    <elementGuidId>149410ae-a633-4100-95fc-08f8ce216c0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick='if(window.salesOrderView_ttResults_ListGrid1) return salesOrderView_ttResults_ListGrid1.$30i(event,0,0);']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void' and (text() = '26530562' or . = '26530562')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='if(window.salesOrderView_ttResults_ListGrid1) return salesOrderView_ttResults_ListGrid1.$30i(event,0,0);']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e9ae9c81-7a51-44d1-803e-6944ed97e648</webElementGuid>
+      <webElementGuid>cf7ed1ff-3e34-4187-ba08-42aa7c97745a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void</value>
-      <webElementGuid>84212f35-6e29-4ec1-9924-c93956338017</webElementGuid>
+      <webElementGuid>9c65b10f-3c1b-4cf1-91c3-90be92fb5ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>target</name>
       <type>Main</type>
       <value>javascript</value>
-      <webElementGuid>c885b09e-5c10-402b-9150-8811ae5c6839</webElementGuid>
+      <webElementGuid>1a05048d-b983-4f7b-8a45-2ba40229e593</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>if(window.salesOrderView_ttResults_ListGrid1) return salesOrderView_ttResults_ListGrid1.$30i(event,0,0);</value>
-      <webElementGuid>0b3994ee-7200-46e2-abf3-3600b89537af</webElementGuid>
+      <webElementGuid>607349da-ef37-453f-8a8a-0e783a349eac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>26530562</value>
-      <webElementGuid>3cec906b-fb4c-44e2-b189-6f62021de9c5</webElementGuid>
+      <webElementGuid>e0082c8f-08e5-4471-9b6a-e49713437413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_E0table&quot;)/tbody[1]/tr[1]/td[@class=&quot;cellSelectedOver&quot;]/div[1]/a[1]</value>
-      <webElementGuid>a4d6e7ec-636e-4d7c-8028-dbe60d30d094</webElementGuid>
+      <webElementGuid>0493cf94-53fb-4d63-9346-1e10a4c007b5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick='if(window.salesOrderView_ttResults_ListGrid1) return salesOrderView_ttResults_ListGrid1.$30i(event,0,0);']</value>
-      <webElementGuid>982aefb3-2bb9-4fdb-b575-5efdd7c8528c</webElementGuid>
+      <webElementGuid>2683e32d-7b44-48e1-b62e-0a98d32aa7c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='isc_E0table']/tbody/tr/td/div/a</value>
-      <webElementGuid>ae06aff6-f23d-4a23-b412-175250d66448</webElementGuid>
+      <webElementGuid>ac785f40-76c2-4fec-80fe-89882e95515a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'26530562')]</value>
-      <webElementGuid>de367b32-9753-47f6-9748-601d806b986f</webElementGuid>
+      <webElementGuid>8e1df1f9-c3d8-4bea-85f5-a7ea4bcd7fef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$28.93'])[1]/following::a[1]</value>
-      <webElementGuid>4033fe0d-7dfe-4a10-afb5-926965c1ad93</webElementGuid>
+      <webElementGuid>273af63a-42db-4147-8bf8-65dde94d1310</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JobName'])[1]/following::a[1]</value>
-      <webElementGuid>8c4468f1-a0d9-4bfc-9759-20a832c972b2</webElementGuid>
+      <webElementGuid>2dd0a679-a5c3-40c1-97e8-b0bebd872b3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/preceding::a[1]</value>
-      <webElementGuid>532f2940-7a12-4c4a-a21f-d15c7b642064</webElementGuid>
+      <webElementGuid>6fdc2f53-bf80-4ddf-bb4b-d10ecc9ed120</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DAHLSENS-T/FER A/C-MYRTLEFORD'])[1]/preceding::a[1]</value>
-      <webElementGuid>94731706-55b3-46ed-ac31-40d1d5d464a1</webElementGuid>
+      <webElementGuid>220640f3-60e8-431c-b109-06e53b270768</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='26530562']/parent::*</value>
-      <webElementGuid>1ce43241-4190-4ab3-b9e8-d0bf9e9a3f5e</webElementGuid>
+      <webElementGuid>f528f7c9-0a63-4d4e-9ba0-2fc85cc51225</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:void')]</value>
-      <webElementGuid>eedeea6e-cc95-4407-b4a1-b00409a88ee8</webElementGuid>
+      <webElementGuid>83d4d2fa-9789-4fde-8b2e-b4d6a106645f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>ca1fcf73-ff1c-4eed-9712-937d41aa691f</webElementGuid>
+      <webElementGuid>5d5b2017-1bb2-4ec5-9f1e-0675fa3b854e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +161,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void' and (text() = '26530562' or . = '26530562')]</value>
-      <webElementGuid>28fa0536-1b35-433d-8e1a-6d0de2c742b3</webElementGuid>
+      <webElementGuid>47912a8c-ad2e-4dff-bab4-0613dc7f87aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Y_buttonPositiveActionFocusedOver</name>
+   <tag></tag>
+   <elementGuidId>546c4c65-5d11-4a7a-8215-fc30b5663b2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_FJ']/table/tbody/tr/td/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.buttonPositiveActionFocusedOver > table > tbody > tr > td.buttonPositiveActionFocusedOver</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save (S)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>6b4e7924-131d-4835-9924-c71efb01c4e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonPositiveActionFocusedOver</value>
+      <webElementGuid>6c549898-d990-42bf-8203-b0ce8f1aba51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_FJ&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]</value>
+      <webElementGuid>28c549ae-a561-4b06-afdc-34bd3ada2cbd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_FJ']/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>ab4287b9-4cf2-4f7f-89ed-6ee598c9de9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[2]</value>
+      <webElementGuid>ab4462f2-c672-41c1-9b2c-04e8b6271b1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[2]/preceding::td[1]</value>
+      <webElementGuid>d1541f33-0333-4fa8-b26b-a02e8bf2de88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>05ec71bf-476d-408f-917c-53be82a8c767</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

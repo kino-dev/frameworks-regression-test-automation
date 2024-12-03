@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_No line items loaded</name>
+   <tag></tag>
+   <elementGuidId>dfceb549-cacc-43ca-9fe3-f26ce61ab228</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_KE > tbody > tr > td.emptyMessage</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='isc_KE']/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;No line items loaded&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>19dbe24f-432b-4a18-9f43-0bef434372da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>CENTER</value>
+      <webElementGuid>8a1c4d54-6890-458d-bd16-e79bac119e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>emptyMessage</value>
+      <webElementGuid>30ed7e8d-55c7-418e-b361-9f7f2921ef19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No line items loaded</value>
+      <webElementGuid>4e15cd85-882f-4064-baf9-42b2cebe9939</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_KE&quot;)/tbody[1]/tr[1]/td[@class=&quot;emptyMessage&quot;]</value>
+      <webElementGuid>2e0fd71e-39df-4e23-b65b-42a6d58d70ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_KE']/tbody/tr/td</value>
+      <webElementGuid>92a9d1c3-11e9-4294-baaf-6199d6840451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::td[1]</value>
+      <webElementGuid>1f477a3e-fd3a-481e-83f2-82d6c56b6c11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason'])[3]/following::td[2]</value>
+      <webElementGuid>6cf057bd-ea86-4425-b0f7-1af23f668968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally'])[1]/preceding::td[5]</value>
+      <webElementGuid>38e97f29-8d92-47dd-b9b2-bd734493b535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item to open'])[1]/preceding::td[12]</value>
+      <webElementGuid>cf069993-f5b9-435f-94ef-204ce87346a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No line items loaded']/parent::*</value>
+      <webElementGuid>24bc2fab-3187-4fba-bd55-030777c98f5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/table/tbody/tr/td</value>
+      <webElementGuid>f7ee945f-c9a4-4b46-80e4-22b0cf1af093</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'No line items loaded' or . = 'No line items loaded')]</value>
+      <webElementGuid>e832f1b7-dad4-488b-bfeb-6ce5ae681a77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

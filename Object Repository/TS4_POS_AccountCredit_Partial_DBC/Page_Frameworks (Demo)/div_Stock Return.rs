@@ -6,30 +6,30 @@
    <elementGuidId>de17b191-2f0a-4705-b11b-811661e55577</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/preceding::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td.pickListCellSelectedDark > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Stock Return' or . = 'Stock Return')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_VY >> internal:text=&quot;Stock Return&quot;i</value>
+         <value>#isc_NY >> internal:text=&quot;Stock Return&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c260c256-59a3-489a-a004-fc43275c0919</webElementGuid>
+      <webElementGuid>ed026c90-3ff9-4293-8117-c998f09d6521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>0fb337a7-c853-4fc5-a926-77440b647963</webElementGuid>
+      <webElementGuid>e082eb7b-f9b6-4c8d-aec1-a65e7aa3e280</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d5a0eff8-c66b-4cf8-93f6-a8519ea48127</webElementGuid>
+      <webElementGuid>ab6b2f95-5ad5-4448-94ed-9a81c4787323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,23 +53,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Stock Return</value>
-      <webElementGuid>5278e3d1-7468-493d-8ba5-fecd2d56a9ca</webElementGuid>
+      <webElementGuid>6d05f318-ae70-45e2-9ae3-492feb18cd2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_W0table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
-      <webElementGuid>2e2097dc-4e6d-42d8-871c-c931448dfb21</webElementGuid>
+      <value>id(&quot;isc_O0table&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>a273d887-2753-41f9-b408-75fb88a51266</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_W0table']/tbody/tr[2]/td/div</value>
-      <webElementGuid>e4bd5852-cc9a-4dd6-89ae-7221defc04e6</webElementGuid>
+      <value>//table[@id='isc_O0table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>03f3af53-e015-466a-a3c4-d02ea62bf9cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;Select a Value>'])[1]/following::div[1]</value>
-      <webElementGuid>d3b91e31-53e2-439a-a32c-adf57bf89387</webElementGuid>
+      <webElementGuid>467270da-7baf-423e-8d82-da83df266192</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='JOE CHILA (3379)'])[2]/following::div[10]</value>
-      <webElementGuid>ce2c3f65-5808-42f7-9410-4ade34d128b4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[14]</value>
+      <webElementGuid>7948a6f3-332e-4e46-a6cc-6f921b7b7a6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,15 +93,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overcharge'])[1]/preceding::div[1]</value>
-      <webElementGuid>606491f3-a6a0-4ccb-9e5c-0459f62c2b8e</webElementGuid>
+      <webElementGuid>c7dcde38-6fde-4b47-b630-ed63b2d1d591</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/div/div/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>594c6d70-1bc5-401f-b2d1-bc35e5396904</webElementGuid>
+      <value>//div[8]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>26d0cdfa-a9df-4fe9-b12a-6c296d2db353</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,30 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Stock Return' or . = 'Stock Return')]</value>
-      <webElementGuid>cc79f41c-48fb-4b4c-92ac-1bc1b149f82b</webElementGuid>
+      <webElementGuid>d0a45002-c89f-453d-9c4a-b27ab357138c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_W0table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>d3b961da-e39d-49c3-ade4-af595349f13c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JOE CHILA (3379)'])[2]/following::div[10]</value>
+      <webElementGuid>52ef7b34-86d9-4e39-a7c3-4abecabfb343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>dff27005-038e-452e-a77f-1cbd826aa05f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

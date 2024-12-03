@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d9dbbcdb-89be-415d-b986-0b4e86b8701a</webElementGuid>
+      <webElementGuid>15f2c1f9-6ccd-486e-9cfe-04be7507edbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_EZ</value>
-      <webElementGuid>358b89e8-38ce-40ac-ba8e-67732cb05ebb</webElementGuid>
+      <webElementGuid>262c5219-91eb-4f78-9e47-45148c6f3c04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_HeaderItem_0</value>
-      <webElementGuid>a1041776-05ce-4b08-890f-44d934fc6a70</webElementGuid>
+      <webElementGuid>5b8960bb-a9f6-48f9-bc73-448b157a179a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9d</value>
-      <webElementGuid>1243c5bc-98c7-406b-bf58-d675c814df09</webElementGuid>
+      <webElementGuid>3d18b4d8-71d0-4489-895d-c6df428d12a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>headerItemDisabled</value>
-      <webElementGuid>c7300b68-056b-4592-8333-f19e78154d7a</webElementGuid>
+      <webElementGuid>1d78da70-6259-4d48-8854-b15d4a9e05be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>40559348</value>
-      <webElementGuid>9b947f3d-4283-4316-b707-cf5fee128580</webElementGuid>
+      <webElementGuid>20f01633-48cd-4f33-8043-138f51d6a733</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_EZ&quot;)</value>
-      <webElementGuid>2ed5139f-142c-4fdb-b718-4b592599e83d</webElementGuid>
+      <webElementGuid>5b4f57a3-975b-45cf-99ac-4af9fe00d6f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_EZ']</value>
-      <webElementGuid>5d982c97-ee00-430b-9769-d72d31247e71</webElementGuid>
+      <webElementGuid>d489a799-45b2-4a40-892e-a81fefa23b61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='isc_EY']/div</value>
-      <webElementGuid>29fca4f1-6e4d-4f10-8421-28cef343ceae</webElementGuid>
+      <webElementGuid>13db4340-dde0-42d8-8a64-ba4548ef46e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[2]/following::div[9]</value>
-      <webElementGuid>ca2dac21-1e4a-4da6-ae53-83f82b90f4e1</webElementGuid>
+      <webElementGuid>6533c17f-b7f3-400d-9a51-e4e4e095c966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer'])[2]/preceding::div[14]</value>
-      <webElementGuid>446a6391-805a-4b45-81e6-54d2e5413d61</webElementGuid>
+      <webElementGuid>dd6aa8d5-c79b-405b-82be-b92973f0c124</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash Sale'])[1]/preceding::div[15]</value>
-      <webElementGuid>caabed2d-38fc-40ed-9d57-c6b323f0a4b1</webElementGuid>
+      <webElementGuid>0764214a-7634-433b-b5c7-ed322821c555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='40559348']/parent::*</value>
-      <webElementGuid>9a8d7da3-62b3-47e7-9a1c-5dfdd64a00c7</webElementGuid>
+      <webElementGuid>1a56738a-2ce2-434f-9ab7-604f00cf734b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/form/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>6ee62d2a-5178-4b02-a65c-4826f2133d33</webElementGuid>
+      <webElementGuid>5cd52a83-bad8-48c6-aba3-74ecee494142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_EZ' and (text() = '40559348' or . = '40559348')]</value>
-      <webElementGuid>f528ce1f-803b-42c4-bcba-b4044bf20a80</webElementGuid>
+      <webElementGuid>b557a9a1-6d60-4209-a126-58167cc67cfc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

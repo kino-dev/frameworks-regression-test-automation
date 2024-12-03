@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PU - PICK UP FROM SUPP</name>
+   <tag></tag>
+   <elementGuidId>23cf6ac9-fbcf-4559-85c1-642147d726e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'PU - PICK UP FROM SUPP' or . = 'PU - PICK UP FROM SUPP')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'PU - PICK UP FROM SUPP' or . = 'PU - PICK UP FROM SUPP')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(6) > td.pickListCellSelectedDark > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_QKtable >> internal:text=&quot;PU - PICK UP FROM SUPP&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8d155927-ee8a-47ea-a75c-83af2f1a557b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>9b9b53f5-0513-4e67-865e-b2957e207817</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>df371c39-0aa6-43b1-80bd-6fc74a5c27c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PU - PICK UP FROM SUPP</value>
+      <webElementGuid>f1e85b5b-4ab3-456f-8398-524a2c0fe4ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_QKtable&quot;)/tbody[1]/tr[6]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>79aa7ae7-b137-48a4-b967-3ee04f8ea5c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_QKtable']/tbody/tr[6]/td/div</value>
+      <webElementGuid>d5108922-be13-4525-9c97-d02fe25f41a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='G2 - Free into TollMarine'])[1]/following::div[1]</value>
+      <webElementGuid>424297ba-8921-4152-8e63-8e249b2a117e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='G1 - Free into Nortruss'])[1]/following::div[2]</value>
+      <webElementGuid>1b6e0509-c2ad-4a4a-8eeb-014030e2e135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div/div/div/table/tbody/tr[6]/td/div</value>
+      <webElementGuid>5b29533c-fe97-4d20-b597-f08b3aa545c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PU - PICK UP FROM SUPP' or . = 'PU - PICK UP FROM SUPP')]</value>
+      <webElementGuid>28a8b1d0-2af8-4af9-9af2-b4d56828004f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

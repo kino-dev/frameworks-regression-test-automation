@@ -6,38 +6,38 @@
    <elementGuidId>a92f8db6-e2cb-4f83-ab2e-eba8815c2aed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash Sale'])[1]/preceding::div[15]</value>
+         <key>CSS</key>
+         <value>#isc_EZ</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#isc_F3</value>
+         <key>XPATH</key>
+         <value>//div[@id='isc_EZ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;20217463&quot;i</value>
+         <value>internal:text=&quot;40559348&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>363be802-d729-4910-b285-0c5ee0d58c0c</webElementGuid>
+      <webElementGuid>930c99f8-4a7a-49c6-8469-9fe2b2bbe8a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_F3</value>
-      <webElementGuid>e80af78e-c23e-4faa-9d30-59b9a9e61fbc</webElementGuid>
+      <value>isc_EZ</value>
+      <webElementGuid>ac2ada1b-3db3-47ed-abc0-6aa8a39f0ce3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>$89</name>
       <type>Main</type>
       <value>isc_HeaderItem_0</value>
-      <webElementGuid>4a6b9a16-a37f-4730-bd74-f3f6cb01f4cf</webElementGuid>
+      <webElementGuid>594a3106-c36f-435c-a8d6-39f9cc4d7526</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>$9a</name>
       <type>Main</type>
       <value>$9d</value>
-      <webElementGuid>e1a5af1e-25a3-4ed9-975c-3feb99db3821</webElementGuid>
+      <webElementGuid>a540bfa2-8525-4b28-9499-fc9c30369691</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,39 +61,39 @@
       <name>class</name>
       <type>Main</type>
       <value>headerItemDisabled</value>
-      <webElementGuid>ef5b0d7e-4f65-4175-94cc-ad0164d137ca</webElementGuid>
+      <webElementGuid>33f06eed-cc9e-4221-9601-8cb7a541e102</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>20217463</value>
-      <webElementGuid>73fe0b0e-4388-40e9-9ad3-25b446e5a4e0</webElementGuid>
+      <value>40559348</value>
+      <webElementGuid>396644fd-1223-46fa-8456-d468abe680a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_F3&quot;)</value>
-      <webElementGuid>b0f6808e-a795-47a6-bb7c-482d6cbf3fe2</webElementGuid>
+      <value>id(&quot;isc_EZ&quot;)</value>
+      <webElementGuid>93018a9d-ff6f-4f28-bbb5-0c185b756e62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='isc_F3']</value>
-      <webElementGuid>d3a7cfa5-c3ac-4760-8bba-73cb23583630</webElementGuid>
+      <value>//div[@id='isc_EZ']</value>
+      <webElementGuid>4c646f77-b2fe-4374-8519-6b4f50e27f6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='isc_F2']/div</value>
-      <webElementGuid>f25794d6-ae01-4b6a-a4a1-12b6867c4213</webElementGuid>
+      <value>//td[@id='isc_EY']/div</value>
+      <webElementGuid>420e7154-2b4b-4469-8ca9-a1a36cb8601a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[2]/following::div[9]</value>
-      <webElementGuid>d90c9f4e-4a32-4a9c-9ed8-fde117e598d7</webElementGuid>
+      <webElementGuid>e84ad280-3271-4167-8743-c30a32eff8ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer'])[2]/preceding::div[14]</value>
-      <webElementGuid>547c596b-c64f-4457-9a50-b0e3ac1d9af5</webElementGuid>
+      <webElementGuid>9e856cde-5750-4523-9cbc-e823a7145f1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,15 +117,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash Sale'])[1]/preceding::div[15]</value>
-      <webElementGuid>ff71d85e-dd45-4216-8f92-0c3f8c1253f5</webElementGuid>
+      <webElementGuid>9c05a777-566f-4dfa-9995-648ed9d80a56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='20217463']/parent::*</value>
-      <webElementGuid>604f0a52-7908-47be-a85c-565e249eb162</webElementGuid>
+      <value>//*/text()[normalize-space(.)='40559348']/parent::*</value>
+      <webElementGuid>c0773520-50b8-4460-b784-66d3780e6fd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,39 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/form/table/tbody/tr[2]/td/div</value>
-      <webElementGuid>d258a07d-d7b9-4d2a-bc4b-b115966a946f</webElementGuid>
+      <webElementGuid>234e95ac-1e55-4fe5-9190-b5b935f3f150</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_EZ' and (text() = '40559348' or . = '40559348')]</value>
+      <webElementGuid>2b19a5da-57f0-40b9-9016-2bda0cf111e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_F3']</value>
+      <webElementGuid>46a60b81-4642-43e9-8513-6af04b4e0777</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='isc_F2']/div</value>
+      <webElementGuid>e7a7cd9a-6179-4bc5-9d85-44753f25d709</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='20217463']/parent::*</value>
+      <webElementGuid>af099250-95ee-4cb3-915d-27cbb2d9926f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +173,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_F3' and (text() = '20217463' or . = '20217463')]</value>
-      <webElementGuid>4f99588f-e200-4fb9-bd8b-2da1874cf320</webElementGuid>
+      <webElementGuid>b6d4071c-6ce8-499a-978a-73d90d41f2fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

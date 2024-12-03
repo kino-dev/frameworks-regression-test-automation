@@ -10,11 +10,11 @@
          <value>#isc_8L > table > tbody > tr > td.buttonPositiveActionDisabled</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//td[(text() = 'New' or . = 'New')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//td[(text() = 'New' or . = 'New')]</value>
       </entry>
    </selectorCollection>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>fafce358-db07-44e2-bdaf-843c44d9b8ed</webElementGuid>
+      <webElementGuid>120ad389-7621-42af-bf60-618a16a9f0a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonPositiveActionDisabled</value>
-      <webElementGuid>ccd06189-b97c-4cad-b42e-d885061a771f</webElementGuid>
+      <webElementGuid>df47bf62-5403-44d0-9757-bd71be199be6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New</value>
-      <webElementGuid>ec548a7f-c38e-466b-930d-853ce3304615</webElementGuid>
+      <webElementGuid>78b864c7-73cf-4766-bcbb-b49b4d935edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_8L&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]</value>
-      <webElementGuid>a3bc1465-5854-4009-bbc5-a26c35423e52</webElementGuid>
+      <webElementGuid>620c7848-a84d-4c76-b059-23a0348bf359</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_8L']/table/tbody/tr/td</value>
-      <webElementGuid>6353d4f3-dde7-49c1-90ac-c4033e200eb3</webElementGuid>
+      <webElementGuid>97ac1753-978b-4cfe-89cb-48f02158b8da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Advanced'])[1]/following::td[1]</value>
-      <webElementGuid>4cc9f4f8-ba9b-444f-91ba-452e8da6b72d</webElementGuid>
+      <webElementGuid>2a8bc2d8-7977-4ad3-babe-8aa5adbf026a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Find'])[1]/following::td[2]</value>
-      <webElementGuid>a0b693ef-e47c-45d0-927f-2f96a91a7005</webElementGuid>
+      <webElementGuid>19685aee-453e-40b4-a1a1-d9fdecaf7f62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::td[1]</value>
-      <webElementGuid>08ec0b02-b80b-4b18-aded-c6eeb2a1a9cc</webElementGuid>
+      <webElementGuid>6bf0d867-dfcc-4c85-b030-c27fd28290ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[3]/table/tbody/tr/td</value>
-      <webElementGuid>77ceb4ac-b956-4747-aa48-b80237e1ad5c</webElementGuid>
+      <webElementGuid>227221d5-7b46-477a-983c-cf21abc2add6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'New' or . = 'New')]</value>
-      <webElementGuid>6b50c9c4-9eb8-4333-8723-90ef8f2ed512</webElementGuid>
+      <webElementGuid>d6862aab-461e-4f7a-b98d-8c3dbf7782a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

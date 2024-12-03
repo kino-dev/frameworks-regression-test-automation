@@ -71,11 +71,11 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Frameworks (Demo)/input_LM
 
 WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/td_SaveClose (S)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Pay'))
+WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Charge'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 'uzzxF8+Oh1A=')
 

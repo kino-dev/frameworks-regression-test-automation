@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Supp - Direct From Supplier</name>
+   <tag></tag>
+   <elementGuidId>a4f39c6f-ec05-46f4-b1e5-5e3060c6acc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Supp - Direct From Supplier' or . = 'Supp - Direct From Supplier')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(5) > td.pickListCellSelected > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Supp - Direct From Supplier' or . = 'Supp - Direct From Supplier')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_TEtable >> internal:text=&quot;Supp - Direct From Supplier&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2fa21068-a019-4b28-9eca-8d78344e3c83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>dfc4c1c8-0cfa-43d3-bfe2-0df0593e123e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d5c4de69-5f56-4ceb-bf6e-a6353591ee5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Supp - Direct From Supplier</value>
+      <webElementGuid>1d73d0d8-c662-4c70-b78d-6818d424035d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_TEtable&quot;)/tbody[1]/tr[5]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>97d6370d-83c9-4b4c-9be3-a526c7e6ae76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_TEtable']/tbody/tr[5]/td/div</value>
+      <webElementGuid>346fadb7-0beb-470e-b2c9-43878b091109</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample - Sample Despatch Code'])[1]/following::div[1]</value>
+      <webElementGuid>be69c969-d891-4c1a-b270-d9506cec0a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PICKU - Pick up From Store'])[1]/following::div[2]</value>
+      <webElementGuid>573dba2f-46a7-4e22-b7d7-78fa0ee64cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/table/tbody/tr[5]/td/div</value>
+      <webElementGuid>cf1a205c-33df-46cd-9d5d-d5d091e12eb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Supp - Direct From Supplier' or . = 'Supp - Direct From Supplier')]</value>
+      <webElementGuid>16fb5f07-2a2f-460c-a0d6-a2903915f2e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>3f04a855-43ef-4ad6-b760-e64a41a94848</webElementGuid>
+      <webElementGuid>1cd3504c-e331-4005-ad78-b02a72155cf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>toolsMenuButton</value>
-      <webElementGuid>1a166fed-42b2-4a6b-9e89-c215915d9c01</webElementGuid>
+      <webElementGuid>7e6d8a12-95ca-4d38-8ef8-834f7ac0db98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>align</name>
       <type>Main</type>
       <value>left</value>
-      <webElementGuid>10137e61-0958-4c9e-8476-1714c7a8f60e</webElementGuid>
+      <webElementGuid>0f4bebfd-68ea-4a7a-91e8-c6e80447eae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0803ddae-3ac6-4150-902b-7344844d1316</webElementGuid>
+      <webElementGuid>00af57fe-661d-49ec-ac04-341d13c8865f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kino Manalo (manaki)</value>
-      <webElementGuid>b69c6920-b9c9-422b-825c-686eacc0f139</webElementGuid>
+      <webElementGuid>0d304c42-c196-49e8-b2cb-691d32cde296</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_T&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;toolsMenuButton&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;toolsMenuButton&quot;]</value>
-      <webElementGuid>f5b7ad22-760d-420d-a926-a6faff008af3</webElementGuid>
+      <webElementGuid>16e22f27-3875-46ee-8f68-e2d54ea06eba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_T']/table/tbody/tr/td/table/tbody/tr/td</value>
-      <webElementGuid>5e275cf9-c51a-4b02-94c3-1f569f1f9604</webElementGuid>
+      <webElementGuid>6ec54d41-7517-4094-a509-ee999638cb24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Device:'])[1]/following::td[2]</value>
-      <webElementGuid>6117ef05-7a45-4bd3-8922-a1e5a8037d78</webElementGuid>
+      <webElementGuid>2b2dbab8-a0d4-4e5c-bc96-b4a387b265e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch:'])[1]/following::td[2]</value>
-      <webElementGuid>029ccf8b-8328-4215-a3cd-6ad87dd4be08</webElementGuid>
+      <webElementGuid>07831dcc-9dff-495c-88ae-692612f1464b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::td[2]</value>
-      <webElementGuid>2a517836-7c15-400c-a8b8-0cb12673c55c</webElementGuid>
+      <webElementGuid>83486e95-2389-4908-8a37-7ef8ae1c2797</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Point Of Sale'])[1]/preceding::td[3]</value>
-      <webElementGuid>f693c468-4dcb-4b30-b70e-867c646ee8fd</webElementGuid>
+      <webElementGuid>34758bac-2c80-462c-ba92-4ae465be864c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Kino Manalo (manaki)']/parent::*</value>
-      <webElementGuid>172e4850-c757-4e6e-aa8d-fadaa9cad2cc</webElementGuid>
+      <webElementGuid>770f17fb-4a09-4a2e-801a-fff509040ad3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td</value>
-      <webElementGuid>54ee1117-c9c0-4ba8-99d3-1488f9325872</webElementGuid>
+      <webElementGuid>757036f8-e308-44e5-b9a3-275a15df5d85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Kino Manalo (manaki)' or . = 'Kino Manalo (manaki)')]</value>
-      <webElementGuid>a4719eaa-0bff-431f-aa2a-afb4d9c00fd3</webElementGuid>
+      <webElementGuid>dcdbbf9a-388e-417c-85fc-76e1a4c3f3ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

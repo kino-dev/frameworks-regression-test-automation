@@ -6,11 +6,11 @@
    <elementGuidId>cc971f4a-93aa-45bc-8c29-198920cb037d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>cd0da5c1-9177-4dff-8708-8e45d5765e5c</webElementGuid>
+      <webElementGuid>27cf16af-980b-4ff8-86d8-dc362635356a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonPositiveActionFocusedOver</value>
-      <webElementGuid>25ae78c1-6b12-4e00-9685-d17b7733bf20</webElementGuid>
+      <webElementGuid>b0f66875-8c04-4372-89fa-233c0a9fcce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>align</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>32580e3c-4149-4bc8-aa40-f5bb37779bd2</webElementGuid>
+      <webElementGuid>b052665e-1397-436f-bda4-6feee4a1129b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>88d0eb88-8bb1-4b83-b8df-3b17d266ab2a</webElementGuid>
+      <webElementGuid>2b0f1400-4b6c-4570-8623-6764922e45d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save/Close (S)</value>
-      <webElementGuid>cc735d98-481d-4046-83c0-410162a6d579</webElementGuid>
+      <webElementGuid>ccde7694-f5b1-460b-9d47-584f2ea416b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_M0&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]</value>
-      <webElementGuid>73da7018-4929-4986-952c-952a960fba76</webElementGuid>
+      <webElementGuid>4b570fa9-01bc-4e45-9774-bdf924394a62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_M0']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>ab0efad1-78db-4c72-93a0-88681ef2b8a1</webElementGuid>
+      <webElementGuid>2acc9b3f-fc81-45e5-b6d1-5c45ad8ce2d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[3]</value>
-      <webElementGuid>71b6c69a-2154-4258-87b1-e4c589be9b61</webElementGuid>
+      <webElementGuid>bd870199-e975-44a6-bdf5-f7ca7dda3ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
-      <webElementGuid>6f0f5401-2a79-49f8-bc9b-8b3b244dd195</webElementGuid>
+      <webElementGuid>3f8af4dd-a4b7-46f3-9e5e-70930e0433ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>a536cdb0-6474-4763-9452-c10288fc1909</webElementGuid>
+      <webElementGuid>cb38ab2d-45e8-4ff4-b928-e89be970e3ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Save/Close (S)' or . = 'Save/Close (S)')]</value>
-      <webElementGuid>07336191-87bc-472d-b8fc-216bf3fecea8</webElementGuid>
+      <webElementGuid>4f09c8e7-d80c-45ca-9722-e6e2972eb4c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

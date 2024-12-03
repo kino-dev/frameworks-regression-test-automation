@@ -6,23 +6,23 @@
    <elementGuidId>c093c930-dd13-4bcd-8ce3-5e83c600c56e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='isc_2A']/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#isc_2A > img</value>
+         <value>#isc_G8 > img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/product.png']</value>
+         <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Product Dashboard&quot;i</value>
+         <value>#isc_EX >> internal:role=link</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>474c20dd-6a36-4a1b-9fa2-12226eef6566</webElementGuid>
+      <webElementGuid>bfb44d06-c9e9-4b01-8f0a-cf3ebd812427</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/product.png</value>
-      <webElementGuid>875a4a51-4e8e-447a-8763-1c1a1eabc8d6</webElementGuid>
+      <value>http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png</value>
+      <webElementGuid>d6c4468d-f0fe-4892-a923-0fa629e32b7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,31 +49,31 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b693d67d-2820-4697-a909-89e40561a478</webElementGuid>
+      <webElementGuid>8eb44f28-16d5-4259-bcf1-daa37ee922ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>34</value>
-      <webElementGuid>c9f40c39-8940-4279-8869-9d71359650d2</webElementGuid>
+      <value>20</value>
+      <webElementGuid>f291c5ac-e32b-4153-a5a9-e163004f4b5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>34</value>
-      <webElementGuid>546b148a-bc9e-4f22-adbe-071d68177820</webElementGuid>
+      <value>20</value>
+      <webElementGuid>90c9949c-9b1e-4974-9871-fcf131d48469</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_2A&quot;)/img[1]</value>
-      <webElementGuid>d494a78d-59b5-4641-89da-4ac70d651581</webElementGuid>
+      <value>id(&quot;isc_G8&quot;)/img[1]</value>
+      <webElementGuid>5aec5972-2818-411f-9377-6c924d923e61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>align</name>
       <type>Main</type>
       <value>TEXTTOP</value>
-      <webElementGuid>5b3c4614-c8aa-44d6-9ee5-801cd459a377</webElementGuid>
+      <webElementGuid>33c3160b-43eb-48e0-89f6-eb93023f6976</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>suppress</name>
       <type>Main</type>
       <value>TRUE</value>
-      <webElementGuid>e6a5d99b-382a-4be3-8de9-769f40fb3f6c</webElementGuid>
+      <webElementGuid>22507fda-61d1-4b11-adb8-f9d899594f3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -97,47 +97,15 @@
       <name>draggable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1de5c34f-a89e-4553-a5f2-a1a72c0e61cd</webElementGuid>
+      <webElementGuid>23b6ab90-1051-43bd-a0b2-c9a3d27a24ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_2A']/img</value>
-      <webElementGuid>1f8a1b6d-f75e-4290-b842-dafdb7cad23a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <type>Main</type>
-      <value>//img[contains(@src,'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/product.png')]</value>
-      <webElementGuid>323d4df7-245a-47fa-84bd-cd66f489d189</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/table/tbody/tr/td/div/img</value>
-      <webElementGuid>cd64278e-a286-4e69-8c96-3ccc86348965</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/product.png']</value>
-      <webElementGuid>a19d87de-81a5-45ee-9540-3531cc5229aa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
       <value>//a[@id='isc_G8']/img</value>
-      <webElementGuid>99e67eb1-7be6-484f-8396-877c06a36c0e</webElementGuid>
+      <webElementGuid>5cac5664-e459-45c0-9ec8-a8fc1be02b92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +113,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
-      <webElementGuid>0edc5891-41e9-4a66-8c9b-49a2d5002e3a</webElementGuid>
+      <webElementGuid>a22647db-6455-4b09-adaf-40831f8fa947</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/a/img</value>
-      <webElementGuid>00df7cc3-cb4b-481c-a32b-492b9b7cf3ce</webElementGuid>
+      <webElementGuid>de74e20c-5d1f-4ac4-b706-0dc89a15603b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +129,38 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
-      <webElementGuid>d6e065d0-e190-4e3b-b7b2-8ecb1b008291</webElementGuid>
+      <webElementGuid>2095002d-5357-47f4-a963-ca91826b666b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_2A']/img</value>
+      <webElementGuid>5ab0e2fd-2ce4-40c9-8454-aa1aa3828481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/product.png')]</value>
+      <webElementGuid>341888e8-a6b4-4ea1-a8b3-aa29a3d0cbc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/table/tbody/tr/td/div/img</value>
+      <webElementGuid>85ad8d67-2020-4bce-97f6-6d510a1395be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'http://frameworks.nt.nortruss.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/product.png']</value>
+      <webElementGuid>68886208-b270-4f9d-8a10-659de8156e11</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

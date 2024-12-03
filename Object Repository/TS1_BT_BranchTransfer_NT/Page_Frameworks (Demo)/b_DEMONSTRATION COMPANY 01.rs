@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_DEMONSTRATION COMPANY 01</name>
+   <tag></tag>
+   <elementGuidId>3d4ce3d1-e27d-4276-9686-10d11bc7b21f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_Q']/table/tbody/tr/td/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;DEMONSTRATION COMPANY 01&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>ab1e895a-bd6f-4a4a-9993-ade8ed512309</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DEMONSTRATION COMPANY 01</value>
+      <webElementGuid>a9c7dddd-471e-4c79-9f10-5c1c9ea34f1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_Q&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;sessionInfo&quot;]/b[1]</value>
+      <webElementGuid>eb2bed94-0741-4c22-9f1f-63363f2e0847</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_Q']/table/tbody/tr/td/b</value>
+      <webElementGuid>0c613d8e-00a4-437b-9789-0da3aef66ae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch:'])[1]/preceding::b[1]</value>
+      <webElementGuid>712c941e-b2ae-489e-8777-1bdfc8057775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Device:'])[1]/preceding::b[2]</value>
+      <webElementGuid>f1771ac3-d75c-480e-9fd8-6e18a78e8b8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DEMONSTRATION COMPANY 01']/parent::*</value>
+      <webElementGuid>fb31840b-79b1-4d93-a387-6ce14d423806</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b</value>
+      <webElementGuid>2f12fb73-a4d8-4738-b646-ecb2ab522b2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'DEMONSTRATION COMPANY 01' or . = 'DEMONSTRATION COMPANY 01')]</value>
+      <webElementGuid>6fb582f3-23a8-4ac7-8e3e-2b1f56a6de2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
