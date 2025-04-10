@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_POS_CashSale_CHC,TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:12:19,20-02-2025 15:15:14,2m - 54.572s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale_CHC,TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:33,20-02-2025 15:15:14,40.598s,FAILED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:33,20-02-2025 15:14:33,0.000s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:33,20-02-2025 15:14:34,0.031s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:34,0.004s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(2),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:34,0.001s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:34,0.001s,PASSED
+CHC_Demo = currentSheet_cell.getStringCellValue(),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:34,0.037s,PASSED
+println(CHC_Demo),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:34,0.001s,PASSED
+sourceTestData_FwksEnv.close(),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:34,0.001s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:34,20-02-2025 15:14:58,24.816s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:58,20-02-2025 15:14:59,0.324s,PASSED
+navigateToUrl(CHC_Demo),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:14:59,20-02-2025 15:15:09,10.322s,PASSED
+"setText(findTestObject(""Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 15:15:09,20-02-2025 15:15:14,5.009s,FAILED

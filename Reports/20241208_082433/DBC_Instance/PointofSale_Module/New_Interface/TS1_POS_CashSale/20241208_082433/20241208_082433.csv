@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_POS_CashSale,Chrome 131.0.0.0,Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale,,08-12-2024 08:24:42,08-12-2024 08:24:56,14.339s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New,Chrome 131.0.0.0,,,08-12-2024 08:24:42,08-12-2024 08:24:56,14.074s,FAILED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),Chrome 131.0.0.0,,,08-12-2024 08:24:43,08-12-2024 08:24:43,0.032s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),Chrome 131.0.0.0,,,08-12-2024 08:24:43,08-12-2024 08:24:44,0.814s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:44,0.007s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(4),Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:44,0.085s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:44,0.044s,PASSED
+DBC_Demo = currentSheet_cell.getStringCellValue(),Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:44,0.066s,PASSED
+println(DBC_Demo),Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:44,0.022s,PASSED
+sourceTestData_FwksEnv.close(),Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:44,0.020s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,08-12-2024 08:24:44,08-12-2024 08:24:47,2.786s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,08-12-2024 08:24:47,08-12-2024 08:24:47,0.231s,PASSED
+navigateToUrl(DBC_Demo),Chrome 131.0.0.0,,,08-12-2024 08:24:47,08-12-2024 08:24:48,1.298s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 131.0.0.0,,,08-12-2024 08:24:48,08-12-2024 08:24:50,1.775s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 131.0.0.0,,,08-12-2024 08:24:50,08-12-2024 08:24:51,0.509s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 131.0.0.0,,,08-12-2024 08:24:51,08-12-2024 08:24:51,0.612s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 131.0.0.0,,,08-12-2024 08:24:51,08-12-2024 08:24:56,4.765s,FAILED

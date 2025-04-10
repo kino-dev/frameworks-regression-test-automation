@@ -6,12 +6,11 @@
    <elementGuidId>9d462224-0994-4636-b8aa-ebef8de3ac4d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +28,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>b72f3b70-d2cb-4d7e-b0a8-38d5e1af56ba</webElementGuid>
+      <webElementGuid>48596339-3355-43ec-847f-b8334e7f8eae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>buttonRoundedOver</value>
-      <webElementGuid>f349db06-fd41-4385-b7b1-82a154505994</webElementGuid>
+      <value>buttonRoundedFocusedOver</value>
+      <webElementGuid>078648fb-df27-4c72-b791-73285a0e92bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>align</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>6e2aa502-a3ce-4e7d-b9a0-74057d2e9db9</webElementGuid>
+      <webElementGuid>f88350ae-54de-4886-8320-55d87330b6d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3862a158-870e-4cea-be69-95d3e3e62408</webElementGuid>
+      <webElementGuid>5ba05d7e-a369-4fef-b3d7-b9181fa85cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,23 +60,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Add</value>
-      <webElementGuid>bc00eeb1-8217-4927-b7c4-bde2cec2af2f</webElementGuid>
+      <webElementGuid>ed54ba4d-421f-4621-a839-3d44b4fa512e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_SK&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedOver&quot;]</value>
-      <webElementGuid>ada2aec3-6b3b-4993-b564-0c618998c69a</webElementGuid>
+      <value>id(&quot;isc_ZF&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedFocusedOver&quot;]</value>
+      <webElementGuid>090ac853-c08c-4230-8821-d622e36d99d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='isc_SK']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>27b48431-a557-43c4-84bb-8d5bb51b3cd8</webElementGuid>
+      <value>//div[@id='isc_ZF']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>7bc4ac70-1bfd-4300-b4ad-af1d8936e35c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Line Price'])[1]/following::td[6]</value>
-      <webElementGuid>6afc6782-99f0-4667-b0d2-d501f22c8897</webElementGuid>
+      <webElementGuid>192b2122-7816-439e-9a0c-ee2f537b3e54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Discount %'])[1]/following::td[8]</value>
-      <webElementGuid>2bf50d9a-5902-4472-89c1-45f5180c8952</webElementGuid>
+      <webElementGuid>1034c79d-7c01-47bc-b918-11976bc71762</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::td[2]</value>
-      <webElementGuid>658d59b1-46c7-446d-a538-4334da7f4cf4</webElementGuid>
+      <webElementGuid>9dfb67be-fcdd-4766-b516-ea1b154955b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[3]/preceding::td[4]</value>
-      <webElementGuid>f62b00a5-5ad0-4fde-b935-a652310cb98b</webElementGuid>
+      <webElementGuid>81653dde-aaef-4cb9-ba07-51e71d15b845</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
-      <webElementGuid>b9a0191e-9412-4a0b-89d1-2d689dd7cbc0</webElementGuid>
+      <webElementGuid>bd013e56-a78c-42f6-839a-b4b96ea9487d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Add' or . = 'Add')]</value>
-      <webElementGuid>ed6aff12-e1db-4919-a782-1b8af329a925</webElementGuid>
+      <webElementGuid>b821a2d8-941d-4361-a9ec-eeef102256f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_SK']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>27b48431-a557-43c4-84bb-8d5bb51b3cd8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

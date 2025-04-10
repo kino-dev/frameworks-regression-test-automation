@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_QLD - Queensland_1</name>
+   <tag></tag>
+   <elementGuidId>3a39f34c-b0de-4a65-933f-c44667c9b3a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_XHtable > tbody > tr:nth-of-type(5) > td.pickListCellSelected > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'QLD - Queensland' or . = 'QLD - Queensland')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;QLD - Queensland&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9c71df3-752f-4833-926f-7fa953350268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>4efac7d0-ed88-43cb-b165-d996188a5fe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>eff32e39-c77d-4b5a-9e22-ac615e9854bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QLD - Queensland</value>
+      <webElementGuid>708501cf-583e-47cf-b40d-5607ad937ba8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_XHtable&quot;)/tbody[1]/tr[5]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>27606788-3ea6-4e7d-b09c-9690bf9c543e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_XHtable']/tbody/tr[5]/td/div</value>
+      <webElementGuid>d9a99266-f93c-4dcd-9afc-809c997ab6ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NT - Northern Territory'])[1]/following::div[1]</value>
+      <webElementGuid>4add6c4f-e3de-4d19-8b01-35f39d7e5d80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NSW - New South Wales'])[1]/following::div[2]</value>
+      <webElementGuid>07a67c84-23e0-472e-9f48-f3ea31389175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SA - South Australia'])[1]/preceding::div[1]</value>
+      <webElementGuid>97da678c-9d31-4dd1-bf74-87ed7a54fc01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TAS - Tasmania'])[1]/preceding::div[2]</value>
+      <webElementGuid>85024a9a-bcec-493e-9cb0-8e3e1c2c7302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='QLD - Queensland']/parent::*</value>
+      <webElementGuid>88ce63d4-0762-45ba-831d-1021819b0ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[24]/div/div/div/table/tbody/tr[5]/td/div</value>
+      <webElementGuid>6aeafae4-c976-4404-bb3d-8787c5ea41eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'QLD - Queensland' or . = 'QLD - Queensland')]</value>
+      <webElementGuid>330be52d-ddae-4516-8980-9b5dc6051f65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

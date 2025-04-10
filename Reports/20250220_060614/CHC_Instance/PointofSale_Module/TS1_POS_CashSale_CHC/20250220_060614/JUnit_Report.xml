@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_POS_CashSale_CHC" time="75.268" tests="1" failures="0" errors="0">
+   <testsuite name="TS1_POS_CashSale_CHC" tests="1" failures="0" errors="0" time="75.268" skipped="0" timestamp="20-02-2025T06:06:39" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/PointofSale_Module/TS1_POS_CashSale_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031630094.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031641293.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031654042.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031657795.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031660896.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031663999.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031669855.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031672887.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="127caf54e423032ac2ac59aff8c1d431"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale_CHC" time="74.915" classname="Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale_CHC" status="PASSED">
+         <system-out><![CDATA[20-02-2025T06:06:39 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale_CHC
+
+20-02-2025T06:06:40 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env): null
+
+20-02-2025T06:06:40 - [TEST_STEP][PASSED] - sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv): null
+
+20-02-2025T06:06:41 - [TEST_STEP][PASSED] - sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet("Sheet1"): null
+
+20-02-2025T06:06:41 - [TEST_STEP][PASSED] - currentSheet_row = sourceTestData_sheet.getRow(2): null
+
+20-02-2025T06:06:41 - [TEST_STEP][PASSED] - currentSheet_cell = currentSheet_row.getCell(1): null
+
+20-02-2025T06:06:41 - [TEST_STEP][PASSED] - CHC_Demo = currentSheet_cell.getStringCellValue(): null
+
+20-02-2025T06:06:42 - [TEST_STEP][PASSED] - println(CHC_Demo): null
+
+20-02-2025T06:06:42 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv.close(): null
+
+20-02-2025T06:06:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2025T06:06:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2025T06:06:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2025T06:06:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2025T06:06:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2025T06:06:47 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2025T06:06:47 - [TEST_STEP][PASSED] - navigateToUrl(CHC_Demo): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-02-2025T06:06:50 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+20-02-2025T06:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-02-2025T06:06:54 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+20-02-2025T06:06:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+20-02-2025T06:06:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+20-02-2025T06:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-02-2025T06:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+20-02-2025T06:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+20-02-2025T06:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+20-02-2025T06:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+20-02-2025T06:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+20-02-2025T06:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+20-02-2025T06:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+20-02-2025T06:07:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031630094.png]]
+
+20-02-2025T06:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5006866"): Text '5006866' is set on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+20-02-2025T06:07:14 - [MESSAGE][PASSED] - Text '5006866' is set on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+20-02-2025T06:07:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+20-02-2025T06:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+20-02-2025T06:07:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+20-02-2025T06:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+20-02-2025T06:07:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031641293.png]]
+
+20-02-2025T06:07:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5155103"): Text '5155103' is set on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+20-02-2025T06:07:22 - [MESSAGE][PASSED] - Text '5155103' is set on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+20-02-2025T06:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+20-02-2025T06:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+20-02-2025T06:07:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Tally Maintenance")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+20-02-2025T06:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+20-02-2025T06:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Quantity_Col")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+20-02-2025T06:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+20-02-2025T06:07:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyQuantity"), "1"): Keys '1' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+20-02-2025T06:07:27 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+20-02-2025T06:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+20-02-2025T06:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+20-02-2025T06:07:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength"), "3"): Keys '3' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+20-02-2025T06:07:28 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+20-02-2025T06:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Add")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Add' is clicked on
+
+20-02-2025T06:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_Add' is clicked on
+
+20-02-2025T06:07:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyQuantity_1"), "1"): Keys '1' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'
+
+20-02-2025T06:07:30 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'
+
+20-02-2025T06:07:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col_Row2")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+20-02-2025T06:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+20-02-2025T06:07:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength_1"), "2"): Keys '2' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength_1'
+
+20-02-2025T06:07:32 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_LM_tallyLength_1'
+
+20-02-2025T06:07:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031654042.png]]
+
+20-02-2025T06:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+20-02-2025T06:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+20-02-2025T06:07:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031657795.png]]
+
+20-02-2025T06:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+20-02-2025T06:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+20-02-2025T06:07:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031660896.png]]
+
+20-02-2025T06:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+20-02-2025T06:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+20-02-2025T06:07:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:43 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031663999.png]]
+
+20-02-2025T06:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_50 Cash")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_50 Cash' is clicked on
+
+20-02-2025T06:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_50 Cash' is clicked on
+
+20-02-2025T06:07:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031669855.png]]
+
+20-02-2025T06:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+20-02-2025T06:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+20-02-2025T06:07:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2025T06:07:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2025T06:07:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-02-2025T06:07:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-02-2025T06:07:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_060614\\CHC_Instance\\PointofSale_Module\\TS1_POS_CashSale_CHC\\20250220_060614\\1740031672887.png]]
+
+20-02-2025T06:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+20-02-2025T06:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+20-02-2025T06:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+20-02-2025T06:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2025T06:06:39 - [TEST_SUITE][PASSED] - TS1_POS_CashSale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale_CHC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

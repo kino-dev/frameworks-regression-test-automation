@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_510 - DEMONSTRATION BRANCH 510</name>
+   <tag></tag>
+   <elementGuidId>f665914f-c249-438a-a8d4-fe01cf531f6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[13]/div/div/div/table/tbody/tr[2]/td/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelectedDark > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '510 - DEMONSTRATION BRANCH 510' or . = '510 - DEMONSTRATION BRANCH 510')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_MNtable >> internal:text=&quot;510 - DEMONSTRATION BRANCH 510&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b24b759-d7db-42e6-bbd1-e56f875729e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>ee7ad67e-7b9d-4e0c-8188-442bc715c44c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a33f97e8-5440-4156-8cbe-d174ce615902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>510 - DEMONSTRATION BRANCH 510</value>
+      <webElementGuid>345dfa65-a3be-45dc-854f-5baec9ec84dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_MNtable&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[1]</value>
+      <webElementGuid>ee3f2bec-bca2-4f27-95fa-6be7ff0b4e29</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_MNtable']/tbody/tr[2]/td/div</value>
+      <webElementGuid>b9985d29-78c3-4d73-b6c7-1b5f57c8b900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recochem Inc (RECOCHEM)'])[1]/following::div[16]</value>
+      <webElementGuid>31eba35f-d114-4841-9276-812f6192c76a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[29]</value>
+      <webElementGuid>2b7578c9-22cf-4117-9258-4d8fb5bec6f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>c5267243-8073-4214-8ed1-e34b027ac230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '510 - DEMONSTRATION BRANCH 510' or . = '510 - DEMONSTRATION BRANCH 510')]</value>
+      <webElementGuid>caf212c1-cc6c-4582-b853-eee79a2a4d65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

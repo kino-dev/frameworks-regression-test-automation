@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_510 - DEMONSTRATION BRANCH 510</name>
+   <tag></tag>
+   <elementGuidId>95106ab8-1fc8-40f9-b5e5-7c131c7c747f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '510 - DEMONSTRATION BRANCH 510' or . = '510 - DEMONSTRATION BRANCH 510')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td.pickListCellSelected > div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '510 - DEMONSTRATION BRANCH 510' or . = '510 - DEMONSTRATION BRANCH 510')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_UA >> internal:text=&quot;510 - DEMONSTRATION BRANCH 510&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b20b011d-c0ff-443e-82e8-78fae31e4fb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>7a333db4-1165-472e-b689-6a5f2804933b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d67ea7cd-b3a6-4054-8980-704740a25bf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>510 - DEMONSTRATION BRANCH 510</value>
+      <webElementGuid>2f45b167-7094-4ff6-93cb-dde217fe49cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_U9table&quot;)/tbody[1]/tr[3]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>12adc34d-b793-4bb9-a9e0-6ed68a095d89</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_U9table']/tbody/tr[3]/td/div</value>
+      <webElementGuid>78e27fbc-eef7-4f62-b4cf-8599becea424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lee Pearce (518451)'])[1]/following::div[12]</value>
+      <webElementGuid>11550028-d90b-4b11-9a4a-c91c73bb89b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Hold'])[1]/following::div[21]</value>
+      <webElementGuid>e6c1693a-d6e6-48b6-81e4-e56a3fb50301</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div/div/div/table/tbody/tr[3]/td/div</value>
+      <webElementGuid>7553873e-6c2c-4e7f-9f2e-ce5f81d59614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '510 - DEMONSTRATION BRANCH 510' or . = '510 - DEMONSTRATION BRANCH 510')]</value>
+      <webElementGuid>29059f93-6285-49b6-807a-ecfb13ce3c41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

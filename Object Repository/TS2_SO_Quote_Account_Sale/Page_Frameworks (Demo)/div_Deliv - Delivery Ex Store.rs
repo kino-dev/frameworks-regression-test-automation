@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Deliv - Delivery Ex Store</name>
+   <tag></tag>
+   <elementGuidId>f6e763d7-1dbd-4f34-befd-5297d6b5054d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Deliv - Delivery Ex Store' or . = 'Deliv - Delivery Ex Store')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_QNtable > tbody > tr > td.pickListCellSelected > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_QNtable >> internal:text=&quot;Deliv - Delivery Ex Store&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d309837f-c443-44a2-b3b5-2e5890ea4567</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>ee7627ca-a44f-4fa6-89cf-3e2a1065251b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7cb93fd5-9429-4f29-9ed6-3863337e9080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Deliv - Delivery Ex Store</value>
+      <webElementGuid>f0d98733-1e62-4739-a9ed-a7c88d1787e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_QNtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>2d536538-2b91-45d3-8234-12bc7df650b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_QNtable']/tbody/tr/td/div</value>
+      <webElementGuid>de1024fb-2795-468d-968f-288e7f702d94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHRINKAGE - NOWRA (281254)'])[1]/following::div[9]</value>
+      <webElementGuid>844e789c-03ec-4775-aeb3-80990419d3c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Joe Chila Test Account A (60950)'])[1]/following::div[10]</value>
+      <webElementGuid>5719edd8-f41c-40cc-81d5-b30069dd2930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direc - Direct from Supplier'])[1]/preceding::div[1]</value>
+      <webElementGuid>46fc71fe-8b8c-4dee-b7f8-e9700170e9a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PickU - Pick up'])[1]/preceding::div[2]</value>
+      <webElementGuid>d4924a26-3270-472d-bb63-239827af48fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>f9605e16-1f9d-4d1a-bd25-be85d4de3880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Deliv - Delivery Ex Store' or . = 'Deliv - Delivery Ex Store')]</value>
+      <webElementGuid>571c2a3d-1aec-4ce4-ac5c-74184eb63a9d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

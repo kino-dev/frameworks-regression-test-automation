@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>u_S</name>
+   <tag></tag>
+   <elementGuidId>c908f9ef-e296-4200-a660-3abcd9b90958</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//u[(text() = 'S' or . = 'S')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_1M5 > table > tbody > tr > td.buttonPositiveActionDisabled > table > tbody > tr > td.buttonPositiveActionDisabled > u</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//u[(text() = 'S' or . = 'S')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save (S)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>u</value>
+      <webElementGuid>6552aac7-ddde-4ab8-87d6-26fd6136b832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>S</value>
+      <webElementGuid>607ff752-c931-43d2-8d93-e1d50f815f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1M5&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionDisabled&quot;]/u[1]</value>
+      <webElementGuid>c6b27a9a-2b58-4070-b37a-b18986e38046</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1M5']/table/tbody/tr/td/table/tbody/tr/td[2]/u</value>
+      <webElementGuid>c4f4b0bd-194a-4998-b170-197281598e36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[3]/following::u[1]</value>
+      <webElementGuid>54d47dd9-2ced-45b9-9e0c-31c939483b94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[3]/preceding::u[1]</value>
+      <webElementGuid>312252fc-9487-48ac-baca-79f62ea9ef89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]/u</value>
+      <webElementGuid>d3f6d44a-30fa-41e0-b0dd-721d57e47ff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//u[(text() = 'S' or . = 'S')]</value>
+      <webElementGuid>75a653e5-641e-43ff-ba5a-463fc64f8c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1M6']/table/tbody/tr/td/table/tbody/tr/td[2]/u</value>
+      <webElementGuid>8be8559a-cafc-411c-bd86-e7979f20cd22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

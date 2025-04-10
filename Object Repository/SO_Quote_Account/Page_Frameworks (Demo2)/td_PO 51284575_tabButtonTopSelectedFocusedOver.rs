@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_PO 51284575_tabButtonTopSelectedFocusedOver</name>
+   <tag></tag>
+   <elementGuidId>0aa9cca3-9dea-4dd4-94e4-703ca9402608</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_3DI']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;PO 51284575, closeable&quot;i >> internal:role=cell >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3223d8cd-613f-45dc-ac19-5f880282e894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabButtonTopSelectedFocusedOver</value>
+      <webElementGuid>c6dd878c-8e25-4f23-acf7-a59991e3e3ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_3DI&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;tabButtonTopSelectedFocusedOver&quot;]</value>
+      <webElementGuid>dc9a11bb-bdd3-4c50-be3a-4a678e454932</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_3DI']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>5a8309d2-6cc4-41da-9cfc-5c442676cf34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PO 51284575'])[1]/following::td[1]</value>
+      <webElementGuid>83e30878-dbe3-4a7b-ac22-7df52a7ead67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOF 22049070'])[1]/following::td[4]</value>
+      <webElementGuid>6d29360f-a7a1-419a-b26c-3d11acdc0aec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::td[2]</value>
+      <webElementGuid>5604f674-271d-4f1a-a645-693fc7ad1282</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>4daa1278-ed93-431a-a75f-4713591b6beb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

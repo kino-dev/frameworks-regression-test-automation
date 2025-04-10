@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_POS_CashSale,,Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale,,08-12-2024 08:22:19,08-12-2024 08:22:26,7.570s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New,,,,08-12-2024 08:22:19,08-12-2024 08:22:26,7.240s,FAILED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),,,,08-12-2024 08:22:20,08-12-2024 08:22:20,0.087s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),,,,08-12-2024 08:22:20,08-12-2024 08:22:21,0.865s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",,,,08-12-2024 08:22:21,08-12-2024 08:22:21,0.009s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(4),,,,08-12-2024 08:22:21,08-12-2024 08:22:21,0.105s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),,,,08-12-2024 08:22:21,08-12-2024 08:22:21,0.064s,PASSED
+DBC_Demo = currentSheet_cell.getStringCellValue(),,,,08-12-2024 08:22:21,08-12-2024 08:22:21,0.085s,PASSED
+println(DBC_Demo),,,,08-12-2024 08:22:21,08-12-2024 08:22:21,0.015s,PASSED
+sourceTestData_FwksEnv.close(),,,,08-12-2024 08:22:21,08-12-2024 08:22:21,0.000s,PASSED
+"openBrowser("""")",,,,08-12-2024 08:22:21,08-12-2024 08:22:26,4.957s,FAILED

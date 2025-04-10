@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultiTill_Reconciliation_CHC" time="256.366" tests="3" failures="1" errors="0">
+   <testsuite name="MultiTill_Reconciliation_CHC" tests="3" failures="1" errors="0" time="256.366" skipped="0" timestamp="11-01-2025T06:11:04" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/Multi_TillReconciliation_Module/MultiTill_Reconciliation_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_061053\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_061054"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_061053\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_061054\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_061053\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_061054\\1736575884361.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_061053\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_061054\\1736575894608.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="86e1bbd1ea00cc73c20d6f60848fb3d0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale" time="39.812" classname="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale" status="PASSED">
+         <system-out><![CDATA[11-01-2025T06:11:04 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale: Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale
+
+11-01-2025T06:11:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-01-2025T06:11:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-01-2025T06:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2025T06:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-01-2025T06:11:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-01-2025T06:11:08 - [MESSAGE][PASSED] - Current window maximized
+
+11-01-2025T06:11:08 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:11:13 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:11:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:11:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:11:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:11:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+11-01-2025T06:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+11-01-2025T06:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+11-01-2025T06:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+11-01-2025T06:11:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-01-2025T06:11:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-01-2025T06:11:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+11-01-2025T06:11:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-01-2025T06:11:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_061053\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_061054\\1736575884361.png]]
+
+11-01-2025T06:11:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-01-2025T06:11:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-01-2025T06:11:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5006866"): Text '5006866' is set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+11-01-2025T06:11:28 - [MESSAGE][PASSED] - Text '5006866' is set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+11-01-2025T06:11:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+11-01-2025T06:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+11-01-2025T06:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/img")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+11-01-2025T06:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+11-01-2025T06:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+11-01-2025T06:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+11-01-2025T06:11:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-01-2025T06:11:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-01-2025T06:11:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+11-01-2025T06:11:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-01-2025T06:11:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_061053\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_061054\\1736575894608.png]]
+
+11-01-2025T06:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div_EFTPOS")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div_EFTPOS' is clicked on
+
+11-01-2025T06:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div_EFTPOS' is clicked on
+
+11-01-2025T06:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div' is clicked on
+
+11-01-2025T06:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div' is clicked on
+
+11-01-2025T06:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on
+
+11-01-2025T06:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale" time="62.931" classname="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale" status="PASSED">
+         <system-out><![CDATA[11-01-2025T06:11:44 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale: Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale
+
+11-01-2025T06:11:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-01-2025T06:11:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-01-2025T06:11:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-01-2025T06:11:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2025T06:11:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-01-2025T06:11:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-01-2025T06:11:46 - [MESSAGE][PASSED] - Current window maximized
+
+11-01-2025T06:11:46 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:11:47 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:11:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:11:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:11:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:11:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking' is clicked on
+
+11-01-2025T06:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking' is clicked on
+
+11-01-2025T06:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Till Reconciliation")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Till Reconciliation' is clicked on
+
+11-01-2025T06:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Till Reconciliation' is clicked on
+
+11-01-2025T06:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D' is clicked on
+
+11-01-2025T06:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D' is clicked on
+
+11-01-2025T06:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Reconciled_isc_9J")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Reconciled_isc_9J' is clicked on
+
+11-01-2025T06:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Reconciled_isc_9J' is clicked on
+
+11-01-2025T06:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find' is clicked on
+
+11-01-2025T06:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find' is clicked on
+
+11-01-2025T06:12:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Lock")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Lock' is clicked on
+
+11-01-2025T06:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Lock' is clicked on
+
+11-01-2025T06:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Lock")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Lock' is clicked on
+
+11-01-2025T06:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Lock' is clicked on
+
+11-01-2025T06:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D_1")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D_1' is clicked on
+
+11-01-2025T06:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D_1' is clicked on
+
+11-01-2025T06:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find_1")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find_1' is clicked on
+
+11-01-2025T06:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find_1' is clicked on
+
+11-01-2025T06:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_0.00")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_0.00' is clicked on
+
+11-01-2025T06:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_0.00' is clicked on
+
+11-01-2025T06:12:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-01-2025T06:12:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-01-2025T06:12:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/input_amountActual"), "7.95"): Keys '7.95' sent to object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/input_amountActual'
+
+11-01-2025T06:12:12 - [MESSAGE][PASSED] - Keys '7.95' sent to object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/input_amountActual'
+
+11-01-2025T06:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Complete")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Complete' is clicked on
+
+11-01-2025T06:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Complete' is clicked on
+
+11-01-2025T06:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Complete")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Complete' is clicked on
+
+11-01-2025T06:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Complete' is clicked on
+
+11-01-2025T06:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on
+
+11-01-2025T06:12:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[8]/div/div/div/div/table/tbody/tr[8]/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-01-2025T06:12:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout'. Try using Self-healing.
+
+11-01-2025T06:12:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::td[4]'.
+
+11-01-2025T06:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation" time="43.14" classname="Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:34)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img src=&quot;http://frameworks.cairnshardware.com.au:8080/FWDemo2/images/frameworks-logo-610.png&quot; width=&quot;179&quot; height=&quot;35&quot; align=&quot;TEXTTOP&quot; name=&quot;isc_Fmain&quot; border=&quot;0&quot; suppress=&quot;TRUE&quot; draggable=&quot;true&quot;> is not clickable at point (145, 35). Other element would receive the click: &lt;span style=&quot;display:inline-block;background-size:100% 100%;background-image:url(&amp;quot;http://frameworks.cairnshardware.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/blank.gif&amp;quot;);width:3200px;height:2400px;vertical-align:text-top&quot;>&lt;/span>&#xa;  (Session info: chrome=131.0.6778.265)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 86e1bbd1ea00cc73c20d6f60848fb3d0&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[11-01-2025T06:14:37 - [TEST_CASE][FAILED] - Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation: Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="http://frameworks.cairnshardware.com.au:8080/FWDemo2/images/frameworks-logo-610.png" width="179" height="35" align="TEXTTOP" name="isc_Fmain" border="0" suppress="TRUE" draggable="true"> is not clickable at point (145, 35). Other element would receive the click: <span style="display:inline-block;background-size:100% 100%;background-image:url(&quot;http://frameworks.cairnshardware.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/blank.gif&quot;);width:3200px;height:2400px;vertical-align:text-top"></span>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86e1bbd1ea00cc73c20d6f60848fb3d0
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+11-01-2025T06:14:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-01-2025T06:14:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-01-2025T06:14:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-01-2025T06:14:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2025T06:14:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-01-2025T06:14:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-01-2025T06:14:39 - [MESSAGE][PASSED] - Current window maximized
+
+11-01-2025T06:14:39 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:14:39 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:14:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:14:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:14:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:14:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:14:46 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="http://frameworks.cairnshardware.com.au:8080/FWDemo2/images/frameworks-logo-610.png" width="179" height="35" align="TEXTTOP" name="isc_Fmain" border="0" suppress="TRUE" draggable="true"> is not clickable at point (145, 35). Other element would receive the click: <span style="display:inline-block;background-size:100% 100%;background-image:url(&quot;http://frameworks.cairnshardware.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/blank.gif&quot;);width:3200px;height:2400px;vertical-align:text-top"></span>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86e1bbd1ea00cc73c20d6f60848fb3d0
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1736380870927.run(Script1736380870927.groovy:34)
+	... 18 more
+)
+
+11-01-2025T06:15:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="http://frameworks.cairnshardware.com.au:8080/FWDemo2/images/frameworks-logo-610.png" width="179" height="35" align="TEXTTOP" name="isc_Fmain" border="0" suppress="TRUE" draggable="true"> is not clickable at point (145, 35). Other element would receive the click: <span style="display:inline-block;background-size:100% 100%;background-image:url(&quot;http://frameworks.cairnshardware.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/blank.gif&quot;);width:3200px;height:2400px;vertical-align:text-top"></span>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86e1bbd1ea00cc73c20d6f60848fb3d0
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1736380870927.run(Script1736380870927.groovy:34)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[11-01-2025T06:14:37 - [TEST_CASE][FAILED] - Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation: Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="http://frameworks.cairnshardware.com.au:8080/FWDemo2/images/frameworks-logo-610.png" width="179" height="35" align="TEXTTOP" name="isc_Fmain" border="0" suppress="TRUE" draggable="true"> is not clickable at point (145, 35). Other element would receive the click: <span style="display:inline-block;background-size:100% 100%;background-image:url(&quot;http://frameworks.cairnshardware.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/blank.gif&quot;);width:3200px;height:2400px;vertical-align:text-top"></span>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86e1bbd1ea00cc73c20d6f60848fb3d0
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-01-2025T06:11:04 - [TEST_SUITE][FAILED] - MultiTill_Reconciliation_CHC: Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24fc59a59ddc922f6dd5f14bf989022a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[11-01-2025T06:11:04 - [TEST_SUITE][FAILED] - MultiTill_Reconciliation_CHC: Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at MultiTill_Reconciliation.run(MultiTill_Reconciliation:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1736575854807.run(TempTestSuite1736575854807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24fc59a59ddc922f6dd5f14bf989022a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

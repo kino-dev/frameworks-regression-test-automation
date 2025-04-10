@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='isc_GC']/img</value>
+         <value>//img[contains(@src,'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = 'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#isc_GC > img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>5f360095-29b4-48be-84ae-c8dd40b50c17</webElementGuid>
+      <webElementGuid>ad831735-9ad7-4196-a675-4c7a552d3e27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png</value>
-      <webElementGuid>9335dc11-5f4b-46ec-89dd-e489aec6d427</webElementGuid>
+      <webElementGuid>29dc6d48-0157-44b3-adeb-29b942773517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b30087cc-cd01-48b1-af43-5c8dcba22998</webElementGuid>
+      <webElementGuid>5cf638ab-ba55-45b1-ab0a-5f65650bf360</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>height</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>c86ea71d-659e-4f0f-8a58-ddc272b163e9</webElementGuid>
+      <webElementGuid>b3eae9f1-4438-451e-8e64-6a4ac70a4feb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>width</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>b4bf22cb-deda-4d61-80ad-45848a82d99e</webElementGuid>
+      <webElementGuid>f4cea9af-e98f-4fa7-b09f-9f25476cf155</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_GC&quot;)/img[1]</value>
-      <webElementGuid>e7521b98-a7a1-4ced-9c56-58175fe5f261</webElementGuid>
+      <webElementGuid>367dd5db-7975-478f-b586-8835eed8d8be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='isc_GC']/img</value>
-      <webElementGuid>bdea59af-a356-4430-be8f-2b3bb5f0a1dd</webElementGuid>
+      <webElementGuid>b05b5a3a-e118-431a-aad1-2d1ccb121539</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
-      <webElementGuid>a738da14-cc86-4f1b-b4e0-c1d532919a21</webElementGuid>
+      <webElementGuid>9fdaadd6-0d17-4b24-a099-233eae3f1d49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[9]/div/a/img</value>
-      <webElementGuid>5376037b-0fd1-4345-99d1-ef074216443e</webElementGuid>
+      <webElementGuid>c65c694b-88de-44cb-9d5b-d4035ffbad69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
-      <webElementGuid>3c963cab-73f0-4857-ac17-a2c2d6a00bcc</webElementGuid>
+      <webElementGuid>c4abbe53-13b2-4a5e-b989-e17e688afbda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

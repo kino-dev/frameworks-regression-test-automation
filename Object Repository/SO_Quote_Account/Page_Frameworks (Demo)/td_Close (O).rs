@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Close (O)</name>
+   <tag></tag>
+   <elementGuidId>46017bf9-e33b-4bf4-8698-4cc5825eaaf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Close (O)' or . = 'Close (O)')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Popup Message'])[1]/preceding::td[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Popup Message&quot;i >> internal:label=&quot;Close (O)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>00e2682a-3c6a-4f22-a2a1-b861507dd297</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonNegativeActionFocusedOver</value>
+      <webElementGuid>ce8f7206-e177-4d84-8a8f-e643c56e9441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>2c5b7340-fccc-4045-8b76-87ca6dcd1f3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nowrap</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>4a6c3443-34ab-447c-959b-98f98cb428c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Close (O)</value>
+      <webElementGuid>a6c9d5e2-7578-4e81-9557-d399a3eb0449</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1CD&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNegativeActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonNegativeActionFocusedOver&quot;]</value>
+      <webElementGuid>cfe094eb-d3b7-444d-bece-80f21986228e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_1CD']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>1a2b6940-f072-40f2-8c9a-eb5911b689d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[3]/following::td[3]</value>
+      <webElementGuid>cefe6fb6-8bec-47ae-b7e6-605d47765290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Popup Message'])[1]/preceding::td[10]</value>
+      <webElementGuid>1a95a594-c654-4a55-84c5-46d77738d22c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div/div/div/div/div/div[2]/div/div[7]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>1a00053b-fa41-4afc-8668-a91c2e7d218d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Close (O)' or . = 'Close (O)')]</value>
+      <webElementGuid>c1665fef-7845-4f4f-9abf-ff15edcf6322</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS4_SO_Quote_COD" time="132.206" tests="2" failures="0" errors="1">
+   <testsuite name="TS4_SO_Quote_COD" tests="2" failures="0" errors="1" time="132.206" skipped="0" timestamp="02-01-2025T06:34:05" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250102_063356\\CHC_Instance\\SalesOrders_Module\\TS4_SO_Quote_COD\\20250102_063356"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250102_063356\\CHC_Instance\\SalesOrders_Module\\TS4_SO_Quote_COD\\20250102_063356\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250102_063356\\CHC_Instance\\SalesOrders_Module\\TS4_SO_Quote_COD\\20250102_063356\\1735799708327.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="e90a5f93e1fae920eb9c0db8b69610f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_CHC" time="130.695" classname="Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_CHC" status="PASSED">
+         <system-out><![CDATA[02-01-2025T06:34:05 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_CHC: Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_CHC
+
+02-01-2025T06:34:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2025T06:34:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2025T06:34:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2025T06:34:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2025T06:34:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-01-2025T06:34:10 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2025T06:34:10 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+02-01-2025T06:34:14 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+02-01-2025T06:34:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T06:34:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T06:34:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+02-01-2025T06:34:18 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+02-01-2025T06:34:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+02-01-2025T06:34:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+02-01-2025T06:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+02-01-2025T06:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+02-01-2025T06:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+02-01-2025T06:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+02-01-2025T06:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+02-01-2025T06:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+02-01-2025T06:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/td_Sales Orders")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+02-01-2025T06:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+02-01-2025T06:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_New' is clicked on
+
+02-01-2025T06:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_New' is clicked on
+
+02-01-2025T06:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Order")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Order' is clicked on
+
+02-01-2025T06:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Order' is clicked on
+
+02-01-2025T06:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Quote")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Quote' is clicked on
+
+02-01-2025T06:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Quote' is clicked on
+
+02-01-2025T06:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_1_2")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_1_2' is clicked on
+
+02-01-2025T06:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_1_2' is clicked on
+
+02-01-2025T06:34:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Name_custName"), "John Smith"): Text 'John Smith' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Name_custName'
+
+02-01-2025T06:34:37 - [MESSAGE][PASSED] - Text 'John Smith' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Name_custName'
+
+02-01-2025T06:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Postal Address_postalAddress1"), "123 Cairns Street"): Text '123 Cairns Street' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Postal Address_postalAddress1'
+
+02-01-2025T06:34:38 - [MESSAGE][PASSED] - Text '123 Cairns Street' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Postal Address_postalAddress1'
+
+02-01-2025T06:34:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+02-01-2025T06:34:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T06:34:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Suburb_postalAddress2"), "Cairns"): Text 'Cairns' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Suburb_postalAddress2'
+
+02-01-2025T06:34:41 - [MESSAGE][PASSED] - Text 'Cairns' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Suburb_postalAddress2'
+
+02-01-2025T06:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_State_isc_S2")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_State_isc_S2' is clicked on
+
+02-01-2025T06:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_State_isc_S2' is clicked on
+
+02-01-2025T06:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_QLD - Queensland")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_QLD - Queensland' is clicked on
+
+02-01-2025T06:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_QLD - Queensland' is clicked on
+
+02-01-2025T06:34:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Contact Name_custContact"), "John Smith"): Text 'John Smith' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Contact Name_custContact'
+
+02-01-2025T06:34:44 - [MESSAGE][PASSED] - Text 'John Smith' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Contact Name_custContact'
+
+02-01-2025T06:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Phone (M)_phoneMobile"), "000000000000"): Text '000000000000' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Phone (M)_phoneMobile'
+
+02-01-2025T06:34:45 - [MESSAGE][PASSED] - Text '000000000000' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Phone (M)_phoneMobile'
+
+02-01-2025T06:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5' is clicked on
+
+02-01-2025T06:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5' is clicked on
+
+02-01-2025T06:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Customer_idCustX")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Customer_idCustX' is clicked on
+
+02-01-2025T06:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Customer_idCustX' is clicked on
+
+02-01-2025T06:34:47 - [TEST_STEP][PASSED] - println(Customer_ID): null
+
+02-01-2025T06:34:47 - [TEST_STEP][PASSED] - Customer_ID = getText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Customer_idCustX")): Text of object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Customer_idCustX' is: ''
+
+02-01-2025T06:34:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/input_Customer_idCustX' is: ''
+
+02-01-2025T06:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501' is clicked on
+
+02-01-2025T06:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501' is clicked on
+
+02-01-2025T06:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+02-01-2025T06:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+02-01-2025T06:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Desp. Method_isc_IH")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Desp. Method_isc_IH' is clicked on
+
+02-01-2025T06:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Desp. Method_isc_IH' is clicked on
+
+02-01-2025T06:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_PICK - Customer to Pick up")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_PICK - Customer to Pick up' is clicked on
+
+02-01-2025T06:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_PICK - Customer to Pick up' is clicked on
+
+02-01-2025T06:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_Follow-up Date_isc_IL")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_Follow-up Date_isc_IL' is clicked on
+
+02-01-2025T06:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_Follow-up Date_isc_IL' is clicked on
+
+02-01-2025T06:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Today")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Today' is clicked on
+
+02-01-2025T06:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Today' is clicked on
+
+02-01-2025T06:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)' is clicked on
+
+02-01-2025T06:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)' is clicked on
+
+02-01-2025T06:34:55 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+02-01-2025T06:35:03 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+02-01-2025T06:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_P_idProd"), "5155103"): Text '5155103' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_P_idProd'
+
+02-01-2025T06:35:04 - [MESSAGE][PASSED] - Text '5155103' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_P_idProd'
+
+02-01-2025T06:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Quantity_qtyTran"), STOP_ON_FAILURE): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Quantity_qtyTran' is clicked on
+
+02-01-2025T06:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Quantity_qtyTran' is clicked on
+
+02-01-2025T06:35:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T06:35:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T06:35:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Tally_tallyText"), "1/3"): Text '1/3' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Tally_tallyText'
+
+02-01-2025T06:35:08 - [MESSAGE][PASSED] - Text '1/3' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Tally_tallyText'
+
+02-01-2025T06:35:08 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+02-01-2025T06:35:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+02-01-2025T06:35:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250102_063356\\CHC_Instance\\SalesOrders_Module\\TS4_SO_Quote_COD\\20250102_063356\\1735799708327.png]]
+
+02-01-2025T06:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_1")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_1' is clicked on
+
+02-01-2025T06:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img_1' is clicked on
+
+02-01-2025T06:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Mark as Entry Complete")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Mark as Entry Complete' is clicked on
+
+02-01-2025T06:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Mark as Entry Complete' is clicked on
+
+02-01-2025T06:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3' is clicked on
+
+02-01-2025T06:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3' is clicked on
+
+02-01-2025T06:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Accept Quote")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Accept Quote' is clicked on
+
+02-01-2025T06:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Accept Quote' is clicked on
+
+02-01-2025T06:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Accept This Date_isc_1PH")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Accept This Date_isc_1PH' is clicked on
+
+02-01-2025T06:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Accept This Date_isc_1PH' is clicked on
+
+02-01-2025T06:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5_6")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5_6' is clicked on
+
+02-01-2025T06:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5_6' is clicked on
+
+02-01-2025T06:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Mark as Entry Complete_1")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Mark as Entry Complete_1' is clicked on
+
+02-01-2025T06:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Mark as Entry Complete_1' is clicked on
+
+02-01-2025T06:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Confirm Date")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Confirm Date' is clicked on
+
+02-01-2025T06:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Confirm Date' is clicked on
+
+02-01-2025T06:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Today")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Today' is clicked on
+
+02-01-2025T06:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Today' is clicked on
+
+02-01-2025T06:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Date Is Confirmed")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Date Is Confirmed' is clicked on
+
+02-01-2025T06:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Date Is Confirmed' is clicked on
+
+02-01-2025T06:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Apply (S)")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Apply (S)' is clicked on
+
+02-01-2025T06:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Apply (S)' is clicked on
+
+02-01-2025T06:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1' is clicked on
+
+02-01-2025T06:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Save (S)_1' is clicked on
+
+02-01-2025T06:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Make Payment")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Make Payment' is clicked on
+
+02-01-2025T06:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Make Payment' is clicked on
+
+02-01-2025T06:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Please Select")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Please Select' is clicked on
+
+02-01-2025T06:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Please Select' is clicked on
+
+02-01-2025T06:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_EFTPOS")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_EFTPOS' is clicked on
+
+02-01-2025T06:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_EFTPOS' is clicked on
+
+02-01-2025T06:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pay")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pay' is clicked on
+
+02-01-2025T06:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pay' is clicked on
+
+02-01-2025T06:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+02-01-2025T06:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+02-01-2025T06:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+02-01-2025T06:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pick  Release")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pick  Release' is clicked on
+
+02-01-2025T06:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pick  Release' is clicked on
+
+02-01-2025T06:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pick All")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pick All' is clicked on
+
+02-01-2025T06:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Pick All' is clicked on
+
+02-01-2025T06:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Complete Picking")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Complete Picking' is clicked on
+
+02-01-2025T06:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Complete Picking' is clicked on
+
+02-01-2025T06:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Release Order")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Release Order' is clicked on
+
+02-01-2025T06:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Release Order' is clicked on
+
+02-01-2025T06:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Print Delivery Docket_isc_2SZ")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Print Delivery Docket_isc_2SZ' is clicked on
+
+02-01-2025T06:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Print Delivery Docket_isc_2SZ' is clicked on
+
+02-01-2025T06:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Release (S)")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Release (S)' is clicked on
+
+02-01-2025T06:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Release (S)' is clicked on
+
+02-01-2025T06:36:13 - [TEST_STEP][PASSED] - println(Customer_ID): null
+
+02-01-2025T06:36:13 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+02-01-2025T06:36:13 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+02-01-2025T06:36:14 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+02-01-2025T06:36:14 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+02-01-2025T06:36:14 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - cell.setCellValue("Customer_ID"): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - cell.setCellValue(Customer_ID): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - fos.close(): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+02-01-2025T06:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+02-01-2025T06:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+02-01-2025T06:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Logout")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Logout' is clicked on
+
+02-01-2025T06:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo2)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC" time="0.094" classname="Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC" status="ERROR">
+         <error type="ERROR" message="Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.&#xa;Reason:&#xa;java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)&#xa;	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)&#xa;	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[02-01-2025T06:36:17 - [TEST_CASE][ERROR] - Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC: Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+02-01-2025T06:36:17 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+02-01-2025T06:36:17 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+02-01-2025T06:36:17 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+02-01-2025T06:36:17 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+02-01-2025T06:36:17 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+02-01-2025T06:36:17 - [TEST_STEP][ERROR] - Customer_ID = String.valueOf(cell.getNumericCellValue()): Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+02-01-2025T06:36:17 - [MESSAGE][ERROR] - Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[02-01-2025T06:36:17 - [TEST_CASE][ERROR] - Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC: Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2025T06:34:05 - [TEST_SUITE][ERROR] - TS4_SO_Quote_COD: Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[02-01-2025T06:34:05 - [TEST_SUITE][ERROR] - TS4_SO_Quote_COD: Test Cases/CHC_Instance/SalesOrders_Module/TS4_SO_Quote_COD/SO_Quote_COD_Customer_CHC FAILED.
+Reason:
+java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1077)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getNumericCellValue(XSSFCell.java:307)
+	at SO_Quote_COD_Customer_CHC.run(SO_Quote_COD_Customer_CHC:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1735799636191.run(TempTestSuite1735799636191.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

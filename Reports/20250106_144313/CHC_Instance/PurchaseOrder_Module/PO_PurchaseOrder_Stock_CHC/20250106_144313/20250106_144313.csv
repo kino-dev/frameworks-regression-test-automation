@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PO_PurchaseOrder_Stock_CHC,Chrome 131.0.0.0,,,06-01-2025 14:43:24,06-01-2025 14:44:53,1m - 28.743s,PASSED
+,,,,,,,
+Test Cases/CHC_Instance/TS1_PurchaseOrder_Module/PO_PurcahseOrder_CHC,Chrome 131.0.0.0,,,06-01-2025 14:43:24,06-01-2025 14:44:21,56.838s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,06-01-2025 14:43:25,06-01-2025 14:43:29,3.841s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,06-01-2025 14:43:29,06-01-2025 14:43:30,0.227s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 131.0.0.0,,,06-01-2025 14:43:30,06-01-2025 14:43:36,6.246s,PASSED
+delay(3),Chrome 131.0.0.0,,,06-01-2025 14:43:36,06-01-2025 14:43:39,3.061s,PASSED
+"setText(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 131.0.0.0,,,06-01-2025 14:43:39,06-01-2025 14:43:41,1.756s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password""), ""BvRmjN+0xFM="")",Chrome 131.0.0.0,,,06-01-2025 14:43:41,06-01-2025 14:43:41,0.496s,PASSED
+"click(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login""))",Chrome 131.0.0.0,,,06-01-2025 14:43:41,06-01-2025 14:43:42,0.607s,PASSED
+"click(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu""))",Chrome 131.0.0.0,,,06-01-2025 14:43:42,06-01-2025 14:43:45,3.050s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting""))",Chrome 131.0.0.0,,,06-01-2025 14:43:45,06-01-2025 14:43:46,1.569s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10""))",Chrome 131.0.0.0,,,06-01-2025 14:43:46,06-01-2025 14:43:47,0.715s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Purchase Orders""))",Chrome 131.0.0.0,,,06-01-2025 14:43:47,06-01-2025 14:43:48,1.352s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_New""))",Chrome 131.0.0.0,,,06-01-2025 14:43:48,06-01-2025 14:43:51,2.173s,PASSED
+"setText(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Supplier No_idSupp""), ""Recochem"")",Chrome 131.0.0.0,,,06-01-2025 14:43:51,06-01-2025 14:43:55,4.315s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)""))",Chrome 131.0.0.0,,,06-01-2025 14:43:55,06-01-2025 14:43:56,1.494s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501""))",Chrome 131.0.0.0,,,06-01-2025 14:43:56,06-01-2025 14:43:57,0.725s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510""))",Chrome 131.0.0.0,,,06-01-2025 14:43:57,06-01-2025 14:43:58,1.310s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Date Required_isc_G6""))",Chrome 131.0.0.0,,,06-01-2025 14:43:58,06-01-2025 14:44:00,1.185s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_7""))",Chrome 131.0.0.0,,,06-01-2025 14:44:00,06-01-2025 14:44:01,1.009s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Save (S)""))",Chrome 131.0.0.0,,,06-01-2025 14:44:01,06-01-2025 14:44:01,0.856s,PASSED
+"setText(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_P_idProd""), ""5006866 "")",Chrome 131.0.0.0,,,06-01-2025 14:44:01,06-01-2025 14:44:06,4.104s,PASSED
+delay(3),Chrome 131.0.0.0,,,06-01-2025 14:44:06,06-01-2025 14:44:09,3.006s,PASSED
+"setText(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Quantity_qtyTran""), ""1"")",Chrome 131.0.0.0,,,06-01-2025 14:44:09,06-01-2025 14:44:10,1.403s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img""))",Chrome 131.0.0.0,,,06-01-2025 14:44:10,06-01-2025 14:44:11,0.809s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Actions""))",Chrome 131.0.0.0,,,06-01-2025 14:44:11,06-01-2025 14:44:12,1.086s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Print Order""))",Chrome 131.0.0.0,,,06-01-2025 14:44:12,06-01-2025 14:44:13,0.752s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Print_isc_168""))",Chrome 131.0.0.0,,,06-01-2025 14:44:13,06-01-2025 14:44:16,2.917s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_E-mail""))",Chrome 131.0.0.0,,,06-01-2025 14:44:16,06-01-2025 14:44:17,1.061s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Go""))",Chrome 131.0.0.0,,,06-01-2025 14:44:17,06-01-2025 14:44:17,0.922s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)""))",Chrome 131.0.0.0,,,06-01-2025 14:44:17,06-01-2025 14:44:20,2.936s,PASSED
+"click(findTestObject(""Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Logout""))",Chrome 131.0.0.0,,,06-01-2025 14:44:20,06-01-2025 14:44:21,0.668s,PASSED
+,,,,,,,
+Test Cases/CHC_Instance/TS1_PurchaseOrder_Module/PO_StockRecipt_CHC,Chrome 131.0.0.0,,,06-01-2025 14:44:21,06-01-2025 14:44:53,31.401s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,06-01-2025 14:44:21,06-01-2025 14:44:24,2.760s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,06-01-2025 14:44:24,06-01-2025 14:44:24,0.192s,PASSED
+"navigateToUrl(""http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"")",Chrome 131.0.0.0,,,06-01-2025 14:44:24,06-01-2025 14:44:29,4.574s,PASSED
+delay(3),Chrome 131.0.0.0,,,06-01-2025 14:44:29,06-01-2025 14:44:32,3.017s,PASSED
+"setText(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 131.0.0.0,,,06-01-2025 14:44:32,06-01-2025 14:44:33,0.816s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password""), ""BvRmjN+0xFM="")",Chrome 131.0.0.0,,,06-01-2025 14:44:33,06-01-2025 14:44:33,0.429s,PASSED
+"click(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login""))",Chrome 131.0.0.0,,,06-01-2025 14:44:33,06-01-2025 14:44:34,0.610s,PASSED
+"click(findTestObject(""Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu""))",Chrome 131.0.0.0,,,06-01-2025 14:44:34,06-01-2025 14:44:37,3.090s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting""))",Chrome 131.0.0.0,,,06-01-2025 14:44:37,06-01-2025 14:44:38,1.109s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10""))",Chrome 131.0.0.0,,,06-01-2025 14:44:38,06-01-2025 14:44:40,1.743s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Stock Receipting""))",Chrome 131.0.0.0,,,06-01-2025 14:44:40,06-01-2025 14:44:41,0.879s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/img_Branch_isc_8U""))",Chrome 131.0.0.0,,,06-01-2025 14:44:41,06-01-2025 14:44:43,2.326s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510""))",Chrome 131.0.0.0,,,06-01-2025 14:44:43,06-01-2025 14:44:45,1.626s,PASSED
+"setText(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/input_Supplier_supplierId""), ""Recochem"")",Chrome 131.0.0.0,,,06-01-2025 14:44:45,06-01-2025 14:44:46,1.376s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)""))",Chrome 131.0.0.0,,,06-01-2025 14:44:46,06-01-2025 14:44:47,1.231s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Find""))",Chrome 131.0.0.0,,,06-01-2025 14:44:47,06-01-2025 14:44:48,1.129s,PASSED
+delay(3),Chrome 131.0.0.0,,,06-01-2025 14:44:48,06-01-2025 14:44:51,3.006s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)""))",Chrome 131.0.0.0,,,06-01-2025 14:44:51,06-01-2025 14:44:52,0.615s,PASSED
+"click(findTestObject(""Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Logout""))",Chrome 131.0.0.0,,,06-01-2025 14:44:52,06-01-2025 14:44:53,0.555s,PASSED

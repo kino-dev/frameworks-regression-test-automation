@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mark as Entry Complete</name>
+   <tag></tag>
+   <elementGuidId>bbcf0f3d-b1dd-425b-b84d-c3d09e5fc7e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm/Modify Delivery Date'])[1]/following::div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(13) > td.menuTitleField > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Mark as 'Entry Complete'&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d34b85b1-4fab-4930-872c-cb1201f0fc34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>8ad00c1b-567a-4e17-afc3-215ecba6f881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>513d77b1-1368-41e7-846b-b0cd33d7e4c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mark as 'Entry Complete'</value>
+      <webElementGuid>c481b1ff-5038-4082-9a02-6fe73e683e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1G9table&quot;)/tbody[1]/tr[13]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>2047ae98-8113-471c-aa4f-3495c90b143f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_1G9table']/tbody/tr[13]/td/div</value>
+      <webElementGuid>50f96142-c50a-4743-a9ac-51ae97546bfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm/Modify Delivery Date'])[1]/following::div[4]</value>
+      <webElementGuid>26aee994-0646-4631-af48-2189abda2ba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Linked PO'])[1]/following::div[7]</value>
+      <webElementGuid>bca04c56-9503-4f4f-a8c7-08da47d91ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold Order'])[1]/preceding::div[3]</value>
+      <webElementGuid>842d58f4-0878-4566-bcb6-7561f4d3ffde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Void Order'])[1]/preceding::div[7]</value>
+      <webElementGuid>1cf763e6-3ba4-4851-9800-b22b05ca1ab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/div/table/tbody/tr[13]/td/div</value>
+      <webElementGuid>3be6b09f-fc67-4eb3-8321-d83827e3f1ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;) or . = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;))]</value>
+      <webElementGuid>e0f72de7-9ebc-4d81-af09-ffe8cf127b54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

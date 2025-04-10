@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SUPP - Supplier Direct Delivery</name>
+   <tag></tag>
+   <elementGuidId>c2aec7e9-6c32-4054-83a4-6b0dc2c99f66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(5) > td.pickListCellSelected > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'SUPP - Supplier Direct Delivery' or . = 'SUPP - Supplier Direct Delivery')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_UKtable >> internal:text=&quot;SUPP - Supplier Direct Delivery&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>64affc0f-7033-4fe4-b7df-086c58b3b5ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>96243d94-3b56-46ec-bd4c-cbd6967695da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2078e07a-a25f-4023-852c-6e859f1e5191</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SUPP - Supplier Direct Delivery</value>
+      <webElementGuid>d97337d8-633a-42c6-b688-4d9fb507e14f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_UKtable&quot;)/tbody[1]/tr[5]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>02606c93-53eb-4f58-8f3c-4650e5ebe440</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_UKtable']/tbody/tr[5]/td/div</value>
+      <webElementGuid>d6afe24b-b911-40e4-b919-02b260a50ceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMOT - Remote Delivery'])[1]/following::div[1]</value>
+      <webElementGuid>170d2346-1b24-427c-a467-9a512b498166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PICK - Customer to Pick up'])[1]/following::div[2]</value>
+      <webElementGuid>acc49f94-2a62-4301-854a-62798f20408f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZLOG - Logistics Customer delivery to branch'])[1]/preceding::div[1]</value>
+      <webElementGuid>8788a19b-a977-4568-95fe-4b0ab0558977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/div/div/table/tbody/tr[5]/td/div</value>
+      <webElementGuid>80dc3fff-d69d-4607-9b81-83ede4b115f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SUPP - Supplier Direct Delivery' or . = 'SUPP - Supplier Direct Delivery')]</value>
+      <webElementGuid>ad1f559f-e087-4e2f-beaf-0df37ea36e08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>9d84d8ce-abec-450d-87b9-32988161a4e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_107</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='$100 Cash']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_UK</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,20 +24,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>95e7aba3-d608-494d-8472-c6124b5e3e4b</webElementGuid>
+      <webElementGuid>4d66f98d-75b8-41ee-a224-0859ee1390e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_107</value>
-      <webElementGuid>9e219929-fe76-4e93-acbc-ac5f4c2adbe1</webElementGuid>
+      <value>isc_UK</value>
+      <webElementGuid>19fe4ee4-0090-4274-bd45-99e27830918b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>978c12cc-e5a2-4525-b18f-1665b8c8506d</webElementGuid>
+      <webElementGuid>89c570f5-df7c-4b7e-aa35-3eb76b63f8e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,18 +53,90 @@
       <name>text</name>
       <type>Main</type>
       <value>$100 Cash</value>
-      <webElementGuid>f60782e7-1c2e-4525-acb2-9e7a17d97386</webElementGuid>
+      <webElementGuid>66149923-fe55-4375-9f35-ace79d6aef19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_107&quot;)</value>
-      <webElementGuid>07d30471-1406-47df-be37-3183aff20e76</webElementGuid>
+      <value>id(&quot;isc_UK&quot;)</value>
+      <webElementGuid>3892f531-b80a-445e-8823-9e582a953c52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_UK']</value>
+      <webElementGuid>1b256038-8976-4410-b40f-fed68817499c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_UL']/table/tbody/tr/td/div</value>
+      <webElementGuid>e49c47c3-5a03-4a91-a456-d64985c2dbdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$50 Cash'])[1]/following::div[2]</value>
+      <webElementGuid>50da8004-020f-4ccc-932d-cc39c6c68d90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$20 Cash'])[1]/following::div[4]</value>
+      <webElementGuid>732aae23-565c-439f-9938-f6838f441d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EFTPOS'])[1]/preceding::div[1]</value>
+      <webElementGuid>8c9484ac-7869-493b-b0ed-dff32448e338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque'])[1]/preceding::div[3]</value>
+      <webElementGuid>46115a57-71da-4c82-80d2-ff9908f1850c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$100 Cash']/parent::*</value>
+      <webElementGuid>71853b3e-b791-4b3e-bb31-23ab8a195aa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[5]/table/tbody/tr/td/div</value>
+      <webElementGuid>10c2c0bc-69cf-4237-99f3-942e7aec8fdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_UK' and (text() = '$100 Cash' or . = '$100 Cash')]</value>
+      <webElementGuid>b91db7e5-1e74-4b65-946a-80a2e28e4bbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -78,46 +150,6 @@
       <type>Main</type>
       <value>//div[@id='isc_108']/table/tbody/tr/td/div</value>
       <webElementGuid>74a4ca27-0036-4c97-9896-f816de85d7f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$50 Cash'])[1]/following::div[2]</value>
-      <webElementGuid>96678151-80a0-4fcd-8674-99c4d04b940d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$20 Cash'])[1]/following::div[4]</value>
-      <webElementGuid>d81573b8-f6bd-4c69-8d4b-24ad0335c657</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EFTPOS'])[1]/preceding::div[1]</value>
-      <webElementGuid>2c24f33b-0058-4069-8810-6e865b549813</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheque'])[1]/preceding::div[3]</value>
-      <webElementGuid>d4b129d2-1cba-464b-9a31-dcb5203e46ff</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='$100 Cash']/parent::*</value>
-      <webElementGuid>cf43ebc5-46da-4cbe-b5fd-83a7ccc6f8ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

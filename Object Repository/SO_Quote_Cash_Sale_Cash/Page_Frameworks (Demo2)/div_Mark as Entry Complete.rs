@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mark as Entry Complete</name>
+   <tag></tag>
+   <elementGuidId>3b463528-0f18-467f-bd9c-d6cf80e7e412</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;) or . = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(13) > td.menuTitleField > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Mark as 'Entry Complete'&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c86d3e77-2a76-4d5f-bab3-966f97930131</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>de7ea9d7-1e37-42e0-9354-e12f8241de7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>68ce9829-03e8-41e6-a7ed-d01e8803a2cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mark as 'Entry Complete'</value>
+      <webElementGuid>3432a414-5151-48c8-9dc6-1220438367c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_1MEtable&quot;)/tbody[1]/tr[13]/td[@class=&quot;menuTitleField&quot;]/div[1]</value>
+      <webElementGuid>dfc07ca0-21b3-42c7-b954-c083a261ef85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_1MEtable']/tbody/tr[13]/td/div</value>
+      <webElementGuid>b98d0241-9cee-4d4f-9968-8fd13a3865c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm/Modify Delivery Date'])[1]/following::div[4]</value>
+      <webElementGuid>ed853726-cf17-4f0f-8a81-7c399e525a78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Void Quote'])[1]/following::div[7]</value>
+      <webElementGuid>2629c932-8e91-43bd-aecf-c2c47618c702</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Options'])[1]/preceding::div[4]</value>
+      <webElementGuid>ded6db49-6cd6-46bc-a43b-71f2938cc810</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Imports'])[1]/preceding::div[8]</value>
+      <webElementGuid>cf005900-9f4d-4cc6-881a-79741453bada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div/div/div/div/table/tbody/tr[13]/td/div</value>
+      <webElementGuid>a7241f65-612d-482e-8f27-950f57dc83a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;) or . = concat(&quot;Mark as &quot; , &quot;'&quot; , &quot;Entry Complete&quot; , &quot;'&quot;))]</value>
+      <webElementGuid>10664d0c-9ff3-488f-8a2b-23f62de3d475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_1M8table']/tbody/tr[13]/td/div</value>
+      <webElementGuid>c3d393f8-2e66-449b-8bd7-210024840d2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

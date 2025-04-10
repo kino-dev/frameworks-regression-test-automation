@@ -67,16 +67,15 @@ WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Framework
 //WebUI.setEncryptedText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
 //
 //WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_OK'))
-
 WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_m_customerIdX'), 'Lee Pearce')
 
 WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)'))
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/span_Point Of Sale'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/span_Point Of Sale'))
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Close (O)'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/td_Close (O)'))
 
-invoiceNum = WebUI.getText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
+invoiceNum = WebUI.getText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_invoiceNum'))
 
 WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5006866')
 
@@ -94,50 +93,47 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5155103')
+WebUI.setText(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_P_prodId'), '5155103')
 
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Tally Maintenance'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/td_Tally Maintenance'))
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Quantity_Col'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/div_Quantity_Col'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity'), 
-    '1')
+WebUI.sendKeys(findTestObject('Page_Frameworks (Demo)/input_LM_tallyQuantity'), '1')
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/div_Length_Col'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength'), 
-    '3')
+WebUI.sendKeys(findTestObject('Page_Frameworks (Demo)/input_LM_tallyLength'), '3')
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Add'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/td_Add'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'), 
-    '1')
+WebUI.sendKeys(findTestObject('Page_Frameworks (Demo)/input_LM_tallyQuantity_1'), '1')
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col_Row2'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/div_Length_Col_Row2'))
 
-WebUI.sendKeys(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength_1'), 
-    '2')
+WebUI.sendKeys(findTestObject('Page_Frameworks (Demo)/input_LM_tallyLength_1'), '2')
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_SaveClose (S)'))
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/td_SaveClose (S)'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_ACCOUNT (A)'))
+WebUI.click(findTestObject('Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/img_add'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Page_Frameworks (Demo)/div_ACCOUNT (A)'))
 
 FileInputStream sourceFile = new FileInputStream(ExcelFile)
 
@@ -174,9 +170,7 @@ sourceFile.close()
 //WebUI.setEncryptedText(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
 //
 //WebUI.click(findTestObject('Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/div_OK'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/img_Accountdropd'))
 
-
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd'))
-
-WebUI.click(findTestObject('Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'))
+WebUI.click(findTestObject('Page_Frameworks (Demo)/div_Logout'))
 

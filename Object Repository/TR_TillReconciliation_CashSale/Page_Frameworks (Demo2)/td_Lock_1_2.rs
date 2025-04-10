@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Lock_1_2</name>
+   <tag></tag>
+   <elementGuidId>262565b1-982e-4fc8-824c-f2cd4fe558b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_G3']/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_G3 > table > tbody > tr > td.buttonRoundedDisabled</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Lock' or . = 'Lock')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Lock Till Session&quot;i >> internal:role=button[name=&quot;Lock&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>8bdc50c4-9a0a-462a-b40b-eb40a12908d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonRoundedDisabled</value>
+      <webElementGuid>6e779152-cf81-4800-adb8-45c3eaeba700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lock</value>
+      <webElementGuid>e312b84b-1cc0-435c-a0fa-0c687b7e7e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_G3&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedDisabled&quot;]</value>
+      <webElementGuid>00cd0582-6e3f-425d-9bbe-224d43386ff3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_G3']/table/tbody/tr/td</value>
+      <webElementGuid>336b3c2c-97d3-4638-96c6-a430a54a18cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time Opened'])[1]/following::td[2]</value>
+      <webElementGuid>08dee4cf-4526-4563-a02b-5b2e21f5cd71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session Number'])[1]/following::td[4]</value>
+      <webElementGuid>3dedb157-ab49-4bb9-813a-58916c3a34ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lock Till Session'])[1]/preceding::td[4]</value>
+      <webElementGuid>6938ac52-a424-43c3-ad21-4897569440d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td</value>
+      <webElementGuid>99061cca-a8cb-4e43-b2c9-3da195827bcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Lock' or . = 'Lock')]</value>
+      <webElementGuid>c618ddeb-5852-4ab2-96fd-582dd9ed25c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

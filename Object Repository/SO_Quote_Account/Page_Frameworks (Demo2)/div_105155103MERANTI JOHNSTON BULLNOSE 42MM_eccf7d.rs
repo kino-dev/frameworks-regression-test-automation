@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_105155103MERANTI JOHNSTON BULLNOSE 42MM_eccf7d</name>
+   <tag></tag>
+   <elementGuidId>4eac80a4-1b8f-40c0-8a45-b1b4698cb86c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_2VP</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='isc_2VP']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=tree >> div >> internal:has-text=&quot;105155103MERANTI JOHNSTON BULLNOSE 42MM X 12MM **1/ 3.0001.0000LM31.00000.000020&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9bab7309-e089-459a-ad4b-8c0a5e6a1ef2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>isc_2VP</value>
+      <webElementGuid>0b0644a8-91e3-4b1c-a46e-23315539ab7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>105155103MERANTI JOHNSTON BULLNOSE 42MM X 12MM **1/ 3.0001.0000LM31.00000.000020ZZ510122876818V Hammer Drill51284578/101.0000ea 0.00000.0000</value>
+      <webElementGuid>0b93c524-62bc-4625-be08-4bfdcdc11915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_2VP&quot;)</value>
+      <webElementGuid>a999f858-5773-4deb-b107-e5f327ec1443</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_2VP']</value>
+      <webElementGuid>9266925f-1faf-4f6e-aa69-7504fa56c6fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_2VQ']/div</value>
+      <webElementGuid>26632b28-bb63-4886-bdd9-9df1fa713f00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivery Details'])[1]/following::div[13]</value>
+      <webElementGuid>7f6a7b51-db52-4e84-8074-68481204476b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Details'])[1]/following::div[15]</value>
+      <webElementGuid>f499381d-5658-402f-881e-f81c856ae64c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>70680d10-0028-4d05-ae83-dcbed895c63f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_2VP' and (text() = '105155103MERANTI JOHNSTON BULLNOSE 42MM X 12MM **1/ 3.0001.0000LM31.00000.000020ZZ510122876818V Hammer Drill51284578/101.0000ea 0.00000.0000' or . = '105155103MERANTI JOHNSTON BULLNOSE 42MM X 12MM **1/ 3.0001.0000LM31.00000.000020ZZ510122876818V Hammer Drill51284578/101.0000ea 0.00000.0000')]</value>
+      <webElementGuid>f4389aea-6ea1-4e23-b300-226851cb0317</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

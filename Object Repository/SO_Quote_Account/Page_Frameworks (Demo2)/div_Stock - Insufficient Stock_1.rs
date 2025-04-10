@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Stock - Insufficient Stock_1</name>
+   <tag></tag>
+   <elementGuidId>a6483849-4a81-4d27-b911-26734fa6360b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='isc_35Ctable']/tbody/tr[2]/td/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.katalonHighlight</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_35Ctable >> internal:text=&quot;Stock - Insufficient Stock&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>af0db6a4-c9f7-4ca7-a56c-5e191e27aaed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>4f7e01d0-480d-46b3-a5cf-a86187c9b8ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7937fea9-7923-4b53-94eb-44e4e6b18610</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> katalonHighlight</value>
+      <webElementGuid>301dac5e-6ee9-46dc-9811-4f2d42242460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stock - Insufficient Stock</value>
+      <webElementGuid>ee296180-cdcf-4c0f-9246-cc3bbfa70f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_35Ctable&quot;)/tbody[1]/tr[2]/td[@class=&quot;pickListCellSelectedDark&quot;]/div[@class=&quot;katalonHighlight&quot;]</value>
+      <webElementGuid>7678b14d-e85d-4395-b0c8-fd3aa9261a48</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_35Ctable']/tbody/tr[2]/td/div</value>
+      <webElementGuid>f2001da5-3076-427c-ae8f-fa18ba2f7193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer - Customer Requested Part Delivery'])[1]/following::div[1]</value>
+      <webElementGuid>ad410eda-26b3-41b6-bcd9-bf29eb860530</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requisition'])[1]/following::div[10]</value>
+      <webElementGuid>0da65fa2-9b72-49e1-bbce-3bdc2095fbb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div/div/div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>b10dc6fb-7084-4f0f-b4ee-ded89fe3183b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Stock - Insufficient Stock' or . = 'Stock - Insufficient Stock')]</value>
+      <webElementGuid>be27de7a-1e5c-4ace-8921-40d29d235cd0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_POS_AccountSale_CHC,Chrome 131.0.0.0,,,05-12-2024 05:46:46,05-12-2024 05:53:04,6m - 18.373s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC,Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:58,44.980s,FAILED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.001s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.034s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.000s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(2),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.000s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.000s,PASSED
+CHC_Demo = currentSheet_cell.getStringCellValue(),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.011s,PASSED
+println(CHC_Demo),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.001s,PASSED
+sourceTestData_FwksEnv.close(),Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:13,0.000s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,05-12-2024 05:49:13,05-12-2024 05:49:14,1.446s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,05-12-2024 05:49:14,05-12-2024 05:49:15,0.058s,PASSED
+navigateToUrl(CHC_Demo),Chrome 131.0.0.0,,,05-12-2024 05:49:15,05-12-2024 05:49:19,4.725s,PASSED
+"setText(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 131.0.0.0,,,05-12-2024 05:49:19,05-12-2024 05:49:22,2.843s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password""), ""BvRmjN+0xFM="")",Chrome 131.0.0.0,,,05-12-2024 05:49:22,05-12-2024 05:49:23,0.454s,PASSED
+"click(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login""))",Chrome 131.0.0.0,,,05-12-2024 05:49:23,05-12-2024 05:49:23,0.628s,PASSED
+"click(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Fws_Menu""))",Chrome 131.0.0.0,,,05-12-2024 05:49:23,05-12-2024 05:49:58,34.736s,FAILED
+,,,,,,,
+Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate_CHC,Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:53:04,45.598s,FAILED
+sourceFile = new java.io.FileInputStream(ExcelFile),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.001s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.035s,PASSED
+"sheet = workbook.getSheet(""Sheet1"")",Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+row = sheet.getRow(1),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+cell = row.getCell(1),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+invoiceNum = cell.getStringCellValue(),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+println(invoiceNum),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+sourceFile.close(),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.027s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.003s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(2),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.001s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.001s,PASSED
+CHC_Demo = currentSheet_cell.getStringCellValue(),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+println(CHC_Demo),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+sourceTestData_FwksEnv.close(),Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:19,0.000s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,05-12-2024 05:52:19,05-12-2024 05:52:20,1.441s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,05-12-2024 05:52:20,05-12-2024 05:52:20,0.055s,PASSED
+navigateToUrl(CHC_Demo),Chrome 131.0.0.0,,,05-12-2024 05:52:20,05-12-2024 05:52:24,4.296s,PASSED
+"setText(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 131.0.0.0,,,05-12-2024 05:52:24,05-12-2024 05:52:28,3.477s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password""), ""BvRmjN+0xFM="")",Chrome 131.0.0.0,,,05-12-2024 05:52:28,05-12-2024 05:52:28,0.415s,PASSED
+"click(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login""))",Chrome 131.0.0.0,,,05-12-2024 05:52:28,05-12-2024 05:52:29,0.650s,PASSED
+"click(findTestObject(""Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_CustomerDashboard""))",Chrome 131.0.0.0,,,05-12-2024 05:52:29,05-12-2024 05:53:04,35.153s,FAILED

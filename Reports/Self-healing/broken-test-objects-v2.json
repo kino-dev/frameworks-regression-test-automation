@@ -348,6 +348,163 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TS1_BT_BranchTransfer_NT/Page_Frameworks (Demo)/input_Order_orderNo_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/blank.gif\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@name\u003d\u0027isc_Bmain\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[@id\u003d\u0027isc_GC\u0027]/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/Menu/menu_button.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@name\u003d\u0027isc_Ticon\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/blank.gif\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@name\u003d\u0027isc_Bmain\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[@id\u003d\u0027isc_GC\u0027]/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO",
+      "brokenLocator": "//*[@id \u003d \u0027isc_165\u0027 and @href \u003d \u0027javascript:void\u0027 and (text() \u003d \u0027Tfer SO: 26530562\u0027 or . \u003d \u0027Tfer SO: 26530562\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select an item to open\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/a_Tfer SO_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SO_Quote_Cash_Sale_Cash/Page_Frameworks (Demo2)/div_Please Select",
+      "brokenLocator": "//*[@id \u003d \u0027isc_29Z\u0027 and (text() \u003d \u0027Please Select\u0027 or . \u003d \u0027Please Select\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Please Select\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SO_Quote_Cash_Sale_Cash/Page_Frameworks (Demo2)/div_Please Select_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_setDate",
+      "brokenLocator": "//tr/td[6]/div[(text() \u003d \u002720\u0027 or . \u003d \u002720\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::div[24]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Sales_Orders_CHC/Page_Frameworks (Demo)/div_setDate_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)",
+      "brokenLocator": "//table[@id\u003d\u0027isc_MHtable\u0027]/tbody/tr/td/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logout\u0027])[1]/following::div[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501",
+      "brokenLocator": "//div[@id\u003d\u0027isc_FN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Order Branch\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027isc_G8\u0027]/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd",
+      "brokenLocator": "//img[contains(@src,\u0027http://frameworks.cairnshardware.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/Menu/menu_button.png\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@name\u003d\u0027isc_Ticon\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout",
+      "brokenLocator": "//div[8]/div/div/div/div/table/tbody/tr[8]/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Switch back to Classic Frameworks look\u0027])[1]/following::td[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/POS_AccountSale_TR/Page_Frameworks (Demo2)/td_Logout",
+      "brokenLocator": "//table[@id\u003d\u0027isc_16Stable\u0027]/tbody/tr[8]/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Switch back to Classic Frameworks look\u0027])[1]/following::td[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/POS_AccountSale_TR/Page_Frameworks (Demo2)/td_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//td[9]/div/a/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TR1_POS_CashSale/Page_Frameworks (Demo2)/img_EFTPOSTransact_Demo2",
+      "brokenLocator": "//tr[2]/td[3]/div/span/imgimg[@src \u003d \u0027http://frameworks.dahlsens.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//img[contains(@src,\u0027http://frameworks.dahlsens.com.au:8080/FWDemo2/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png\u0027)])[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TR1_POS_CashSale/Page_Frameworks (Demo2)/img_EFTPOSTransact_Demo2_img.png"
     }
   ]
 }

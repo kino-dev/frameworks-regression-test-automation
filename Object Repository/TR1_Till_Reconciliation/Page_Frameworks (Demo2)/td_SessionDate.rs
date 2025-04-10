@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_SessionDate</name>
+   <tag></tag>
+   <elementGuidId>67d54a25-64d1-4b9e-aa8c-46dbdec6ae6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div[2]/div/div/table/tbody/tr/td[(text() = 'SessionDate' or . = 'SessionDate')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_AC > table > tbody > tr > td.headerButtonSelectedFocusedOver</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Session\nDate&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>431bc4c9-19fe-49ea-a45c-5cf051177384</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>headerButtonSelectedFocusedOver</value>
+      <webElementGuid>15f9eb7f-b6a8-4a19-9f20-276fcd9098f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SessionDate</value>
+      <webElementGuid>5df70691-6ead-4452-a001-72474f18a130</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_AC&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;headerButtonSelectedFocusedOver&quot;]</value>
+      <webElementGuid>0439806f-6db3-43dd-87b1-64b4fa819cb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_AC']/table/tbody/tr/td</value>
+      <webElementGuid>8fdd0ebc-bf6b-42f3-aabf-5bf8eed686fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find'])[1]/following::td[1]</value>
+      <webElementGuid>bed6f3ad-c714-4e3e-981c-bc90a35cf654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banked'])[1]/following::td[6]</value>
+      <webElementGuid>9f5b2d5a-4e16-424e-9617-a8a6f9f0ba56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[2]/preceding::td[1]</value>
+      <webElementGuid>8ff66a18-2097-43c8-9b70-e365b2913eb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/table/tbody/tr/td</value>
+      <webElementGuid>e1ed380d-17ed-495c-90f6-3cfe579f1152</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'SessionDate' or . = 'SessionDate')]</value>
+      <webElementGuid>2bfd9480-e197-474d-a47c-6467f4b02ea0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

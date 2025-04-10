@@ -47,8 +47,11 @@ XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_
 
 XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
 
-// cell B1
-Row currentSheet_row = sourceTestData_sheet.getRow(1)
+// cell B4 - DBC Demo 2 - remove comment to select which environment
+Row currentSheet_row = sourceTestData_sheet.getRow(4)
+
+// cell B1 - DBC Demo - remove comment to select which environment
+//Row currentSheet_row = sourceTestData_sheet.getRow(1)
 
 Cell currentSheet_cell = currentSheet_row.getCell(1)
 
@@ -73,30 +76,30 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login'))
 
-//WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard'))
-//
-//WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'), 
-//    '3379')
-//
-//WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Find'))
-//
-//WebUI.delay(2)
-//
-//WebUI.takeFullPageScreenshot()
-//
-//WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
-//
-//WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
-//
-//WebUI.delay(2)
-//
-//WebUI.takeFullPageScreenshot()
-//
-//WebUI.verifyTextPresent(invoiceNum, false)
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_CustomerDashboard'))
+
+WebUI.setText(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Customer No_CustId'), 
+    '3379')
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Find'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.click(findTestObject('Object Repository/Sales_Orders/New_Interface/Page_Frameworks (Demo)/div_Number'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.verifyTextPresent(invoiceNum, false)
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 

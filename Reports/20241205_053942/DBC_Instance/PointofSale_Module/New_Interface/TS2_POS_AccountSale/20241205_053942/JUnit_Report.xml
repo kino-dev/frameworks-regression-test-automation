@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS2_POS_AccountSale" time="68.831" tests="2" failures="0" errors="0">
+   <testsuite name="TS2_POS_AccountSale" tests="2" failures="0" errors="0" time="68.831" skipped="0" timestamp="05-12-2024T05:39:52" hostname="azureuser - 10.192.8.5" id="Test Suites/DBC_Instance/PointofSale_Module/New_Interface/TS2_POS_AccountSale">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\1733377223274.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\1733377235896.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\1733377240949.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="2149f310cf293f356d31ad7c1dccd3b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New" time="55.758" classname="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New" status="PASSED">
+         <system-out><![CDATA[05-12-2024T05:39:52 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale - New
+
+05-12-2024T05:39:54 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env): null
+
+05-12-2024T05:39:54 - [TEST_STEP][PASSED] - sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet("Sheet1"): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - currentSheet_row = sourceTestData_sheet.getRow(1): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - currentSheet_cell = currentSheet_row.getCell(1): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - DBC_Demo = currentSheet_cell.getStringCellValue(): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - println(DBC_Demo): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv.close(): null
+
+05-12-2024T05:39:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2024T05:39:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2024T05:39:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2024T05:39:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2024T05:39:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-12-2024T05:39:59 - [MESSAGE][PASSED] - Current window maximized
+
+05-12-2024T05:39:59 - [TEST_STEP][PASSED] - navigateToUrl(DBC_Demo): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T05:40:00 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T05:40:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T05:40:02 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T05:40:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T05:40:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T05:40:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T05:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T05:40:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+05-12-2024T05:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon' is clicked on
+
+05-12-2024T05:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+05-12-2024T05:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing' is clicked on
+
+05-12-2024T05:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+05-12-2024T05:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+05-12-2024T05:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX"), "Joe Chila (3379)"): Text 'Joe Chila (3379)' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX'
+
+05-12-2024T05:40:14 - [MESSAGE][PASSED] - Text 'Joe Chila (3379)' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_m_customerIdX'
+
+05-12-2024T05:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+05-12-2024T05:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_JOE CHILA (3379)' is clicked on
+
+05-12-2024T05:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is clicked on
+
+05-12-2024T05:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is clicked on
+
+05-12-2024T05:40:16 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20305093'
+
+05-12-2024T05:40:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '20305093'
+
+05-12-2024T05:40:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "594"): Text '594' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T05:40:18 - [MESSAGE][PASSED] - Text '594' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T05:40:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T05:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T05:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T05:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T05:40:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T05:40:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T05:40:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T05:40:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T05:40:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\1733377223274.png]]
+
+05-12-2024T05:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId"), "pfr7035"): Text 'pfr7035' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T05:40:24 - [MESSAGE][PASSED] - Text 'pfr7035' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T05:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T05:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T05:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+05-12-2024T05:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+05-12-2024T05:40:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+05-12-2024T05:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+05-12-2024T05:40:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity"), "1"): Keys '1' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+05-12-2024T05:40:29 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+05-12-2024T05:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+05-12-2024T05:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+05-12-2024T05:40:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength"), "3"): Keys '3' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+05-12-2024T05:40:30 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+05-12-2024T05:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add' is clicked on
+
+05-12-2024T05:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add' is clicked on
+
+05-12-2024T05:40:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2"), "1"): Keys '1' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'
+
+05-12-2024T05:40:32 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'
+
+05-12-2024T05:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+05-12-2024T05:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+05-12-2024T05:40:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2"), "2"): Keys '2' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'
+
+05-12-2024T05:40:33 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'
+
+05-12-2024T05:40:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T05:40:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T05:40:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T05:40:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T05:40:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\1733377235896.png]]
+
+05-12-2024T05:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+05-12-2024T05:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+05-12-2024T05:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T05:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T05:40:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T05:40:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T05:40:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T05:40:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T05:40:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_053942\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS2_POS_AccountSale\\20241205_053942\\1733377240949.png]]
+
+05-12-2024T05:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_ACCOUNT (A)")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_ACCOUNT (A)' is clicked on
+
+05-12-2024T05:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_ACCOUNT (A)' is clicked on
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+05-12-2024T05:40:42 - [TEST_STEP][PASSED] - fos.close(): null
+
+05-12-2024T05:40:43 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+05-12-2024T05:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+05-12-2024T05:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+05-12-2024T05:40:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+05-12-2024T05:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New" time="12.575" classname="Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New" status="PASSED">
+         <system-out><![CDATA[05-12-2024T05:40:48 - [TEST_CASE][PASSED] - Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - invoiceNum = cell.getStringCellValue(): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - println(invoiceNum): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet("Sheet1"): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - currentSheet_row = sourceTestData_sheet.getRow(1): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - currentSheet_cell = currentSheet_row.getCell(1): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - DBC_Demo = currentSheet_cell.getStringCellValue(): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - println(DBC_Demo): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv.close(): null
+
+05-12-2024T05:40:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2024T05:40:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-12-2024T05:40:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2024T05:40:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2024T05:40:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2024T05:40:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-12-2024T05:40:51 - [MESSAGE][PASSED] - Current window maximized
+
+05-12-2024T05:40:51 - [TEST_STEP][PASSED] - navigateToUrl(DBC_Demo): Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T05:40:53 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T05:40:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T05:40:54 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T05:40:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password"), "FHoXGFMjtD0="): Text ****** has been set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T05:40:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T05:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T05:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T05:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+05-12-2024T05:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown' is clicked on
+
+05-12-2024T05:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+05-12-2024T05:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-12-2024T05:39:52 - [TEST_SUITE][PASSED] - TS2_POS_AccountSale: Test Cases/DBC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate - New]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,12 +6,12 @@
    <elementGuidId>0550c96b-3070-4719-ae7a-7af451284868</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_BO</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='SuspendSale'])[1]/preceding::div[1]</value>
+         <key>CSS</key>
+         <value>#isc_BR</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8ae11143-213a-48e0-a3fc-e6ce93672946</webElementGuid>
+      <webElementGuid>54953f0f-e697-4b4c-b9c9-02bfb36c09c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_BO</value>
-      <webElementGuid>3449c378-967d-4841-9539-2d6087d7aa0b</webElementGuid>
+      <value>isc_BR</value>
+      <webElementGuid>3c04838d-dc1b-4f87-aeb0-112be15a47f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>5a001741-2407-49c6-b12c-05df22210d11</webElementGuid>
+      <webElementGuid>3707a3d8-642e-453c-8e61-b7c75c29e112</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,18 +53,74 @@
       <name>text</name>
       <type>Main</type>
       <value>FinishSale (S)</value>
-      <webElementGuid>ffaa8f19-ee80-4189-b4ad-fb2623ad757b</webElementGuid>
+      <webElementGuid>5a2ee59e-c903-4129-b48d-5d84225bb731</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_BO&quot;)</value>
-      <webElementGuid>6f13ed98-0c91-4994-8d39-e7068348c449</webElementGuid>
+      <value>id(&quot;isc_BR&quot;)</value>
+      <webElementGuid>5c9e0c33-683e-4834-a593-8f121564c51d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='isc_BR']</value>
+      <webElementGuid>7fad7db2-fff2-406b-adb7-3ec59afc8cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_BS']/table/tbody/tr/td/div</value>
+      <webElementGuid>1917ab57-7a91-4ed0-86af-bd4481d6a499</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::div[10]</value>
+      <webElementGuid>ba1f8872-3d5d-42eb-892b-88334354c034</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SuspendSale'])[1]/preceding::div[1]</value>
+      <webElementGuid>88b8bb61-4146-4887-84fe-3d7c02c4ff3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
+      <webElementGuid>b3ef3e31-96da-43f4-a8b2-01414ca6f1d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>86cd9430-aef8-436b-a6e4-7c7262632dd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'isc_BR' and (text() = 'FinishSale (S)' or . = 'FinishSale (S)')]</value>
+      <webElementGuid>1a8e944e-5165-43cc-a1f6-49869f73e0a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -78,38 +134,6 @@
       <type>Main</type>
       <value>//div[@id='isc_BP']/table/tbody/tr/td/div</value>
       <webElementGuid>5b079d9c-5a24-437a-9386-2e50c9367ff1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::div[10]</value>
-      <webElementGuid>c5209087-558d-47dc-a94e-734582097483</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SuspendSale'])[1]/preceding::div[1]</value>
-      <webElementGuid>f8629f4d-604d-4177-8ec3-1f2d2e2458e4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
-      <webElementGuid>45e598bd-8af7-4d6a-af86-f60fa43647be</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div[2]/div/div[2]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>5ef08788-fd41-45c4-9292-4cbaafd723b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

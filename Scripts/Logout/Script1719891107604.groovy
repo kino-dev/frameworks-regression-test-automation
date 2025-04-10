@@ -17,9 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.switchToWindowTitle('Frameworks (Demo)')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/AccountDropdown'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Logout_Objects/Object_Repo/div_Logout'))
+DBC_Demo2 = 'http://frameworks.dahlsens.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard'
+
+WebUI.navigateToUrl(DBC_Demo2)
+
+WebUI.setText(findTestObject('Object Repository/TR1_POS_CashSale/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TR1_POS_CashSale/Page_Frameworks (Demo)/input_Password_password'), 
+    'FHoXGFMjtD0=')
+
+WebUI.click(findTestObject('Object Repository/TR1_POS_CashSale/Page_Frameworks (Demo)/div_Login'))
+
+WebUI.click(findTestObject('Page_Frameworks (Demo2)/div_Login'))
+
+WebUI.click(findTestObject('Object Repository/SO_Quote_Cash_Sale_Cash/Page_Frameworks (Demo2)/Page_Frameworks (Demo2)/img_AccountDropdown_icon'))
+
+WebUI.click(findTestObject('Object Repository/SO_Quote_Cash_Sale_Cash/Page_Frameworks (Demo2)/Page_Frameworks (Demo2)/div_Logout'))
 

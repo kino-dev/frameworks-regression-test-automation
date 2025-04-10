@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_POS_CashSale" time="1.358" tests="1" failures="0" errors="1">
+   <testsuite name="TS1_POS_CashSale" tests="1" failures="0" errors="1" time="1.358" skipped="0" timestamp="20-02-2025T09:57:17" hostname="azureuser - 10.192.8.5" id="Test Suites/DBC_Instance/PointofSale_Module/New_Interface/TS1_POS_CashSale">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_095708\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS1_POS_CashSale\\20250220_095708"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250220_095708\\DBC_Instance\\PointofSale_Module\\New_Interface\\TS1_POS_CashSale\\20250220_095708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+      </properties>
+      <testcase name="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New" time="1.028" classname="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New" status="ERROR">
+         <error type="ERROR" message="Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 135: The current scope already contains a variable of the name sourceTestData_FwksEnv&#xa; @ line 135, column 17.&#xa;   FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)&#xa;                   ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 137: The current scope already contains a variable of the name sourceTestDataContainer_workbook&#xa; @ line 137, column 14.&#xa;   XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)&#xa;                ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 139: The current scope already contains a variable of the name sourceTestData_sheet&#xa; @ line 139, column 11.&#xa;   XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')&#xa;             ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 142: The current scope already contains a variable of the name currentSheet_row&#xa; @ line 142, column 5.&#xa;   Row currentSheet_row = sourceTestData_sheet.getRow(4)&#xa;       ^&#xa;&#xa;file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 146: The current scope already contains a variable of the name currentSheet_cell&#xa; @ line 146, column 6.&#xa;   Cell currentSheet_cell = currentSheet_row.getCell(1)&#xa;        ^&#xa;&#xa;5 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1740045428372.run(TempTestSuite1740045428372.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[20-02-2025T09:57:18 - [TEST_CASE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New: Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 135: The current scope already contains a variable of the name sourceTestData_FwksEnv
+ @ line 135, column 17.
+   FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 137: The current scope already contains a variable of the name sourceTestDataContainer_workbook
+ @ line 137, column 14.
+   XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 139: The current scope already contains a variable of the name sourceTestData_sheet
+ @ line 139, column 11.
+   XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 142: The current scope already contains a variable of the name currentSheet_row
+ @ line 142, column 5.
+   Row currentSheet_row = sourceTestData_sheet.getRow(4)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 146: The current scope already contains a variable of the name currentSheet_cell
+ @ line 146, column 6.
+   Cell currentSheet_cell = currentSheet_row.getCell(1)
+        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740045428372.run(TempTestSuite1740045428372.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[20-02-2025T09:57:18 - [TEST_CASE][ERROR] - Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New: Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 135: The current scope already contains a variable of the name sourceTestData_FwksEnv
+ @ line 135, column 17.
+   FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 137: The current scope already contains a variable of the name sourceTestDataContainer_workbook
+ @ line 137, column 14.
+   XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 139: The current scope already contains a variable of the name sourceTestData_sheet
+ @ line 139, column 11.
+   XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 142: The current scope already contains a variable of the name currentSheet_row
+ @ line 142, column 5.
+   Row currentSheet_row = sourceTestData_sheet.getRow(4)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 146: The current scope already contains a variable of the name currentSheet_cell
+ @ line 146, column 6.
+   Cell currentSheet_cell = currentSheet_row.getCell(1)
+        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740045428372.run(TempTestSuite1740045428372.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2025T09:57:17 - [TEST_SUITE][ERROR] - TS1_POS_CashSale: Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 135: The current scope already contains a variable of the name sourceTestData_FwksEnv
+ @ line 135, column 17.
+   FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 137: The current scope already contains a variable of the name sourceTestDataContainer_workbook
+ @ line 137, column 14.
+   XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 139: The current scope already contains a variable of the name sourceTestData_sheet
+ @ line 139, column 11.
+   XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 142: The current scope already contains a variable of the name currentSheet_row
+ @ line 142, column 5.
+   Row currentSheet_row = sourceTestData_sheet.getRow(4)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 146: The current scope already contains a variable of the name currentSheet_cell
+ @ line 146, column 6.
+   Cell currentSheet_cell = currentSheet_row.getCell(1)
+        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740045428372.run(TempTestSuite1740045428372.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[20-02-2025T09:57:17 - [TEST_SUITE][ERROR] - TS1_POS_CashSale: Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 135: The current scope already contains a variable of the name sourceTestData_FwksEnv
+ @ line 135, column 17.
+   FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+                   ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 137: The current scope already contains a variable of the name sourceTestDataContainer_workbook
+ @ line 137, column 14.
+   XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+                ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 139: The current scope already contains a variable of the name sourceTestData_sheet
+ @ line 139, column 11.
+   XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+             ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 142: The current scope already contains a variable of the name currentSheet_row
+ @ line 142, column 5.
+   Row currentSheet_row = sourceTestData_sheet.getRow(4)
+       ^
+
+file:/C:/Users/azureuser/git/frameworks-regression-test-automation/Scripts/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale%20-%20New/Script1725763619095.groovy: 146: The current scope already contains a variable of the name currentSheet_cell
+ @ line 146, column 6.
+   Cell currentSheet_cell = currentSheet_row.getCell(1)
+        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740045428372.run(TempTestSuite1740045428372.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

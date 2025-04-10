@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_POS_CashSale,Chrome 132.0.0.0,Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale,,06-02-2025 07:34:41,06-02-2025 07:35:35,53.537s,PASSED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New,Chrome 132.0.0.0,,,06-02-2025 07:34:42,06-02-2025 07:35:35,53.164s,PASSED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),Chrome 132.0.0.0,,,06-02-2025 07:34:43,06-02-2025 07:34:43,0.041s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),Chrome 132.0.0.0,,,06-02-2025 07:34:43,06-02-2025 07:34:44,0.941s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:44,0.005s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(4),Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:44,0.090s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:44,0.044s,PASSED
+DBC_Demo = currentSheet_cell.getStringCellValue(),Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:44,0.049s,PASSED
+println(DBC_Demo),Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:44,0.006s,PASSED
+sourceTestData_FwksEnv.close(),Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:44,0.004s,PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,06-02-2025 07:34:44,06-02-2025 07:34:47,3.347s,PASSED
+maximizeWindow(),Chrome 132.0.0.0,,,06-02-2025 07:34:47,06-02-2025 07:34:48,0.261s,PASSED
+"DBC_Demo = ""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard""",Chrome 132.0.0.0,,,06-02-2025 07:34:48,06-02-2025 07:34:48,0.003s,PASSED
+navigateToUrl(DBC_Demo),Chrome 132.0.0.0,,,06-02-2025 07:34:48,06-02-2025 07:34:49,1.285s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 132.0.0.0,,,06-02-2025 07:34:49,06-02-2025 07:34:51,2.050s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 132.0.0.0,,,06-02-2025 07:34:51,06-02-2025 07:34:51,0.472s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 132.0.0.0,,,06-02-2025 07:34:51,06-02-2025 07:34:52,0.552s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 132.0.0.0,,,06-02-2025 07:34:52,06-02-2025 07:34:56,3.982s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 132.0.0.0,,,06-02-2025 07:34:56,06-02-2025 07:34:58,1.989s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 132.0.0.0,,,06-02-2025 07:34:58,06-02-2025 07:34:59,0.837s,PASSED
+"invoiceNum = getText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum""))",Chrome 132.0.0.0,,,06-02-2025 07:34:59,06-02-2025 07:35:02,2.952s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId""), ""594"")",Chrome 132.0.0.0,,,06-02-2025 07:35:02,06-02-2025 07:35:03,1.052s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered""))",Chrome 132.0.0.0,,,06-02-2025 07:35:03,06-02-2025 07:35:04,0.794s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add""))",Chrome 132.0.0.0,,,06-02-2025 07:35:04,06-02-2025 07:35:05,1.277s,PASSED
+delay(2),Chrome 132.0.0.0,,,06-02-2025 07:35:05,06-02-2025 07:35:07,2.048s,PASSED
+takeFullPageScreenshot(),Chrome 132.0.0.0,,,06-02-2025 07:35:07,06-02-2025 07:35:08,0.715s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId""), ""pfr7035"")",Chrome 132.0.0.0,,,06-02-2025 07:35:08,06-02-2025 07:35:08,0.701s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered""))",Chrome 132.0.0.0,,,06-02-2025 07:35:08,06-02-2025 07:35:09,0.426s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Tally Maintenance""))",Chrome 132.0.0.0,,,06-02-2025 07:35:09,06-02-2025 07:35:11,2.409s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Quantity_Col""))",Chrome 132.0.0.0,,,06-02-2025 07:35:11,06-02-2025 07:35:12,1.003s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity""), ""1"")",Chrome 132.0.0.0,,,06-02-2025 07:35:12,06-02-2025 07:35:13,0.471s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col""))",Chrome 132.0.0.0,,,06-02-2025 07:35:13,06-02-2025 07:35:13,0.477s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength""), ""3"")",Chrome 132.0.0.0,,,06-02-2025 07:35:13,06-02-2025 07:35:14,0.974s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Add""))",Chrome 132.0.0.0,,,06-02-2025 07:35:14,06-02-2025 07:35:15,0.477s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2""), ""1"")",Chrome 132.0.0.0,,,06-02-2025 07:35:15,06-02-2025 07:35:16,1.047s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Length_Col_Row2""))",Chrome 132.0.0.0,,,06-02-2025 07:35:16,06-02-2025 07:35:16,0.558s,PASSED
+"sendKeys(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_LM_tallyLength_1_2""), ""2"")",Chrome 132.0.0.0,,,06-02-2025 07:35:16,06-02-2025 07:35:17,0.726s,PASSED
+delay(2),Chrome 132.0.0.0,,,06-02-2025 07:35:17,06-02-2025 07:35:19,2.013s,PASSED
+takeFullPageScreenshot(),Chrome 132.0.0.0,,,06-02-2025 07:35:19,06-02-2025 07:35:19,0.501s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)""))",Chrome 132.0.0.0,,,06-02-2025 07:35:19,06-02-2025 07:35:20,0.535s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add""))",Chrome 132.0.0.0,,,06-02-2025 07:35:20,06-02-2025 07:35:22,1.753s,PASSED
+delay(2),Chrome 132.0.0.0,,,06-02-2025 07:35:22,06-02-2025 07:35:24,2.004s,PASSED
+takeFullPageScreenshot(),Chrome 132.0.0.0,,,06-02-2025 07:35:24,06-02-2025 07:35:24,0.486s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_FinishSale (S)""))",Chrome 132.0.0.0,,,06-02-2025 07:35:24,06-02-2025 07:35:25,0.534s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_100 Cash""))",Chrome 132.0.0.0,,,06-02-2025 07:35:25,06-02-2025 07:35:29,3.962s,PASSED
+delay(2),Chrome 132.0.0.0,,,06-02-2025 07:35:29,06-02-2025 07:35:31,2.013s,PASSED
+takeFullPageScreenshot(),Chrome 132.0.0.0,,,06-02-2025 07:35:31,06-02-2025 07:35:31,0.470s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)""))",Chrome 132.0.0.0,,,06-02-2025 07:35:31,06-02-2025 07:35:32,0.549s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown""))",Chrome 132.0.0.0,,,06-02-2025 07:35:32,06-02-2025 07:35:34,2.105s,PASSED
+"click(findTestObject(""Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout""))",Chrome 132.0.0.0,,,06-02-2025 07:35:34,06-02-2025 07:35:35,0.856s,PASSED

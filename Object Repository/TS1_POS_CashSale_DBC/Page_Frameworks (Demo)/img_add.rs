@@ -6,19 +6,19 @@
    <elementGuidId>7be1ef7c-871a-470e-9800-91f6fd4f153a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_G9 > img</value>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='isc_G9']/img</value>
+         <key>CSS</key>
+         <value>#isc_GC > img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#isc_EY >> internal:role=link</value>
+         <value>#isc_GC</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>a5379e7b-a910-4b09-b66c-9ef5cbc708c5</webElementGuid>
+      <webElementGuid>b4e59a57-eb4f-4094-9be0-800c491fa07a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks/images/custom/menus/checkmark-circle.png</value>
-      <webElementGuid>b7ed9237-c9c0-4f60-a7d5-b8f1c649416f</webElementGuid>
+      <value>http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png</value>
+      <webElementGuid>c2e091d3-4237-4439-ae6c-36375c5af3bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>border</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>119f1ddd-d256-4919-9fa2-a7b9a1b7560f</webElementGuid>
+      <webElementGuid>82677f82-9822-4aa9-a78e-0742f40fadeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>ed39ec1f-b446-4022-a1e4-749ceef0595f</webElementGuid>
+      <webElementGuid>1e3c7972-608b-4a36-b0ab-a71c9a720536</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,18 +61,50 @@
       <name>width</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>e41e13d8-562f-4d3f-9953-c3032df8dd59</webElementGuid>
+      <webElementGuid>b1260d22-9b0a-4d34-9bfb-a5f397941d83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_G9&quot;)/img[1]</value>
-      <webElementGuid>8b301c5b-0659-4d6d-beb1-3ffce73f5140</webElementGuid>
+      <value>id(&quot;isc_GC&quot;)/img[1]</value>
+      <webElementGuid>5f1a2871-ceee-4734-8c5f-ff7053c434a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='isc_GC']/img</value>
+      <webElementGuid>81fb48c0-5c72-4e01-8cfb-846ed2840c14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png')]</value>
+      <webElementGuid>007fcd4f-e563-4279-9c9f-6c5d0a1cf52a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/div/a/img</value>
+      <webElementGuid>5dceb7e6-b501-45dc-97e5-1c8842898d05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'http://frameworks.dahlsens.com.au:8080/FWDemo/frameworks/sc/skins/Frameworks7/images/custom/menus/checkmark-circle.png']</value>
+      <webElementGuid>66d5e45b-2da9-4d65-86f1-a6735cd3be33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

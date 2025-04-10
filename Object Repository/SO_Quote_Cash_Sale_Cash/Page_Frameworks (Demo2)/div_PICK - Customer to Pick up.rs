@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PICK - Customer to Pick up</name>
+   <tag></tag>
+   <elementGuidId>f825f0cb-05df-4180-bb7b-b8209998d1a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'PICK - Customer to Pick up' or . = 'PICK - Customer to Pick up')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#isc_SGtable > tbody > tr:nth-of-type(3) > td.pickListCellSelected > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#isc_SGtable >> internal:text=&quot;PICK - Customer to Pick up&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>52693b28-402a-4b19-afba-c18507dde786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>e1cecf16-a2ec-4640-aacf-e3ed3d6e733c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ebbe2fc9-4f0a-4267-8430-5182013ff7da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PICK - Customer to Pick up</value>
+      <webElementGuid>252a3b87-9019-4214-9d76-88d754f0fa1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_SGtable&quot;)/tbody[1]/tr[3]/td[@class=&quot;pickListCellSelected&quot;]/div[1]</value>
+      <webElementGuid>33e57797-6db4-4974-a07f-ed7aa4e08c75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_SGtable']/tbody/tr[3]/td/div</value>
+      <webElementGuid>b79d77f7-390e-4add-8638-4399d6569ce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOCAL - Company Deliveries'])[1]/following::div[1]</value>
+      <webElementGuid>a9fad1e5-ea8e-4fe2-8a54-8c84e9b31b0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BRAN - Branch Transfer'])[1]/following::div[2]</value>
+      <webElementGuid>e0898209-909e-44e7-adb2-81a545d20061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REMOT - Remote Delivery'])[1]/preceding::div[1]</value>
+      <webElementGuid>c112be87-6201-419c-a80b-58e6d3ad8de4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUPP - Supplier Direct Delivery'])[1]/preceding::div[2]</value>
+      <webElementGuid>ef5cf9d7-edca-47a0-a47c-caea2bbbb146</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div/table/tbody/tr[3]/td/div</value>
+      <webElementGuid>78bef152-7f49-4148-8876-8a50e0fbf7a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PICK - Customer to Pick up' or . = 'PICK - Customer to Pick up')]</value>
+      <webElementGuid>61d19f0a-c4ee-4196-92ba-d8f54cfbe82a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

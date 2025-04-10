@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_POS_CashSale,TestCloud - Windows - Chrome 135.0.0.0,Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale,,20-02-2025 09:48:11,20-02-2025 09:49:32,1m - 21.220s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New,TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:12,20-02-2025 09:49:32,1m - 20.859s,FAILED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:13,20-02-2025 09:48:13,0.058s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:13,20-02-2025 09:48:13,0.877s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:13,20-02-2025 09:48:13,0.013s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(4),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:13,20-02-2025 09:48:14,0.104s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:14,20-02-2025 09:48:14,0.053s,PASSED
+DBC_Demo = currentSheet_cell.getStringCellValue(),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:14,20-02-2025 09:48:14,0.075s,PASSED
+println(DBC_Demo),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:14,20-02-2025 09:48:14,0.028s,PASSED
+sourceTestData_FwksEnv.close(),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:14,20-02-2025 09:48:14,0.037s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:14,20-02-2025 09:48:44,30.277s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:44,20-02-2025 09:48:44,0.306s,PASSED
+"DBC_Demo = ""http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard""",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:44,20-02-2025 09:48:44,0.007s,PASSED
+navigateToUrl(DBC_Demo),TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:44,20-02-2025 09:48:55,10.449s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",TestCloud - Windows - Chrome 135.0.0.0,,,20-02-2025 09:48:55,20-02-2025 09:49:32,37.517s,FAILED

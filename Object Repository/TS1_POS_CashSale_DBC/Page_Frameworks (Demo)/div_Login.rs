@@ -6,12 +6,12 @@
    <elementGuidId>44593c55-1441-4ef8-8e1c-c46362fd94a1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_1S</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='isc_1S']</value>
+         <key>CSS</key>
+         <value>#isc_1S</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c55160f9-8316-4edd-9dd5-a57155883765</webElementGuid>
+      <webElementGuid>331cfba7-69b0-4660-9139-6f4f5e798c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>isc_1S</value>
-      <webElementGuid>124dfefc-c312-41fa-8f6b-73eb0a0b3c6b</webElementGuid>
+      <webElementGuid>e5f8d842-e8b2-42a3-8247-92ecaa09a30a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>2bcc3641-a1c6-4c7e-9ed6-9e4ff8d0bf6a</webElementGuid>
+      <webElementGuid>2b7cac70-67da-4c1b-898c-4bae45161a81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>3c9e1fd3-dcbb-4ee9-a5e1-f724a02accc0</webElementGuid>
+      <webElementGuid>fb253a96-d844-455d-a630-8e73a4c554a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;isc_1S&quot;)</value>
-      <webElementGuid>6a0e5278-36b0-42e9-9340-c4bf6ed4ae6f</webElementGuid>
+      <webElementGuid>f9dbf72e-9337-44ac-81ac-d89a2e7b072d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='isc_1S']</value>
-      <webElementGuid>9b2b505f-bc3e-439a-8970-af07ef779520</webElementGuid>
+      <webElementGuid>d7e59e3c-2955-4c62-9b33-dc450c483437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='isc_1T']/table/tbody/tr/td/div</value>
-      <webElementGuid>e9055afd-052d-4b5c-bf22-35a9300d2c10</webElementGuid>
+      <webElementGuid>5d713173-da21-455d-b676-b8451cc00456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[6]</value>
-      <webElementGuid>f35fceb7-ba83-45d2-aac9-047b1c287148</webElementGuid>
+      <webElementGuid>8fcf4460-6e2f-4830-a315-434962fdfed1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::div[6]</value>
-      <webElementGuid>e581d4f9-f21d-4eef-8737-d9217f819fdd</webElementGuid>
+      <webElementGuid>cb0f5b80-8e64-4ad5-b474-29204092accc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::div[1]</value>
-      <webElementGuid>6661672d-9d24-4b26-a150-5d0e2b60346e</webElementGuid>
+      <webElementGuid>b79b4347-daeb-436f-9dc1-28ec00da05a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[3]/preceding::div[3]</value>
-      <webElementGuid>f4edfea7-552c-4612-80d4-8802326d4d3e</webElementGuid>
+      <webElementGuid>f4b26ae2-553d-4d40-a7f7-361671bf93c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>ea6641b9-5e56-4a2b-969c-e0cf371396ec</webElementGuid>
+      <webElementGuid>c2e38fb6-a5bd-411e-bd91-a184782404ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>a4ee2451-3a9b-4c42-922d-a59607b9ab5a</webElementGuid>
+      <webElementGuid>b78d76cc-1b0f-4a14-8dd8-0b720aad5f62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'isc_1S' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>35413ec5-5c91-4168-8dae-d6600264fabb</webElementGuid>
+      <webElementGuid>14cfd040-1624-4613-ab69-a7013d195930</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,41 +23,50 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://frameworks.nt.nortruss.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard')
 
-WebUI.setText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_User ID_userid'), 'manaki')
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_User ID_userid'), 
+    'manaki')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Password_password'), 'C5+8mNJ15mA=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Password_password'), 
+    'C5+8mNJ15mA=')
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Login'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img_FW'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_FW'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/b_Transaction Processing'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/b_Transaction Processing'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/td_Point Of Sale'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Point Of Sale'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId'), 'uzzxF8+Oh1A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Operator No_operatorId'), 
+    'uzzxF8+Oh1A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_PIN_pin'), 'uzzxF8+Oh1A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_PIN_pin'), 
+    'uzzxF8+Oh1A=')
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_OK'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_OK'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_P_prodId'), '2014086')
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_P_prodId'), 
+    '2014086')
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_FinishSale (S)'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_FinishSale (S)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_Pay'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Pay'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 'uzzxF8+Oh1A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Operator No_operatorId_1'), 
+    'uzzxF8+Oh1A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Frameworks (Demo)/input_PIN_pin_1'), 'uzzxF8+Oh1A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_PIN_pin_1'), 
+    'uzzxF8+Oh1A=')
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/div_OK_1'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_OK_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/img_dropdownLogout'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_dropdownLogout'))
 
-WebUI.click(findTestObject('Object Repository/Page_Frameworks (Demo)/td_Logout'))
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Logout'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_NT/Page_Frameworks (Demo)/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_'))
 

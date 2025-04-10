@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MultiTill_Reconciliation_CHC" time="131.736" tests="3" failures="0" errors="0">
+   <testsuite name="MultiTill_Reconciliation_CHC" tests="3" failures="0" errors="0" time="131.736" skipped="0" timestamp="11-01-2025T06:34:27" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/Multi_TillReconciliation_Module/MultiTill_Reconciliation_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_063418\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_063418"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_063418\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_063418\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_063418\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_063418\\1736577289321.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_063418\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_063418\\1736577299066.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="43dd8d30b7192f536edf52eff55d6246"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale" time="38.668" classname="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale" status="PASSED">
+         <system-out><![CDATA[11-01-2025T06:34:28 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale: Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/POS_CashSale
+
+11-01-2025T06:34:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-01-2025T06:34:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-01-2025T06:34:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2025T06:34:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-01-2025T06:34:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-01-2025T06:34:32 - [MESSAGE][PASSED] - Current window maximized
+
+11-01-2025T06:34:32 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:34:37 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:34:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:34:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:34:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:34:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+11-01-2025T06:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+11-01-2025T06:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+11-01-2025T06:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+11-01-2025T06:34:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-01-2025T06:34:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-01-2025T06:34:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+11-01-2025T06:34:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-01-2025T06:34:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_063418\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_063418\\1736577289321.png]]
+
+11-01-2025T06:34:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-01-2025T06:34:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-01-2025T06:34:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5006866"): Text '5006866' is set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+11-01-2025T06:34:53 - [MESSAGE][PASSED] - Text '5006866' is set on object 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+11-01-2025T06:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+11-01-2025T06:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+11-01-2025T06:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/img")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+11-01-2025T06:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+11-01-2025T06:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+11-01-2025T06:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo)/div_FinishSale (S)' is clicked on
+
+11-01-2025T06:34:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-01-2025T06:34:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-01-2025T06:34:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+11-01-2025T06:35:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-01-2025T06:35:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250111_063418\\CHC_Instance\\Multi_TillReconciliation_Module\\MultiTill_Reconciliation_CHC\\20250111_063418\\1736577299066.png]]
+
+11-01-2025T06:35:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div_EFTPOS")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div_EFTPOS' is clicked on
+
+11-01-2025T06:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div_EFTPOS' is clicked on
+
+11-01-2025T06:35:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div")): Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div' is clicked on
+
+11-01-2025T06:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_POS_CashSale_CHC/Page_Frameworks (Demo2)/div' is clicked on
+
+11-01-2025T06:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:35:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on
+
+11-01-2025T06:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale" time="64.318" classname="Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale" status="PASSED">
+         <system-out><![CDATA[11-01-2025T06:35:06 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale: Test Cases/CHC_Instance/Till Reconciliation/Till Reconciliation_CHC/Till_Reconciliation_CashSale
+
+11-01-2025T06:35:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-01-2025T06:35:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-01-2025T06:35:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-01-2025T06:35:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2025T06:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-01-2025T06:35:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-01-2025T06:35:09 - [MESSAGE][PASSED] - Current window maximized
+
+11-01-2025T06:35:09 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:35:13 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:35:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:35:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:35:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:35:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking' is clicked on
+
+11-01-2025T06:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking' is clicked on
+
+11-01-2025T06:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Till Reconciliation")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Till Reconciliation' is clicked on
+
+11-01-2025T06:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Till Reconciliation' is clicked on
+
+11-01-2025T06:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D' is clicked on
+
+11-01-2025T06:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D' is clicked on
+
+11-01-2025T06:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Reconciled_isc_9J")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Reconciled_isc_9J' is clicked on
+
+11-01-2025T06:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Reconciled_isc_9J' is clicked on
+
+11-01-2025T06:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find' is clicked on
+
+11-01-2025T06:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find' is clicked on
+
+11-01-2025T06:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Lock")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Lock' is clicked on
+
+11-01-2025T06:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Lock' is clicked on
+
+11-01-2025T06:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Lock")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Lock' is clicked on
+
+11-01-2025T06:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Lock' is clicked on
+
+11-01-2025T06:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D_1")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D_1' is clicked on
+
+11-01-2025T06:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Locked_isc_9D_1' is clicked on
+
+11-01-2025T06:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find_1")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find_1' is clicked on
+
+11-01-2025T06:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Find_1' is clicked on
+
+11-01-2025T06:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_0.00")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_0.00' is clicked on
+
+11-01-2025T06:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_0.00' is clicked on
+
+11-01-2025T06:35:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-01-2025T06:35:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-01-2025T06:35:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/input_amountActual"), "7.95"): Keys '7.95' sent to object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/input_amountActual'
+
+11-01-2025T06:35:36 - [MESSAGE][PASSED] - Keys '7.95' sent to object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/input_amountActual'
+
+11-01-2025T06:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Complete")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Complete' is clicked on
+
+11-01-2025T06:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Complete' is clicked on
+
+11-01-2025T06:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Complete")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Complete' is clicked on
+
+11-01-2025T06:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/div_Complete' is clicked on
+
+11-01-2025T06:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout")): Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on
+
+11-01-2025T06:36:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[8]/div/div/div/div/table/tbody/tr[8]/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-01-2025T06:36:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout'. Try using Self-healing.
+
+11-01-2025T06:36:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Switch back to Classic Frameworks look'])[1]/following::td[4]'.
+
+11-01-2025T06:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TR_TillReconciliation_CashSale/Page_Frameworks (Demo2)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation" time="28.433" classname="Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation" status="PASSED">
+         <system-out><![CDATA[11-01-2025T06:36:11 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation: Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation
+
+11-01-2025T06:36:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-01-2025T06:36:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-01-2025T06:36:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-01-2025T06:36:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2025T06:36:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-01-2025T06:36:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-01-2025T06:36:13 - [MESSAGE][PASSED] - Current window maximized
+
+11-01-2025T06:36:13 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:36:17 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+11-01-2025T06:36:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:36:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+11-01-2025T06:36:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:36:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+11-01-2025T06:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+11-01-2025T06:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+11-01-2025T06:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking' is clicked on
+
+11-01-2025T06:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/b_Till Reconciliation  Banking' is clicked on
+
+11-01-2025T06:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Multiple Till Banking")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Multiple Till Banking' is clicked on
+
+11-01-2025T06:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Multiple Till Banking' is clicked on
+
+11-01-2025T06:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Find")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Find' is clicked on
+
+11-01-2025T06:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Find' is clicked on
+
+11-01-2025T06:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_SessionStatus_isc_BP")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_SessionStatus_isc_BP' is clicked on
+
+11-01-2025T06:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_SessionStatus_isc_BP' is clicked on
+
+11-01-2025T06:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Print Deposit")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Print Deposit' is clicked on
+
+11-01-2025T06:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Print Deposit' is clicked on
+
+11-01-2025T06:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Print Deposit List_isc_E4")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Print Deposit List_isc_E4' is clicked on
+
+11-01-2025T06:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/div_Print Deposit List_isc_E4' is clicked on
+
+11-01-2025T06:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Bank")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Bank' is clicked on
+
+11-01-2025T06:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Bank' is clicked on
+
+11-01-2025T06:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+11-01-2025T06:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Logout")): Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Logout' is clicked on
+
+11-01-2025T06:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MultiTill_Reconciliation-CHC/Page_Frameworks (Demo2)/td_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-01-2025T06:34:27 - [TEST_SUITE][PASSED] - MultiTill_Reconciliation_CHC: Test Cases/CHC_Instance/Till Reconciliation/Multi_TillReconciliation_CHC/MultiTill_Reconciliation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

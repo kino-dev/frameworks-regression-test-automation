@@ -6,12 +6,12 @@
    <elementGuidId>065f9811-7eb4-4c55-9f4a-85baded9cbf8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#isc_MenuPopout_2_0_valueCell2</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[@id='isc_MenuPopout_2_0_valueCell2']</value>
+         <key>CSS</key>
+         <value>#isc_TreeGrid_0_valueCell2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,23 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ea078766-3a2d-4cbd-ae18-deb2e7db0e44</webElementGuid>
+      <webElementGuid>62fe92ae-42da-4867-9c57-761a1936a2cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>isc_MenuPopout_2_0_valueCell2</value>
-      <webElementGuid>4ab75e05-325e-4aa0-a943-1eb72b29c6e3</webElementGuid>
+      <value>isc_TreeGrid_0_valueCell2</value>
+      <webElementGuid>1de63e0c-52dd-4667-901d-81436af937b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>treeCellSelectedOver</value>
-      <webElementGuid>0d124d89-325f-4538-8c3d-1b997d7ff749</webElementGuid>
+      <value>treeTallCellSelected</value>
+      <webElementGuid>562d69fb-8480-44dc-b950-1e7204f587ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,18 +53,90 @@
       <name>text</name>
       <type>Main</type>
       <value>Point Of Sale</value>
-      <webElementGuid>859c6de5-0a8a-4785-ad71-7d0608054e61</webElementGuid>
+      <webElementGuid>bde2f41a-9bea-476e-a1a2-965d8c76b82a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_MenuPopout_2_0_valueCell2&quot;)</value>
-      <webElementGuid>a478aadf-39dd-4728-905e-0e458bf67424</webElementGuid>
+      <value>id(&quot;isc_TreeGrid_0_valueCell2&quot;)</value>
+      <webElementGuid>ddb828ee-b1be-4f2e-b936-d020503eeaf1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='isc_TreeGrid_0_valueCell2']</value>
+      <webElementGuid>da8ce1fd-1c3f-4f5f-933e-f28b747d0a22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_7Ftable']/tbody/tr[3]/td/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>87012b8a-60b3-4dad-937b-be5107f2c991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Processing'])[1]/following::td[4]</value>
+      <webElementGuid>b23e1e17-01c2-4729-b79a-8490d4accee2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::td[8]</value>
+      <webElementGuid>a3d715e3-7dec-449f-9180-e51733409e24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/preceding::td[3]</value>
+      <webElementGuid>44e189bc-f440-44ef-9c4a-7195a589729d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Orders'])[1]/preceding::td[7]</value>
+      <webElementGuid>e1e70e5f-54cb-4a14-a65a-93319d21b941</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
+      <webElementGuid>877e2ac7-6ab4-474b-8b56-ba4b5b9d09a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>dfa054c0-2015-48a0-bace-88a1fce0b608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'isc_TreeGrid_0_valueCell2' and (text() = 'Point Of Sale' or . = 'Point Of Sale')]</value>
+      <webElementGuid>52dbb505-4f83-436a-b2d4-f78d91a53c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -78,54 +150,6 @@
       <type>Main</type>
       <value>//table[@id='isc_7Ctable']/tbody/tr[3]/td/div/table/tbody/tr/td[3]</value>
       <webElementGuid>585e6eb9-df98-4614-a292-829b8615847b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Processing'])[1]/following::td[4]</value>
-      <webElementGuid>6f9f423a-279e-4dfc-add9-62387735ed6b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[1]/following::td[8]</value>
-      <webElementGuid>381e04eb-e5fc-4b21-829a-c31ba650880d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/preceding::td[3]</value>
-      <webElementGuid>bd75ad4b-09cb-4bd9-b54c-53967d0ea113</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Orders'])[1]/preceding::td[7]</value>
-      <webElementGuid>48cbbfae-3882-4e11-b1cc-d4fd5c8a0408</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Point Of Sale']/parent::*</value>
-      <webElementGuid>9005af8c-d466-421e-ace6-e8debb2f1ebd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[3]/td/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>d4c9efdc-dd0f-4867-9675-38ad7b183d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

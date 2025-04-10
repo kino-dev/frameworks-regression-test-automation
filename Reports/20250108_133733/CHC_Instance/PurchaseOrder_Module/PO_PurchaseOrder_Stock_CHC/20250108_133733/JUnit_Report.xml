@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PO_PurchaseOrder_Stock_CHC" time="95.81" tests="2" failures="0" errors="0">
+   <testsuite name="PO_PurchaseOrder_Stock_CHC" tests="2" failures="0" errors="0" time="95.81" skipped="0" timestamp="08-01-2025T13:37:43" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/PurchaseOrder_Module/PO_PurchaseOrder_Stock_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250108_133733\\CHC_Instance\\PurchaseOrder_Module\\PO_PurchaseOrder_Stock_CHC\\20250108_133733"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250108_133733\\CHC_Instance\\PurchaseOrder_Module\\PO_PurchaseOrder_Stock_CHC\\20250108_133733\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="230c1034c468ce32a88332aadcdda570"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/PurchaseOrder_Module/PO_PurcahseOrder_CHC" time="54.287" classname="Test Cases/CHC_Instance/PurchaseOrder_Module/PO_PurcahseOrder_CHC" status="PASSED">
+         <system-out><![CDATA[08-01-2025T13:37:44 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PurchaseOrder_Module/PO_PurcahseOrder_CHC: Test Cases/CHC_Instance/PurchaseOrder_Module/PO_PurcahseOrder_CHC
+
+08-01-2025T13:37:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2025T13:37:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2025T13:37:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2025T13:37:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2025T13:37:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2025T13:37:49 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2025T13:37:49 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+08-01-2025T13:37:49 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+08-01-2025T13:37:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-01-2025T13:37:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-01-2025T13:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+08-01-2025T13:37:56 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+08-01-2025T13:37:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+08-01-2025T13:37:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+08-01-2025T13:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+08-01-2025T13:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+08-01-2025T13:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+08-01-2025T13:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+08-01-2025T13:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting' is clicked on
+
+08-01-2025T13:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting' is clicked on
+
+08-01-2025T13:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10' is clicked on
+
+08-01-2025T13:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10' is clicked on
+
+08-01-2025T13:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Purchase Orders")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Purchase Orders' is clicked on
+
+08-01-2025T13:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Purchase Orders' is clicked on
+
+08-01-2025T13:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_New")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_New' is clicked on
+
+08-01-2025T13:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_New' is clicked on
+
+08-01-2025T13:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Supplier No_idSupp"), "Recochem"): Text 'Recochem' is set on object 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Supplier No_idSupp'
+
+08-01-2025T13:38:10 - [MESSAGE][PASSED] - Text 'Recochem' is set on object 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Supplier No_idSupp'
+
+08-01-2025T13:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)' is clicked on
+
+08-01-2025T13:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)' is clicked on
+
+08-01-2025T13:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501' is clicked on
+
+08-01-2025T13:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501' is clicked on
+
+08-01-2025T13:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+08-01-2025T13:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+08-01-2025T13:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Date Required_isc_G6")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Date Required_isc_G6' is clicked on
+
+08-01-2025T13:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Date Required_isc_G6' is clicked on
+
+08-01-2025T13:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_7")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_7' is clicked on
+
+08-01-2025T13:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_7' is clicked on
+
+08-01-2025T13:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Save (S)")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Save (S)' is clicked on
+
+08-01-2025T13:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Save (S)' is clicked on
+
+08-01-2025T13:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_P_idProd"), "5006866 "): Text '5006866 ' is set on object 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_P_idProd'
+
+08-01-2025T13:38:20 - [MESSAGE][PASSED] - Text '5006866 ' is set on object 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_P_idProd'
+
+08-01-2025T13:38:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-01-2025T13:38:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-01-2025T13:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Quantity_qtyTran"), "12"): Text '12' is set on object 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Quantity_qtyTran'
+
+08-01-2025T13:38:25 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/input_Quantity_qtyTran'
+
+08-01-2025T13:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+08-01-2025T13:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img' is clicked on
+
+08-01-2025T13:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Actions")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Actions' is clicked on
+
+08-01-2025T13:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Actions' is clicked on
+
+08-01-2025T13:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Print Order")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Print Order' is clicked on
+
+08-01-2025T13:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Print Order' is clicked on
+
+08-01-2025T13:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Print_isc_168")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Print_isc_168' is clicked on
+
+08-01-2025T13:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/img_Print_isc_168' is clicked on
+
+08-01-2025T13:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_E-mail")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_E-mail' is clicked on
+
+08-01-2025T13:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_E-mail' is clicked on
+
+08-01-2025T13:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Go")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Go' is clicked on
+
+08-01-2025T13:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Go' is clicked on
+
+08-01-2025T13:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+08-01-2025T13:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+08-01-2025T13:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Logout")): Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Logout' is clicked on
+
+08-01-2025T13:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_Stock_PurchaseOrder_CHC/Page_Frameworks (Demo2)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/PurchaseOrder_Module/PO_StockRecipt_CHC" time="40.973" classname="Test Cases/CHC_Instance/PurchaseOrder_Module/PO_StockRecipt_CHC" status="PASSED">
+         <system-out><![CDATA[08-01-2025T13:38:38 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PurchaseOrder_Module/PO_StockRecipt_CHC: Test Cases/CHC_Instance/PurchaseOrder_Module/PO_StockRecipt_CHC
+
+08-01-2025T13:38:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2025T13:38:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2025T13:38:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2025T13:38:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2025T13:38:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2025T13:38:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-01-2025T13:38:41 - [MESSAGE][PASSED] - Current window maximized
+
+08-01-2025T13:38:41 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+08-01-2025T13:38:45 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+08-01-2025T13:38:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-01-2025T13:38:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-01-2025T13:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+08-01-2025T13:38:49 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+08-01-2025T13:38:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+08-01-2025T13:38:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+08-01-2025T13:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+08-01-2025T13:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+08-01-2025T13:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+08-01-2025T13:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_COD_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+08-01-2025T13:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting' is clicked on
+
+08-01-2025T13:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/b_Purchasing  Receipting' is clicked on
+
+08-01-2025T13:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10' is clicked on
+
+08-01-2025T13:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/span_Purchasing  Receipting_isc_78icon_10' is clicked on
+
+08-01-2025T13:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Stock Receipting")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Stock Receipting' is clicked on
+
+08-01-2025T13:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Stock Receipting' is clicked on
+
+08-01-2025T13:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/img_Branch_isc_8U")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/img_Branch_isc_8U' is clicked on
+
+08-01-2025T13:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/img_Branch_isc_8U' is clicked on
+
+08-01-2025T13:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+08-01-2025T13:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+08-01-2025T13:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/input_Supplier_supplierId"), "Recochem"): Text 'Recochem' is set on object 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/input_Supplier_supplierId'
+
+08-01-2025T13:39:08 - [MESSAGE][PASSED] - Text 'Recochem' is set on object 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/input_Supplier_supplierId'
+
+08-01-2025T13:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)' is clicked on
+
+08-01-2025T13:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Recochem Inc (RECOCHEM)' is clicked on
+
+08-01-2025T13:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Find")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Find' is clicked on
+
+08-01-2025T13:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Find' is clicked on
+
+08-01-2025T13:39:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-01-2025T13:39:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-01-2025T13:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+08-01-2025T13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+08-01-2025T13:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Logout")): Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Logout' is clicked on
+
+08-01-2025T13:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PO_StockRecipt_CHC/Page_Frameworks (Demo2)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-01-2025T13:37:43 - [TEST_SUITE][PASSED] - PO_PurchaseOrder_Stock_CHC: Test Cases/CHC_Instance/PurchaseOrder_Module/PO_StockRecipt_CHC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

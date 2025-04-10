@@ -6,30 +6,29 @@
    <elementGuidId>40ba4c88-5da4-4adf-9983-993416020ec5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='LM'])[1]/following::div[14]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;3.000&quot;s</value>
+         <value>internal:label=&quot;Tally Maintenance&quot;i >> internal:text=&quot;0.000&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>655ccccf-5c82-4972-b7bc-042644a65245</webElementGuid>
+      <webElementGuid>392d4bc5-6a4e-4ebe-952c-5629091c69a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>f17bd114-8698-41d8-a09d-e1aff227ffc4</webElementGuid>
+      <webElementGuid>478dc7fb-6dca-46dc-a689-e47f97ceb819</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +44,31 @@
       <name>cellclipdiv</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>54f874a4-18a7-4553-b9fb-2d1a084b2387</webElementGuid>
+      <webElementGuid>91e3f60a-222e-4db9-bf71-9ac7e75f7195</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>3.000</value>
-      <webElementGuid>47f7b4aa-beab-49e7-8130-d1c314c7b248</webElementGuid>
+      <value>0.000</value>
+      <webElementGuid>6b25138f-4adc-4853-a896-34a49eaac492</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_MZtable&quot;)/tbody[1]/tr[1]/td[@class=&quot;cellSelectedOver&quot;]/div[1]</value>
-      <webElementGuid>38feef26-af8c-412d-b41d-3ca056d23f8f</webElementGuid>
+      <value>id(&quot;isc_103table&quot;)/tbody[1]/tr[1]/td[@class=&quot;cellSelectedOver&quot;]/div[1]</value>
+      <webElementGuid>bd60996a-50e0-4bf6-8ca5-3483d5fba4d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='isc_MZtable']/tbody/tr/td[2]/div</value>
-      <webElementGuid>0e40edae-5849-4808-b174-0d6ef9e07c78</webElementGuid>
+      <value>//table[@id='isc_103table']/tbody/tr/td[2]/div</value>
+      <webElementGuid>fa28d447-1c5e-4350-a1a8-d5076d572353</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LM'])[1]/following::div[14]</value>
-      <webElementGuid>54e42332-2df8-4d77-a741-5745fbf6ac5a</webElementGuid>
+      <webElementGuid>edf30c5c-596e-4774-a818-7b967247b803</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Length'])[1]/following::div[18]</value>
-      <webElementGuid>3734ea55-9c22-46e8-8846-d33b859048ef</webElementGuid>
+      <webElementGuid>b0b742b8-e780-4dde-b620-116d3380b9ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally Maintenance'])[1]/preceding::div[9]</value>
+      <webElementGuid>25d5411b-b720-4d91-8e70-9ed71c95e60b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tally Maintenance'])[2]/preceding::div[11]</value>
+      <webElementGuid>1f02cf83-5f9d-49d1-898a-5b6d9802d179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0.000']/parent::*</value>
+      <webElementGuid>b404f91a-4463-4fba-9aa2-c5e161fc76ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/table/tbody/tr/td[2]/div</value>
+      <webElementGuid>b5fd9458-48fc-48a6-b463-90bc7ac9dcf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '0.000' or . = '0.000')]</value>
+      <webElementGuid>a1ec2901-1146-455b-adf4-44ea83610955</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_MZtable']/tbody/tr/td[2]/div</value>
+      <webElementGuid>0e40edae-5849-4808-b174-0d6ef9e07c78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +157,6 @@
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='3.000']/parent::*</value>
       <webElementGuid>990aceef-f333-4627-98c5-ca4e2fbf2924</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/table/tbody/tr/td[2]/div</value>
-      <webElementGuid>f83d293c-a95a-4fab-9837-d8e48a2c2c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -6,12 +6,11 @@
    <elementGuidId>0026df90-6430-4638-b4db-9666e9748535</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +28,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>35b670f0-4f08-4d01-9258-4ea9e0c8904d</webElementGuid>
+      <webElementGuid>dfa9282d-c14f-4b2f-ba1c-a40b620fd0f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>buttonPositiveActionOver</value>
-      <webElementGuid>ecafeedc-3d1f-429d-9fa8-5136d925c998</webElementGuid>
+      <value>buttonPositiveActionFocusedOver</value>
+      <webElementGuid>39526485-92b7-4be5-9b68-fcb42e1e855b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>align</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>d74ed337-e5ee-4b09-abb5-d7f9ddc0b7a9</webElementGuid>
+      <webElementGuid>b51fff09-8a69-428f-894a-4a774b7e9a2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>nowrap</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>635983d0-e671-42bf-8e58-6f7ce473e68c</webElementGuid>
+      <webElementGuid>1308e4ce-4791-42b1-a5c5-e4b2b2ffc982</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,18 +60,58 @@
       <name>text</name>
       <type>Main</type>
       <value>Save/Close (S)</value>
-      <webElementGuid>0847451c-6b3d-406c-af7c-8bbb95c6ca53</webElementGuid>
+      <webElementGuid>45e81149-5a61-4efc-83b8-c9591476be65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;isc_X1&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionOver&quot;]</value>
-      <webElementGuid>3f75d86f-3c23-42bd-b17c-d511d04a3319</webElementGuid>
+      <value>id(&quot;isc_XS&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonPositiveActionFocusedOver&quot;]</value>
+      <webElementGuid>6a2362e4-e36e-44c1-9539-ed0e7d4cc296</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_XS']/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>ab6b7f18-5018-4947-9316-459bec1c6072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[3]</value>
+      <webElementGuid>bf996225-671b-4708-bc4e-c93732ad81b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
+      <webElementGuid>dd3f2128-720c-41a2-945e-09e96698f589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>73e5fb5e-5f30-44a0-ae54-203027bce088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Save/Close (S)' or . = 'Save/Close (S)')]</value>
+      <webElementGuid>32b9cc61-824b-4c6f-97ff-e35aa945e2cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -82,33 +121,9 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Y'])[2]/following::td[3]</value>
-      <webElementGuid>03c15432-db1a-4761-bae4-0a6fa65c18c4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Save/Close (']/parent::*</value>
-      <webElementGuid>63077337-32e7-4dab-b8cb-194d6f19f1c1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/div/div/div[2]/div/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
       <webElementGuid>7f059f0d-a88d-4d7c-92ca-04f038c685be</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//td[(text() = 'Save/Close (S)' or . = 'Save/Close (S)')]</value>
-      <webElementGuid>fdd48c90-c6c0-44e7-b810-ee044682a913</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

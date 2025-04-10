@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Eftpos Transact   0.00</name>
+   <tag></tag>
+   <elementGuidId>74090d0f-0ed9-426b-a5ba-1f10b2cfac70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.MediumGridItemSelectedOverDark > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(contains(text(), 'Eftpos Transact') )]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Eftpos Transact + 0.00%&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9c30893-6222-452f-a958-2971626022e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>41884de0-7c47-4d0c-bbaa-f450d5e10b33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5412e6f5-71df-4071-80c8-3b4212d0ec6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Eftpos Transact +  0.00%</value>
+      <webElementGuid>995a0259-2cf0-49e5-93df-d5db7f7b0c5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_2G6table&quot;)/tbody[1]/tr[2]/td[@class=&quot;MediumGridItemSelectedOverDark&quot;]/div[1]</value>
+      <webElementGuid>e8cb46d2-323a-44bb-bd3b-d105ca5ae9ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='isc_2G6table']/tbody/tr[2]/td/div</value>
+      <webElementGuid>7e6e1711-4dbb-4383-9071-e288a2c674d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$15.50'])[7]/following::div[2]</value>
+      <webElementGuid>89df0936-c20d-4dca-9926-3c26c58f013f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$15.50'])[8]/preceding::div[1]</value>
+      <webElementGuid>fb528fbf-958d-473e-bb1e-aa921704f783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>4d4b3102-8536-4c10-9fb4-f5af8e2ba9ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Eftpos Transact +  0.00%' or . = 'Eftpos Transact +  0.00%')]</value>
+      <webElementGuid>f584bbf9-3bae-4e4c-8f9c-75f6f3360c23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

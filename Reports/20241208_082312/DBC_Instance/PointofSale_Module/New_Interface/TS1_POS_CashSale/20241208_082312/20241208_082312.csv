@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_POS_CashSale,Chrome 131.0.0.0,Combined Test Suite for TS1_POS_CashSale and TS2_POS_AccountSale,,08-12-2024 08:23:20,08-12-2024 08:24:07,47.359s,FAILED
+,,,,,,,
+Test Cases/DBC_Instance/PointofSale_Module/TS1_POS_CashSale/POS_CashSale - New,Chrome 131.0.0.0,,,08-12-2024 08:23:20,08-12-2024 08:24:07,47.009s,FAILED
+sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env),Chrome 131.0.0.0,,,08-12-2024 08:23:21,08-12-2024 08:23:21,0.039s,PASSED
+sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv),Chrome 131.0.0.0,,,08-12-2024 08:23:21,08-12-2024 08:23:22,0.867s,PASSED
+"sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet(""Sheet1"")",Chrome 131.0.0.0,,,08-12-2024 08:23:22,08-12-2024 08:23:22,0.000s,PASSED
+currentSheet_row = sourceTestData_sheet.getRow(4),Chrome 131.0.0.0,,,08-12-2024 08:23:22,08-12-2024 08:23:22,0.102s,PASSED
+currentSheet_cell = currentSheet_row.getCell(1),Chrome 131.0.0.0,,,08-12-2024 08:23:22,08-12-2024 08:23:23,0.044s,PASSED
+DBC_Demo = currentSheet_cell.getStringCellValue(),Chrome 131.0.0.0,,,08-12-2024 08:23:23,08-12-2024 08:23:23,0.058s,PASSED
+println(DBC_Demo),Chrome 131.0.0.0,,,08-12-2024 08:23:23,08-12-2024 08:23:23,0.018s,PASSED
+sourceTestData_FwksEnv.close(),Chrome 131.0.0.0,,,08-12-2024 08:23:23,08-12-2024 08:23:23,0.004s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,08-12-2024 08:23:23,08-12-2024 08:23:26,3.017s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,08-12-2024 08:23:26,08-12-2024 08:23:26,0.236s,PASSED
+navigateToUrl(DBC_Demo),Chrome 131.0.0.0,,,08-12-2024 08:23:26,08-12-2024 08:23:28,1.989s,PASSED
+"setText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_User ID_userid""), userName)",Chrome 131.0.0.0,,,08-12-2024 08:23:28,08-12-2024 08:23:29,1.434s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Password_password""), ""FHoXGFMjtD0="")",Chrome 131.0.0.0,,,08-12-2024 08:23:29,08-12-2024 08:23:30,0.515s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Login""))",Chrome 131.0.0.0,,,08-12-2024 08:23:30,08-12-2024 08:23:30,0.557s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_MenuIcon""))",Chrome 131.0.0.0,,,08-12-2024 08:23:30,08-12-2024 08:24:02,31.785s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/b_Transaction Processing""))",Chrome 131.0.0.0,,,08-12-2024 08:24:02,08-12-2024 08:24:03,0.817s,PASSED
+"click(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_Point Of Sale""))",Chrome 131.0.0.0,,,08-12-2024 08:24:03,08-12-2024 08:24:04,0.836s,PASSED
+"invoiceNum = getText(findTestObject(""Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum""))",Chrome 131.0.0.0,,,08-12-2024 08:24:04,08-12-2024 08:24:07,3.596s,FAILED

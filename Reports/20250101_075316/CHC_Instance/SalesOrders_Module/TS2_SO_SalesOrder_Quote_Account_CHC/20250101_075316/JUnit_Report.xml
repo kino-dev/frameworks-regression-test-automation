@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS2_SO_SalesOrder_Quote_Account_CHC" time="205.882" tests="2" failures="0" errors="0">
+   <testsuite name="TS2_SO_SalesOrder_Quote_Account_CHC" tests="2" failures="0" errors="0" time="205.882" skipped="0" timestamp="01-01-2025T07:53:28" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\1735718064268.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\1735718079574.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\1735718080825.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="4d6c17ad2e94008693cc68b54913805c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Sale_CHC" time="164.775" classname="Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Sale_CHC" status="PASSED">
+         <system-out><![CDATA[01-01-2025T07:53:29 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Sale_CHC: Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Sale_CHC
+
+01-01-2025T07:53:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-01-2025T07:53:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-01-2025T07:53:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-01-2025T07:53:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-01-2025T07:53:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-01-2025T07:53:36 - [MESSAGE][PASSED] - Current window maximized
+
+01-01-2025T07:53:36 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-01-2025T07:53:42 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-01-2025T07:53:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+01-01-2025T07:53:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-01-2025T07:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-01-2025T07:53:47 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-01-2025T07:53:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Password_password'
+
+01-01-2025T07:53:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Password_password'
+
+01-01-2025T07:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Login' is clicked on
+
+01-01-2025T07:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Login' is clicked on
+
+01-01-2025T07:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+01-01-2025T07:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+01-01-2025T07:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+01-01-2025T07:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+01-01-2025T07:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Sales Orders")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+01-01-2025T07:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Sales Orders' is clicked on
+
+01-01-2025T07:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_New")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_New' is clicked on
+
+01-01-2025T07:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_New' is clicked on
+
+01-01-2025T07:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Order")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Order' is clicked on
+
+01-01-2025T07:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Order' is clicked on
+
+01-01-2025T07:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Quote")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Quote' is clicked on
+
+01-01-2025T07:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Quote' is clicked on
+
+01-01-2025T07:54:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Customer_idCustX"), "Lee Pearce"): Text 'Lee Pearce' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+01-01-2025T07:54:06 - [MESSAGE][PASSED] - Text 'Lee Pearce' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Customer_idCustX'
+
+01-01-2025T07:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Lee Pearce (518451)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Lee Pearce (518451)' is clicked on
+
+01-01-2025T07:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/div_Lee Pearce (518451)' is clicked on
+
+01-01-2025T07:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Cust Order_custOrderRef")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Cust Order_custOrderRef' is clicked on
+
+01-01-2025T07:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Cust Order_custOrderRef' is clicked on
+
+01-01-2025T07:54:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2025T07:54:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2025T07:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Close (O)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Close (O)' is clicked on
+
+01-01-2025T07:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Close (O)' is clicked on
+
+01-01-2025T07:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501' is clicked on
+
+01-01-2025T07:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_501 - DEMONSTRATION BRANCH 501' is clicked on
+
+01-01-2025T07:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+01-01-2025T07:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_510 - DEMONSTRATION BRANCH 510' is clicked on
+
+01-01-2025T07:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Desp. Method_isc_IA")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Desp. Method_isc_IA' is clicked on
+
+01-01-2025T07:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Desp. Method_isc_IA' is clicked on
+
+01-01-2025T07:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_SUPP - Supplier Direct Delivery")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_SUPP - Supplier Direct Delivery' is clicked on
+
+01-01-2025T07:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_SUPP - Supplier Direct Delivery' is clicked on
+
+01-01-2025T07:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Follow-up Date_isc_IL")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Follow-up Date_isc_IL' is clicked on
+
+01-01-2025T07:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Follow-up Date_isc_IL' is clicked on
+
+01-01-2025T07:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Today")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Today' is clicked on
+
+01-01-2025T07:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Today' is clicked on
+
+01-01-2025T07:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Address_deliverToAddress2"), "154 Scott Street"): Text '154 Scott Street' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Address_deliverToAddress2'
+
+01-01-2025T07:54:17 - [MESSAGE][PASSED] - Text '154 Scott Street' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Address_deliverToAddress2'
+
+01-01-2025T07:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_SuburbCity_deliverToAddress3"), "Cairns"): Text 'Cairns' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_SuburbCity_deliverToAddress3'
+
+01-01-2025T07:54:18 - [MESSAGE][PASSED] - Text 'Cairns' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_SuburbCity_deliverToAddress3'
+
+01-01-2025T07:54:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_State_isc_KN"), 2): Scroll to object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_State_isc_KN' successfully
+
+01-01-2025T07:54:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_State_isc_KN' successfully
+
+01-01-2025T07:54:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_State_isc_KN")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_State_isc_KN' is clicked on
+
+01-01-2025T07:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_State_isc_KN' is clicked on
+
+01-01-2025T07:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_QLD - Queensland_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_QLD - Queensland_1' is clicked on
+
+01-01-2025T07:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_QLD - Queensland_1' is clicked on
+
+01-01-2025T07:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Post Code_postCodeShip"), "4870"): Text '4870' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Post Code_postCodeShip'
+
+01-01-2025T07:54:21 - [MESSAGE][PASSED] - Text '4870' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Post Code_postCodeShip'
+
+01-01-2025T07:54:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Delivery Area_isc_OG"), 2): Scroll to object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Delivery Area_isc_OG' successfully
+
+01-01-2025T07:54:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Delivery Area_isc_OG' successfully
+
+01-01-2025T07:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Delivery Area_isc_OG_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Delivery Area_isc_OG_1' is clicked on
+
+01-01-2025T07:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Delivery Area_isc_OG_1' is clicked on
+
+01-01-2025T07:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/a_Expo")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/a_Expo' is clicked on
+
+01-01-2025T07:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/a_Expo' is clicked on
+
+01-01-2025T07:54:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+01-01-2025T07:54:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+01-01-2025T07:54:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\1735718064268.png]]
+
+01-01-2025T07:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)' is clicked on
+
+01-01-2025T07:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)' is clicked on
+
+01-01-2025T07:54:26 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+01-01-2025T07:54:34 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+01-01-2025T07:54:34 - [TEST_STEP][PASSED] - salesorder_Number = getText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/span_SOnumber")): Text of object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/span_SOnumber' is: 'SO 22049117/0'
+
+01-01-2025T07:54:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/span_SOnumber' is: 'SO 22049117/0'
+
+01-01-2025T07:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_P_idProd"), "5155103"): Text '5155103' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_P_idProd'
+
+01-01-2025T07:54:35 - [MESSAGE][PASSED] - Text '5155103' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_P_idProd'
+
+01-01-2025T07:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Quantity_qtyTran"), STOP_ON_FAILURE): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Quantity_qtyTran' is clicked on
+
+01-01-2025T07:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Quantity_qtyTran' is clicked on
+
+01-01-2025T07:54:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+01-01-2025T07:54:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-01-2025T07:54:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Tally_tallyText"), "1/3"): Text '1/3' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Tally_tallyText'
+
+01-01-2025T07:54:39 - [MESSAGE][PASSED] - Text '1/3' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/input_Tally_tallyText'
+
+01-01-2025T07:54:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+01-01-2025T07:54:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+01-01-2025T07:54:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\1735718079574.png]]
+
+01-01-2025T07:54:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_1' is clicked on
+
+01-01-2025T07:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_1' is clicked on
+
+01-01-2025T07:54:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+01-01-2025T07:54:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+01-01-2025T07:54:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20250101_075316\\CHC_Instance\\SalesOrders_Module\\TS2_SO_SalesOrder_Quote_Account_CHC\\20250101_075316\\1735718080825.png]]
+
+01-01-2025T07:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Actions")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Actions' is clicked on
+
+01-01-2025T07:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Actions' is clicked on
+
+01-01-2025T07:54:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Add Special Product")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Add Special Product' is clicked on
+
+01-01-2025T07:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Add Special Product' is clicked on
+
+01-01-2025T07:54:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier_idSupp"), "makita"): Text 'makita' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier_idSupp'
+
+01-01-2025T07:54:46 - [MESSAGE][PASSED] - Text 'makita' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier_idSupp'
+
+01-01-2025T07:54:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Makita  Australia  Pty. Ltd. (MAKITA)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Makita  Australia  Pty. Ltd. (MAKITA)' is clicked on
+
+01-01-2025T07:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Makita  Australia  Pty. Ltd. (MAKITA)' is clicked on
+
+01-01-2025T07:54:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/textarea_Product Description_descProdFull"), "18V Hammer Drill"): Text '18V Hammer Drill' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/textarea_Product Description_descProdFull'
+
+01-01-2025T07:54:48 - [MESSAGE][PASSED] - Text '18V Hammer Drill' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/textarea_Product Description_descProdFull'
+
+01-01-2025T07:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Product Group_idGrpProd"), "1710"): Text '1710' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Product Group_idGrpProd'
+
+01-01-2025T07:54:49 - [MESSAGE][PASSED] - Text '1710' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Product Group_idGrpProd'
+
+01-01-2025T07:54:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Product Sub Groups_idSubGrpList_1"), "10/12"): Text '10/12' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Product Sub Groups_idSubGrpList_1'
+
+01-01-2025T07:54:50 - [MESSAGE][PASSED] - Text '10/12' is set on object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Product Sub Groups_idSubGrpList_1'
+
+01-01-2025T07:54:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier Cost_costUnitLanded_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier Cost_costUnitLanded_1' is clicked on
+
+01-01-2025T07:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier Cost_costUnitLanded_1' is clicked on
+
+01-01-2025T07:54:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier Cost_costUnitLanded"), "310"): Keys '310' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier Cost_costUnitLanded'
+
+01-01-2025T07:54:52 - [MESSAGE][PASSED] - Keys '310' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Supplier Cost_costUnitLanded'
+
+01-01-2025T07:54:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1"), 2): Scroll to object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1' successfully
+
+01-01-2025T07:54:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1' successfully
+
+01-01-2025T07:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2' is clicked on
+
+01-01-2025T07:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2' is clicked on
+
+01-01-2025T07:54:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+01-01-2025T07:54:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-01-2025T07:54:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Quantity_qtyTran"), "1"): Keys '1' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Quantity_qtyTran'
+
+01-01-2025T07:54:56 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_Quantity_qtyTran'
+
+01-01-2025T07:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_1' is clicked on
+
+01-01-2025T07:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_1' is clicked on
+
+01-01-2025T07:54:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Mark as Entry Complete")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Mark as Entry Complete' is clicked on
+
+01-01-2025T07:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Mark as Entry Complete' is clicked on
+
+01-01-2025T07:55:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2025T07:55:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2025T07:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3' is clicked on
+
+01-01-2025T07:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3' is clicked on
+
+01-01-2025T07:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Accept Quote")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Accept Quote' is clicked on
+
+01-01-2025T07:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Accept Quote' is clicked on
+
+01-01-2025T07:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date_1_2")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date_1_2' is clicked on
+
+01-01-2025T07:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date_1_2' is clicked on
+
+01-01-2025T07:55:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days_1_2")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days_1_2' is clicked on
+
+01-01-2025T07:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days_1_2' is clicked on
+
+01-01-2025T07:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)_1_2")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)_1_2' is clicked on
+
+01-01-2025T07:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)_1_2' is clicked on
+
+01-01-2025T07:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Accept This Date_isc_1XE")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Accept This Date_isc_1XE' is clicked on
+
+01-01-2025T07:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Accept This Date_isc_1XE' is clicked on
+
+01-01-2025T07:55:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2025T07:55:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2025T07:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5_6")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5_6' is clicked on
+
+01-01-2025T07:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5_6' is clicked on
+
+01-01-2025T07:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Mark as Entry Complete_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Mark as Entry Complete_1' is clicked on
+
+01-01-2025T07:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Mark as Entry Complete_1' is clicked on
+
+01-01-2025T07:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date' is clicked on
+
+01-01-2025T07:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date' is clicked on
+
+01-01-2025T07:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days' is clicked on
+
+01-01-2025T07:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days' is clicked on
+
+01-01-2025T07:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)' is clicked on
+
+01-01-2025T07:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)' is clicked on
+
+01-01-2025T07:55:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2025T07:55:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2025T07:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5' is clicked on
+
+01-01-2025T07:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Save (S)_1_2_3_4_5' is clicked on
+
+01-01-2025T07:55:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Linked PO")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Linked PO' is clicked on
+
+01-01-2025T07:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Linked PO' is clicked on
+
+01-01-2025T07:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_' is clicked on
+
+01-01-2025T07:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_' is clicked on
+
+01-01-2025T07:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_NOT Stocked_isc_2O8")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_NOT Stocked_isc_2O8' is clicked on
+
+01-01-2025T07:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_NOT Stocked_isc_2O8' is clicked on
+
+01-01-2025T07:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Purchase Order")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Purchase Order' is clicked on
+
+01-01-2025T07:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Purchase Order' is clicked on
+
+01-01-2025T07:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Create Orders (S)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Create Orders (S)' is clicked on
+
+01-01-2025T07:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Create Orders (S)' is clicked on
+
+01-01-2025T07:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Close (O)_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Close (O)_1' is clicked on
+
+01-01-2025T07:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo)/td_Close (O)_1' is clicked on
+
+01-01-2025T07:55:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_SO 220490380")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_SO 220490380' is clicked on
+
+01-01-2025T07:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_SO 220490380' is clicked on
+
+01-01-2025T07:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Actions' is clicked on
+
+01-01-2025T07:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Pick  Release")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Pick  Release' is clicked on
+
+01-01-2025T07:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Pick  Release' is clicked on
+
+01-01-2025T07:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_0.0000")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_0.0000' is clicked on
+
+01-01-2025T07:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_0.0000' is clicked on
+
+01-01-2025T07:55:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_LM_pickedQty"), "1"): Keys '1' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_LM_pickedQty'
+
+01-01-2025T07:55:55 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_LM_pickedQty'
+
+01-01-2025T07:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/span_LM_isc_2XHicon_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/span_LM_isc_2XHicon_1' is clicked on
+
+01-01-2025T07:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/span_LM_isc_2XHicon_1' is clicked on
+
+01-01-2025T07:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_ea_backOrderQty_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_ea_backOrderQty_1' is clicked on
+
+01-01-2025T07:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_ea_backOrderQty_1' is clicked on
+
+01-01-2025T07:55:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_ea_backOrderQty"), "1.0"): Keys '1.0' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_ea_backOrderQty'
+
+01-01-2025T07:55:57 - [MESSAGE][PASSED] - Keys '1.0' sent to object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/input_ea_backOrderQty'
+
+01-01-2025T07:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Complete Picking")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Complete Picking' is clicked on
+
+01-01-2025T07:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Complete Picking' is clicked on
+
+01-01-2025T07:55:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date_1' is clicked on
+
+01-01-2025T07:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Confirm Date_1' is clicked on
+
+01-01-2025T07:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days_1' is clicked on
+
+01-01-2025T07:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Today  7 Days_1' is clicked on
+
+01-01-2025T07:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)_1")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)_1' is clicked on
+
+01-01-2025T07:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Apply (S)_1' is clicked on
+
+01-01-2025T07:56:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Reason for Backorder_isc_30G")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Reason for Backorder_isc_30G' is clicked on
+
+01-01-2025T07:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Reason for Backorder_isc_30G' is clicked on
+
+01-01-2025T07:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Stock - Insufficient Stock")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Stock - Insufficient Stock' is clicked on
+
+01-01-2025T07:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Stock - Insufficient Stock' is clicked on
+
+01-01-2025T07:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Print Picking Slip_isc_30A")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Print Picking Slip_isc_30A' is clicked on
+
+01-01-2025T07:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Print Picking Slip_isc_30A' is clicked on
+
+01-01-2025T07:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Y_isc_37Ticon")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Y_isc_37Ticon' is clicked on
+
+01-01-2025T07:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/img_Y_isc_37Ticon' is clicked on
+
+01-01-2025T07:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Release Order")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Release Order' is clicked on
+
+01-01-2025T07:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Release Order' is clicked on
+
+01-01-2025T07:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Release (S)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Release (S)' is clicked on
+
+01-01-2025T07:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Release (S)' is clicked on
+
+01-01-2025T07:56:10 - [TEST_STEP][PASSED] - println(salesorder_Number): null
+
+01-01-2025T07:56:10 - [TEST_STEP][PASSED] - salesorder_Number = salesorder_Number.replace("SO ", ""): null
+
+01-01-2025T07:56:10 - [TEST_STEP][PASSED] - salesorder_Number = salesorder_Number.replace("/0", ""): null
+
+01-01-2025T07:56:10 - [TEST_STEP][PASSED] - println(salesorder_Number): null
+
+01-01-2025T07:56:10 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+01-01-2025T07:56:10 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - cell.setCellValue("SalesOrderNumber"): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - cell.setCellValue(salesorder_Number): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - fos.close(): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+01-01-2025T07:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+01-01-2025T07:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+01-01-2025T07:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Logout")): Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Logout' is clicked on
+
+01-01-2025T07:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SO_Quote_Account/Page_Frameworks (Demo2)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Validate_CHC" time="40.236" classname="Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Validate_CHC" status="PASSED">
+         <system-out><![CDATA[01-01-2025T07:56:13 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Validate_CHC: Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Validate_CHC
+
+01-01-2025T07:56:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-01-2025T07:56:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-01-2025T07:56:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-01-2025T07:56:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-01-2025T07:56:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-01-2025T07:56:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-01-2025T07:56:16 - [MESSAGE][PASSED] - Current window maximized
+
+01-01-2025T07:56:16 - [TEST_STEP][PASSED] - navigateToUrl("http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard"): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-01-2025T07:56:22 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo2/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+01-01-2025T07:56:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+01-01-2025T07:56:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+01-01-2025T07:56:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo)/input_User ID_userid"), "manaki"): Text 'manaki' is set on object 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-01-2025T07:56:25 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo)/input_User ID_userid'
+
+01-01-2025T07:56:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo)/input_Password_password'
+
+01-01-2025T07:56:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo)/input_Password_password'
+
+01-01-2025T07:56:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Login")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Login' is clicked on
+
+01-01-2025T07:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Login' is clicked on
+
+01-01-2025T07:56:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/img")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/img' is clicked on
+
+01-01-2025T07:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/img' is clicked on
+
+01-01-2025T07:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/input_Customer No_CustId"), "518451"): Text '518451' is set on object 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/input_Customer No_CustId'
+
+01-01-2025T07:56:46 - [MESSAGE][PASSED] - Text '518451' is set on object 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/input_Customer No_CustId'
+
+01-01-2025T07:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Find")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Find' is clicked on
+
+01-01-2025T07:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Find' is clicked on
+
+01-01-2025T07:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Invoices, Orders, Quotes, Projects  Jobs")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+01-01-2025T07:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+01-01-2025T07:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Find Invoices")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Find Invoices' is clicked on
+
+01-01-2025T07:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Find Invoices' is clicked on
+
+01-01-2025T07:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+01-01-2025T07:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/td_Kino Rafael Manalo (manaki)' is clicked on
+
+01-01-2025T07:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Logout")): Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Logout' is clicked on
+
+01-01-2025T07:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Validate_SO_Quote_Account/Page_Frameworks (Demo2)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-01-2025T07:53:28 - [TEST_SUITE][PASSED] - TS2_SO_SalesOrder_Quote_Account_CHC: Test Cases/CHC_Instance/SalesOrders_Module/TS2_SO_SalesOrder_Quote_Account/SO_Quote_Account_Validate_CHC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

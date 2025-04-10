@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS2_POS_AccountSale_CHC" time="245.37" tests="2" failures="0" errors="0">
+   <testsuite name="TS2_POS_AccountSale_CHC" tests="2" failures="0" errors="0" time="245.37" skipped="0" timestamp="05-12-2024T10:33:29" hostname="azureuser - 10.192.8.5" id="Test Suites/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale_CHC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318"/>
+         <property name="logFiles" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394852324.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394855669.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394869891.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394872971.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394876074.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394944849.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394948254.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394961861.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394964890.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394967935.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733395047070.png, C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733395052233.png"/>
+         <property name="hostName" value="azureuser - 10.192.8.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.192.8.5"/>
+         <property name="sessionId" value="97e281651a89bd829aca5126c9ef2c1f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC" time="67.988" classname="Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC" status="PASSED">
+         <system-out><![CDATA[05-12-2024T10:35:07 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet("Sheet1"): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - currentSheet_row = sourceTestData_sheet.getRow(2): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - currentSheet_cell = currentSheet_row.getCell(1): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - CHC_Demo = currentSheet_cell.getStringCellValue(): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - println(CHC_Demo): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv.close(): null
+
+05-12-2024T10:35:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2024T10:35:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-12-2024T10:35:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2024T10:35:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2024T10:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2024T10:35:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-12-2024T10:35:09 - [MESSAGE][PASSED] - Current window maximized
+
+05-12-2024T10:35:09 - [TEST_STEP][PASSED] - navigateToUrl(CHC_Demo): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T10:35:16 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T10:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T10:35:21 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T10:35:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T10:35:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T10:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T10:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T10:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Fws_Menu")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+05-12-2024T10:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Fws_Menu' is clicked on
+
+05-12-2024T10:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+05-12-2024T10:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Sales_TransactionProcessing' is clicked on
+
+05-12-2024T10:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+05-12-2024T10:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/td_Point Of Sale' is clicked on
+
+05-12-2024T10:35:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_m_customerIdX"), "Lee Pearce"): Text 'Lee Pearce' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_m_customerIdX'
+
+05-12-2024T10:35:34 - [MESSAGE][PASSED] - Text 'Lee Pearce' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_m_customerIdX'
+
+05-12-2024T10:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)' is clicked on
+
+05-12-2024T10:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Lee Pearce (518451)' is clicked on
+
+05-12-2024T10:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/span_Point Of Sale")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/span_Point Of Sale' is clicked on
+
+05-12-2024T10:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/span_Point Of Sale' is clicked on
+
+05-12-2024T10:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Close (O)")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Close (O)' is clicked on
+
+05-12-2024T10:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Close (O)' is clicked on
+
+05-12-2024T10:35:38 - [TEST_STEP][PASSED] - invoiceNum = getText(findTestObject("Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum")): Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '13173323'
+
+05-12-2024T10:35:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum' is: '13173323'
+
+05-12-2024T10:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5006866"): Text '5006866' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T10:35:40 - [MESSAGE][PASSED] - Text '5006866' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T10:35:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:35:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T10:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T10:35:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:35:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:35:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:35:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:35:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394944849.png]]
+
+05-12-2024T10:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T10:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T10:35:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:35:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:35:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:35:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:35:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394948254.png]]
+
+05-12-2024T10:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId"), "5155103"): Text '5155103' is set on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T10:35:49 - [MESSAGE][PASSED] - Text '5155103' is set on object 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_P_prodId'
+
+05-12-2024T10:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T10:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered' is clicked on
+
+05-12-2024T10:35:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:35:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Tally Maintenance")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+05-12-2024T10:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Tally Maintenance' is clicked on
+
+05-12-2024T10:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Quantity_Col")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+05-12-2024T10:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Quantity_Col' is clicked on
+
+05-12-2024T10:35:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity"), "1"): Keys '1' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+05-12-2024T10:35:55 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity'
+
+05-12-2024T10:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+05-12-2024T10:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col' is clicked on
+
+05-12-2024T10:35:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength"), "3"): Keys '3' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+05-12-2024T10:35:56 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength'
+
+05-12-2024T10:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Add")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Add' is clicked on
+
+05-12-2024T10:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Add' is clicked on
+
+05-12-2024T10:35:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity_1"), "1"): Keys '1' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'
+
+05-12-2024T10:35:58 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyQuantity_1'
+
+05-12-2024T10:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col_Row2")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+05-12-2024T10:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Length_Col_Row2' is clicked on
+
+05-12-2024T10:35:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength_1"), "2"): Keys '2' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength_1'
+
+05-12-2024T10:35:59 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_LM_tallyLength_1'
+
+05-12-2024T10:35:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:36:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:36:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:36:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:36:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394961861.png]]
+
+05-12-2024T10:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_SaveClose (S)")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+05-12-2024T10:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_SaveClose (S)' is clicked on
+
+05-12-2024T10:36:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:36:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:36:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:36:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:36:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394964890.png]]
+
+05-12-2024T10:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add")): Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T10:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_CashSale_CHC/Page_Frameworks (Demo)/img_add' is clicked on
+
+05-12-2024T10:36:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:36:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:36:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:36:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:36:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733394967935.png]]
+
+05-12-2024T10:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_ACCOUNT (A)")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_ACCOUNT (A)' is clicked on
+
+05-12-2024T10:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_ACCOUNT (A)' is clicked on
+
+05-12-2024T10:36:08 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+05-12-2024T10:36:08 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - row = sheet.getRow(0): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - row = sheet.createRow(1): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - cell = row.createCell(0): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - cell.setCellValue("Invoice Number"): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - cell.setCellValue(invoiceNum): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(ExcelFile): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - fos.close(): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+05-12-2024T10:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+05-12-2024T10:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+05-12-2024T10:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+05-12-2024T10:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate_CHC" time="30.396" classname="Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate_CHC" status="PASSED">
+         <system-out><![CDATA[05-12-2024T10:37:04 - [TEST_CASE][PASSED] - Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_Validate_CHC
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sourceFile = new java.io.FileInputStream(ExcelFile): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceFile): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - cell = row.getCell(1): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - invoiceNum = cell.getStringCellValue(): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - println(invoiceNum): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sourceFile.close(): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv = new java.io.FileInputStream(Source_Env): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sourceTestDataContainer_workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(sourceTestData_FwksEnv): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet("Sheet1"): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - currentSheet_row = sourceTestData_sheet.getRow(2): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - currentSheet_cell = currentSheet_row.getCell(1): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - CHC_Demo = currentSheet_cell.getStringCellValue(): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - println(CHC_Demo): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - sourceTestData_FwksEnv.close(): null
+
+05-12-2024T10:37:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2024T10:37:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-12-2024T10:37:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2024T10:37:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2024T10:37:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2024T10:37:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-12-2024T10:37:06 - [MESSAGE][PASSED] - Current window maximized
+
+05-12-2024T10:37:06 - [TEST_STEP][PASSED] - navigateToUrl(CHC_Demo): Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T10:37:13 - [MESSAGE][PASSED] - Navigate to 'http://frameworks.cairnshardware.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard' successfully
+
+05-12-2024T10:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid"), userName): Text 'manaki' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T10:37:18 - [MESSAGE][PASSED] - Text 'manaki' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_User ID_userid'
+
+05-12-2024T10:37:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password"), "BvRmjN+0xFM="): Text ****** has been set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T10:37:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/input_Password_password'
+
+05-12-2024T10:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T10:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/div_Login' is clicked on
+
+05-12-2024T10:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_CustomerDashboard")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_CustomerDashboard' is clicked on
+
+05-12-2024T10:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/img_CustomerDashboard' is clicked on
+
+05-12-2024T10:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Customer No_CustId"), "518451"): Text '518451' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+05-12-2024T10:37:24 - [MESSAGE][PASSED] - Text '518451' is set on object 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/input_Customer No_CustId'
+
+05-12-2024T10:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Find")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Find' is clicked on
+
+05-12-2024T10:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/td_Find' is clicked on
+
+05-12-2024T10:37:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:37:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:37:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:37:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:37:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733395047070.png]]
+
+05-12-2024T10:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs")): Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+05-12-2024T10:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/POS_AccountSale_CHC/Page_Frameworks (Demo)/Page_Frameworks (Demo)/div_Invoices, Orders, Quotes, Projects  Jobs' is clicked on
+
+05-12-2024T10:37:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-12-2024T10:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-12-2024T10:37:32 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-12-2024T10:37:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-12-2024T10:37:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azureuser\\git\\frameworks-regression-test-automation\\Reports\\20241205_103318\\CHC_Instance\\PointofSale_Module\\TS2_POS_AccountSale_CHC\\20241205_103318\\1733395052233.png]]
+
+05-12-2024T10:37:32 - [TEST_STEP][PASSED] - verifyTextPresent(invoiceNum, false): Text '13173323' is present on page 
+
+05-12-2024T10:37:33 - [MESSAGE][PASSED] - Text '13173323' is present on page 
+
+05-12-2024T10:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+05-12-2024T10:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/img_Accountdropd' is clicked on
+
+05-12-2024T10:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout")): Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on
+
+05-12-2024T10:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-12-2024T10:33:29 - [TEST_SUITE][FAILED] - TS2_POS_AccountSale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at POS_AccountSale_CHC.run(POS_AccountSale_CHC:181)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733394798439.run(TempTestSuite1733394798439.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8eeb2e45714c2203cd3e09e2f9aae7cd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-12-2024T10:33:29 - [TEST_SUITE][FAILED] - TS2_POS_AccountSale_CHC: Test Cases/CHC_Instance/PointofSale_Module/TS2_POS_AccountSale/POS_AccountSale_CHC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create_PurchaseOrder_CHC/Page_Frameworks (Demo)/div_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at POS_AccountSale_CHC.run(POS_AccountSale_CHC:181)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1733394798439.run(TempTestSuite1733394798439.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'P-AS-JCD-DVM01', ip: '10.192.8.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8eeb2e45714c2203cd3e09e2f9aae7cd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

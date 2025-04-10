@@ -30,7 +30,10 @@ XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_
 
 XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
 
-// cell B1
+// cell B4 - DBC Demo 2 - remove comment to select which environment
+//Row currentSheet_row = sourceTestData_sheet.getRow(4)
+
+// cell B1 - DBC Demo - remove comment to select which environment
 Row currentSheet_row = sourceTestData_sheet.getRow(1)
 
 Cell currentSheet_cell = currentSheet_row.getCell(1)
@@ -83,6 +86,9 @@ WebUI.setText(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_In
     'dbc202')
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/div_DAHLSENS TRANSFERS BAIRNSDALE (DBC202)'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon'), 
+    30)
 
 WebUI.click(findTestObject('Object Repository/TS1_BT_BranchTransfer_DBC/New_Interface/Create_PurchaseOrder/Page_Frameworks (Demo)/img_Calendaricon'))
 

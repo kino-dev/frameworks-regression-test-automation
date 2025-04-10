@@ -30,9 +30,11 @@ XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_
 
 XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
 
-// cell B1
-Row currentSheet_row = sourceTestData_sheet.getRow(1)
+// cell B4 - DBC Demo 2 - remove comment to select which environment
+Row currentSheet_row = sourceTestData_sheet.getRow(4)
 
+// cell B1 - DBC Demo - remove comment to select which environment
+//Row currentSheet_row = sourceTestData_sheet.getRow(1)
 Cell currentSheet_cell = currentSheet_row.getCell(1)
 
 //docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
@@ -45,6 +47,8 @@ sourceTestData_FwksEnv.close()
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
+
+DBC_Demo = 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard'
 
 WebUI.navigateToUrl(DBC_Demo)
 
@@ -64,7 +68,8 @@ WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface
 
 invoiceNum = WebUI.getText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/div_invoiceNum'))
 
-WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), '594')
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 
+    '594')
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
@@ -74,7 +79,8 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 'pfr7035')
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_P_prodId'), 
+    'pfr7035')
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
 
@@ -108,7 +114,6 @@ WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/img_add'))
 
-
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
@@ -122,7 +127,111 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/New_Interface/Page_Frameworks (Demo)/td_SaveClose (S)'))
+
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/img_AccountDropdown'))
 
 WebUI.click(findTestObject('Object Repository/TS2_POS_AccountSale_DBC/New_Interface/Page_Frameworks (Demo)/div_Logout'))
+
+FileInputStream sourceTestData_FwksEnv = new FileInputStream(Source_Env)
+
+XSSFWorkbook sourceTestDataContainer_workbook = new XSSFWorkbook(sourceTestData_FwksEnv)
+
+XSSFSheet sourceTestData_sheet = sourceTestDataContainer_workbook.getSheet('Sheet1')
+
+// cell B4 - DBC Demo 2 - remove comment to select which environment
+Row currentSheet_row = sourceTestData_sheet.getRow(4)
+
+// cell B1 - DBC Demo - remove comment to select which environment
+//Row currentSheet_row = sourceTestData_sheet.getRow(1)
+Cell currentSheet_cell = currentSheet_row.getCell(1)
+
+//docketNumber = String.valueOf(((cell.getNumericCellValue()) as int))
+DBC_Demo = currentSheet_cell.getStringCellValue()
+
+println(DBC_Demo)
+
+sourceTestData_FwksEnv.close()
+
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+DBC_Demo = 'http://frameworks.dahlsens.com.au:8080/FWDemo/Fluid.html#homeDashboard,dash,Frameworks.Activity.Menu.HomeDashBoard'
+
+WebUI.navigateToUrl(DBC_Demo)
+
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_User ID_userid'), userName)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_Password_password'), 
+    'FHoXGFMjtD0=')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Login'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/img_MenuIcon'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/b_Transaction Processing'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_Point Of Sale'))
+
+invoiceNum = WebUI.getText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_invoiceNum'))
+
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_P_prodId'), '594')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/img_add'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_P_prodId'), 'pfr7035')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_Quantity_quantityOrdered'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_Tally Maintenance'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Quantity_Col'))
+
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyQuantity'), '1')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Length_Col'))
+
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyLength'), '3')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_Add'))
+
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyQuantity_1_2'), 
+    '1')
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_Length_Col_Row2'))
+
+WebUI.sendKeys(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/input_LM_tallyLength_1_2'), 
+    '2')
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_SaveClose (S)'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/img_add'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_FinishSale (S)'))
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/div_100 Cash'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/TS1_POS_CashSale_DBC/Page_Frameworks (Demo)/td_SaveClose (S)'))
+
+WebUI.click(findTestObject('Page_Frameworks (Demo)/img_AccountDropdown'))
+
+WebUI.click(findTestObject('Page_Frameworks (Demo)/div_Logout'))
 
